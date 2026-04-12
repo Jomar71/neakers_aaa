@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNEAKERS AAA. | Hombres</title>
+    <link rel="stylesheet" href="css/tienda.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body data-gender="hombre" data-theme="dark">
+    <header>
+        <div class="container nav-content">
+            <a href="index.html" class="logo">SNEAKERS AAA<span>.</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="hombres.html" class="active">Hombres</a></li>
+                    <li><a href="mujeres.html">Mujeres</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li>
+                        <button id="theme-toggle">
+                            <i class="fas fa-adjust"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero-section">
+            <h1>Colección <br> <span>Hombre</span></h1>
+            <p>Descubre el estilo y la comodidad en cada paso con nuestro archivo premium.</p>
+        </section>
+
+        <div id="productos-grid" class="products-grid">
+            <!-- Los productos se cargarán dinámicamente aquí -->
+        </div>
+
+        <section id="contacto">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Expertos <br> a tu servicio</h2>
+                    <p>Contáctanos para asesoría personalizada sobre tallas y modelos exclusivos.</p>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="NOMBRE" required>
+                    <input type="email" placeholder="CORREO" required>
+                    <textarea placeholder="MENSAJE" rows="4"></textarea>
+                    <button type="submit" class="btn-whatsapp">Solicitar Asesoría</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>THE VAULT ARCHIVE © 2024. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <script src="js/productos.js"></script>
+    <script src="js/tienda.js"></script>
+</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOMAR AAA. | Inicio</title>
+    <link rel="stylesheet" href="css/tienda.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body data-gender="none" data-theme="dark">
+    <header>
+        <div class="container nav-content">
+            <a href="index.html" class="logo">JOMAR AAA<span>.</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                    <li><a href="hombres.html">Hombres</a></li>
+                    <li><a href="mujeres.html">Mujeres</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li>
+                        <button id="theme-toggle">
+                            <i class="fas fa-adjust"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- SECCIÓN DE IMPACTO (LANDING) -->
+        <section class="landing-hero">
+            <div class="landing-content">
+                <h1 class="landing-title">En JOMAR AAA<br> <span>Tenis.</span></h1>
+                <p class="landing-desc">
+                    Nuestra selección **Triple A** representa la cúspide de la réplica de lujo.
+                    Cada par en nuestro catálogo es una obra maestra de ingeniería,
+                    combinando materiales originales, precisión en las costuras y el peso exacto.
+                    No vendemos solo calzado; entregamos la experiencia de exclusividad definitiva.
+                </p>
+                <div class="landing-btns">
+                    <a href="hombres.html" class="btn-primary-custom">Ver Hombre</a>
+                    <a href="mujeres.html" class="btn-secondary-custom">Ver Mujer</a>
+                </div>
+            </div>
+            <div class="landing-image">
+                <img src="https://images.unsplash.com/photo-1552346154-21d32810aba3?q=80&w=1200&auto=format&fit=crop"
+                    alt="Sneaker Impactante" class="floating-shoe">
+                <div class="glow-effect"></div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN DE CONTACTO -->
+        <section id="contacto">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>¿Dudas <br> Técnicas?</h2>
+                    <p>Contáctanos para ver fotos reales, videos de calidad y asesoría sobre el tallaje de tu próximo
+                        par.</p>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="NOMBRE" required>
+                    <input type="email" placeholder="CORREO" required>
+                    <textarea placeholder="MENSAJE" rows="4"></textarea>
+                    <button type="submit" class="btn-whatsapp">Solicitar Información</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>THE VAULT ARCHIVE © 2024. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <!-- No cargamos grid en index por requerimiento, pero mantenemos lógica de tema -->
+    <script src="js/productos.js"></script>
+    <script src="js/tienda.js"></script>
+</body>
+
+</html>
