@@ -151,6 +151,91 @@ header {
     gap: 1.5rem;
 }
 
+.image-link {
+    display: inline-block;
+    transition: var(--transition);
+}
+
+.gender-image {
+    width: 180px;
+    height: auto;
+    border-radius: 1rem;
+    transition: var(--transition);
+    border: 2px solid transparent;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    transition: var(--transition);
+}
+
+.gender-image-large {
+    width: 220px;
+    height: auto;
+    border-radius: 1rem;
+    transition: var(--transition);
+    border: 2px solid transparent;
+}
+
+.medium-image {
+    width: 250px;
+    height: auto;
+    border-radius: 1rem;
+    transition: var(--transition);
+    border: 2px solid transparent;
+}
+
+.image-text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--on-background);
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+    z-index: 2;
+}
+
+.image-with-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: var(--transition);
+}
+
+.caption-text {
+    margin-top: 10px;
+    color: var(--on-background);
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+.image-with-caption:hover .medium-image {
+    transform: translateY(-5px);
+    box-shadow: var(--gold-glow);
+    border-color: var(--primary);
+}
+
+.image-with-caption:hover .caption-text {
+    color: var(--primary);
+}
+
+.image-container:hover .gender-image-large {
+    transform: translateY(-5px);
+    box-shadow: var(--gold-glow);
+    border-color: var(--primary);
+}
+
+.image-container:hover .image-text-overlay {
+    color: var(--primary);
+}
+
 .btn-primary-custom {
     background: var(--primary);
     color: #000;
