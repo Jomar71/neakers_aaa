@@ -2,53 +2,101 @@ document.addEventListener('DOMContentLoaded', () => {
     const NUMERO_WHATSAPP = "573205032772";
     const grid = document.getElementById('productos-grid');
     const gender = document.body.dataset.gender;
-    const marcaActual = obtenerMarcaDeLaPagina();
     const themeBtn = document.getElementById('theme-toggle');
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    // Detectar si estamos en un subdirectorio (como /marcas/)
+    const isSubDir = window.location.pathname.includes('/marcas/');
+    const pathPrefix = isSubDir ? '../' : '';
 
     // --- LÓGICA DE TEMA (CLARO/OSCURO) ---
     const savedTheme = localStorage.getItem('theme') || 'dark';
     document.body.setAttribute('data-theme', savedTheme);
 
-    themeBtn.addEventListener('click', () => {
-        const currentTheme = document.body.getAttribute('data-theme');
-        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-        document.body.setAttribute('data-theme', newTheme);
-        localStorage.setItem('theme', newTheme);
-    });
+    if (themeBtn) {
+        themeBtn.addEventListener('click', () => {
+            const currentTheme = document.body.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.body.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+    }
+
+    // --- LÓGICA DE MENÚ MÓVIL ---
+    if (menuToggle && navLinks) {
+        menuToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            navLinks.classList.toggle('active');
+            const icon = menuToggle.querySelector('i');
+            if (icon) {
+                icon.classList.toggle('fa-bars');
+                icon.classList.toggle('fa-times');
+            }
+        });
+
+        // Cerrar menú al hacer clic fuera
+        document.addEventListener('click', (e) => {
+            if (navLinks.classList.contains('active') && !navLinks.contains(e.target) && e.target !== menuToggle) {
+                navLinks.classList.remove('active');
+                const icon = menuToggle.querySelector('i');
+                if (icon) {
+                    icon.classList.add('fa-bars');
+                    icon.classList.remove('fa-times');
+                }
+            }
+        });
+
+        // Cerrar menú al hacer clic en un enlace
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navLinks.classList.remove('active');
+                const icon = menuToggle.querySelector('i');
+                if (icon) {
+                    icon.classList.add('fa-bars');
+                    icon.classList.remove('fa-times');
+                }
+            });
+        });
+    }
 
     // --- FUNCIONES AUXILIARES ---
     function obtenerMarcaDeLaPagina() {
         const path = window.location.pathname;
-        const marca = path.split('/').pop().split('.')[0].replace(/_/g, ' ');
-        // Verificar si es una página de marca específica
-        const marcas = [
-            "ADIDAS", "ARMANI", "ASICS", "CATERPILLAR", "COACH", "CONVERSE", 
-            "DIESEL", "DOLCE & GABBANA", "FILA", "GUAYO", "HOKA", "HUGO BOSS", 
-            "LACOSTE", "LE COQ SPORTIF", "LOUIS VUITTON", "NEW BALANCE", "NIKE", 
-            "ON CLOUD", "PUMA", "REEBOK", "SKECHERS", "TIMBERLAND", "TOMMY HILFIGER", 
-            "UNDER ARMOUR", "VANS"
-        ];
+        const fileName = path.split('/').pop();
+        if (!fileName || fileName === 'index.html' || fileName === 'hombres.html' || fileName === 'mujeres.html') {
+            return null;
+        }
         
-        return marcas.find(m => m.toUpperCase() === marca.toUpperCase()) || null;
+        const marcaSlug = fileName.split('.')[0].replace(/_/g, ' ');
+        
+        // Verificar si es una página de marca específica
+        const marcasDisponibles = [...new Set(productos.map(p => p.marca.toUpperCase()))];
+        return marcasDisponibles.find(m => m.toLowerCase() === marcaSlug.toLowerCase()) || null;
     }
 
-    // --- RENDERIZADO DE PRODUCTOS POR MARCA ---
+    const marcaActual = obtenerMarcaDeLaPagina();
+
+    // --- RENDERIZADO DE PRODUCTOS ---
     if (grid) {
         let productosFiltrados = [];
         
         if (marcaActual) {
-            // Si estamos en una página de marca específica, mostrar solo productos de esa marca
+            // Caso 1: Estamos en una página de marca (ej: marcas/adidas.html)
             productosFiltrados = productos.filter(p => p.marca.toUpperCase() === marcaActual.toUpperCase());
-        } else {
-            // En páginas generales (hombres/mujeres), mostrar marcas
-            productosFiltrados = productos.reduce((marcasUnicas, producto) => {
+        } else if (gender && gender !== 'none') {
+            // Caso 2: Estamos en una página de género (ej: hombres.html)
+            // Agrupar por marcas que tengan productos de este género
+            const marcasConGenero = productos.filter(p => p.genero === gender || p.genero === 'unisex');
+            
+            productosFiltrados = marcasConGenero.reduce((marcasUnicas, producto) => {
                 if (!marcasUnicas.some(m => m.marca === producto.marca)) {
                     marcasUnicas.push({
                         id: producto.id,
                         marca: producto.marca,
                         genero: producto.genero,
-                        imagen: producto.imagen.replace(/\/[^\/]*$/, '/marca.jpg'), // Imagen genérica de marca
-                        descripcion: `Productos de ${producto.marca}`
+                        imagen: producto.imagen, // Usamos la imagen del primer producto como referencia
+                        descripcion: `Colección Premium ${producto.marca}`
                     });
                 }
                 return marcasUnicas;
@@ -56,54 +104,67 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         if (productosFiltrados.length > 0) {
-            productosFiltrados.forEach(producto => {
-                const productCard = document.createElement('div');
-                productCard.className = 'product-card';
-                productCard.id = `prod-${producto.id}`;
+            productosFiltrados.forEach(item => {
+                const card = document.createElement('div');
+                card.className = 'product-card reveal';
                 
                 if (marcaActual) {
-                    // Vista de productos dentro de una marca
+                    // Renderizar producto individual
                     const precioFormateado = new Intl.NumberFormat('es-CO', {
                         style: 'currency',
                         currency: 'COP',
                         minimumFractionDigits: 0
-                    }).format(producto.precio);
+                    }).format(item.precio);
 
-                    productCard.innerHTML = `
+                    // Ajustar ruta de imagen si estamos en subdirectorio
+                    const imgSrc = pathPrefix + item.imagen;
+
+                    card.innerHTML = `
                         <div class="product-image">
-                            <img src="${producto.imagen}" alt="${producto.nombre}" loading="lazy">
+                            <img src="${imgSrc}" alt="${item.nombre}" loading="lazy" onerror="this.src='${pathPrefix}img/logos/2NIKE.jpeg'">
                         </div>
                         <div class="product-info">
-                            <h3 class="product-name">${producto.nombre}</h3>
-                            <p class="product-ref">Ref: ${producto.referencia}</p>
+                            <h3 class="product-name">${item.nombre}</h3>
+                            <p class="product-ref">Ref: ${item.referencia}</p>
                             <p class="product-price">${precioFormateado}</p>
                             
-                            <button class="btn-whatsapp" onclick="comprarWhatsApp(${producto.id})">
+                            <button class="btn-whatsapp" onclick="comprarWhatsApp(${item.id})">
                                 <i class="fab fa-whatsapp"></i> Consultar disponibilidad
                             </button>
                         </div>
                     `;
                 } else {
-                    // Vista de marcas en páginas generales
-                    productCard.innerHTML = `
+                    // Renderizar tarjeta de marca
+                    const brandSlug = item.marca.toLowerCase().replace(/\s+/g, '_');
+                    const imgSrc = pathPrefix + item.imagen;
+
+                    card.innerHTML = `
                         <div class="brand-image">
-                            <img src="${producto.imagen}" alt="${producto.marca}" loading="lazy">
+                            <img src="${imgSrc}" alt="${item.marca}" loading="lazy" onerror="this.src='${pathPrefix}img/logos/2NIKE.jpeg'">
                         </div>
                         <div class="brand-info">
-                            <h3 class="brand-name">${producto.marca}</h3>
-                            <p class="brand-description">${producto.descripcion}</p>
+                            <h3 class="brand-name">${item.marca}</h3>
+                            <p class="brand-description">${item.descripcion}</p>
                             
-                            <a href="marcas/${producto.marca.toLowerCase().replace(/\s+/g, '_')}.html" class="btn-ver-marcas">
+                            <a href="marcas/${brandSlug}.html" class="btn-ver-marcas">
                                 Ver Colección
                             </a>
                         </div>
                     `;
                 }
                 
-                grid.appendChild(productCard);
+                grid.appendChild(card);
             });
+            
+            // Trigger animation
+            setTimeout(() => {
+                document.querySelectorAll('.reveal').forEach((el, index) => {
+                    setTimeout(() => el.classList.add('active'), index * 100);
+                });
+            }, 100);
+
         } else {
-            grid.innerHTML = '<p class="no-products">Actualmente no hay productos disponibles para esta marca.</p>';
+            grid.innerHTML = '<p class="no-products">Próximamente nuevos modelos disponibles.</p>';
         }
     }
 
@@ -111,10 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.comprarWhatsApp = (productId) => {
         const producto = productos.find(p => p.id === productId);
         
-        if (!producto) {
-            console.error('Producto no encontrado:', productId);
-            return;
-        }
+        if (!producto) return;
         
         const precio = new Intl.NumberFormat('es-CO', { 
             style: 'currency', 
@@ -122,12 +180,11 @@ document.addEventListener('DOMContentLoaded', () => {
             minimumFractionDigits: 0 
         }).format(producto.precio);
 
-        const mensaje = `Hola, estoy interesado(a) en el producto: *${producto.nombre}*\n\n` +
-                        `📌 Marca: ${producto.marca}\n` +
-                        `🏷️ Referencia: ${producto.referencia}\n` +
-                        `💰 Precio: ${precio}\n` +
-                        `🖼️ Imagen: ${producto.imagen}\n\n` +
-                        `¿Está disponible para comprar?`;
+        const mensaje = `Hola JOMAR AAA, estoy interesado(a) en:\n\n` +
+                        `👟 *${producto.nombre}*\n` +
+                        `🏷️ Ref: ${producto.referencia}\n` +
+                        `💰 Precio: ${precio}\n\n` +
+                        `¿Tienen disponibilidad en mi talla?`;
 
         const url = `https://wa.me/${NUMERO_WHATSAPP}?text=${encodeURIComponent(mensaje)}`;
         window.open(url, '_blank');

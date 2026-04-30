@@ -3,14 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SNEAKERS AAA. | Hombres</title>
+    <title>JOMAR AAA. | Hombres</title>
     <link rel="stylesheet" href="css/tienda.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+    </style>
 </head>
 <body data-gender="hombre" data-theme="dark">
     <header>
         <div class="container nav-content">
-            <a href="index.html" class="logo">SNEAKERS AAA<span>.</span></a>
+            <a href="index.html" class="logo">JOMAR AAA<span>.</span></a>
             <nav>
                 <ul class="nav-links">
                     <li><a href="index.html">Inicio</a></li>
@@ -18,17 +22,22 @@
                     <li><a href="mujeres.html">Mujeres</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                     <li>
-                        <button id="theme-toggle">
+                        <button id="theme-toggle" title="Cambiar tema">
                             <i class="fas fa-adjust"></i>
                         </button>
                     </li>
                 </ul>
             </nav>
+            <div class="mobile-menu-toggle">
+                <button id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
         </div>
     </header>
 
     <main class="container">
-        <section class="hero-section">
+        <section class="hero-section reveal">
             <h1>Colección <br> <span>Hombre</span></h1>
             <p>Descubre el estilo y la comodidad en cada paso con nuestro archivo premium.</p>
         </section>
@@ -37,13 +46,13 @@
             <!-- Los productos se cargarán dinámicamente aquí -->
         </div>
 
-        <section id="contacto">
+        <section id="contacto" class="reveal">
             <div class="contact-grid">
                 <div class="contact-info">
                     <h2>Expertos <br> a tu servicio</h2>
                     <p>Contáctanos para asesoría personalizada sobre tallas y modelos exclusivos.</p>
                 </div>
-                <form class="contact-form">
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('¡Gracias! Te contactaremos por WhatsApp.');">
                     <input type="text" placeholder="NOMBRE" required>
                     <input type="email" placeholder="CORREO" required>
                     <textarea placeholder="MENSAJE" rows="4"></textarea>
@@ -54,7 +63,7 @@
     </main>
 
     <footer>
-        <p>THE VAULT ARCHIVE © 2024. ALL RIGHTS RESERVED.</p>
+        <p>JOMAR AAA © 2024. TODOS LOS DERECHOS RESERVADOS.</p>
     </footer>
 
     <script src="js/productos.js"></script>

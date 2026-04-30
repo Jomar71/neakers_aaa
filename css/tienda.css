@@ -622,16 +622,13 @@ footer {
         display: block;
     }
     
-    .nav-links:not(.active) {
-        display: none;
-    }
     
     #menu-toggle {
         display: block;
     }
     
     .contact-grid { grid-template-columns: 1fr; gap: 3rem; }
-    .nav-links li:not(:last-child) { display: none; } /* Show only theme toggle on mobile for simplicity or burger if added */
+    .nav-links li { display: block; } /* Asegurar que se vean en el menú móvil */
     .hero-section h1 { font-size: 2.8rem; }
     
     /* Mobile navigation */

@@ -4,9 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOMAR AAA. | Inicio</title>
+    <title>JOMAR AAA. | Sneakers Premium</title>
     <link rel="stylesheet" href="css/tienda.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Estilos específicos para la landing que no están en tienda.css */
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+    </style>
 </head>
 
 <body data-gender="none" data-theme="dark">
@@ -20,57 +25,55 @@
                     <li><a href="mujeres.html">Mujeres</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                     <li>
-                        <button id="theme-toggle">
+                        <button id="theme-toggle" title="Cambiar tema">
                             <i class="fas fa-adjust"></i>
-                        </button>
-                    </li>
-                    <li class="mobile-menu-toggle">
-                        <button id="menu-toggle">
-                            <i class="fas fa-bars"></i>
                         </button>
                     </li>
                 </ul>
             </nav>
+            <div class="mobile-menu-toggle">
+                <button id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
         </div>
     </header>
 
     <main class="container">
-        <!-- SECCIÓN DE IMPACTO (LANDING) -->
+        <!-- SECCIÓN DE IMPACTO -->
         <section class="landing-hero">
-            <div class="landing-content">
+            <div class="landing-content reveal">
                 <h1 class="landing-title">En JOMAR AAA<br> <span>Tenis.</span></h1>
                 <p class="landing-desc">
                     Nuestra selección **Triple A** representa la cúspide de la réplica de lujo.
                     Cada par en nuestro catálogo es una obra maestra de ingeniería,
-                    combinando materiales originales, precisión en las costuras y el peso exacto.
-                    No vendemos solo calzado; entregamos la experiencia de exclusividad definitiva.
+                    combinando materiales originales y precisión absoluta.
                 </p>
                 <div class="landing-btns">
                     <a href="hombres.html" class="image-with-caption">
-                        <img src="tienda_triplea/img/logos/LOGO CABALLEROS2.png" alt="Tenis Hombres" class="medium-image">
-                        <div class="caption-text">Tenis Hombres</div>
+                        <img src="img/logos/LOGO CABALLEROS2.png" alt="Tenis Hombres" class="medium-image">
+                        <div class="caption-text">Hombres</div>
                     </a>
                     <a href="mujeres.html" class="image-with-caption">
-                        <img src="tienda_triplea/img/logos/LOGO DAMAS2.png" alt="Tenis Mujeres" class="medium-image">
-                        <div class="caption-text">Tenis Mujeres</div>
+                        <img src="img/logos/LOGO DAMAS2.png" alt="Tenis Mujeres" class="medium-image">
+                        <div class="caption-text">Mujeres</div>
                     </a>
-                    </div>
+                </div>
             </div>
-            <div class="landing-image">
-                <img src="tienda_triplea/img/logos/2NIKE.jpeg" alt="Sneaker Impactante" class="floating-shoe">
+            <div class="landing-image reveal" style="transition-delay: 0.3s;">
+                <img src="img/logos/2NIKE.jpeg" alt="Sneaker Impactante" class="floating-shoe">
                 <div class="glow-effect"></div>
             </div>
         </section>
 
         <!-- SECCIÓN DE CONTACTO -->
-        <section id="contacto">
+        <section id="contacto" class="reveal">
             <div class="contact-grid">
                 <div class="contact-info">
                     <h2>¿Dudas <br> Técnicas?</h2>
-                    <p>Contáctanos para ver fotos reales, videos de calidad y asesoría sobre el tallaje de tu próximo
-                        par.</p>
+                    <p>Contáctanos para ver fotos reales, videos de calidad y asesoría sobre el tallaje de tu próximo par.</p>
                 </div>
-                <form class="contact-form">
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('¡Gracias! Te contactaremos por WhatsApp.');">
                     <input type="text" placeholder="NOMBRE" required>
                     <input type="email" placeholder="CORREO" required>
                     <textarea placeholder="MENSAJE" rows="4"></textarea>
@@ -81,31 +84,17 @@
     </main>
 
     <footer>
-        <p>THE VAULT ARCHIVE © 2024. ALL RIGHTS RESERVED.</p>
+        <p>JOMAR AAA © 2024. TODOS LOS DERECHOS RESERVADOS.</p>
     </footer>
 
-    <!-- No cargamos grid en index por requerimiento, pero mantenemos lógica de tema -->
     <script src="js/productos.js"></script>
     <script src="js/tienda.js"></script>
     <script>
-        // Script para el menú móvil
-        document.addEventListener('DOMContentLoaded', function() {
-            const menuToggle = document.getElementById('menu-toggle');
-            const navLinks = document.querySelector('.nav-links');
-            
-            if(menuToggle && navLinks) {
-                menuToggle.addEventListener('click', function() {
-                    navLinks.classList.toggle('active');
-                });
-            }
-            
-            // Cerrar menú cuando se hace clic en un enlace
-            const navLinksList = document.querySelectorAll('.nav-links a');
-            navLinksList.forEach(link => {
-                link.addEventListener('click', () => {
-                    navLinks.classList.remove('active');
-                });
-            });
+        // Animación de entrada
+        document.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+                document.querySelectorAll('.reveal').forEach(el => el.classList.add('active'));
+            }, 100);
         });
     </script>
 </body>
