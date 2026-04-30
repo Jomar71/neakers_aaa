@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNEAKERS AAA. | REEBOK</title>
+    <link rel="stylesheet" href="../css/tienda.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body data-gender="unisex" data-theme="dark">
+    <header>
+        <div class="container nav-content">
+            <a href="../index.html" class="logo">SNEAKERS AAA<span>.</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../hombres.html">Hombres</a></li>
+                    <li><a href="../mujeres.html">Mujeres</a></li>
+                    <li><a href="#politicas">Políticas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li>
+                        <button id="theme-toggle">
+                            <i class="fas fa-adjust"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero-section">
+            <h1>REEBOK <br> <span>Colección</span></h1>
+            <p>Descubre el estilo y la comodidad en cada paso con nuestro archivo premium.</p>
+        </section>
+
+        <div id="productos-grid" class="products-grid">
+            <!-- Los productos de REEBOK se cargarán dinámicamente aquí -->
+        </div>
+
+        <section id="politicas">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Políticas <br> y Sugerencias</h2>
+                    <p>Consulta nuestras políticas de devolución, garantía y envío. También puedes dejar tus sugerencias para futuras compras.</p>
+                </div>
+                <div class="contact-form">
+                    <h3>Políticas de Compra</h3>
+                    <ul>
+                        <li>Garantía de 30 días contra defectos de fábrica</li>
+                        <li>Devoluciones gratuitas durante los primeros 15 días</li>
+                        <li>Envíos a nivel nacional con seguimiento en tiempo real</li>
+                        <li>Autenticidad garantizada en todos nuestros productos</li>
+                    </ul>
+                    <a href="https://wa.me/573205032772?text=Hola,%20me%20gustar%C3%ADa%20hacer%20una%20consulta%20sobre%20pol%C3%ADticas%20de%20compra" class="btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i> Consultar Políticas
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Sugerencias <br> para la compra</h2>
+                    <p>¿No encuentras tu modelo ideal? Danos tus sugerencias para futuras compras.</p>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="NOMBRE" required>
+                    <input type="email" placeholder="CORREO" required>
+                    <textarea placeholder="SUGERENCIAS O MODELOS ESPECÍFICOS" rows="4"></textarea>
+                    <button type="submit" class="btn-whatsapp">Enviar Sugerencias</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>THE VAULT ARCHIVE © 2024. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+    <script src="../js/productos.js"></script>
+    <script src="../js/tienda.js"></script>
+</body>
+</html>

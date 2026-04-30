@@ -395,6 +395,86 @@ header {
     transform: scale(1.1) rotate(5deg);
 }
 
+/* BRAND CARD */
+.brand-card {
+    background: var(--surface);
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    transition: var(--transition);
+    border: 1px solid rgba(255, 255, 255, 0.03);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.brand-card:hover {
+    background: var(--surface-elevated);
+    transform: translateY(-10px);
+    box-shadow: var(--gold-glow);
+    border-color: rgba(255, 215, 0, 0.2);
+}
+
+.brand-image {
+    width: 100%;
+    aspect-ratio: 1;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.brand-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: var(--transition);
+}
+
+.brand-card:hover .brand-image img {
+    transform: scale(1.1);
+}
+
+.brand-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    flex-grow: 1;
+}
+
+.brand-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brand-description {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.btn-ver-marcas {
+    display: inline-block;
+    background: var(--primary);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    transition: var(--transition);
+    margin-top: auto;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-ver-marcas:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
 .product-info {
     display: flex;
     flex-direction: column;
@@ -412,6 +492,14 @@ header {
     color: var(--primary);
     font-weight: 900;
     font-family: 'Epilogue', sans-serif;
+}
+
+/* PRODUCT REFERENCE */
+.product-ref {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    font-weight: 500;
+    margin: 0.3rem 0;
 }
 
 .selector-group {
@@ -505,6 +593,23 @@ footer {
     opacity: 0.5;
     font-size: 0.8rem;
     letter-spacing: 0.1em;
+}
+
+/* POLICIES SECTION */
+#politicas {
+    padding: 6rem 0;
+    background: var(--surface-elevated);
+    margin-top: 4rem;
+    border-radius: 3rem 3rem 0 0;
+}
+
+/* NO PRODUCTS MESSAGE */
+.no-products {
+    grid-column: 1 / -1;
+    text-align: center;
+    padding: 3rem;
+    color: var(--text-muted);
+    font-size: 1.2rem;
 }
 
 /* RESPONSIVE */
