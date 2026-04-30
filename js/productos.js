@@ -147,7 +147,7 @@ const productos = [
         id: 201,
         nombre: "Armani Exchange",
         marca: "ARMANI",
-        genero: "Caballero",
+        genero: "hombre",
         imagen: "img/hombres/Armani/ARMANI_EXCHANGE_MS1.jpeg",
         referencia: "MS1",
         precio: 185000,
@@ -157,7 +157,7 @@ const productos = [
         id: 202,
         nombre: "Armani Exchange",
         marca: "ARMANI",
-        genero: "Caballero",
+        genero: "hombre",
         imagen: "img/hombres/Armani/ARMANI_EXCHANGE_MS2.jpeg",
         referencia: "MS2",
         precio: 185000,
@@ -167,7 +167,7 @@ const productos = [
         id: 203,
         nombre: "Armani Exchange",
         marca: "ARMANI",
-        genero: "Caballero",
+        genero: "hombre",
         imagen: "img/hombres/Armani/ARMANI_EXCHANGE_MS3.jpeg",
         referencia: "MS3",
         precio: 185000,
@@ -177,7 +177,7 @@ const productos = [
         id: 204,
         nombre: "Armani Exchange",
         marca: "ARMANI",
-        genero: "Caballero",
+        genero: "hombre",
         imagen: "img/hombres/Armani/ARMANI_EXCHANGE_MS4.jpeg",
         referencia: "MS4",
         precio: 185000,
@@ -187,7 +187,7 @@ const productos = [
         id: 205,
         nombre: "Armani Exchange",
         marca: "ARMANI",
-        genero: "Caballero",
+        genero: "hombre",
         imagen: "img/hombres/Armani/ARMANI_EXCHANGE_MS5.jpeg",
         referencia: "MS5",
         precio: 185000,
@@ -197,7 +197,7 @@ const productos = [
         id: 206,
         nombre: "Armani Exchange",
         marca: "ARMANI",
-        genero: "Caballero",
+        genero: "hombre",
         imagen: "img/hombres/Armani/ARMANI_EXCHANGE_MS6.jpeg",
         referencia: "MS6",
         precio: 185000,
@@ -207,7 +207,7 @@ const productos = [
         id: 207,
         nombre: "Armani Exchange",
         marca: "ARMANI",
-        genero: "Caballero",
+        genero: "hombre",
         imagen: "img/hombres/Armani/ARMANI_EXCHANGE_MS7.jpeg",
         referencia: "MS7",
         precio: 185000,
@@ -217,7 +217,7 @@ const productos = [
         id: 208,
         nombre: "Armani Exchange",
         marca: "ARMANI",
-        genero: "Caballero",
+        genero: "hombre",
         imagen: "img/hombres/Armani/ARMANI_EXCHANGEMS8.jpeg",
         referencia: "MS8",
         precio: 185000,
@@ -229,7 +229,7 @@ const productos = [
         id: 301,
         nombre: "Asics",
         marca: "ASICS",
-        genero: "Caballero",
+        genero: "hombre",
         imagen: "img/hombres/Asics/ASICSMS1.jpeg",
         referencia: "MS1",
         precio: 195000,
@@ -251,12 +251,12 @@ const productos = [
     // Productos COACH
     {
         id: 501,
-        nombre: "Coach Cassidy Loafer",
+        nombre: "Coach",
         marca: "COACH",
-        genero: "unisex",
-        imagen: "img/hombres/Coach/COACH_LOAFER_MS1.jpeg",
-        referencia: "COA001",
-        precio: 750000,
+        genero: "hombre",
+        imagen: "img/hombres/Coach/COACHMS1.jpeg",
+        referencia: "MS1",
+        precio: 195000,
         descripcion: "Mocasines elegantes de cuero genuino"
     },
 
@@ -275,19 +275,29 @@ const productos = [
     // Productos DIESEL
     {
         id: 701,
-        nombre: "Diesel Izzo High",
+        nombre: "Diesel",
         marca: "DIESEL",
         genero: "hombre",
-        imagen: "img/hombres/Diesel/DIESEL_SHOE_MS1.jpeg",
-        referencia: "DIE001",
-        precio: 480000,
+        imagen: "img/hombres/Diesel/DIESELMS1.jpeg",
+        referencia: "MS1",
+        precio: 180000,
+        descripcion: "Zapatillas urbanas de corte alto"
+    },
+    {
+        id: 702,
+        nombre: "Diesel",
+        marca: "DIESEL",
+        genero: "hombre",
+        imagen: "img/hombres/Diesel/DIESELMS2.jpeg",
+        referencia: "MS2",
+        precio: 180000,
         descripcion: "Zapatillas urbanas de corte alto"
     },
 
     // Productos DOLCE & GABBANA
     {
         id: 801,
-        nombre: "Dolce & Gabbana DG6191",
+        nombre: "Dolce & Gabbana",
         marca: "DOLCE & GABBANA",
         genero: "hombre",
         imagen: "img/hombres/Dolce & Gabbana/DOLCE_GABBANA_SHOE_MS1.jpeg",
@@ -299,12 +309,12 @@ const productos = [
     // Productos FILA
     {
         id: 901,
-        nombre: "Fila Disruptor II",
+        nombre: "Fila Zagatoms",
         marca: "FILA",
-        genero: "unisex",
-        imagen: "img/hombres/Fila/FILA_DISRUPTOR_MS1.jpeg",
-        referencia: "FIL001",
-        precio: 280000,
+        genero: "hombre",
+        imagen: "img/hombres/Fila/FILAZAGATOMS1.jpeg",
+        referencia: "MS1",
+        precio: 190000,
         descripcion: "Zapatillas chunky de estilo retro"
     },
 
@@ -323,60 +333,381 @@ const productos = [
     // Productos HOKA
     {
         id: 1101,
-        nombre: "Hoka One One Bondi 7",
+        nombre: "Hoka",
         marca: "HOKA",
-        genero: "unisex",
-        imagen: "img/hombres/Hoka/HOKA_BONDI_MS1.jpeg",
-        referencia: "HOK001",
-        precio: 420000,
+        genero: "hombre",
+        imagen: "img/hombres/Hoka/HOKAMS1.jpeg",
+        referencia: "MS1",
+        precio: 200000,
+        descripcion: "Zapatillas de running con máxima amortiguación"
+    },
+    {
+        id: 1102,
+        nombre: "Hoka",
+        marca: "HOKA",
+        genero: "hombre",
+        imagen: "img/hombres/Hoka/HOKAMS2.jpeg",
+        referencia: "MS2",
+        precio: 200000,
+        descripcion: "Zapatillas de running con máxima amortiguación"
+    },
+    {
+        id: 1103,
+        nombre: "Hoka",
+        marca: "HOKA",
+        genero: "hombre",
+        imagen: "img/hombres/Hoka/HOKAMS3.jpeg",
+        referencia: "MS3",
+        precio: 200000,
+        descripcion: "Zapatillas de running con máxima amortiguación"
+    },
+    {
+        id: 1104,
+        nombre: "Hoka",
+        marca: "HOKA",
+        genero: "hombre",
+        imagen: "img/hombres/Hoka/HOKAMS4.jpeg",
+        referencia: "MS4",
+        precio: 200000,
         descripcion: "Zapatillas de running con máxima amortiguación"
     },
 
     // Productos HUGO BOSS
     {
         id: 1201,
-        nombre: "Hugo Boss Axial Run",
+        nombre: "Hugo Boss",
         marca: "HUGO BOSS",
         genero: "hombre",
-        imagen: "img/hombres/Hugo Boos/HUGO_BOSS_SHOE_MS1.jpeg",
-        referencia: "HUB001",
-        precio: 650000,
+        imagen: "img/hombres/Hugo Boss/HUGO_BOSSMS1.jpeg",
+        referencia: "MS1",
+        precio: 138000,
+        descripcion: "Zapatos deportivos de diseño elegante"
+    },
+    {
+        id: 1202,
+        nombre: "Hugo Boss",
+        marca: "HUGO BOSS",
+        genero: "hombre",
+        imagen: "img/hombres/Hugo Boss/HUGO_BOSSMS2.jpeg",
+        referencia: "MS2",
+        precio: 138000,
+        descripcion: "Zapatos deportivos de diseño elegante"
+    },
+    {
+        id: 1203,
+        nombre: "Hugo Boss",
+        marca: "HUGO BOSS",
+        genero: "hombre",
+        imagen: "img/hombres/Hugo Boss/HUGO_BOSSMS3.jpeg",
+        referencia: "MS3",
+        precio: 138000,
+        descripcion: "Zapatos deportivos de diseño elegante"
+    },
+    {
+        id: 1204,
+        nombre: "Hugo Boss",
+        marca: "HUGO BOSS",
+        genero: "hombre",
+        imagen: "img/hombres/Hugo Boss/HUGO_BOSSMS10.jpeg",
+        referencia: "MS10",
+        precio: 180000,
+        descripcion: "Zapatos deportivos de diseño elegante"
+    },
+    {
+        id: 1205,
+        nombre: "Hugo Boss",
+        marca: "HUGO BOSS",
+        genero: "hombre",
+        imagen: "img/hombres/Hugo Boss/HUGO_BOSSMS11.jpeg",
+        referencia: "MS11",
+        precio: 180000,
+        descripcion: "Zapatos deportivos de diseño elegante"
+    },
+    {
+        id: 1206,
+        nombre: "Hugo Boss",
+        marca: "HUGO BOSS",
+        genero: "hombre",
+        imagen: "img/hombres/Hugo Boss/HUGO_BOSSMS31.jpeg",
+        referencia: "MS31",
+        precio: 190000,
+        descripcion: "Zapatos deportivos de diseño elegante"
+    },
+    {
+        id: 1207,
+        nombre: "Hugo Boss",
+        marca: "HUGO BOSS",
+        genero: "hombre",
+        imagen: "img/hombres/Hugo Boss/HUGO_BOSSMS32.jpeg",
+        referencia: "MS32",
+        precio: 190000,
         descripcion: "Zapatos deportivos de diseño elegante"
     },
 
     // Productos LACOSTE
     {
         id: 1301,
-        nombre: "Lacoste Carnaby Evo",
+        nombre: "Lacoste",
         marca: "LACOSTE",
-        genero: "unisex",
-        imagen: "img/hombres/Lacoste/LACOSTE_SNEAKER_MS1.jpeg",
-        referencia: "LAC001",
-        precio: 380000,
+        genero: "hombre",
+        imagen: "img/hombres/Lacoste/LACOSTEMS1.jpeg",
+        referencia: "MS1",
+        precio: 190000,
+        descripcion: "Zapatillas casuales con el legendario cocodrilo"
+    },
+    {
+        id: 1302,
+        nombre: "Lacoste",
+        marca: "LACOSTE",
+        genero: "hombre",
+        imagen: "img/hombres/Lacoste/LACOSTEMS2.jpeg",
+        referencia: "MS2",
+        precio: 190000,
+        descripcion: "Zapatillas casuales con el legendario cocodrilo"
+    },
+    {
+        id: 1303,
+        nombre: "Lacoste",
+        marca: "LACOSTE",
+        genero: "hombre",
+        imagen: "img/hombres/Lacoste/LACOSTEMS31.jpeg",
+        referencia: "MS31",
+        precio: 190000,
+        descripcion: "Zapatillas casuales con el legendario cocodrilo"
+    },
+    {
+        id: 1304,
+        nombre: "Lacoste",
+        marca: "LACOSTE",
+        genero: "hombre",
+        imagen: "img/hombres/Lacoste/LACOSTEMS32.jpeg",
+        referencia: "MS1",
+        precio: 190000,
+        descripcion: "Zapatillas casuales con el legendario cocodrilo"
+    },
+    {
+        id: 1305,
+        nombre: "Lacoste",
+        marca: "LACOSTE",
+        genero: "hombre",
+        imagen: "img/hombres/Lacoste/LACOSTEMS41.jpeg",
+        referencia: "MS41",
+        precio: 190000,
+        descripcion: "Zapatillas casuales con el legendario cocodrilo"
+    },
+    {
+        id: 1306,
+        nombre: "Lacoste",
+        marca: "LACOSTE",
+        genero: "hombre",
+        imagen: "img/hombres/Lacoste/LACOSTEMS42.jpeg",
+        referencia: "MS42",
+        precio: 190000,
+        descripcion: "Zapatillas casuales con el legendario cocodrilo"
+    },
+    {
+        id: 1307,
+        nombre: "Lacoste",
+        marca: "LACOSTE",
+        genero: "hombre",
+        imagen: "img/hombres/Lacoste/LACOSTEMS43.jpeg",
+        referencia: "MS43",
+        precio: 190000,
+        descripcion: "Zapatillas casuales con el legendario cocodrilo"
+    },
+    {
+        id: 1308,
+        nombre: "Lacoste",
+        marca: "LACOSTE",
+        genero: "hombre",
+        imagen: "img/hombres/Lacoste/LACOSTEMS44.jpeg",
+        referencia: "MS44",
+        precio: 190000,
+        descripcion: "Zapatillas casuales con el legendario cocodrilo"
+    },
+    {
+        id: 1309,
+        nombre: "Lacoste",
+        marca: "LACOSTE",
+        genero: "hombre",
+        imagen: "img/hombres/Lacoste/LACOSTEMS45.jpeg",
+        referencia: "MS45",
+        precio: 190000,
+        descripcion: "Zapatillas casuales con el legendario cocodrilo"
+    },
+    {
+        id: 1310,
+        nombre: "Lacoste",
+        marca: "LACOSTE",
+        genero: "hombre",
+        imagen: "img/hombres/Lacoste/LACOSTEMS51.jpeg",
+        referencia: "MS51",
+        precio: 180000,
+        descripcion: "Zapatillas casuales con el legendario cocodrilo"
+    },
+    {
+        id: 1311,
+        nombre: "Lacoste",
+        marca: "LACOSTE",
+        genero: "hombre",
+        imagen: "img/hombres/Lacoste/LACOSTEMS52.jpeg",
+        referencia: "MS45",
+        precio: 180000,
+        descripcion: "Zapatillas casuales con el legendario cocodrilo"
+    },
+    {
+        id: 1312,
+        nombre: "Lacoste",
+        marca: "LACOSTE",
+        genero: "hombre",
+        imagen: "img/hombres/Lacoste/LACOSTEMS53.jpeg",
+        referencia: "MS53",
+        precio: 180000,
         descripcion: "Zapatillas casuales con el legendario cocodrilo"
     },
 
     // Productos LE COQ SPORTIF
     {
         id: 1401,
-        nombre: "Le Coq Sportif LCS R500",
+        nombre: "Le Coq Sportif",
         marca: "LE COQ SPORTIF",
-        genero: "unisex",
-        imagen: "img/hombres/le coq sportif/LE_COQ_SPORTIF_SNEAKER_MS1.jpeg",
-        referencia: "LCS001",
-        precio: 320000,
+        genero: "Caballero",
+        imagen: "img/hombres/le coq sportif/LE_COQ_SPORTIFMS1.jpeg",
+        referencia: "MS1",
+        precio: 185000,
+        descripcion: "Zapatillas de estilo retro francés"
+    },
+    {
+        id: 1402,
+        nombre: "Le Coq Sportif",
+        marca: "LE COQ SPORTIF",
+        genero: "Caballero",
+        imagen: "img/hombres/le coq sportif/LE_COQ_SPORTIFMS2.jpeg",
+        referencia: "MS2",
+        precio: 185000,
+        descripcion: "Zapatillas de estilo retro francés"
+    },
+    {
+        id: 1403,
+        nombre: "Le Coq Sportif",
+        marca: "LE COQ SPORTIF",
+        genero: "Caballero",
+        imagen: "img/hombres/le coq sportif/LE_COQ_SPORTIFMS31.jpeg",
+        referencia: "MS31",
+        precio: 185000,
+        descripcion: "Zapatillas de estilo retro francés"
+    },
+    {
+        id: 1404,
+        nombre: "Le Coq Sportif",
+        marca: "LE COQ SPORTIF",
+        genero: "Caballero",
+        imagen: "img/hombres/le coq sportif/LE_COQ_SPORTIFMS32.jpeg",
+        referencia: "MS32",
+        precio: 185000,
+        descripcion: "Zapatillas de estilo retro francés"
+    },
+    {
+        id: 1405,
+        nombre: "Le Coq Sportif",
+        marca: "LE COQ SPORTIF",
+        genero: "Caballero",
+        imagen: "img/hombres/le coq sportif/LE_COQ_SPORTIFMS41.jpeg",
+        referencia: "MS41",
+        precio: 185000,
+        descripcion: "Zapatillas de estilo retro francés"
+    },
+    {
+        id: 1406,
+        nombre: "Le Coq Sportif",
+        marca: "LE COQ SPORTIF",
+        genero: "Caballero",
+        imagen: "img/hombres/le coq sportif/LE_COQ_SPORTIFMS42.jpeg",
+        referencia: "MS42",
+        precio: 185000,
+        descripcion: "Zapatillas de estilo retro francés"
+    },
+    {
+        id: 1407,
+        nombre: "Le Coq Sportif",
+        marca: "LE COQ SPORTIF",
+        genero: "Caballero",
+        imagen: "img/hombres/le coq sportif/LE_COQ_SPORTIFMS43.jpeg",
+        referencia: "MS43",
+        precio: 185000,
+        descripcion: "Zapatillas de estilo retro francés"
+    },
+    {
+        id: 1408,
+        nombre: "Le Coq Sportif",
+        marca: "LE COQ SPORTIF",
+        genero: "Caballero",
+        imagen: "img/hombres/le coq sportif/LE_COQ_SPORTIFMS61.jpeg",
+        referencia: "MS61",
+        precio: 185000,
+        descripcion: "Zapatillas de estilo retro francés"
+    },
+    {
+        id: 1409,
+        nombre: "Le Coq Sportif",
+        marca: "LE COQ SPORTIF",
+        genero: "Caballero",
+        imagen: "img/hombres/le coq sportif/LE_COQ_SPORTIFMS62.jpeg",
+        referencia: "MS62",
+        precio: 185000,
+        descripcion: "Zapatillas de estilo retro francés"
+    },
+    {
+        id: 1410,
+        nombre: "Le Coq Sportif",
+        marca: "LE COQ SPORTIF",
+        genero: "Caballero",
+        imagen: "img/hombres/le coq sportif/LE_COQ_SPORTIFMS63.jpeg",
+        referencia: "MS63",
+        precio: 185000,
+        descripcion: "Zapatillas de estilo retro francés"
+    },
+    {
+        id: 1411,
+        nombre: "Le Coq Sportif",
+        marca: "LE COQ SPORTIF",
+        genero: "Caballero",
+        imagen: "img/hombres/le coq sportif/LE_COQ_SPORTIFMS71.jpeg",
+        referencia: "MS71",
+        precio: 195000,
+        descripcion: "Zapatillas de estilo retro francés"
+    },
+    {
+        id: 1412,
+        nombre: "Le Coq Sportif",
+        marca: "LE COQ SPORTIF",
+        genero: "Caballero",
+        imagen: "img/hombres/le coq sportif/LE_COQ_SPORTIFMS72.jpeg",
+        referencia: "MS72",
+        precio: 195000,
         descripcion: "Zapatillas de estilo retro francés"
     },
 
-    // Productos LOUIS VUITTON
+
+    // Productos LOUIS VUITTON 
     {
         id: 1501,
-        nombre: "Louis Vuitton Archlight",
+        nombre: "Louis Vuitton",
         marca: "LOUIS VUITTON",
-        genero: "hombre",
-        imagen: "img/hombres/Louis Vuitton/LOUIS_VUITTON_SHOE_MS1.jpeg",
-        referencia: "LV001",
-        precio: 1500000,
+        genero: "Caballero",
+        imagen: "img/hombres/Louis Vuitton/LOUIS_VUITTONMS1.jpeg",
+        referencia: "MS1",
+        precio: 1800000,
+        descripcion: "Zapatillas de diseñador con silueta única"
+    },
+    {
+        id: 1502,
+        nombre: "Louis Vuitton",
+        marca: "LOUIS VUITTON",
+        genero: "Caballero",
+        imagen: "img/hombres/Louis Vuitton/LOUIS_VUITTONMS2.jpeg",
+        referencia: "MS2",
+        precio: 1800000,
         descripcion: "Zapatillas de diseñador con silueta única"
     },
 
@@ -395,22 +726,22 @@ const productos = [
     // Productos NIKE
     {
         id: 1701,
-        nombre: "Nike Air Max 270",
+        nombre: "Jordan Bota",
         marca: "NIKE",
-        genero: "unisex",
-        imagen: "img/hombres/Nike/NIKE_MS1.jpeg",
-        referencia: "NIK001",
-        precio: 420000,
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/JORDAN_BOTAMS1.jpeg",
+        referencia: "MS1",
+        precio: 195000,
         descripcion: "Zapatillas con unidad Air Max visible"
     },
     {
         id: 1702,
-        nombre: "Nike Air Force 1",
+        nombre: "Jordan Cadence",
         marca: "NIKE",
-        genero: "unisex",
-        imagen: "img/hombres/Nike/NIKE_MS31.jpeg",
-        referencia: "NIK002",
-        precio: 380000,
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/JORDAN_CADENCEMS31.jpeg",
+        referencia: "MS1",
+        precio: 200000,
         descripcion: "Iconicas zapatillas de baloncesto"
     },
 
@@ -432,7 +763,7 @@ const productos = [
         nombre: "Puma RS-X Reinvention",
         marca: "PUMA",
         genero: "unisex",
-        imagen: "img/hombres/Puma/PUMA_SHOE_MS1.jpeg",
+        imagen: "img/hombres/Puma/PUMA_SUEDE_XL_MS!.jpeg",
         referencia: "PUM001",
         precio: 350000,
         descripcion: "Zapatillas chunky con diseño audaz"
@@ -444,7 +775,7 @@ const productos = [
         nombre: "Reebok Classic Leather",
         marca: "REEBOK",
         genero: "unisex",
-        imagen: "img/hombres/Reebook/REEBOK_SHOE_MS1.jpeg",
+        imagen: "img/hombres/Reebok/REEBOK_MASTERMS1.jpeg",
         referencia: "REE001",
         precio: 280000,
         descripcion: "Zapatillas clásicas de estilo retro"
@@ -492,7 +823,7 @@ const productos = [
         nombre: "Under Armour HOVR Phantom 2",
         marca: "UNDER ARMOUR",
         genero: "unisex",
-        imagen: "img/hombres/Under Armour/UNDER_ARMOUR_SHOE_MS1.jpeg",
+        imagen: "img/hombres/Under Armour/UNDER_ARMOURMS1.jpeg",
         referencia: "UAM001",
         precio: 480000,
         descripcion: "Zapatillas de running con tecnología de conexión"
