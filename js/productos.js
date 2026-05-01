@@ -569,6 +569,56 @@ const productos = [
     // Productos LE COQ SPORTIF
     {
         id: 1401,
+        nombre: "Le Coq",
+        marca: "LE COQ SPORTIF",
+        genero: "Caballero",
+        imagen: "img/hombres/le coq sportif/LE_COQMS1.jpeg",
+        referencia: "MS1",
+        precio: 185000,
+        descripcion: "Zapatillas de estilo retro francés"
+    },
+    {
+        id: 1402,
+        nombre: "Le Coq",
+        marca: "LE COQ SPORTIF",
+        genero: "Caballero",
+        imagen: "img/hombres/le coq sportif/LE_COQMS2.jpeg",
+        referencia: "MS2",
+        precio: 185000,
+        descripcion: "Zapatillas de estilo retro francés"
+    },
+    {
+        id: 1403,
+        nombre: "Le Coq",
+        marca: "LE COQ SPORTIF",
+        genero: "Caballero",
+        imagen: "img/hombres/le coq sportif/LE_COQMS3.jpeg",
+        referencia: "MS3",
+        precio: 185000,
+        descripcion: "Zapatillas de estilo retro francés"
+    },
+    {
+        id: 1404,
+        nombre: "Le Coq",
+        marca: "LE COQ SPORTIF",
+        genero: "Caballero",
+        imagen: "img/hombres/le coq sportif/LE_COQMS4.jpeg",
+        referencia: "MS4",
+        precio: 185000,
+        descripcion: "Zapatillas de estilo retro francés"
+    },
+    {
+        id: 1405,
+        nombre: "Le Coq",
+        marca: "LE COQ SPORTIF",
+        genero: "Caballero",
+        imagen: "img/hombres/le coq sportif/LE_COQMS5.jpeg",
+        referencia: "MS5",
+        precio: 185000,
+        descripcion: "Zapatillas de estilo retro francés"
+    },
+    {
+        id: 1406,
         nombre: "Le Coq Sportif",
         marca: "LE COQ SPORTIF",
         genero: "Caballero",
@@ -578,7 +628,7 @@ const productos = [
         descripcion: "Zapatillas de estilo retro francés"
     },
     {
-        id: 1402,
+        id: 1407,
         nombre: "Le Coq Sportif",
         marca: "LE COQ SPORTIF",
         genero: "Caballero",
@@ -588,7 +638,7 @@ const productos = [
         descripcion: "Zapatillas de estilo retro francés"
     },
     {
-        id: 1403,
+        id: 1408,
         nombre: "Le Coq Sportif",
         marca: "LE COQ SPORTIF",
         genero: "Caballero",
@@ -598,7 +648,7 @@ const productos = [
         descripcion: "Zapatillas de estilo retro francés"
     },
     {
-        id: 1404,
+        id: 1409,
         nombre: "Le Coq Sportif",
         marca: "LE COQ SPORTIF",
         genero: "Caballero",
@@ -608,7 +658,7 @@ const productos = [
         descripcion: "Zapatillas de estilo retro francés"
     },
     {
-        id: 1405,
+        id: 1410,
         nombre: "Le Coq Sportif",
         marca: "LE COQ SPORTIF",
         genero: "Caballero",
@@ -618,7 +668,7 @@ const productos = [
         descripcion: "Zapatillas de estilo retro francés"
     },
     {
-        id: 1406,
+        id: 1411,
         nombre: "Le Coq Sportif",
         marca: "LE COQ SPORTIF",
         genero: "Caballero",
@@ -628,7 +678,7 @@ const productos = [
         descripcion: "Zapatillas de estilo retro francés"
     },
     {
-        id: 1407,
+        id: 1412,
         nombre: "Le Coq Sportif",
         marca: "LE COQ SPORTIF",
         genero: "Caballero",
@@ -638,7 +688,7 @@ const productos = [
         descripcion: "Zapatillas de estilo retro francés"
     },
     {
-        id: 1408,
+        id: 1413,
         nombre: "Le Coq Sportif",
         marca: "LE COQ SPORTIF",
         genero: "Caballero",
@@ -648,7 +698,7 @@ const productos = [
         descripcion: "Zapatillas de estilo retro francés"
     },
     {
-        id: 1409,
+        id: 1414,
         nombre: "Le Coq Sportif",
         marca: "LE COQ SPORTIF",
         genero: "Caballero",
@@ -658,7 +708,7 @@ const productos = [
         descripcion: "Zapatillas de estilo retro francés"
     },
     {
-        id: 1410,
+        id: 1415,
         nombre: "Le Coq Sportif",
         marca: "LE COQ SPORTIF",
         genero: "Caballero",
@@ -668,7 +718,7 @@ const productos = [
         descripcion: "Zapatillas de estilo retro francés"
     },
     {
-        id: 1411,
+        id: 1416,
         nombre: "Le Coq Sportif",
         marca: "LE COQ SPORTIF",
         genero: "Caballero",
@@ -678,7 +728,7 @@ const productos = [
         descripcion: "Zapatillas de estilo retro francés"
     },
     {
-        id: 1412,
+        id: 1417,
         nombre: "Le Coq Sportif",
         marca: "LE COQ SPORTIF",
         genero: "Caballero",
@@ -687,7 +737,6 @@ const productos = [
         precio: 195000,
         descripcion: "Zapatillas de estilo retro francés"
     },
-
 
     // Productos LOUIS VUITTON 
     {
@@ -744,28 +793,288 @@ const productos = [
         precio: 200000,
         descripcion: "Iconicas zapatillas de baloncesto"
     },
+    {
+        id: 1703,
+        nombre: "Nike Correlate",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKE_CORRELATEMS1.jpeg",
+        referencia: "MS1",
+        precio: 190000,
+        descripcion: "Zapatillas con unidad Air Max visible"
+    },
+    {
+        id: 1704,
+        nombre: "Nike Flex",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKE_FLEXMS1.jpeg",
+        referencia: "MS1",
+        precio: 180000,
+        descripcion: "Iconicas zapatillas de baloncesto"
+    },
+    {
+        id: 1705,
+        nombre: "Nike Initiator",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKE_INITIATORMS1.jpeg",
+        referencia: "MS1",
+        precio: 195000,
+        descripcion: "Zapatillas con unidad Air Max visible"
+    },
+    {
+        id: 1706,
+        nombre: "Nike",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKEMS1.jpeg",
+        referencia: "MS1",
+        precio: 185000,
+        descripcion: "Iconicas zapatillas de baloncesto"
+    },
+    {
+        id: 1707,
+        nombre: "Nike",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKEMS31.jpeg",
+        referencia: "MS31",
+        precio: 185000,
+        descripcion: "Zapatillas con unidad Air Max visible"
+    },
+    {
+        id: 1708,
+        nombre: "Nike",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKEMS32.jpeg",
+        referencia: "MS32",
+        precio: 185000,
+        descripcion: "Iconicas zapatillas de baloncesto"
+    },
+    {
+        id: 1709,
+        nombre: "Nike P-6000",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKE_P-6000MS2.jpeg",
+        referencia: "MS2",
+        precio: 190000,
+        descripcion: "Zapatillas con unidad Air Max visible"
+    },
+    {
+        id: 1710,
+        nombre: "Nike P-6000",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKE_P-6000MS3.jpeg",
+        referencia: "MS3",
+        precio: 190000,
+        descripcion: "Iconicas zapatillas de baloncesto"
+    },
+    {
+        id: 1711,
+        nombre: "Nike Pulse",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKE_PULSEMS1.jpeg",
+        referencia: "MS1",
+        precio: 195000,
+        descripcion: "Zapatillas con unidad Air Max visible"
+    },
+    {
+        id: 1712,
+        nombre: "Nike Pulse",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/NIKE_PULSEMS2.jpeg",
+        referencia: "MS2",
+        precio: 195000,
+        descripcion: "Iconicas zapatillas de baloncesto"
+    },
+    {
+        id: 1713,
+        nombre: "Nike Pulse",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKE_PULSEMS3.jpeg",
+        referencia: "MS3",
+        precio: 195000,
+        descripcion: "Zapatillas con unidad Air Max visible"
+    },
+    {
+        id: 1714,
+        nombre: "Nike Tn",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKE_TNMS.jpeg",
+        referencia: "MS1",
+        precio: 180000,
+        descripcion: "Iconicas zapatillas de baloncesto"
+    },
+    {
+        id: 1715,
+        nombre: "Nike Tn",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKE_TNMS2.jpeg",
+        referencia: "MS2",
+        precio: 180000,
+        descripcion: "Iconicas zapatillas de baloncesto"
+    },
+    {
+        id: 1716,
+        nombre: "Nike Trail",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKE_TRAILMS1.jpeg",
+        referencia: "MS1",
+        precio: 195000,
+        descripcion: "Iconicas zapatillas de baloncesto"
+    },
+    {
+        id: 1717,
+        nombre: "Nike Vomero",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKE_VOMEROMS1.jpeg",
+        referencia: "MS1",
+        precio: 185000,
+        descripcion: "Iconicas zapatillas de baloncesto"
+    },
+    {
+        id: 1718,
+        nombre: "Nike Zoom",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKE_ZOOMMS1.jpeg",
+        referencia: "MS1",
+        precio: 175000,
+        descripcion: "Iconicas zapatillas de baloncesto"
+    },
+    {
+        id: 1719,
+        nombre: "Nike Zoom",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKE_ZOOMMS2.jpeg",
+        referencia: "MS2",
+        precio: 180000,
+        descripcion: "Iconicas zapatillas de baloncesto"
+    },
+    {
+        id: 1720,
+        nombre: "Nike Zoom",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKE_ZOOMMS3.jpeg",
+        referencia: "MS3",
+        precio: 180000,
+        descripcion: "Iconicas zapatillas de baloncesto"
+    },
+    {
+        id: 1721,
+        nombre: "Nike Zoom",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKE_ZOOMMS31.jpeg",
+        referencia: "MS31",
+        precio: 190000,
+        descripcion: "Iconicas zapatillas de baloncesto"
+    },
+    {
+        id: 1722,
+        nombre: "Nike Zoom",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKE_ZOOMMS32.jpeg",
+        referencia: "MS32",
+        precio: 190000,
+        descripcion: "Iconicas zapatillas de baloncesto"
+    },
+    {
+        id: 1723,
+        nombre: "Nike Zoom",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKE_ZOOMMS33.jpeg",
+        referencia: "MS33",
+        precio: 190000,
+        descripcion: "Iconicas zapatillas de baloncesto"
+    },
+    {
+        id: 1724,
+        nombre: "Nike Zoom",
+        marca: "NIKE",
+        genero: "Caballero",
+        imagen: "img/hombres/Nike/NIKE_ZOOMMS34.jpeg",
+        referencia: "MS34",
+        precio: 190000,
+        descripcion: "Iconicas zapatillas de baloncesto"
+    },
 
     // Productos ON CLOUD
     {
         id: 1801,
-        nombre: "On Cloudmonster",
+        nombre: "On Cloud",
         marca: "ON CLOUD",
         genero: "unisex",
-        imagen: "img/hombres/On Cloud/5.jpg",
-        referencia: "ONC001",
-        precio: 520000,
+        imagen: "img/hombres/On Cloud/ON_CLOUDMS1.jpeg",
+        referencia: "MS1",
+        precio: 185000,
+        descripcion: "Zapatillas con tecnología de amortiguación CloudTec"
+    },
+    {
+        id: 1802,
+        nombre: "On Cloud",
+        marca: "ON CLOUD",
+        genero: "unisex",
+        imagen: "img/hombres/On Cloud/ON_CLOUDMS2.jpeg",
+        referencia: "MS2",
+        precio: 185000,
+        descripcion: "Zapatillas con tecnología de amortiguación CloudTec"
+    },
+    {
+        id: 1803,
+        nombre: "On Cloud",
+        marca: "ON CLOUD",
+        genero: "unisex",
+        imagen: "img/hombres/On Cloud/ON_CLOUDMS31.jpeg",
+        referencia: "MS31",
+        precio: 195000,
+        descripcion: "Zapatillas con tecnología de amortiguación CloudTec"
+    },
+    {
+        id: 1804,
+        nombre: "On Cloud",
+        marca: "ON CLOUD",
+        genero: "unisex",
+        imagen: "img/hombres/On Cloud/ON_CLOUDMS32.jpeg",
+        referencia: "MS32",
+        precio: 195000,
+        descripcion: "Zapatillas con tecnología de amortiguación CloudTec"
+    },
+    {
+        id: 1805,
+        nombre: "On Cloud",
+        marca: "ON CLOUD",
+        genero: "unisex",
+        imagen: "img/hombres/On Cloud/ON_CLOUDMS33.jpeg",
+        referencia: "MS33",
+        precio: 195000,
         descripcion: "Zapatillas con tecnología de amortiguación CloudTec"
     },
 
     // Productos PUMA
     {
         id: 1901,
-        nombre: "Puma RS-X Reinvention",
+        nombre: "Puma Suede XL",
         marca: "PUMA",
-        genero: "unisex",
-        imagen: "img/hombres/Puma/PUMA_SUEDE_XL_MS!.jpeg",
-        referencia: "PUM001",
-        precio: 350000,
+        genero: "Caballero",
+        imagen: "img/hombres/Puma/PUMA_SUEDE_XL_MS1.jpeg",
+        referencia: "MS1",
+        precio: 185000,
         descripcion: "Zapatillas chunky con diseño audaz"
     },
 
@@ -776,8 +1085,8 @@ const productos = [
         marca: "REEBOK",
         genero: "unisex",
         imagen: "img/hombres/Reebok/REEBOK_MASTERMS1.jpeg",
-        referencia: "REE001",
-        precio: 280000,
+        referencia: "MS1",
+        precio: 189000,
         descripcion: "Zapatillas clásicas de estilo retro"
     },
 
@@ -796,12 +1105,82 @@ const productos = [
     // Productos TIMBERLAND
     {
         id: 2201,
-        nombre: "Timberland 6-Inch Premium",
+        nombre: "Timberland Bota",
         marca: "TIMBERLAND",
         genero: "hombre",
         imagen: "img/hombres/Timberland/TIMBERLAND_BOOT_MS1.jpeg",
         referencia: "TIM001",
-        precio: 550000,
+        precio: 210000,
+        descripcion: "Botas icónicas resistentes al agua"
+    },
+    {
+        id: 2202,
+        nombre: "Timberland",
+        marca: "TIMBERLAND",
+        genero: "hombre",
+        imagen: "img/hombres/Timberland/TIMBERLANDMS1.jpeg",
+        referencia: "MS1",
+        precio: 200000,
+        descripcion: "Botas icónicas resistentes al agua"
+    },
+    {
+        id: 2203,
+        nombre: "Timberland",
+        marca: "TIMBERLAND",
+        genero: "hombre",
+        imagen: "img/hombres/Timberland/TIMBERLANDMS2.jpeg",
+        referencia: "MS2",
+        precio: 200000,
+        descripcion: "Botas icónicas resistentes al agua"
+    },
+    {
+        id: 2204,
+        nombre: "Timberland",
+        marca: "TIMBERLAND",
+        genero: "hombre",
+        imagen: "img/hombres/Timberland/TIMBERLANDMS3.jpeg",
+        referencia: "MS3",
+        precio: 200000,
+        descripcion: "Botas icónicas resistentes al agua"
+    },
+    {
+        id: 2205,
+        nombre: "Timberland",
+        marca: "TIMBERLAND",
+        genero: "hombre",
+        imagen: "img/hombres/Timberland/TIMBERLANDMS4.jpeg",
+        referencia: "MS4",
+        precio: 200000,
+        descripcion: "Botas icónicas resistentes al agua"
+    },
+    {
+        id: 2206,
+        nombre: "Timberland",
+        marca: "TIMBERLAND",
+        genero: "hombre",
+        imagen: "img/hombres/Timberland/TIMBERLANDMS21.jpeg",
+        referencia: "MS21",
+        precio: 200000,
+        descripcion: "Botas icónicas resistentes al agua"
+    },
+    {
+        id: 2207,
+        nombre: "Timberland",
+        marca: "TIMBERLAND",
+        genero: "hombre",
+        imagen: "img/hombres/Timberland/TIMBERLANDMS22.jpeg",
+        referencia: "MS22",
+        precio: 200000,
+        descripcion: "Botas icónicas resistentes al agua"
+    },
+    {
+        id: 2208,
+        nombre: "Timberland",
+        marca: "TIMBERLAND",
+        genero: "hombre",
+        imagen: "img/hombres/Timberland/TIMBERLANDMS23.jpeg",
+        referencia: "MS23",
+        precio: 200000,
         descripcion: "Botas icónicas resistentes al agua"
     },
 
@@ -820,24 +1199,54 @@ const productos = [
     // Productos UNDER ARMOUR
     {
         id: 2401,
-        nombre: "Under Armour HOVR Phantom 2",
+        nombre: "Under Armour",
         marca: "UNDER ARMOUR",
         genero: "unisex",
         imagen: "img/hombres/Under Armour/UNDER_ARMOURMS1.jpeg",
-        referencia: "UAM001",
-        precio: 480000,
+        referencia: "MS1",
+        precio: 210000,
+        descripcion: "Zapatillas de running con tecnología de conexión"
+    },
+    {
+        id: 2402,
+        nombre: "Under Armour",
+        marca: "UNDER ARMOUR",
+        genero: "unisex",
+        imagen: "img/hombres/Under Armour/UNDER_ARMOURMS2.jpeg",
+        referencia: "MS2",
+        precio: 210000,
         descripcion: "Zapatillas de running con tecnología de conexión"
     },
 
     // Productos VANS
     {
         id: 2501,
-        nombre: "Vans Old Skool",
+        nombre: "Vans Rowley",
         marca: "VANS",
-        genero: "unisex",
-        imagen: "img/hombres/Vans/VANS_OLD_SKOOL_MS1.jpeg",
-        referencia: "VAN001",
-        precio: 220000,
+        genero: "Caballero",
+        imagen: "img/hombres/Vans/VANS_ROWLEYMS1.jpeg",
+        referencia: "MS1",
+        precio: 200000,
         descripcion: "Zapatillas clásicas con banda lateral distintiva"
-    }
+    },
+    {
+        id: 2502,
+        nombre: "Vans",
+        marca: "VANS",
+        genero: "Caballero",
+        imagen: "img/hombres/Vans/VANSMS1.jpeg",
+        referencia: "MS1",
+        precio: 185000,
+        descripcion: "Zapatillas clásicas con banda lateral distintiva"
+    },
+    {
+        id: 2503,
+        nombre: "Vans",
+        marca: "VANS",
+        genero: "Caballero",
+        imagen: "img/hombres/Vans/VANSMS2.jpeg",
+        referencia: "MS2",
+        precio: 190000,
+        descripcion: "Zapatillas clásicas con banda lateral distintiva"
+    },
 ];
