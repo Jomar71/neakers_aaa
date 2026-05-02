@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,19 @@
     <link rel="stylesheet" href="css/tienda.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s ease-out; }
-        .reveal.active { opacity: 1; transform: translateY(0); }
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
     </style>
 </head>
+
 <body data-gender="hombre" data-theme="dark">
     <header>
         <div class="container nav-content">
@@ -54,7 +64,8 @@
                     <h2>Expertos <br> a tu servicio</h2>
                     <p>Contáctanos para asesoría personalizada sobre tallas y modelos exclusivos.</p>
                 </div>
-                <form class="contact-form" onsubmit="event.preventDefault(); alert('¡Gracias! Te contactaremos por WhatsApp.');">
+                <form class="contact-form"
+                    onsubmit="event.preventDefault(); alert('¡Gracias! Te contactaremos por WhatsApp.');">
                     <input type="text" placeholder="NOMBRE" required>
                     <input type="email" placeholder="CORREO" required>
                     <textarea placeholder="MENSAJE" rows="4"></textarea>
@@ -65,10 +76,11 @@
     </main>
 
     <footer>
-        <p>JOMAR AAA © 2024. TODOS LOS DERECHOS RESERVADOS.</p>
+        <p>Jomar71.dev © 2026. TODOS LOS DERECHOS RESERVADOS.</p>
     </footer>
 
     <script src="js/productos.js"></script>
     <script src="js/tienda.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Carrito Premium | SNEAKERS AAA</title>
+    <link rel="stylesheet" href="css/tienda.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --card-bg: rgba(255, 255, 255, 0.03);
+            --card-border: rgba(255, 255, 255, 0.07);
+        }
+
+        .cart-page {
+            padding: 6rem 0;
+            min-height: 90vh;
+        }
+
+        .cart-header-main {
+            text-align: center;
+            margin-bottom: 5rem;
+        }
+
+        .cart-header-main h1 {
+            font-size: 3.5rem;
+            letter-spacing: -2px;
+            margin-bottom: 1rem;
+        }
+
+        .cart-header-main p {
+            color: var(--text-muted);
+            font-size: 1.2rem;
+        }
+
+        .cart-container {
+            display: grid;
+            grid-template-columns: 1fr 400px;
+            gap: 4rem;
+            align-items: start;
+        }
+
+        .cart-list {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .cart-item-big {
+            display: grid;
+            grid-template-columns: 280px 1fr auto;
+            gap: 3rem;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 2.5rem;
+            padding: 2.5rem;
+            transition: var(--transition);
+            backdrop-filter: blur(10px);
+            align-items: center;
+        }
+
+        .cart-item-big:hover {
+            transform: translateY(-10px);
+            border-color: var(--primary);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+
+        .cart-item-big img {
+            width: 100%;
+            height: 250px;
+            object-fit: contain;
+            background: #000;
+            border-radius: 2rem;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        }
+
+        .cart-item-big-info h3 {
+            font-size: 2rem;
+            margin-bottom: 0.8rem;
+            color: var(--on-background);
+            font-weight: 800;
+        }
+
+        .cart-item-big-info p {
+            font-size: 1.2rem;
+            color: var(--text-muted);
+            margin-bottom: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .cart-item-big-price {
+            font-size: 2rem;
+            font-weight: 900;
+            color: var(--primary);
+            margin-top: 1rem;
+        }
+
+        .cart-summary {
+            background: var(--surface);
+            padding: 3rem;
+            border-radius: 2.5rem;
+            position: sticky;
+            top: 120px;
+            border: 1px solid var(--primary);
+            box-shadow: var(--gold-glow);
+        }
+
+        .cart-summary h3 {
+            font-size: 1.8rem;
+            margin-bottom: 2.5rem;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding-bottom: 1.5rem;
+        }
+
+        .summary-row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 2rem;
+            font-size: 1.3rem;
+        }
+
+        .summary-total {
+            border-top: 2px solid rgba(255, 255, 255, 0.1);
+            padding-top: 2rem;
+            font-weight: 900;
+            font-size: 2.2rem;
+            color: var(--primary);
+        }
+
+        .btn-checkout-big {
+            width: 100%;
+            padding: 1.5rem;
+            font-size: 1.3rem;
+            font-weight: 900;
+            margin-top: 2.5rem;
+            background: var(--primary);
+            color: #000;
+            border: none;
+            border-radius: 1.2rem;
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-copy-link {
+            width: 100%;
+            padding: 1rem;
+            background: transparent;
+            color: var(--text-muted);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1rem;
+            margin-top: 1rem;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: var(--transition);
+        }
+
+        .btn-copy-link:hover {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--on-background);
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 8rem 2rem;
+            background: var(--card-bg);
+            border-radius: 3rem;
+            border: 1px dashed var(--card-border);
+        }
+
+        .empty-state i {
+            font-size: 7rem;
+            color: var(--primary);
+            margin-bottom: 3rem;
+            opacity: 0.5;
+        }
+
+        @media (max-width: 1200px) {
+            .cart-container {
+                grid-template-columns: 1fr;
+            }
+            .cart-summary {
+                position: static;
+                max-width: 500px;
+                margin: 0 auto;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .cart-item-big {
+                grid-template-columns: 1fr;
+                text-align: center;
+                padding: 2rem;
+            }
+            .cart-item-big-info h3 {
+                font-size: 1.6rem;
+            }
+            .cart-header-main h1 {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body data-theme="dark">
+    <header>
+        <div class="container nav-content">
+            <a href="index.html" class="logo">
+                <img src="img/logos/LOGO SNEAKERS AAA.png" alt="JOMAR AAA" class="logo-img">
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="hombres.html">Hombres</a></li>
+                    <li><a href="mujeres.html">Mujeres</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container cart-page">
+        <div class="cart-header-main reveal">
+            <h1>Tu Carrito Premium</h1>
+            <p id="cart-status-msg">Revisa tu selección antes de finalizar el pedido.</p>
+        </div>
+        
+        <div id="cart-content" class="cart-container">
+            <div class="cart-list" id="big-cart-items">
+                <!-- Items se cargan aquí -->
+            </div>
+            
+            <div class="cart-summary reveal" style="transition-delay: 0.2s;">
+                <h3>Resumen Final</h3>
+                <div class="summary-row">
+                    <span>Unidades:</span>
+                    <span id="summary-count">0</span>
+                </div>
+                <div class="summary-row summary-total">
+                    <span>Total:</span>
+                    <span id="summary-total-price">$0</span>
+                </div>
+                <button id="final-checkout-btn" class="btn-checkout-big">
+                    <i class="fab fa-whatsapp"></i> Finalizar Pedido
+                </button>
+                <button id="copy-share-link" class="btn-copy-link">
+                    <i class="fas fa-link"></i> Copiar Link de Seguimiento
+                </button>
+                <a href="index.html" style="display: block; text-align: center; margin-top: 2rem; color: var(--text-muted); text-decoration: underline;">
+                    Añadir más productos
+                </a>
+            </div>
+        </div>
+
+        <div id="empty-cart" class="empty-state" style="display: none;">
+            <i class="fas fa-shopping-bag"></i>
+            <h2>Tu carrito está vacío</h2>
+            <p>Explora nuestras colecciones y elige tu próximo par exclusivo.</p>
+            <a href="index.html" class="btn-ver-marcas" style="display: inline-block; margin-top: 3rem; padding: 1.2rem 3rem;">Explorar Ahora</a>
+        </div>
+    </main>
+
+    <script src="js/productos.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const container = document.getElementById('big-cart-items');
+            const emptyState = document.getElementById('empty-cart');
+            const cartContent = document.getElementById('cart-content');
+            const summaryCount = document.getElementById('summary-count');
+            const summaryPrice = document.getElementById('summary-total-price');
+            const checkoutBtn = document.getElementById('final-checkout-btn');
+            const copyLinkBtn = document.getElementById('copy-share-link');
+            const statusMsg = document.getElementById('cart-status-msg');
+
+            // Cargar carrito
+            let cart = JSON.parse(localStorage.getItem('cart')) || [];
+            
+            // Verificar si es un carrito compartido
+            const urlParams = new URLSearchParams(window.location.search);
+            const sharedItems = urlParams.get('items');
+            
+            if (sharedItems) {
+                statusMsg.innerText = "Estás viendo un pedido compartido.";
+                const items = sharedItems.split(',');
+                const newCart = [];
+                items.forEach(itemStr => {
+                    const [id, size] = itemStr.split('-');
+                    const prod = productos.find(p => p.id == id);
+                    if (prod) {
+                        newCart.push({...prod, tallaEscogida: size});
+                    }
+                });
+                if (newCart.length > 0) cart = newCart;
+            }
+
+            const getShareLink = () => {
+                const isLocal = window.location.protocol === 'file:';
+                // Si es local, el link no servirá en otros dispositivos, pero construimos la estructura.
+                const host = isLocal ? 'https://tu-tienda.com/carrito.html' : window.location.origin + window.location.pathname;
+                const shareParams = cart.map(item => `${item.id}-${item.tallaEscogida}`).join(',');
+                return `${host}?items=${shareParams}`;
+            };
+
+            const renderBigCart = () => {
+                if (cart.length === 0) {
+                    cartContent.style.display = 'none';
+                    emptyState.style.display = 'block';
+                    return;
+                }
+
+                container.innerHTML = '';
+                let total = 0;
+
+                cart.forEach((item, index) => {
+                    total += item.precio;
+                    const itemDiv = document.createElement('div');
+                    itemDiv.className = 'cart-item-big reveal';
+                    
+                    const precio = new Intl.NumberFormat('es-CO', {
+                        style: 'currency', currency: 'COP', minimumFractionDigits: 0
+                    }).format(item.precio);
+
+                    itemDiv.innerHTML = `
+                        <img src="${item.imagen}" alt="${item.nombre}" onerror="this.src='img/logos/2NIKE.jpeg'">
+                        <div class="cart-item-big-info">
+                            <h3>${item.nombre}</h3>
+                            <p><i class="fas fa-barcode"></i> Ref: ${item.referencia}</p>
+                            <p><i class="fas fa-ruler-horizontal"></i> Talla: <strong>${item.tallaEscogida || 'N/A'} EURO</strong></p>
+                            <div class="cart-item-big-price">${precio}</div>
+                        </div>
+                        <button class="remove-item" onclick="removeFromBigCart(${index})" title="Eliminar">
+                            <i class="fas fa-trash"></i>
+                        </button>
+                    `;
+                    container.appendChild(itemDiv);
+                });
+
+                summaryCount.innerText = cart.length;
+                summaryPrice.innerText = new Intl.NumberFormat('es-CO', {
+                    style: 'currency', currency: 'COP', minimumFractionDigits: 0
+                }).format(total);
+
+                setTimeout(() => {
+                    document.querySelectorAll('.reveal').forEach(el => el.classList.add('active'));
+                }, 50);
+            };
+
+            window.removeFromBigCart = (index) => {
+                cart.splice(index, 1);
+                localStorage.setItem('cart', JSON.stringify(cart));
+                renderBigCart();
+            };
+
+            copyLinkBtn.addEventListener('click', () => {
+                const link = getShareLink();
+                navigator.clipboard.writeText(link).then(() => {
+                    copyLinkBtn.innerHTML = '<i class="fas fa-check"></i> ¡Copiado!';
+                    setTimeout(() => {
+                        copyLinkBtn.innerHTML = '<i class="fas fa-link"></i> Copiar Link de Seguimiento';
+                    }, 2000);
+                });
+            });
+
+            checkoutBtn.addEventListener('click', () => {
+                const NUMERO_WHATSAPP = "573205032772";
+                let mensaje = "🔥 *NUEVO PEDIDO SNEAKERS AAA* 🔥\n\n";
+                
+                const shareLink = getShareLink();
+
+                cart.forEach((prod, i) => {
+                    const precio = new Intl.NumberFormat('es-CO', {
+                        style: 'currency', currency: 'COP', minimumFractionDigits: 0
+                    }).format(prod.precio);
+                    
+                    const fullImgUrl = new URL(prod.imagen, window.location.href).href;
+
+                    mensaje += `${i+1}. *${prod.nombre}*\n` +
+                               `   📏 Talla: ${prod.tallaEscogida} EURO\n` +
+                               `   🏷️ Ref: ${prod.referencia}\n` +
+                               `   💰 Precio: ${precio}\n` +
+                               `   📸 Imagen: ${fullImgUrl}\n\n`;
+                });
+
+                mensaje += `---------------------------\n`;
+                mensaje += `✅ *LINK DE GESTIÓN (Imágenes y Tallas):*\n${shareLink}\n\n`;
+                mensaje += `_Usa este link para ver todas las fotos del pedido en un solo lugar profesional._`;
+
+                const url = `https://wa.me/${NUMERO_WHATSAPP}?text=${encodeURIComponent(mensaje)}`;
+                window.open(url, '_blank');
+            });
+
+            renderBigCart();
+        });
+    </script>
+</body>
+</html>

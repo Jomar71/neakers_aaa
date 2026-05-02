@@ -10,6 +10,94 @@ document.addEventListener('DOMContentLoaded', () => {
     const isSubDir = window.location.pathname.includes('/marcas/');
     const pathPrefix = isSubDir ? '../' : '';
 
+    // --- LÓGICA DE CARRITO ---
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+    const saveCart = () => {
+        localStorage.setItem('cart', JSON.stringify(cart));
+    };
+
+    const toggleCart = () => {
+        window.location.href = pathPrefix + 'carrito.html';
+    };
+
+    const updateCartBadge = () => {
+        const badges = [
+            document.getElementById('cart-badge'),
+            document.getElementById('cart-badge-fab')
+        ];
+        badges.forEach(badge => {
+            if (badge) badge.innerText = cart.length;
+        });
+
+        const fab = document.getElementById('cart-fab');
+        if (fab) {
+            if (cart.length > 0) {
+                fab.classList.add('visible');
+            } else {
+                fab.classList.remove('visible');
+            }
+        }
+    };
+
+    window.addToCart = (productId) => {
+        const producto = productos.find(p => p.id === productId);
+        if (!producto) return;
+
+        const sizeSelector = document.querySelector(`.size-selector[data-product-id="${productId}"]`);
+        const selectedSize = sizeSelector ? sizeSelector.value : 'N/A';
+
+        cart.push({
+            ...producto,
+            tallaEscogida: selectedSize
+        });
+
+        saveCart();
+        updateCartBadge();
+
+        // Redirigir a la página de carrito
+        window.location.href = pathPrefix + 'carrito.html';
+    };
+
+    const injectCartUI = () => {
+        const navContent = document.querySelector('.nav-content');
+        const mobileToggle = document.querySelector('.mobile-menu-toggle');
+
+        if (navContent && !document.getElementById('cart-toggle-btn')) {
+            const cartDiv = document.createElement('div');
+            cartDiv.id = 'cart-toggle-btn';
+            cartDiv.className = 'cart-icon-container';
+            cartDiv.title = 'Ver carrito';
+            cartDiv.innerHTML = `
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-badge" class="cart-badge">${cart.length}</span>
+            `;
+
+            if (mobileToggle) {
+                navContent.insertBefore(cartDiv, mobileToggle);
+            } else {
+                navContent.appendChild(cartDiv);
+            }
+
+            cartDiv.addEventListener('click', () => toggleCart());
+        }
+
+        if (!document.getElementById('cart-fab')) {
+            const fab = document.createElement('button');
+            fab.id = 'cart-fab';
+            fab.className = 'cart-fab';
+            fab.innerHTML = `
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-badge-fab" class="cart-badge">${cart.length}</span>
+            `;
+            document.body.appendChild(fab);
+            fab.addEventListener('click', () => toggleCart());
+            updateCartBadge();
+        }
+    };
+
+    injectCartUI();
+
     // --- LÓGICA DE TEMA (CLARO/OSCURO) ---
     const savedTheme = localStorage.getItem('theme') || 'dark';
     document.body.setAttribute('data-theme', savedTheme);
@@ -35,7 +123,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // Cerrar menú al hacer clic fuera
         document.addEventListener('click', (e) => {
             if (navLinks.classList.contains('active') && !navLinks.contains(e.target) && e.target !== menuToggle) {
                 navLinks.classList.remove('active');
@@ -47,7 +134,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // Cerrar menú al hacer clic en un enlace
         navLinks.querySelectorAll('a').forEach(link => {
             link.addEventListener('click', () => {
                 navLinks.classList.remove('active');
@@ -69,8 +155,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         const marcaSlug = fileName.split('.')[0].replace(/_/g, ' ');
-
-        // Verificar si es una página de marca específica
         const marcasDisponibles = [...new Set(productos.map(p => p.marca.toUpperCase()))];
         return marcasDisponibles.find(m => m.toLowerCase() === marcaSlug.toLowerCase()) || null;
     }
@@ -82,11 +166,8 @@ document.addEventListener('DOMContentLoaded', () => {
         let productosFiltrados = [];
 
         if (marcaActual) {
-            // Caso 1: Estamos en una página de marca (ej: marcas/adidas.html)
             productosFiltrados = productos.filter(p => p.marca.toUpperCase() === marcaActual.toUpperCase());
         } else if (gender && gender !== 'none') {
-            // Caso 2: Estamos en una página de género (ej: hombres.html)
-            // Agrupar por marcas que tengan productos de este género
             const normalizedGender = gender.toLowerCase();
 
             const marcasConGenero = productos.filter(p => {
@@ -99,10 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             productosFiltrados = marcasConGenero.reduce((marcasUnicas, producto) => {
                 if (!marcasUnicas.some(m => m.marca === producto.marca)) {
-                    // Buscar si hay una configuración de banner para esta marca en productos.js
-                    // (Asumiremos que si existe marcasConfig, la usamos)
                     const config = (typeof marcasConfig !== 'undefined') ? marcasConfig[producto.marca.toUpperCase()] : null;
-
                     marcasUnicas.push({
                         id: producto.id,
                         marca: producto.marca,
@@ -120,16 +198,24 @@ document.addEventListener('DOMContentLoaded', () => {
                 const card = document.createElement('div');
                 card.className = 'product-card reveal';
 
-                if (marcaActual) {
-                    // Renderizar producto individual
+                // Determinar si renderizar producto o marca
+                const isProductView = marcaActual || (gender && gender !== 'none' && !productosFiltrados.every(p => p.descripcion));
+
+                if (isProductView) {
                     const precioFormateado = new Intl.NumberFormat('es-CO', {
-                        style: 'currency',
-                        currency: 'COP',
-                        minimumFractionDigits: 0
+                        style: 'currency', currency: 'COP', minimumFractionDigits: 0
                     }).format(item.precio);
 
-                    // Ajustar ruta de imagen si estamos en subdirectorio
                     const imgSrc = pathPrefix + item.imagen;
+                    const pGender = item.genero.toLowerCase();
+                    let sizes = [];
+                    if (pGender === 'hombre' || pGender === 'caballero') {
+                        sizes = [40, 41, 42, 43, 44];
+                    } else if (pGender === 'mujer' || pGender === 'dama') {
+                        sizes = [36, 37, 38, 39];
+                    } else {
+                        sizes = [36, 37, 38, 39, 40, 41, 42, 43, 44];
+                    }
 
                     card.innerHTML = `
                         <div class="product-image">
@@ -138,21 +224,25 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="product-info">
                             <h3 class="product-name">${item.nombre}</h3>
                             <p class="product-ref">Ref: ${item.referencia}</p>
+                            
+                            <div class="product-selection">
+                                <label>Talla (EURO):</label>
+                                <select class="size-selector" data-product-id="${item.id}">
+                                    ${sizes.map(s => `<option value="${s}">${s}</option>`).join('')}
+                                </select>
+                            </div>
+
                             <p class="product-price">${precioFormateado}</p>
                             
-                            <button class="btn-whatsapp" onclick="comprarWhatsApp(${item.id})">
-                                <i class="fab fa-whatsapp"></i> Consultar disponibilidad
+                            <button class="btn-whatsapp" onclick="addToCart(${item.id})">
+                                <i class="fas fa-cart-plus"></i> Añadir al carrito
                             </button>
                         </div>
                     `;
                 } else {
-                    // Renderizar tarjeta de marca
                     const brandSlug = item.marca.toLowerCase().replace(/\s+/g, '_');
-
-                    // Priorizar imagen de banner si está definida, sino usar lógica de logo o fallback
                     const config = (typeof marcasConfig !== 'undefined') ? marcasConfig[item.marca.toUpperCase()] : null;
                     const brandBannerSrc = config?.banner ? pathPrefix + config.banner : null;
-
                     const brandFileName = item.marca.toUpperCase().replace(/\s+/g, '');
                     const brandLogoSrc = `${pathPrefix}img/logos/LOGO${brandFileName}.jpeg`;
                     const fallbackSrc = pathPrefix + item.imagen;
@@ -173,11 +263,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                     `;
                 }
-
                 grid.appendChild(card);
             });
 
-            // Trigger animation
             setTimeout(() => {
                 document.querySelectorAll('.reveal').forEach((el, index) => {
                     setTimeout(() => el.classList.add('active'), index * 100);
@@ -188,31 +276,4 @@ document.addEventListener('DOMContentLoaded', () => {
             grid.innerHTML = '<p class="no-products">Próximamente nuevos modelos disponibles.</p>';
         }
     }
-
-    // --- EVENTO WHATSAPP ---
-    window.comprarWhatsApp = (productId) => {
-        const producto = productos.find(p => p.id === productId);
-
-        if (!producto) return;
-
-        const precio = new Intl.NumberFormat('es-CO', {
-            style: 'currency',
-            currency: 'COP',
-            minimumFractionDigits: 0
-        }).format(producto.precio);
-
-        // Construir una URL absoluta limpia sin ".."
-        const imgUrl = new URL(pathPrefix + producto.imagen, window.location.href).href;
-
-        const mensaje = `Hola SNEAKERSAAA, estoy interesado(a) en:\n\n` +
-            `👟 *${producto.nombre}*\n` +
-            `🏷️ Ref: ${producto.referencia}\n` +
-            `💰 Precio: ${precio}\n\n` +
-            `¿Tienen disponibilidad en mi talla?\n\n` +
-            `${imgUrl}`;
-
-        const url = `https://wa.me/${NUMERO_WHATSAPP}?text=${encodeURIComponent(mensaje)}`;
-        window.open(url, '_blank');
-    };
-
 });
