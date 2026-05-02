@@ -386,8 +386,6 @@ header {
     margin-bottom: 1.5rem;
     overflow: hidden;
     border-radius: 1rem;
-    position: relative; /* Necesario para la lupa */
-    cursor: crosshair;
 }
 
 .product-image img {
@@ -397,19 +395,8 @@ header {
     transition: var(--transition);
 }
 
-.img-magnifier-glass {
-    position: absolute;
-    border: 3px solid var(--primary);
-    border-radius: 50%;
-    cursor: crosshair;
-    /* Determina el tamaño de la lupa: */
-    width: 150px;
-    height: 150px;
-    display: none;
-    z-index: 10;
-    pointer-events: none;
-    box-shadow: 0 0 15px rgba(0,0,0,0.5);
-    background-repeat: no-repeat;
+.product-card:hover .product-image img {
+    transform: scale(1.1) rotate(5deg);
 }
 
 /* BRAND CARD */
@@ -672,11 +659,7 @@ footer {
         padding: 2rem 1rem;
     }
 
-    .img-magnifier-glass {
-        width: 120px;
-        height: 120px;
-    }
-}
+
 
 @media (max-width: 480px) {
     .landing-title {

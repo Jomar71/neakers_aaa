@@ -201,87 +201,18 @@ document.addEventListener('DOMContentLoaded', () => {
             minimumFractionDigits: 0
         }).format(producto.precio);
 
-        const currentUrl = window.location.href.split('#')[0].split('?')[0];
-        const baseUrl = currentUrl.substring(0, currentUrl.lastIndexOf('/') + 1);
-        // Ajustar la ruta de la imagen para que sea absoluta
-        const imgUrl = baseUrl + pathPrefix + producto.imagen;
+        // Construir una URL absoluta limpia sin ".."
+        const imgUrl = new URL(pathPrefix + producto.imagen, window.location.href).href;
 
         const mensaje = `Hola SNEAKERSAAA, estoy interesado(a) en:\n\n` +
             `👟 *${producto.nombre}*\n` +
             `🏷️ Ref: ${producto.referencia}\n` +
             `💰 Precio: ${precio}\n\n` +
             `¿Tienen disponibilidad en mi talla?\n\n` +
-            `🖼️ Foto: ${imgUrl}`;
+            `${imgUrl}`;
 
         const url = `https://wa.me/${NUMERO_WHATSAPP}?text=${encodeURIComponent(mensaje)}`;
         window.open(url, '_blank');
     };
 
-    // --- LÓGICA DE ZOOM (LUPA) ---
-    function initZoom() {
-        const productImages = document.querySelectorAll('.product-image');
-
-        productImages.forEach(container => {
-            const img = container.querySelector('img');
-
-            // Evitar duplicados si se vuelve a llamar initZoom
-            if (container.querySelector('.img-magnifier-glass')) return;
-
-            const glass = document.createElement('div');
-            glass.setAttribute('class', 'img-magnifier-glass');
-            container.appendChild(glass);
-
-            const zoomLevel = 2.5; // Nivel de zoom
-
-            function moveMagnifier(e) {
-                const pos = getCursorPos(e);
-                let x = pos.x;
-                let y = pos.y;
-
-                // Evitar que la lupa se salga de la imagen
-                const bw = 3;
-                const w = glass.offsetWidth / 2;
-                const h = glass.offsetHeight / 2;
-
-                if (x > img.width - (w / zoomLevel)) { x = img.width - (w / zoomLevel); }
-                if (x < w / zoomLevel) { x = w / zoomLevel; }
-                if (y > img.height - (h / zoomLevel)) { y = img.height - (h / zoomLevel); }
-                if (y < h / zoomLevel) { y = h / zoomLevel; }
-
-                // Posicionar la lupa
-                glass.style.left = (x - w) + "px";
-                glass.style.top = (y - h) + "px";
-
-                // Mostrar el zoom en la lupa
-                glass.style.backgroundPosition = "-" + ((x * zoomLevel) - w + bw) + "px -" + ((y * zoomLevel) - h + bw) + "px";
-            }
-
-            function getCursorPos(e) {
-                const a = img.getBoundingClientRect();
-                let x = (e.pageX || e.touches[0].pageX) - a.left;
-                let y = (e.pageY || e.touches[0].pageY) - window.pageYOffset - a.top;
-                return { x: x, y: y };
-            }
-
-            container.addEventListener('mouseenter', () => {
-                glass.style.display = 'block';
-                glass.style.backgroundImage = "url('" + img.src + "')";
-                glass.style.backgroundSize = (img.width * zoomLevel) + "px " + (img.height * zoomLevel) + "px";
-            });
-
-            container.addEventListener('mouseleave', () => {
-                glass.style.display = 'none';
-            });
-
-            container.addEventListener('mousemove', moveMagnifier);
-            container.addEventListener('touchmove', moveMagnifier);
-        });
-    }
-
-    // Llamar a initZoom después de cargar los productos
-    if (grid) {
-        const observer = new MutationObserver(() => initZoom());
-        observer.observe(grid, { childList: true });
-        initZoom();
-    }
 });
