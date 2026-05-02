@@ -1122,7 +1122,7 @@ const productos = [
         nombre: "Skechers Go Walk",
         marca: "SKECHERS",
         genero: "unisex",
-        imagen: "img/hombres/Skechers/SKECHERS_SHOE_MS1.jpeg",
+        imagen: "img/hombres/Skechers/SKECHERSMS1.jpeg",
         referencia: "SKE001",
         precio: 250000,
         descripcion: "Zapatillas cómodas para caminar"
