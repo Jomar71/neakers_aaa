@@ -1,3 +1,29 @@
+// Configuración de Banners y Descripciones de Marcas
+// Aquí puedes cambiar la imagen que aparece en la tarjeta de "Ver Colección"
+const marcasConfig = {
+    "ADIDAS": {
+        banner: "img/logos/LOGOADIDAS.jpeg",
+        descripcion: "Estilo deportivo icónico y comodidad sin límites."
+    },
+    "NIKE": {
+        banner: "img/logos/LOGONIKE.jpeg",
+        descripcion: "Just Do It. Innovación y rendimiento en cada par."
+    },
+    "JORDAN": {
+        banner: "img/logos/LOGONIKELOGO.jpeg",
+        descripcion: "El legado de Su Majestad. Estilo premium de baloncesto."
+    },
+    "NEW BALANCE": {
+        banner: "img/logos/LOGONEWBALANCE.jpeg",
+        descripcion: "La mezcla perfecta entre funcionalidad y moda retro."
+    },
+    "PUMA": {
+        banner: "img/logos/LOGOPUMA.jpeg",
+        descripcion: "Forever Faster. Diseño vanguardista para el día a día."
+    },
+    // Agrega más marcas aquí siguiendo el mismo formato
+};
+
 const productos = [
     // Productos ADIDAS
     {

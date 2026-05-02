@@ -87,16 +87,28 @@ document.addEventListener('DOMContentLoaded', () => {
         } else if (gender && gender !== 'none') {
             // Caso 2: Estamos en una página de género (ej: hombres.html)
             // Agrupar por marcas que tengan productos de este género
-            const marcasConGenero = productos.filter(p => p.genero === gender || p.genero === 'unisex');
+            const normalizedGender = gender.toLowerCase();
+            
+            const marcasConGenero = productos.filter(p => {
+                const pGender = p.genero.toLowerCase();
+                const isMatch = (normalizedGender === 'hombre' && (pGender === 'hombre' || pGender === 'caballero')) ||
+                                (normalizedGender === 'mujer' && (pGender === 'mujer' || pGender === 'dama')) ||
+                                (pGender === 'unisex');
+                return isMatch;
+            });
             
             productosFiltrados = marcasConGenero.reduce((marcasUnicas, producto) => {
                 if (!marcasUnicas.some(m => m.marca === producto.marca)) {
+                    // Buscar si hay una configuración de banner para esta marca en productos.js
+                    // (Asumiremos que si existe marcasConfig, la usamos)
+                    const config = (typeof marcasConfig !== 'undefined') ? marcasConfig[producto.marca.toUpperCase()] : null;
+                    
                     marcasUnicas.push({
                         id: producto.id,
                         marca: producto.marca,
                         genero: producto.genero,
-                        imagen: producto.imagen, // Usamos la imagen del primer producto como referencia
-                        descripcion: `Colección Premium ${producto.marca}`
+                        imagen: config?.banner || producto.imagen, 
+                        descripcion: config?.descripcion || `Colección Premium ${producto.marca}`
                     });
                 }
                 return marcasUnicas;
@@ -136,11 +148,20 @@ document.addEventListener('DOMContentLoaded', () => {
                 } else {
                     // Renderizar tarjeta de marca
                     const brandSlug = item.marca.toLowerCase().replace(/\s+/g, '_');
-                    const imgSrc = pathPrefix + item.imagen;
+                    
+                    // Priorizar imagen de banner si está definida, sino usar lógica de logo o fallback
+                    const config = (typeof marcasConfig !== 'undefined') ? marcasConfig[item.marca.toUpperCase()] : null;
+                    const brandBannerSrc = config?.banner ? pathPrefix + config.banner : null;
+                    
+                    const brandFileName = item.marca.toUpperCase().replace(/\s+/g, '');
+                    const brandLogoSrc = `${pathPrefix}img/logos/LOGO${brandFileName}.jpeg`;
+                    const fallbackSrc = pathPrefix + item.imagen; 
 
                     card.innerHTML = `
                         <div class="brand-image">
-                            <img src="${imgSrc}" alt="${item.marca}" loading="lazy" onerror="this.src='${pathPrefix}img/logos/2NIKE.jpeg'">
+                            <img src="${brandBannerSrc || brandLogoSrc}" alt="${item.marca}" loading="lazy" 
+                                 onerror="this.onerror=null; this.src='${pathPrefix}img/logos/LOGO${brandFileName}.png'; 
+                                 this.onerror=function(){this.src='${fallbackSrc}';}">
                         </div>
                         <div class="brand-info">
                             <h3 class="brand-name">${item.marca}</h3>

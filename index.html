@@ -9,15 +9,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         /* Estilos específicos para la landing que no están en tienda.css */
-        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s ease-out; }
-        .reveal.active { opacity: 1; transform: translateY(0); }
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.8s ease-out;
+        }
+
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
     </style>
 </head>
 
 <body data-gender="none" data-theme="dark">
     <header>
         <div class="container nav-content">
-            <a href="index.html" class="logo">JOMAR AAA<span>.</span></a>
+            <a href="index.html" class="logo">
+                <img src="img/logos/LOGO SNEAKERS AAA.png" alt="JOMAR AAA" class="logo-img">
+            </a>
             <nav>
                 <ul class="nav-links">
                     <li><a href="index.html" class="active">Inicio</a></li>
@@ -43,11 +53,14 @@
         <!-- SECCIÓN DE IMPACTO -->
         <section class="landing-hero">
             <div class="landing-content reveal">
-                <h1 class="landing-title">En JOMAR AAA<br> <span>Tenis.</span></h1>
+                <h1 class="landing-title">En SNEAKERS<br> <span>AAA.</span></h1>
                 <p class="landing-desc">
-                    Nuestra selección **Triple A** representa la cúspide de la réplica de lujo.
-                    Cada par en nuestro catálogo es una obra maestra de ingeniería,
-                    combinando materiales originales y precisión absoluta.
+                    La cúspide de la réplica de lujo.
+                    Nuestra selección Triple A representa el más alto estándar en réplicas de alta gama. Cada par de
+                    nuestro catálogo es el resultado de un riguroso proceso de ingeniería, donde convergen materiales de
+                    origen premium y una precisión absoluta en cada detalle.
+                    Calidad, excelencia y autenticidad visual se unen para ofrecer una experiencia que solo los
+                    verdaderos conocedores pueden distinguir.
                 </p>
                 <div class="landing-btns">
                     <a href="hombres.html" class="image-with-caption">
@@ -71,9 +84,11 @@
             <div class="contact-grid">
                 <div class="contact-info">
                     <h2>¿Dudas <br> Técnicas?</h2>
-                    <p>Contáctanos para ver fotos reales, videos de calidad y asesoría sobre el tallaje de tu próximo par.</p>
+                    <p>Contáctanos para ver fotos reales, videos de calidad y asesoría sobre el tallaje de tu próximo
+                        par.</p>
                 </div>
-                <form class="contact-form" onsubmit="event.preventDefault(); alert('¡Gracias! Te contactaremos por WhatsApp.');">
+                <form class="contact-form"
+                    onsubmit="event.preventDefault(); alert('¡Gracias! Te contactaremos por WhatsApp.');">
                     <input type="text" placeholder="NOMBRE" required>
                     <input type="email" placeholder="CORREO" required>
                     <textarea placeholder="MENSAJE" rows="4"></textarea>
