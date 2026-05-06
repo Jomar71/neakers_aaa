@@ -32,6 +32,9 @@ const productos = [
         marca: "ADIDAS",
         genero: "hombre",
         imagen: "img/hombres/Adidas/ADIDAS_ADISTAR_MS1.jpeg",
+        imagenes: [
+            "img/hombres/Adidas/ADIDAS_ADISTAR_MS1.jpeg"
+        ],
         referencia: "MS1",
         precio: 185000,
         descripcion: "Zapatillas de alto rendimiento con tecnología boost"
@@ -42,6 +45,9 @@ const productos = [
         marca: "ADIDAS",
         genero: "hombre",
         imagen: "img/hombres/Adidas/ADIDAS_ADISTAR_MS2.jpeg",
+        imagenes: [
+            "img/hombres/Adidas/ADIDAS_ADISTAR_MS2.jpeg"
+        ],
         referencia: "MS2",
         precio: 185000,
         descripcion: "Clásico diseño de zapatillas de moda"
@@ -52,6 +58,9 @@ const productos = [
         marca: "ADIDAS",
         genero: "hombre",
         imagen: "img/hombres/Adidas/ADIDAS_BLAZE_MS1.jpeg",
+        imagenes: [
+            "img/hombres/Adidas/ADIDAS_BLAZE_MS1.jpeg"
+        ],
         referencia: "MS1",
         precio: 180000,
         descripcion: "Zapatillas de alto rendimiento con tecnología boost"
@@ -102,6 +111,11 @@ const productos = [
         marca: "ADIDAS",
         genero: "hombre",
         imagen: "img/hombres/Adidas/ADIDAS_NITEBALL_MS1.jpeg",
+        imagenes: [
+            "img/hombres/Adidas/ADIDAS_NITEBALL_MS1.jpeg",
+            "img/hombres/Adidas/ADIDAS_NITEBALL_MS2.jpeg",
+            "img/hombres/Adidas/ADIDAS_NITEBALL_MS3.jpeg"
+        ],
         referencia: "MS1",
         precio: 190000,
         descripcion: "Clásico diseño de zapatillas de moda"
@@ -405,6 +419,11 @@ const productos = [
         marca: "HUGO BOSS",
         genero: "hombre",
         imagen: "img/hombres/Hugo Boss/HUGO_BOSSMS1.jpeg",
+        imagenes: [
+            "img/hombres/Hugo Boss/HUGO_BOSSMS1.jpeg",
+            "img/hombres/Hugo Boss/HUGO_BOSSMS2.jpeg",
+            "img/hombres/Hugo Boss/HUGO_BOSSMS3.jpeg"
+        ],
         referencia: "MS1",
         precio: 138000,
         descripcion: "Zapatos deportivos de diseño elegante"
@@ -477,6 +496,10 @@ const productos = [
         marca: "LACOSTE",
         genero: "hombre",
         imagen: "img/hombres/Lacoste/LACOSTEMS1.jpeg",
+        imagenes: [
+            "img/hombres/Lacoste/LACOSTEMS1.jpeg",
+            "img/hombres/Lacoste/LACOSTEMS2.jpeg"
+        ],
         referencia: "MS1",
         precio: 190000,
         descripcion: "Zapatillas casuales con el legendario cocodrilo"
@@ -805,6 +828,11 @@ const productos = [
         marca: "NIKE",
         genero: "Caballero",
         imagen: "img/hombres/Nike/JORDAN_BOTAMS1.jpeg",
+        imagenes: [
+            "img/hombres/Nike/JORDAN_BOTAMS1.jpeg",
+            "img/hombres/Nike/JORDAN_CADENCEMS31.jpeg",
+            "img/hombres/Nike/NIKE_CORRELATEMS1.jpeg"
+        ],
         referencia: "MS1",
         precio: 195000,
         descripcion: "Zapatillas con unidad Air Max visible"
@@ -815,6 +843,11 @@ const productos = [
         marca: "NIKE",
         genero: "Caballero",
         imagen: "img/hombres/Nike/JORDAN_CADENCEMS31.jpeg",
+        imagenes: [
+            "img/hombres/Nike/JORDAN_CADENCEMS31.jpeg",
+            "img/hombres/Nike/JORDAN_BOTAMS1.jpeg",
+            "img/hombres/Nike/NIKE_CORRELATEMS1.jpeg"
+        ],
         referencia: "MS1",
         precio: 200000,
         descripcion: "Iconicas zapatillas de baloncesto"
@@ -905,6 +938,11 @@ const productos = [
         marca: "NIKE",
         genero: "Caballero",
         imagen: "img/hombres/Nike/NIKE_PULSEMS1.jpeg",
+        imagenes: [
+            "img/hombres/Nike/NIKE_PULSEMS1.jpeg",
+            "img/hombres/Nike/NIKE_PULSEMS2.jpeg",
+            "img/hombres/Nike/NIKE_PULSEMS3.jpeg"
+        ],
         referencia: "MS1",
         precio: 195000,
         descripcion: "Zapatillas con unidad Air Max visible"
@@ -914,7 +952,7 @@ const productos = [
         nombre: "Nike Pulse",
         marca: "NIKE",
         genero: "Caballero",
-        imagen: "img/hombres/NIKE_PULSEMS2.jpeg",
+        imagen: "img/hombres/Nike/NIKE_PULSEMS2.jpeg",
         referencia: "MS2",
         precio: 195000,
         descripcion: "Iconicas zapatillas de baloncesto"
@@ -1005,6 +1043,12 @@ const productos = [
         marca: "NIKE",
         genero: "Caballero",
         imagen: "img/hombres/Nike/NIKE_ZOOMMS31.jpeg",
+        imagenes: [
+            "img/hombres/Nike/NIKE_ZOOMMS31.jpeg",
+            "img/hombres/Nike/NIKE_ZOOMMS32.jpeg",
+            "img/hombres/Nike/NIKE_ZOOMMS33.jpeg",
+            "img/hombres/Nike/NIKE_ZOOMMS34.jpeg"
+        ],
         referencia: "MS31",
         precio: 190000,
         descripcion: "Iconicas zapatillas de baloncesto"
@@ -1185,6 +1229,11 @@ const productos = [
         marca: "TIMBERLAND",
         genero: "hombre",
         imagen: "img/hombres/Timberland/TIMBERLANDMS21.jpeg",
+        imagenes: [
+            "img/hombres/Timberland/TIMBERLANDMS21.jpeg",
+            "img/hombres/Timberland/TIMBERLANDMS22.jpeg",
+            "img/hombres/Timberland/TIMBERLANDMS23.jpeg"
+        ],
         referencia: "MS21",
         precio: 200000,
         descripcion: "Botas icónicas resistentes al agua"

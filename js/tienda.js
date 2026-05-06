@@ -40,6 +40,25 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    window.changeProductImage = (thumbnail, newSrc) => {
+        const gallery = thumbnail.parentElement;
+        const card = gallery.closest('.product-card');
+        const mainImg = card.querySelector('.product-image img');
+
+        if (!mainImg) return;
+
+        // Actualizar imagen principal con animación
+        mainImg.style.opacity = '0';
+        setTimeout(() => {
+            mainImg.src = newSrc;
+            mainImg.style.opacity = '1';
+        }, 200);
+
+        // Actualizar thumbnails activos
+        gallery.querySelectorAll('.thumbnail').forEach(t => t.classList.remove('active'));
+        thumbnail.classList.add('active');
+    };
+
     window.addToCart = (productId) => {
         const producto = productos.find(p => p.id === productId);
         if (!producto) return;
@@ -218,8 +237,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
 
                     card.innerHTML = `
-                        <div class="product-image">
-                            <img src="${imgSrc}" alt="${item.nombre}" loading="lazy" onerror="this.src='${pathPrefix}img/logos/2NIKE.jpeg'">
+                        <div class="product-image-container" data-product-id="${item.id}">
+                            <img src="${imgSrc}" alt="${item.nombre}" id="main-image-${item.id}" loading="lazy" onerror="this.src='${pathPrefix}img/logos/2NIKE.jpeg'">
+                            <div class="zoom-hint">
+                                <i class="fas fa-search-plus"></i>
+                                Click para zoom
+                            </div>
                         </div>
                         <div class="product-info">
                             <h3 class="product-name">${item.nombre}</h3>
@@ -264,6 +287,44 @@ document.addEventListener('DOMContentLoaded', () => {
                     `;
                 }
                 grid.appendChild(card);
+            });
+
+            // --- LÓGICA DE ZOOM PROFESIONAL ---
+            document.querySelectorAll('.product-image-container').forEach(container => {
+                const img = container.querySelector('img');
+                const hint = container.querySelector('.zoom-hint');
+                
+                container.addEventListener('mousemove', (e) => {
+                    if (container.classList.contains('zoomed')) {
+                        const rect = container.getBoundingClientRect();
+                        const x = e.clientX - rect.left;
+                        const y = e.clientY - rect.top;
+                        
+                        // Calcular porcentaje de posición
+                        const xPercent = (x / rect.width) * 100;
+                        const yPercent = (y / rect.height) * 100;
+                        
+                        // Mover el origen de la transformación para el efecto de pan
+                        img.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+                    }
+                });
+
+                container.addEventListener('click', () => {
+                    container.classList.toggle('zoomed');
+                    
+                    if (container.classList.contains('zoomed')) {
+                        hint.innerHTML = '<i class="fas fa-search-minus"></i> Click para salir';
+                    } else {
+                        hint.innerHTML = '<i class="fas fa-search-plus"></i> Click para zoom';
+                        img.style.transformOrigin = 'center center';
+                    }
+                });
+
+                container.addEventListener('mouseleave', () => {
+                    container.classList.remove('zoomed');
+                    hint.innerHTML = '<i class="fas fa-search-plus"></i> Click para zoom';
+                    img.style.transformOrigin = 'center center';
+                });
             });
 
             setTimeout(() => {
