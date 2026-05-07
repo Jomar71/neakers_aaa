@@ -21,6 +21,10 @@ const marcasConfig = {
         banner: "img/logos/LOGOPUMA.jpeg",
         descripcion: "Forever Faster. Diseño vanguardista para el día a día."
     },
+    "LE COQ SPORTIF": {
+        banner: "img/logos/LOGOLECOQ.jpeg",
+        descripcion: "Forever Faster. Diseño vanguardista para el día a día."
+    },
     // Agrega más marcas aquí siguiendo el mismo formato
 };
 
@@ -1178,7 +1182,7 @@ const productos = [
         nombre: "Timberland Bota",
         marca: "TIMBERLAND",
         genero: "hombre",
-        imagen: "img/hombres/Timberland/TIMBERLAND_BOOT_MS1.jpeg",
+        imagen: "img/hombres/Timberland/TIMBERLAND_BOTAMS1.jpeg",
         referencia: "TIM001",
         precio: 210000,
         descripcion: "Botas icónicas resistentes al agua"
