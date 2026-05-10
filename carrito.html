@@ -266,7 +266,14 @@
         </div>
     </main>
 
-    <script src="js/productos.js"></script>
+    <script src="js/marcas_config_hombres.js"></script>
+    <script src="js/marcas_config_mujeres.js"></script>
+    <script src="js/productos_hombres.js"></script>
+    <script src="js/productos_mujeres.js"></script>
+    <script>
+        const marcasConfig = {...marcasConfigHombres, ...marcasConfigMujeres};
+        const productos = [...productosHombres, ...productosMujeres];
+    </script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const container = document.getElementById('big-cart-items');

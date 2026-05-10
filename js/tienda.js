@@ -184,8 +184,21 @@ document.addEventListener('DOMContentLoaded', () => {
     if (grid) {
         let productosFiltrados = [];
 
+        const urlParams = new URLSearchParams(window.location.search);
+        const urlGender = urlParams.get('g') || gender;
+
         if (marcaActual) {
             productosFiltrados = productos.filter(p => p.marca.toUpperCase() === marcaActual.toUpperCase());
+            
+            // Si venimos de la página de hombres o mujeres, filtrar la marca por ese género
+            if (urlGender && urlGender !== 'none' && urlGender !== 'unisex') {
+                const normalizedGender = urlGender.toLowerCase();
+                productosFiltrados = productosFiltrados.filter(p => {
+                    const pGender = p.genero.toLowerCase();
+                    return (normalizedGender === 'hombre' && (pGender === 'hombre' || pGender === 'caballero' || pGender === 'unisex')) ||
+                           (normalizedGender === 'mujer' && (pGender === 'mujer' || pGender === 'dama' || pGender === 'unisex'));
+                });
+            }
         } else if (gender && gender !== 'none') {
             const normalizedGender = gender.toLowerCase();
 
@@ -212,6 +225,15 @@ document.addEventListener('DOMContentLoaded', () => {
             }, []);
         }
 
+        // --- ORDENAR ALFABÉTICAMENTE AUTOMÁTICAMENTE ---
+        if (marcaActual) {
+            // Si estamos viendo productos de una marca, ordenar por nombre del producto
+            productosFiltrados.sort((a, b) => a.nombre.localeCompare(b.nombre));
+        } else {
+            // Si estamos viendo las tarjetas de marcas, ordenar por nombre de la marca
+            productosFiltrados.sort((a, b) => a.marca.localeCompare(b.marca));
+        }
+
         if (productosFiltrados.length > 0) {
             productosFiltrados.forEach(item => {
                 const card = document.createElement('div');
@@ -236,6 +258,19 @@ document.addEventListener('DOMContentLoaded', () => {
                         sizes = [36, 37, 38, 39, 40, 41, 42, 43, 44];
                     }
 
+                    const allImages = item.imagenes ? [...new Set([item.imagen, ...item.imagenes])] : [item.imagen];
+                    const hasMultipleImages = allImages.length > 1;
+                    const galleryHtml = hasMultipleImages ? `
+                        <div class="product-gallery">
+                            ${allImages.map((img, index) => `
+                                <div class="thumbnail ${index === 0 ? 'active' : ''}" 
+                                     onclick="changeProductImage(this, '${pathPrefix + img}')">
+                                    <img src="${pathPrefix + img}" alt="Vista ${index + 1}">
+                                </div>
+                            `).join('')}
+                        </div>
+                    ` : '';
+
                     card.innerHTML = `
                         <div class="product-image-container" data-product-id="${item.id}">
                             <img src="${imgSrc}" alt="${item.nombre}" id="main-image-${item.id}" loading="lazy" onerror="this.src='${pathPrefix}img/logos/2NIKE.jpeg'">
@@ -244,6 +279,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 Click para zoom
                             </div>
                         </div>
+                        ${galleryHtml}
                         <div class="product-info">
                             <h3 class="product-name">${item.nombre}</h3>
                             <p class="product-ref">Ref: ${item.referencia}</p>
@@ -280,7 +316,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             <h3 class="brand-name">${item.marca}</h3>
                             <p class="brand-description">${item.descripcion}</p>
                             
-                            <a href="marcas/${brandSlug}.html" class="btn-ver-marcas">
+                            <a href="marcas/${brandSlug}.html${gender && gender !== 'none' ? '?g=' + gender : ''}" class="btn-ver-marcas">
                                 Ver Colección
                             </a>
                         </div>

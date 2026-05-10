@@ -3,9 +3,9 @@ const path = require('path');
 
 // Lista de marcas
 const marcas = [
-    "ADIDAS", "ARMANI", "ASICS", "CATERPILLAR", "COACH", "CONVERSE", "DIESEL", 
-    "DOLCE & GABBANA", "FILA", "GUAYO", "HOKA", "HUGO BOSS", "LACOSTE", 
-    "LE COQ SPORTIF", "LOUIS VUITTON", "NEW BALANCE", "NIKE", "ON CLOUD", 
+    "ADIDAS", "ARMANI", "ASICS", "CATERPILLAR", "COACH", "CONVERSE", "DIESEL",
+    "DOLCE & GABBANA", "FILA", "GUAYO", "HOKA", "HUGO BOSS", "LACOSTE",
+    "LE COQ SPORTIF", "LOUIS VUITTON", "NEW BALANCE", "NIKE", "ON CLOUD",
     "PUMA", "REEBOK", "SKECHERS", "TIMBERLAND", "TOMMY HILFIGER", "UNDER ARMOUR", "VANS"
 ];
 
@@ -102,7 +102,13 @@ const plantillaMarca = (nombreMarca) => `<!DOCTYPE html>
         <p>JOMAR AAA © 2024. TODOS LOS DERECHOS RESERVADOS.</p>
     </footer>
 
-    <script src="../js/productos.js"></script>
+    <script src="../js/marcas_config.js"></script>
+    <script src="../js/productos_hombres.js"></script>
+    <script src="../js/productos_mujeres.js"></script>
+    <script>
+        // Unificar productos para que tienda.js los encuentre
+        const productos = [...(typeof productosHombres !== 'undefined' ? productosHombres : []), ...(typeof productosMujeres !== 'undefined' ? productosMujeres : [])];
+    </script>
     <script src="../js/tienda.js"></script>
 </body>
 </html>`;
@@ -119,7 +125,7 @@ if (!fs.existsSync(directorioMarcas)) {
 marcas.forEach(marca => {
     const nombreArchivo = marca.toLowerCase().replace(/\s+/g, '_'); // Reemplaza espacios por guiones bajos
     const rutaArchivo = path.join(directorioMarcas, `${nombreArchivo}.html`);
-    
+
     // Escribir el archivo
     fs.writeFileSync(rutaArchivo, plantillaMarca(marca));
     console.log(`Archivo actualizado: ${rutaArchivo}`);
