@@ -223,6 +223,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 return marcasUnicas;
             }, []);
+
+            // Incluir marcas del config que NO tienen productos aún
+            if (typeof marcasConfig !== 'undefined') {
+                const existingBrands = new Set(productosFiltrados.map(m => m.marca.toUpperCase()));
+                Object.keys(marcasConfig).forEach(marcaKey => {
+                    if (!existingBrands.has(marcaKey.toUpperCase())) {
+                        const config = marcasConfig[marcaKey];
+                        productosFiltrados.push({
+                            id: 90000 + productosFiltrados.length,
+                            marca: marcaKey,
+                            genero: normalizedGender,
+                            imagen: config.banner || '',
+                            descripcion: config.descripcion || `Colección Premium ${marcaKey}`
+                        });
+                    }
+                });
+            }
         }
 
         // --- ORDENAR ALFABÉTICAMENTE AUTOMÁTICAMENTE ---

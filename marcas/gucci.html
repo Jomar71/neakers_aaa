@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOMAR AAA. | GUCCI</title>
+    <link rel="stylesheet" href="../css/tienda.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s ease-out; }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+    </style>
+</head>
+<body data-gender="unisex" data-theme="dark">
+    <header>
+        <div class="container nav-content">
+            <a href="../index.html" class="logo">
+                <img src="../img/logos/LOGO SNEAKERS AAA.png" alt="JOMAR AAA" class="logo-img">
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../hombres.html">Hombres</a></li>
+                    <li><a href="../mujeres.html">Mujeres</a></li>
+                    <li><a href="#politicas">Políticas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li>
+                        <button id="theme-toggle" title="Cambiar tema">
+                            <i class="fas fa-adjust"></i>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <button id="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="hero-section reveal">
+            <h1>GUCCI <br> <span>Colección</span></h1>
+            <p>Descubre el estilo y la comodidad en cada paso con nuestro archivo premium.</p>
+        </section>
+
+        <div id="productos-grid" class="products-grid">
+            <!-- Los productos de GUCCI se cargarán dinámicamente aquí -->
+        </div>
+
+        <section id="politicas" class="reveal">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Políticas <br> y Sugerencias</h2>
+                    <p>Consulta nuestras políticas de devolución, garantía y envío. También puedes dejar tus sugerencias para futuras compras.</p>
+                </div>
+                <div class="contact-form">
+                    <h3>Políticas de Compra</h3>
+                    <ul>
+                        <li>Garantía de 30 días contra defectos de fábrica</li>
+                        <li>Devoluciones gratuitas durante los primeros 15 días</li>
+                        <li>Envíos a nivel nacional con seguimiento en tiempo real</li>
+                        <li>Autenticidad garantizada en todos nuestros productos</li>
+                    </ul>
+                    <a href="https://wa.me/573205032772?text=Hola JOMAR AAA, tengo una consulta sobre sus políticas." class="btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i> Consultar Políticas
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="reveal">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Sugerencias <br> para la compra</h2>
+                    <p>¿No encuentras tu modelo ideal? Danos tus sugerencias para futuras compras.</p>
+                </div>
+                <form class="contact-form" onsubmit="event.preventDefault(); alert('¡Gracias! Tomaremos en cuenta tu sugerencia.');">
+                    <input type="text" placeholder="NOMBRE" required>
+                    <input type="email" placeholder="CORREO" required>
+                    <textarea placeholder="SUGERENCIAS O MODELOS ESPECÍFICOS" rows="4"></textarea>
+                    <button type="submit" class="btn-whatsapp">Enviar Sugerencias</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>JOMAR AAA © 2024. TODOS LOS DERECHOS RESERVADOS.</p>
+    </footer>
+
+    <script src="../js/marcas_config_hombres.js?v=2"></script>
+    <script src="../js/marcas_config_mujeres.js?v=2"></script>
+    <script src="../js/productos_hombres.js?v=2"></script>
+    <script src="../js/productos_mujeres.js?v=2"></script>
+    <script>
+        // Unificar productos para que tienda.js los encuentre
+        const productos = [...(typeof productosHombres !== 'undefined' ? productosHombres : []), ...(typeof productosMujeres !== 'undefined' ? productosMujeres : [])];
+        const marcasConfig = { ... (typeof marcasConfigHombres !== 'undefined' ? marcasConfigHombres : {}), ... (typeof marcasConfigMujeres !== 'undefined' ? marcasConfigMujeres : {}) };
+    </script>
+    <script src="../js/tienda.js?v=2"></script>
+</body>
+</html>

@@ -46,7 +46,7 @@ const marcasConfigMujeres = {
         "banner": "img/logos/logos_mujeres/LOGOLECOQSPORTIFMUJERES.jpeg",
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
-    "LOUIS YUITTON": {
+    "LOUIS VUITTON": {
         "banner": "img/logos/logos_mujeres/LOGOLOUISVUITTONMUJERES.jpeg",
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },

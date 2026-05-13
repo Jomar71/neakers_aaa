@@ -23,7 +23,7 @@ const marcasConfigHombres = {
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     "CONVERSE": {
-        "banner": "img/logos/logos_hombres/LOGOVANS.jpeg",
+        "banner": "img/logos/logos_hombres/LOGOCONVERSE.jpeg",
         "descripcion": "Clásicos atemporales que nunca pasan de moda."
     },
     "DIESEL": {
@@ -38,7 +38,7 @@ const marcasConfigHombres = {
         "banner": "img/logos/logos_hombres/LOGOFILA.jpeg",
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
-    "GUAYOS": {
+    "GUAYO": {
         "banner": "img/logos/logos_hombres/LOGOGUAYOS.jpeg",
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
@@ -58,12 +58,12 @@ const marcasConfigHombres = {
         "banner": "img/logos/logos_hombres/LOGOLECOQ.jpeg",
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
-    "LOUIS YUITTON": {
+    "LOUIS VUITTON": {
         "banner": "img/logos/logos_hombres/LOGOLOUISVUITTON.jpeg",
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     "NEW BALANCE": {
-        "banner": "img/logos/logos_hombres/LOGOPUMA.jpeg",
+        "banner": "img/logos/logos_hombres/LOGONEWBALANCE.jpeg",
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
     "NIKE": {
