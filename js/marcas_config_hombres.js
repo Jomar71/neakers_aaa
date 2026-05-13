@@ -10,9 +10,17 @@ const marcasConfigHombres = {
         "banner": "img/logos/logos_hombres/LOGOADIDAS.png",
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
+    "ARMANI": {
+        "banner": "img/logos/logos_hombres/LOGOARMANI.png",
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
+    },
     "ASICS": {
         "banner": "img/logos/logos_hombres/LOGOASICS.png",
         "descripcion": "Tecnología japonesa para un rendimiento superior."
+    },
+    "COACH": {
+        "banner": "img/logos/logos_hombres/LOGOCOACH.png",
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     "CONVERSE": {
         "banner": "img/logos/logos_hombres/LOGOVANS.jpeg",
@@ -23,16 +31,24 @@ const marcasConfigHombres = {
         "descripcion": "Estilo audaz e industrial."
     },
     "DOLCE & GABBANA": {
-        "banner": "img/logos/logos_hombres/LOGODOLCE.jpeg",
+        "banner": "img/logos/logos_hombres/LOGODOLCEGABBANA.jpeg",
         "descripcion": "Exclusividad y elegancia de alta costura."
     },
-    "GUCCI": {
-        "banner": "img/logos/logos_hombres/LOGOGUCCI.jpeg",
-        "descripcion": "Lujo italiano y diseño vanguardista."
+    "FILA": {
+        "banner": "img/logos/logos_hombres/LOGOFILA.jpeg",
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
+    },
+    "GUAYOS": {
+        "banner": "img/logos/logos_hombres/LOGOGUAYOS.jpeg",
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     "HOKA": {
         "banner": "img/logos/logos_hombres/LOGOHOKA.jpeg",
         "descripcion": "Máxima amortiguación para tus aventuras diarias."
+    },
+    "HUGO BOSS": {
+        "banner": "img/logos/logos_hombres/LOGOHUGOBOSS.jpeg",
+        "descripcion": "Lujo italiano y diseño vanguardista."
     },
     "LACOSTE": {
         "banner": "img/logos/logos_hombres/LOGOLACOSTE.jpeg",
@@ -41,6 +57,10 @@ const marcasConfigHombres = {
     "LE COQ SPORTIF": {
         "banner": "img/logos/logos_hombres/LOGOLECOQ.jpeg",
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
+    },
+    "LOUIS YUITTON": {
+        "banner": "img/logos/logos_hombres/LOGOLOUISVUITTON.jpeg",
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     "NEW BALANCE": {
         "banner": "img/logos/logos_hombres/LOGOPUMA.jpeg",
@@ -58,6 +78,10 @@ const marcasConfigHombres = {
         "banner": "img/logos/logos_hombres/LOGOPUMA.jpeg",
         "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
     },
+    "REEBOK": {
+        "banner": "img/logos/logos_hombres/LOGOREEBOK.jpeg",
+        "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
+    },
     "SKECHERS": {
         "banner": "img/logos/logos_hombres/LOGOSKECHERS.jpeg",
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
@@ -67,7 +91,7 @@ const marcasConfigHombres = {
         "descripcion": "Resistencia y estilo para el aire libre."
     },
     "TOMMY HILFIGER": {
-        "banner": "img/logos/logos_hombres/LOGOTOMMY.jpeg",
+        "banner": "img/logos/logos_hombres/LOGOTOMMYHILFIGER.jpeg",
         "descripcion": "Estilo americano clásico con un toque moderno."
     },
     "UNDER ARMOUR": {
