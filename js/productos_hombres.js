@@ -64,7 +64,7 @@ const productosHombres = [
         "descripcion": "El clásico de las canchas ahora en las calles"
     },
     {
-        "id": 108,
+        "id": 107,
         "nombre": "Adidas Equipment",
         "marca": "ADIDAS",
         "genero": "hombre",
@@ -74,73 +74,133 @@ const productosHombres = [
         "descripcion": "Máxima ventilación y confort para corredores principiantes"
     },
     {
-        "id": 107,
-        "nombre": "Adidas Gazelle",
+        "id": 108,
+        "nombre": "Adidas Equipment",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_GAZELLEMS1.jpeg",
-        "referencia": "MS1",
-        "precio": 180000,
-        "descripcion": "Diseño retro y versátil en gamuza premium"
+        "imagen": "img/hombres/Adidas/ADIDASEQUIPMENTMS3.jpeg",
+        "referencia": "MS2",
+        "precio": 190000,
+        "descripcion": "Máxima ventilación y confort para corredores principiantes"
     },
     {
         "id": 109,
-        "nombre": "Adidas Ozweego",
+        "nombre": "Adidas Niteball",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_OZWEEGOMS1.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDAS_NITEBALL_MS1.jpeg",
         "referencia": "MS1",
-        "precio": 210000,
-        "descripcion": "Estilo futurista con amortiguación Adiprene"
+        "precio": 175000,
+        "descripcion": "Diseño retro y versátil en gamuza premium"
     },
     {
         "id": 110,
-        "nombre": "Adidas Questar",
+        "nombre": "Adidas Niteball",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_QUESTARMS1.jpeg",
-        "referencia": "MS1",
-        "precio": 185000,
-        "descripcion": "Energía y soporte en cada zancada"
+        "imagen": "img/hombres/Adidas/ADIDAS_NITEBALL_MS2.jpeg",
+        "referencia": "MS2",
+        "precio": 175000,
+        "descripcion": "Diseño retro y versátil en gamuza premium"
     },
     {
         "id": 111,
-        "nombre": "Adidas Samba",
+        "nombre": "Adidas Niteball",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_SAMBAMS1.jpeg",
-        "referencia": "MS1",
-        "precio": 190000,
-        "descripcion": "El icono del fútbol sala convertido en leyenda urbana"
+        "imagen": "img/hombres/Adidas/ADIDAS_NITEBALL_MS3.jpeg",
+        "referencia": "MS3",
+        "precio": 175000,
+        "descripcion": "Estilo futurista con amortiguación Adiprene"
     },
     {
         "id": 112,
         "nombre": "Adidas Samba",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_SAMBAMS2.jpeg",
-        "referencia": "MS2",
-        "precio": 190000,
-        "descripcion": "El icono del fútbol sala convertido en leyenda urbana"
+        "imagen": "img/hombres/Adidas/ADIDAS_SAMBA_MS1.jpeg",
+        "referencia": "MS1",
+        "precio": 175000,
+        "descripcion": "Energía y soporte en cada zancada"
     },
     {
         "id": 113,
         "nombre": "Adidas Samba",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_SAMBAMS3.jpeg",
-        "referencia": "MS3",
-        "precio": 190000,
+        "imagen": "img/hombres/Adidas/ADIDASSAMBAMS2.jpeg",
+        "referencia": "MS2",
+        "precio": 175000,
         "descripcion": "El icono del fútbol sala convertido en leyenda urbana"
     },
     {
         "id": 114,
-        "nombre": "Adidas Super Star",
+        "nombre": "Adidas Yeezy",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_SUPERSTARMS1.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDAS_YEEZY_MS1.jpeg",
         "referencia": "MS1",
         "precio": 185000,
+        "descripcion": "El icono del fútbol sala convertido en leyenda urbana"
+    },
+    {
+        "id": 115,
+        "nombre": "Adidas Alpha",
+        "marca": "ADIDAS",
+        "genero": "hombre",
+        "imagen": "img/hombres/Adidas/ADIDASALPHADMS1.jpeg",
+        "referencia": "MS1",
+        "precio": 195000,
+        "descripcion": "El clásico de la puntera de concha que nunca pasa de moda"
+    },
+    {
+        "id": 116,
+        "nombre": "Adidas",
+        "marca": "ADIDAS",
+        "genero": "hombre",
+        "imagen": "img/hombres/Adidas/ADIDASMS1.jpeg",
+        "referencia": "MS1",
+        "precio": 180000,
+        "descripcion": "El clásico de la puntera de concha que nunca pasa de moda"
+    },
+    {
+        "id": 117,
+        "nombre": "Adidas",
+        "marca": "ADIDAS",
+        "genero": "hombre",
+        "imagen": "img/hombres/Adidas/ADIDASMS2.jpeg",
+        "referencia": "MS2",
+        "precio": 180000,
+        "descripcion": "El clásico de la puntera de concha que nunca pasa de moda"
+    },
+    {
+        "id": 118,
+        "nombre": "Adidas",
+        "marca": "ADIDAS",
+        "genero": "hombre",
+        "imagen": "img/hombres/Adidas/ADIDASMS3.jpeg",
+        "referencia": "MS3",
+        "precio": 180000,
+        "descripcion": "El clásico de la puntera de concha que nunca pasa de moda"
+    },
+    {
+        "id": 119,
+        "nombre": "Adidas Ultraboost",
+        "marca": "ADIDAS",
+        "genero": "hombre",
+        "imagen": "img/hombres/Adidas/ADIDAS_ULTRABOOST_MS1.jpeg",
+        "referencia": "MS1",
+        "precio": 195000,
+        "descripcion": "El clásico de la puntera de concha que nunca pasa de moda"
+    },
+    {
+        "id": 120,
+        "nombre": "Adidas Ultraboost",
+        "marca": "ADIDAS",
+        "genero": "hombre",
+        "imagen": "img/hombres/Adidas/ADIDAS_ULTRABOOST_MS2.jpeg",
+        "referencia": "MS2",
+        "precio": 195000,
         "descripcion": "El clásico de la puntera de concha que nunca pasa de moda"
     },
 
