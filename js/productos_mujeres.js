@@ -8,7 +8,7 @@ const productosMujeres = [
         "nombre": "Adidas Adistar D",
         "marca": "ADIDAS",
         "genero": "mujer",
-        "imagen": "img/mujeres/Adidas/ADIDASADISTAR DMS1.jpeg",
+        "imagen": "img/mujeres/Adidas/ADIDASADISTARDMS1.jpeg",
         "referencia": "DMS1",
         "precio": 185000,
         "descripcion": "Zapatillas de alto rendimiento diseñadas para la mujer moderna."
@@ -19,7 +19,7 @@ const productosMujeres = [
         "nombre": "Adidas Adistar D",
         "marca": "ADIDAS",
         "genero": "mujer",
-        "imagen": "img/mujeres/Adidas/ADIDASADISTAR DMS2.jpeg",
+        "imagen": "img/mujeres/Adidas/ADIDASADISTARDMS2.jpeg",
         "referencia": "DMS2",
         "precio": 185000,
         "descripcion": "Comodidad y estilo en cada kilómetro."
@@ -27,10 +27,10 @@ const productosMujeres = [
 
     {
         "id": 5003,
-        "nombre": "Adidas Alpha D",
+        "nombre": "Adidas Alpha",
         "marca": "ADIDAS",
         "genero": "mujer",
-        "imagen": "img/mujeres/Adidas/ADIDASALPHA DMS1.jpeg",
+        "imagen": "img/mujeres/Adidas/ADIDASALPHADMS1.jpeg",
         "referencia": "DMS1",
         "precio": 180000,
         "descripcion": "Diseño aerodinámico para máxima velocidad."
@@ -38,10 +38,10 @@ const productosMujeres = [
 
     {
         "id": 5004,
-        "nombre": "Adidas Alpha D",
+        "nombre": "Adidas Alpha",
         "marca": "ADIDAS",
         "genero": "mujer",
-        "imagen": "img/mujeres/Adidas/ADIDASALPHA DMS2.jpeg",
+        "imagen": "img/mujeres/Adidas/ADIDASALPHADMS2.jpeg",
         "referencia": "DMS2",
         "precio": 180000,
         "descripcion": "Versatilidad y soporte para tu entrenamiento diario."
@@ -49,10 +49,10 @@ const productosMujeres = [
 
     {
         "id": 5005,
-        "nombre": "Adidas Alpha D",
+        "nombre": "Adidas Alpha",
         "marca": "ADIDAS",
         "genero": "mujer",
-        "imagen": "img/mujeres/Adidas/ADIDASALPHA DMS3.jpeg",
+        "imagen": "img/mujeres/Adidas/ADIDASALPHADMS3.jpeg",
         "referencia": "DMS3",
         "precio": 180000,
         "descripcion": "Estilo deportivo con tecnología de punta."
@@ -60,12 +60,172 @@ const productosMujeres = [
 
     {
         "id": 5006,
-        "nombre": "Adidas Super Magma",
+        "nombre": "Adidas Alpha",
+        "marca": "ADIDAS",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Adidas/ADIDASALPHADMS4.jpeg",
+        "referencia": "DMS5",
+        "precio": 180000,
+        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+    },
+    {
+        "id": 5007,
+        "nombre": "Adidas Bounce",
+        "marca": "ADIDAS",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Adidas/ADIDASBOUNCEMS1.jpeg",
+        "referencia": "DMS1",
+        "precio": 185000,
+        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+    },
+    {
+        "id": 5008,
+        "nombre": "Adidas Campus",
+        "marca": "ADIDAS",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Adidas/ADIDASCAMPUMS1.jpeg",
+        "referencia": "DMS1",
+        "precio": 185000,
+        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+    },
+    {
+        "id": 5009,
+        "nombre": "Adidas Duramo",
+        "marca": "ADIDAS",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Adidas/ADIDASDURAMOMS1.jpeg",
+        "referencia": "DMS1",
+        "precio": 175000,
+        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+    },
+    {
+        "id": 5010,
+        "nombre": "Adidas",
+        "marca": "ADIDAS",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Adidas/ADIDASMS1.jpeg",
+        "referencia": "DMS1",
+        "precio": 155000,
+        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+    },
+    {
+        "id": 5011,
+        "nombre": "Adidas",
+        "marca": "ADIDAS",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Adidas/ADIDASMS2.jpeg",
+        "referencia": "DMS2",
+        "precio": 190000,
+        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+    },
+    {
+        "id": 5012,
+        "nombre": "Adidas",
+        "marca": "ADIDAS",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Adidas/ADIDASMS3.jpeg",
+        "referencia": "DMS3",
+        "precio": 165000,
+        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+    },
+    {
+        "id": 5013,
+        "nombre": "Adidas",
+        "marca": "ADIDAS",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Adidas/ADIDASMS4.jpeg",
+        "referencia": "DMS4",
+        "precio": 165000,
+        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+    },
+    {
+        "id": 5014,
+        "nombre": "Adidas",
+        "marca": "ADIDAS",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Adidas/ADIDASMS5.jpeg",
+        "referencia": "DMS1",
+        "precio": 165000,
+        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+    },
+    {
+        "id": 5015,
+        "nombre": "Adidas Samba",
+        "marca": "ADIDAS",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Adidas/ADIDASSAMBAMS1.jpeg",
+        "referencia": "DMS1",
+        "precio": 175000,
+        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+    },
+    {
+        "id": 5016,
+        "nombre": "Adidas Samba",
+        "marca": "ADIDAS",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Adidas/ADIDASSAMBAMS2.jpeg",
+        "referencia": "DMS2",
+        "precio": 175000,
+        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+    },
+    {
+        "id": 5017,
+        "nombre": "Adidas SL 72",
+        "marca": "ADIDAS",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Adidas/ADIDASSL72MS1.jpeg",
+        "referencia": "DMS2",
+        "precio": 185000,
+        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+    },
+    {
+        "id": 5018,
+        "nombre": "Adidas SL 72",
+        "marca": "ADIDAS",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Adidas/ADIDASSL72MS2.jpeg",
+        "referencia": "DMS2",
+        "precio": 185000,
+        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+    },
+    {
+        "id": 5019,
+        "nombre": "Adidas Supermagma",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASSUPERMAGMAMS1.jpeg",
-        "referencia": "MS1",
-        "precio": 195000,
+        "referencia": "DMS1",
+        "precio": 175000,
+        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+    },
+    {
+        "id": 5020,
+        "nombre": "Adidas Supermagma",
+        "marca": "ADIDAS",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Adidas/ADIDASSUPERMAGMAMS2.jpeg",
+        "referencia": "DMS2",
+        "precio": 175000,
+        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+    },
+    {
+        "id": 5021,
+        "nombre": "Adidas Super Star",
+        "marca": "ADIDAS",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Adidas/ADIDASSUPERSTARMS1.jpeg",
+        "referencia": "DMS1",
+        "precio": 175000,
+        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+    },
+    {
+        "id": 5022,
+        "nombre": "Adidas Ultraboost",
+        "marca": "ADIDAS",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Adidas/ADIDASULTRABOOSTMS1.jpeg",
+        "referencia": "DMS1",
+        "precio": 175000,
         "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
     },
 
