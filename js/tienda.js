@@ -6,9 +6,16 @@ document.addEventListener('DOMContentLoaded', () => {
     const menuToggle = document.getElementById('menu-toggle');
     const navLinks = document.querySelector('.nav-links');
 
-    // Detectar si estamos en un subdirectorio (como /marcas/)
-    const isSubDir = window.location.pathname.includes('/marcas/');
+    // Detectar si estamos en un subdirectorio (como /marcas/) de forma robusta e insensible a mayúsculas
+    const isSubDir = /\/marcas\//i.test(window.location.pathname) || window.location.pathname.split('/').includes('marcas');
     const pathPrefix = isSubDir ? '../' : '';
+
+    // Helper para normalizar rutas de imágenes con espacios y caracteres especiales de manera segura
+    const normalizarRuta = (ruta) => {
+        if (!ruta) return '';
+        // Codificar la ruta excluyendo los separadores de directorio para no romper el protocolo ni las barras
+        return encodeURI(ruta).replace(/'/g, "%27");
+    };
 
     // --- LÓGICA DE CARRITO ---
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
@@ -43,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
     window.changeProductImage = (thumbnail, newSrc) => {
         const gallery = thumbnail.parentElement;
         const card = gallery.closest('.product-card');
-        const mainImg = card.querySelector('.product-image img');
+        const mainImg = card.querySelector('.product-image-container img');
 
         if (!mainImg) return;
 
@@ -169,7 +176,16 @@ document.addEventListener('DOMContentLoaded', () => {
     function obtenerMarcaDeLaPagina() {
         const path = window.location.pathname;
         const fileName = path.split('/').pop();
-        if (!fileName || fileName === 'index.html' || fileName === 'hombres.html' || fileName === 'mujeres.html') {
+
+        // Si es coleccion.html o similar, leer de la query string para soporte dinámico
+        const urlParams = new URLSearchParams(window.location.search);
+        const queryBrand = urlParams.get('m');
+        if (queryBrand) {
+            const marcasDisponibles = [...new Set(productos.map(p => p.marca.toUpperCase()))];
+            return marcasDisponibles.find(m => m.toLowerCase() === queryBrand.toLowerCase()) || null;
+        }
+
+        if (!fileName || fileName === 'index.html' || fileName === 'hombres.html' || fileName === 'mujeres.html' || fileName.includes('coleccion.html')) {
             return null;
         }
 
@@ -264,7 +280,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         style: 'currency', currency: 'COP', minimumFractionDigits: 0
                     }).format(item.precio);
 
-                    const imgSrc = pathPrefix + item.imagen;
+                    const imgSrc = normalizarRuta(pathPrefix + item.imagen);
                     const pGender = item.genero.toLowerCase();
                     let sizes = [];
                     if (pGender === 'hombre' || pGender === 'caballero') {
@@ -281,8 +297,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="product-gallery">
                             ${allImages.map((img, index) => `
                                 <div class="thumbnail ${index === 0 ? 'active' : ''}" 
-                                     onclick="changeProductImage(this, '${pathPrefix + img}')">
-                                    <img src="${pathPrefix + img}" alt="Vista ${index + 1}">
+                                     onclick="changeProductImage(this, '${normalizarRuta(pathPrefix + img)}')">
+                                    <img src="${normalizarRuta(pathPrefix + img)}" alt="Vista ${index + 1}">
                                 </div>
                             `).join('')}
                         </div>
@@ -290,7 +306,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     card.innerHTML = `
                         <div class="product-image-container" data-product-id="${item.id}">
-                            <img src="${imgSrc}" alt="${item.nombre}" id="main-image-${item.id}" loading="lazy" onerror="this.src='${pathPrefix}img/logos/2NIKE.jpeg'">
+                            <img src="${imgSrc}" alt="${item.nombre}" id="main-image-${item.id}" loading="lazy" onerror="this.onerror=null; this.src='${normalizarRuta(pathPrefix + 'img/logos/2NIKE.jpeg')}';">
+                            <div class="product-image-overlay">
+                                <button class="btn-add-overlay" onclick="event.stopPropagation(); addToCart(${item.id})">
+                                    <i class="fas fa-cart-plus"></i> Añadir
+                                </button>
+                                <button class="btn-zoom-overlay" onclick="event.stopPropagation(); window.triggerZoom(this.closest('.product-image-container'));">
+                                    <i class="fas fa-search-plus"></i> Zoom
+                                </button>
+                            </div>
                             <div class="zoom-hint">
                                 <i class="fas fa-search-plus"></i>
                                 Click para zoom
@@ -318,15 +342,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 } else {
                     const brandSlug = item.marca.toLowerCase().replace(/\s+/g, '_');
                     const config = (typeof marcasConfig !== 'undefined') ? marcasConfig[item.marca.toUpperCase()] : null;
-                    const brandBannerSrc = config?.banner ? pathPrefix + config.banner : null;
+                    const brandBannerSrc = config?.banner ? normalizarRuta(pathPrefix + config.banner) : null;
                     const brandFileName = item.marca.toUpperCase().replace(/\s+/g, '');
-                    const brandLogoSrc = `${pathPrefix}img/logos/LOGO${brandFileName}.jpeg`;
-                    const fallbackSrc = pathPrefix + item.imagen;
+                    const brandLogoSrc = normalizarRuta(`${pathPrefix}img/logos/LOGO${brandFileName}.jpeg`);
+                    const fallbackSrc = normalizarRuta(pathPrefix + item.imagen);
 
                     card.innerHTML = `
                         <div class="brand-image">
                             <img src="${brandBannerSrc || brandLogoSrc}" alt="${item.marca}" loading="lazy" 
-                                 onerror="this.onerror=null; this.src='${pathPrefix}img/logos/LOGO${brandFileName}.png'; 
+                                 onerror="this.onerror=null; this.src='${normalizarRuta(pathPrefix + 'img/logos/LOGO' + brandFileName + '.png')}'; 
                                  this.onerror=function(){this.src='${fallbackSrc}';}">
                         </div>
                         <div class="brand-info">
@@ -341,6 +365,25 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
                 grid.appendChild(card);
             });
+
+            // --- GLOBAL ZOOM TRIGGER FUNCTION ---
+            window.triggerZoom = (container) => {
+                if (!container) return;
+                const img = container.querySelector('img');
+                const hint = container.querySelector('.zoom-hint');
+                const zoomBtn = container.querySelector('.btn-zoom-overlay');
+                
+                container.classList.toggle('zoomed');
+                
+                if (container.classList.contains('zoomed')) {
+                    if (hint) hint.innerHTML = '<i class="fas fa-search-minus"></i> Click para salir';
+                    if (zoomBtn) zoomBtn.innerHTML = '<i class="fas fa-search-minus"></i> Cerrar';
+                } else {
+                    if (hint) hint.innerHTML = '<i class="fas fa-search-plus"></i> Click para zoom';
+                    if (zoomBtn) zoomBtn.innerHTML = '<i class="fas fa-search-plus"></i> Zoom';
+                    img.style.transformOrigin = 'center center';
+                }
+            };
 
             // --- LÓGICA DE ZOOM PROFESIONAL ---
             document.querySelectorAll('.product-image-container').forEach(container => {
@@ -362,20 +405,17 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 });
 
-                container.addEventListener('click', () => {
-                    container.classList.toggle('zoomed');
-                    
-                    if (container.classList.contains('zoomed')) {
-                        hint.innerHTML = '<i class="fas fa-search-minus"></i> Click para salir';
-                    } else {
-                        hint.innerHTML = '<i class="fas fa-search-plus"></i> Click para zoom';
-                        img.style.transformOrigin = 'center center';
-                    }
+                container.addEventListener('click', (e) => {
+                    // Si se hizo click en un botón del overlay, ignorar para evitar doble toggle
+                    if (e.target.closest('.product-image-overlay button')) return;
+                    window.triggerZoom(container);
                 });
 
                 container.addEventListener('mouseleave', () => {
                     container.classList.remove('zoomed');
-                    hint.innerHTML = '<i class="fas fa-search-plus"></i> Click para zoom';
+                    if (hint) hint.innerHTML = '<i class="fas fa-search-plus"></i> Click para zoom';
+                    const zoomBtn = container.querySelector('.btn-zoom-overlay');
+                    if (zoomBtn) zoomBtn.innerHTML = '<i class="fas fa-search-plus"></i> Zoom';
                     img.style.transformOrigin = 'center center';
                 });
             });

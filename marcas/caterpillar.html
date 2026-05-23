@@ -97,7 +97,10 @@
     <script>
         // Unificar productos para que tienda.js los encuentre
         const productos = [...(typeof productosHombres !== 'undefined' ? productosHombres : []), ...(typeof productosMujeres !== 'undefined' ? productosMujeres : [])];
-        const marcasConfig = { ... (typeof marcasConfigHombres !== 'undefined' ? marcasConfigHombres : {}), ... (typeof marcasConfigMujeres !== 'undefined' ? marcasConfigMujeres : {}) };
+        const marcasConfig = {
+            ...(typeof marcasConfigHombres !== 'undefined' ? marcasConfigHombres : {}),
+            ...(typeof marcasConfigMujeres !== 'undefined' ? marcasConfigMujeres : {})
+        };
     </script>
     <script src="../js/tienda.js"></script>
 </body>

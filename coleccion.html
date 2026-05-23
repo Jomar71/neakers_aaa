@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOMAR AAA. | LOUIS VUITTON</title>
-    <link rel="stylesheet" href="../css/tienda.css">
+    <title>JOMAR AAA. | Sneakers Premium</title>
+    <link rel="stylesheet" href="css/tienda.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s ease-out; }
@@ -14,15 +14,14 @@
 <body data-gender="unisex" data-theme="dark">
     <header>
         <div class="container nav-content">
-            <a href="../index.html" class="logo">
-                <img src="../img/logos/LOGO SNEAKERS AAA.png" alt="JOMAR AAA" class="logo-img">
+            <a href="index.html" class="logo">
+                <img src="img/logos/LOGO SNEAKERS AAA.png" alt="JOMAR AAA" class="logo-img">
             </a>
             <nav>
                 <ul class="nav-links">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="../hombres.html">Hombres</a></li>
-                    <li><a href="../mujeres.html">Mujeres</a></li>
-                    <li><a href="#politicas">Políticas</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="hombres.html">Hombres</a></li>
+                    <li><a href="mujeres.html">Mujeres</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                     <li>
                         <button id="theme-toggle" title="Cambiar tema">
@@ -41,12 +40,12 @@
 
     <main class="container">
         <section class="hero-section reveal">
-            <h1>LOUIS VUITTON <br> <span>Colección</span></h1>
-            <p>Descubre el estilo y la comodidad en cada paso con nuestro archivo premium.</p>
+            <h1 id="dynamic-brand-title">Catálogo <br> <span>Premium</span></h1>
+            <p id="dynamic-brand-desc">Descubre el estilo y la comodidad en cada paso con nuestro archivo premium.</p>
         </section>
 
         <div id="productos-grid" class="products-grid">
-            <!-- Los productos de LOUIS VUITTON se cargarán dinámicamente aquí -->
+            <!-- Los productos se cargarán dinámicamente aquí -->
         </div>
 
         <section id="politicas" class="reveal">
@@ -87,13 +86,13 @@
     </main>
 
     <footer>
-        <p>JOMAR AAA © 2024. TODOS LOS DERECHOS RESERVADOS.</p>
+        <p>JOMAR AAA © 2026. TODOS LOS DERECHOS RESERVADOS.</p>
     </footer>
 
-    <script src="../js/marcas_config_hombres.js"></script>
-    <script src="../js/marcas_config_mujeres.js"></script>
-    <script src="../js/productos_hombres.js"></script>
-    <script src="../js/productos_mujeres.js"></script>
+    <script src="js/marcas_config_hombres.js"></script>
+    <script src="js/marcas_config_mujeres.js"></script>
+    <script src="js/productos_hombres.js"></script>
+    <script src="js/productos_mujeres.js"></script>
     <script>
         // Unificar productos para que tienda.js los encuentre
         const productos = [...(typeof productosHombres !== 'undefined' ? productosHombres : []), ...(typeof productosMujeres !== 'undefined' ? productosMujeres : [])];
@@ -102,6 +101,40 @@
             ...(typeof marcasConfigMujeres !== 'undefined' ? marcasConfigMujeres : {})
         };
     </script>
-    <script src="../js/tienda.js"></script>
+    <script>
+        // Lógica para dinamizar la visualización de banners y títulos
+        document.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const rawBrand = urlParams.get('m') || 'Catálogo';
+            const genderParam = urlParams.get('g') || document.body.dataset.gender;
+
+            const brandTitle = rawBrand.replace(/_/g, ' ').toUpperCase();
+            let genderText = 'Colección';
+            if (genderParam === 'hombre' || genderParam === 'caballero') {
+                genderText = 'Caballeros';
+                document.body.dataset.gender = 'hombre';
+            } else if (genderParam === 'mujer' || genderParam === 'dama') {
+                genderText = 'Damas';
+                document.body.dataset.gender = 'mujer';
+            }
+
+            // Actualizar textos dinámicamente
+            const h1Element = document.getElementById('dynamic-brand-title');
+            if (h1Element) {
+                h1Element.innerHTML = `${brandTitle} <br> <span>${genderText}</span>`;
+            }
+
+            // Cambiar título del documento
+            document.title = `JOMAR AAA. | ${brandTitle} ${genderText}`;
+
+            // Actualizar descripción según marcasConfig
+            const descElement = document.getElementById('dynamic-brand-desc');
+            const brandConfig = marcasConfig[brandTitle];
+            if (descElement && brandConfig && brandConfig.descripcion) {
+                descElement.innerText = brandConfig.descripcion;
+            }
+        });
+    </script>
+    <script src="js/tienda.js"></script>
 </body>
 </html>

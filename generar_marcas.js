@@ -102,12 +102,17 @@ const plantillaMarca = (nombreMarca) => `<!DOCTYPE html>
         <p>JOMAR AAA © 2024. TODOS LOS DERECHOS RESERVADOS.</p>
     </footer>
 
-    <script src="../js/marcas_config.js"></script>
+    <script src="../js/marcas_config_hombres.js"></script>
+    <script src="../js/marcas_config_mujeres.js"></script>
     <script src="../js/productos_hombres.js"></script>
     <script src="../js/productos_mujeres.js"></script>
     <script>
         // Unificar productos para que tienda.js los encuentre
         const productos = [...(typeof productosHombres !== 'undefined' ? productosHombres : []), ...(typeof productosMujeres !== 'undefined' ? productosMujeres : [])];
+        const marcasConfig = {
+            ...(typeof marcasConfigHombres !== 'undefined' ? marcasConfigHombres : {}),
+            ...(typeof marcasConfigMujeres !== 'undefined' ? marcasConfigMujeres : {})
+        };
     </script>
     <script src="../js/tienda.js"></script>
 </body>

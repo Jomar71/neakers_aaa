@@ -287,6 +287,12 @@
 
             // Cargar carrito
             let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+            // Helper para normalizar rutas de imágenes con espacios y caracteres especiales de manera segura
+            const normalizarRuta = (ruta) => {
+                if (!ruta) return '';
+                return encodeURI(ruta).replace(/'/g, "%27");
+            };
             
             // Verificar si es un carrito compartido
             const urlParams = new URLSearchParams(window.location.search);
@@ -334,7 +340,7 @@
                     }).format(item.precio);
 
                     itemDiv.innerHTML = `
-                        <img src="${item.imagen}" alt="${item.nombre}" onerror="this.src='img/logos/2NIKE.jpeg'">
+                        <img src="${normalizarRuta(item.imagen)}" alt="${item.nombre}" onerror="this.onerror=null; this.src='${normalizarRuta('img/logos/2NIKE.jpeg')}';">
                         <div class="cart-item-big-info">
                             <h3>${item.nombre}</h3>
                             <p><i class="fas fa-barcode"></i> Ref: ${item.referencia}</p>

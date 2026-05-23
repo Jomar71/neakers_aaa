@@ -1,570 +1,788 @@
-// Lista de productos para mujeres
+// ============================================================
+// ARCHIVO AUTO-GENERADO POR generar_productos.js
+// NO EDITAR MANUALMENTE - Ejecuta el script para regenerar
+// Última actualización: 22/5/2026
+// ============================================================
+
 const productosMujeres = [
-    // ==========================================
-    // ADIDAS
-    // ==========================================
     {
-        "id": 5001,
-        "nombre": "Adidas Adistar D",
+        "id": 10123,
+        "nombre": "Adidas Adistar",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASADISTARDMS1.jpeg",
         "referencia": "DMS1",
         "precio": 185000,
-        "descripcion": "Zapatillas de alto rendimiento diseñadas para la mujer moderna."
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
-
     {
-        "id": 5002,
-        "nombre": "Adidas Adistar D",
+        "id": 10124,
+        "nombre": "Adidas Adistar",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASADISTARDMS2.jpeg",
         "referencia": "DMS2",
         "precio": 185000,
-        "descripcion": "Comodidad y estilo en cada kilómetro."
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
-
     {
-        "id": 5003,
+        "id": 10125,
         "nombre": "Adidas Alpha",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASALPHADMS1.jpeg",
         "referencia": "DMS1",
-        "precio": 180000,
-        "descripcion": "Diseño aerodinámico para máxima velocidad."
+        "precio": 185000,
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
-
     {
-        "id": 5004,
+        "id": 10126,
         "nombre": "Adidas Alpha",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASALPHADMS2.jpeg",
         "referencia": "DMS2",
-        "precio": 180000,
-        "descripcion": "Versatilidad y soporte para tu entrenamiento diario."
+        "precio": 185000,
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
-
     {
-        "id": 5005,
+        "id": 10127,
         "nombre": "Adidas Alpha",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASALPHADMS3.jpeg",
         "referencia": "DMS3",
-        "precio": 180000,
-        "descripcion": "Estilo deportivo con tecnología de punta."
+        "precio": 185000,
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
-
     {
-        "id": 5006,
+        "id": 10128,
         "nombre": "Adidas Alpha",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASALPHADMS4.jpeg",
-        "referencia": "DMS5",
-        "precio": 180000,
-        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+        "referencia": "DMS4",
+        "precio": 185000,
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 5007,
+        "id": 10129,
         "nombre": "Adidas Bounce",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASBOUNCEMS1.jpeg",
-        "referencia": "DMS1",
+        "referencia": "MS1",
         "precio": 185000,
-        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 5008,
-        "nombre": "Adidas Campus",
+        "id": 10130,
+        "nombre": "Adidas Campu",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASCAMPUMS1.jpeg",
-        "referencia": "DMS1",
+        "referencia": "MS1",
         "precio": 185000,
-        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 5009,
+        "id": 10131,
         "nombre": "Adidas Duramo",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASDURAMOMS1.jpeg",
-        "referencia": "DMS1",
-        "precio": 175000,
-        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+        "referencia": "MS1",
+        "precio": 185000,
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 5010,
+        "id": 10132,
         "nombre": "Adidas",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASMS1.jpeg",
-        "referencia": "DMS1",
-        "precio": 155000,
-        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+        "referencia": "MS1",
+        "precio": 185000,
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 5011,
+        "id": 10133,
         "nombre": "Adidas",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASMS2.jpeg",
-        "referencia": "DMS2",
-        "precio": 190000,
-        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+        "referencia": "MS2",
+        "precio": 185000,
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 5012,
+        "id": 10134,
         "nombre": "Adidas",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASMS3.jpeg",
-        "referencia": "DMS3",
-        "precio": 165000,
-        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+        "referencia": "MS3",
+        "precio": 185000,
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 5013,
+        "id": 10135,
         "nombre": "Adidas",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASMS4.jpeg",
-        "referencia": "DMS4",
-        "precio": 165000,
-        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+        "referencia": "MS4",
+        "precio": 185000,
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 5014,
+        "id": 10136,
         "nombre": "Adidas",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASMS5.jpeg",
-        "referencia": "DMS1",
-        "precio": 165000,
-        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+        "referencia": "MS5",
+        "precio": 185000,
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 5015,
+        "id": 10137,
         "nombre": "Adidas Samba",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASSAMBAMS1.jpeg",
-        "referencia": "DMS1",
-        "precio": 175000,
-        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+        "referencia": "MS1",
+        "precio": 185000,
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 5016,
+        "id": 10138,
         "nombre": "Adidas Samba",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASSAMBAMS2.jpeg",
-        "referencia": "DMS2",
-        "precio": 175000,
-        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+        "referencia": "MS2",
+        "precio": 185000,
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 5017,
-        "nombre": "Adidas SL 72",
+        "id": 10139,
+        "nombre": "Adidas Sl72",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASSL72MS1.jpeg",
-        "referencia": "DMS2",
+        "referencia": "MS1",
         "precio": 185000,
-        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 5018,
-        "nombre": "Adidas SL 72",
+        "id": 10140,
+        "nombre": "Adidas Sl72",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASSL72MS2.jpeg",
-        "referencia": "DMS2",
+        "referencia": "MS2",
         "precio": 185000,
-        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 5019,
+        "id": 10141,
         "nombre": "Adidas Supermagma",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASSUPERMAGMAMS1.jpeg",
-        "referencia": "DMS1",
-        "precio": 175000,
-        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+        "referencia": "MS1",
+        "precio": 185000,
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 5020,
+        "id": 10142,
         "nombre": "Adidas Supermagma",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASSUPERMAGMAMS2.jpeg",
-        "referencia": "DMS2",
-        "precio": 175000,
-        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+        "referencia": "MS2",
+        "precio": 185000,
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 5021,
-        "nombre": "Adidas Super Star",
+        "id": 10143,
+        "nombre": "Adidas Superstar",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASSUPERSTARMS1.jpeg",
-        "referencia": "DMS1",
-        "precio": 175000,
-        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+        "referencia": "MS1",
+        "precio": 185000,
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 5022,
+        "id": 10144,
         "nombre": "Adidas Ultraboost",
         "marca": "ADIDAS",
         "genero": "mujer",
         "imagen": "img/mujeres/Adidas/ADIDASULTRABOOSTMS1.jpeg",
-        "referencia": "DMS1",
-        "precio": 175000,
-        "descripcion": "Zapatillas urbanas con un toque atrevido y moderno."
+        "referencia": "MS1",
+        "precio": 185000,
+        "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
-
-    // ==========================================
-    // ASICS
-    // ==========================================
     {
-        "id": 5601,
-        "nombre": "Asics D",
+        "id": 10145,
+        "nombre": "Asics",
         "marca": "ASICS",
         "genero": "mujer",
         "imagen": "img/mujeres/Asics/ASICSDMS1.jpeg",
         "referencia": "DMS1",
-        "precio": 195000,
-        "descripcion": "Tecnología Gel para una pisada suave y estable."
+        "precio": 245000,
+        "descripcion": "Tecnología japonesa para un rendimiento superior."
     },
-
     {
-        "id": 5602,
-        "nombre": "Asics D",
+        "id": 10146,
+        "nombre": "Asics",
         "marca": "ASICS",
         "genero": "mujer",
         "imagen": "img/mujeres/Asics/ASICSDMS2.jpeg",
         "referencia": "DMS2",
-        "precio": 195000,
-        "descripcion": "Rendimiento deportivo con diseño ergonómico."
+        "precio": 245000,
+        "descripcion": "Tecnología japonesa para un rendimiento superior."
     },
-
-    // ==========================================
-    // CONVERSE
-    // ==========================================
     {
-        "id": 5401,
-        "nombre": "Converse All Star D",
+        "id": 10147,
+        "nombre": "Coach",
+        "marca": "COACH",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Coach/COACHDMS1.jpeg",
+        "referencia": "DMS1",
+        "precio": 280000,
+        "descripcion": "Lujo accesible con diseño sofisticado."
+    },
+    {
+        "id": 10148,
+        "nombre": "Coach",
+        "marca": "COACH",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Coach/COACHDMS2.jpeg",
+        "referencia": "DMS2",
+        "precio": 280000,
+        "descripcion": "Lujo accesible con diseño sofisticado."
+    },
+    {
+        "id": 10149,
+        "nombre": "Coach",
+        "marca": "COACH",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Coach/COACHDMS3.jpeg",
+        "referencia": "DMS3",
+        "precio": 280000,
+        "descripcion": "Lujo accesible con diseño sofisticado."
+    },
+    {
+        "id": 10150,
+        "nombre": "Coach",
+        "marca": "COACH",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Coach/COACHDMS4.jpeg",
+        "referencia": "DMS4",
+        "precio": 280000,
+        "descripcion": "Lujo accesible con diseño sofisticado."
+    },
+    {
+        "id": 10151,
+        "nombre": "Coach",
+        "marca": "COACH",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Coach/COACHDMS5.jpeg",
+        "referencia": "DMS5",
+        "precio": 280000,
+        "descripcion": "Lujo accesible con diseño sofisticado."
+    },
+    {
+        "id": 10152,
+        "nombre": "Coach",
+        "marca": "COACH",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Coach/COACHDMS6.jpeg",
+        "referencia": "DMS6",
+        "precio": 280000,
+        "descripcion": "Lujo accesible con diseño sofisticado."
+    },
+    {
+        "id": 10153,
+        "nombre": "Converse Allstar",
         "marca": "CONVERSE",
         "genero": "mujer",
         "imagen": "img/mujeres/Converse/CONVERSEALLSTARMS1.PNG",
         "referencia": "MS1",
         "precio": 170000,
-        "descripcion": "El clásico que nunca falta en tu armario."
+        "descripcion": "El clásico atemporal que nunca pasa de moda."
     },
-
-    // ==========================================
-    // DOLCE & GABBANA
-    // ==========================================
     {
-        "id": 5801,
-        "nombre": "Dolce & Gabbana D",
+        "id": 10154,
+        "nombre": "Dolce & Gabbana &gabbanams1",
         "marca": "DOLCE & GABBANA",
         "genero": "mujer",
         "imagen": "img/mujeres/Dolce & Gabbana/DOLCE&GABBANAMS1 .PNG",
         "referencia": "MS1",
         "precio": 380000,
-        "descripcion": "Elegancia sofisticada para ocasiones especiales."
+        "descripcion": "Alta costura italiana en cada detalle."
     },
-
     {
-        "id": 5802,
-        "nombre": "Dolce & Gabbana D",
+        "id": 10155,
+        "nombre": "Dolce & Gabbana &gabbanams2",
         "marca": "DOLCE & GABBANA",
         "genero": "mujer",
         "imagen": "img/mujeres/Dolce & Gabbana/DOLCE&GABBANAMS2 .PNG",
-        "referencia": "MS2",
+        "referencia": "MS1",
         "precio": 380000,
-        "descripcion": "Diseño exclusivo de alta costura italiana."
+        "descripcion": "Alta costura italiana en cada detalle."
     },
-
-    // ==========================================
-    // GUCCI
-    // ==========================================
     {
-        "id": 5701,
-        "nombre": "Gucci Dama",
+        "id": 10156,
+        "nombre": "Gucci Para Dama",
         "marca": "GUCCI",
         "genero": "mujer",
         "imagen": "img/mujeres/Gucci/GUCCI PARA DAMA.jpeg",
-        "referencia": "GUC-D1",
+        "referencia": "MS1",
         "precio": 450000,
         "descripcion": "El máximo exponente del lujo y la moda italiana."
     },
-
-    // ==========================================
-    // LE COQ SPORTIF
-    // ==========================================
     {
-        "id": 6001,
-        "nombre": "Le Coq Sportif D",
+        "id": 10157,
+        "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "mujer",
-        "imagen": "img/mujeres/le coq sportif/LE_COQ_SPORTIF MS1.jpeg",
+        "imagen": "img/mujeres/le coq sportif/LE COQ SPORTIF MS1.jpeg",
         "referencia": "MS1",
-        "precio": 185000,
-        "descripcion": "Elegancia francesa en calzado deportivo femenino."
+        "precio": 180000,
+        "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
-
     {
-        "id": 6002,
-        "nombre": "Le Coq Sportif D",
+        "id": 10158,
+        "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "mujer",
-        "imagen": "img/mujeres/le coq sportif/LE_COQ_SPORTIF MS2.jpeg",
+        "imagen": "img/mujeres/le coq sportif/LE COQ SPORTIF MS2.jpeg",
         "referencia": "MS2",
-        "precio": 185000,
-        "descripcion": "Diseño clásico y refinado para la mujer actual."
+        "precio": 180000,
+        "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
-
-    // ==========================================
-    // NEW BALANCE
-    // ==========================================
     {
-        "id": 5201,
-        "nombre": "New Balance 530 D",
+        "id": 10159,
+        "nombre": "Le Coq Sportif Coq Sportif",
+        "marca": "LE COQ SPORTIF",
+        "genero": "mujer",
+        "imagen": "img/mujeres/le coq sportif/LE COQ SPORTIF MS3.jpeg",
+        "referencia": "MS3",
+        "precio": 180000,
+        "descripcion": "Elegancia y rendimiento con el toque clásico francés."
+    },
+    {
+        "id": 10160,
+        "nombre": "New Balance 530",
         "marca": "NEW BALANCE",
         "genero": "mujer",
         "imagen": "img/mujeres/New Balance/NEWBALANCE530DMS1.jpeg",
         "referencia": "DMS1",
-        "precio": 195000,
-        "descripcion": "Estilo retro de los 90 con comodidad moderna."
+        "precio": 215000,
+        "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
-
     {
-        "id": 5202,
-        "nombre": "New Balance 574 D",
+        "id": 10161,
+        "nombre": "New Balance 574ms1",
         "marca": "NEW BALANCE",
         "genero": "mujer",
         "imagen": "img/mujeres/New Balance/NEWBALANCE574MS1 .jpeg",
         "referencia": "MS1",
-        "precio": 185000,
-        "descripcion": "El modelo más icónico de New Balance."
+        "precio": 215000,
+        "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
-
     {
-        "id": 5203,
-        "nombre": "New Balance 740 D",
+        "id": 10162,
+        "nombre": "New Balance 740",
         "marca": "NEW BALANCE",
         "genero": "mujer",
         "imagen": "img/mujeres/New Balance/NEWBALANCE740DMS1.jpeg",
         "referencia": "DMS1",
-        "precio": 205000,
-        "descripcion": "Diseño robusto y elegante para el día a día."
+        "precio": 215000,
+        "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
-
-    // ==========================================
-    // NIKE
-    // ==========================================
     {
-        "id": 5101,
-        "nombre": "Jordan Retro D",
+        "id": 10163,
+        "nombre": "New Balance 740",
+        "marca": "NEW BALANCE",
+        "genero": "mujer",
+        "imagen": "img/mujeres/New Balance/NEWBALANCE740DMS2.jpeg",
+        "referencia": "DMS2",
+        "precio": 215000,
+        "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
+    },
+    {
+        "id": 10164,
+        "nombre": "New Balance 740",
+        "marca": "NEW BALANCE",
+        "genero": "mujer",
+        "imagen": "img/mujeres/New Balance/NEWBALANCE740DMS3.jpeg",
+        "referencia": "DMS3",
+        "precio": 215000,
+        "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
+    },
+    {
+        "id": 10165,
+        "nombre": "New Balance 740",
+        "marca": "NEW BALANCE",
+        "genero": "mujer",
+        "imagen": "img/mujeres/New Balance/NEWBALANCE740DMS4.jpeg",
+        "referencia": "DMS4",
+        "precio": 215000,
+        "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
+    },
+    {
+        "id": 10166,
+        "nombre": "New Balance",
+        "marca": "NEW BALANCE",
+        "genero": "mujer",
+        "imagen": "img/mujeres/New Balance/NEWBALANCEMS1.jpeg",
+        "referencia": "MS1",
+        "precio": 215000,
+        "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
+    },
+    {
+        "id": 10167,
+        "nombre": "Nike Jordanretro",
         "marca": "NIKE",
         "genero": "mujer",
         "imagen": "img/mujeres/Nike/JORDANRETRODMS1.jpeg",
         "referencia": "DMS1",
-        "precio": 220000,
-        "descripcion": "El legado de Jordan ahora en una edición exclusiva para mujer."
+        "precio": 200000,
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
-
     {
-        "id": 5102,
-        "nombre": "Nike D",
+        "id": 10168,
+        "nombre": "Nike",
         "marca": "NIKE",
         "genero": "mujer",
         "imagen": "img/mujeres/Nike/NIKEDMS31.jpeg",
         "referencia": "DMS31",
-        "precio": 185000,
-        "descripcion": "Innovación y estilo en cada detalle."
+        "precio": 200000,
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
-
     {
-        "id": 5103,
-        "nombre": "Nike D",
+        "id": 10169,
+        "nombre": "Nike",
         "marca": "NIKE",
         "genero": "mujer",
         "imagen": "img/mujeres/Nike/NIKEDMS32.jpeg",
         "referencia": "DMS32",
-        "precio": 185000,
-        "descripcion": "Calzado ligero para un movimiento natural."
+        "precio": 200000,
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
-
     {
-        "id": 5104,
-        "nombre": "Nike Flex D",
+        "id": 10170,
+        "nombre": "Nike",
+        "marca": "NIKE",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Nike/NIKEDMS33.jpeg",
+        "referencia": "DMS33",
+        "precio": 200000,
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
+    },
+    {
+        "id": 10171,
+        "nombre": "Nike",
+        "marca": "NIKE",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Nike/NIKEDMS34.jpeg",
+        "referencia": "DMS34",
+        "precio": 200000,
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
+    },
+    {
+        "id": 10172,
+        "nombre": "Nike",
+        "marca": "NIKE",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Nike/NIKEDMS35.jpeg",
+        "referencia": "DMS35",
+        "precio": 200000,
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
+    },
+    {
+        "id": 10173,
+        "nombre": "Nike",
+        "marca": "NIKE",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Nike/NIKEDMS41.jpeg",
+        "referencia": "DMS41",
+        "precio": 200000,
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
+    },
+    {
+        "id": 10174,
+        "nombre": "Nike",
+        "marca": "NIKE",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Nike/NIKEDMS42.jpeg",
+        "referencia": "DMS42",
+        "precio": 200000,
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
+    },
+    {
+        "id": 10175,
+        "nombre": "Nike",
+        "marca": "NIKE",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Nike/NIKEDMS43.jpeg",
+        "referencia": "DMS43",
+        "precio": 200000,
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
+    },
+    {
+        "id": 10176,
+        "nombre": "Nike",
+        "marca": "NIKE",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Nike/NIKEDMS44.jpeg",
+        "referencia": "DMS44",
+        "precio": 200000,
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
+    },
+    {
+        "id": 10177,
+        "nombre": "Nike Flex",
         "marca": "NIKE",
         "genero": "mujer",
         "imagen": "img/mujeres/Nike/NIKEFLEXDMS1.jpeg",
         "referencia": "DMS1",
-        "precio": 175000,
-        "descripcion": "Flexibilidad extrema para tus pies."
+        "precio": 200000,
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
-
     {
-        "id": 5105,
-        "nombre": "Nike Free D",
+        "id": 10178,
+        "nombre": "Nike Flex",
+        "marca": "NIKE",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Nike/NIKEFLEXDMS2.jpeg",
+        "referencia": "DMS2",
+        "precio": 200000,
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
+    },
+    {
+        "id": 10179,
+        "nombre": "Nike Free",
         "marca": "NIKE",
         "genero": "mujer",
         "imagen": "img/mujeres/Nike/NIKEFREEDMS1.jpeg",
         "referencia": "DMS1",
-        "precio": 190000,
-        "descripcion": "Sensación de pies descalzos con protección premium."
+        "precio": 200000,
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
-
     {
-        "id": 5113,
-        "nombre": "Nike Free D",
+        "id": 10180,
+        "nombre": "Nike Free",
         "marca": "NIKE",
         "genero": "mujer",
         "imagen": "img/mujeres/Nike/NIKEFREEDMS2.jpeg",
         "referencia": "DMS2",
-        "precio": 190000,
-        "descripcion": "Libertad de movimiento total."
+        "precio": 200000,
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
-
     {
-        "id": 5106,
-        "nombre": "Nike P-6000 D",
+        "id": 10181,
+        "nombre": "Nike Free",
+        "marca": "NIKE",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Nike/NIKEFREEDMS3.jpeg",
+        "referencia": "DMS3",
+        "precio": 200000,
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
+    },
+    {
+        "id": 10182,
+        "nombre": "Nike P 6000",
         "marca": "NIKE",
         "genero": "mujer",
         "imagen": "img/mujeres/Nike/NIKEP-6000DMS1.jpeg",
         "referencia": "DMS1",
-        "precio": 195000,
-        "descripcion": "Estilo retro running con un toque contemporáneo."
+        "precio": 200000,
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
-
     {
-        "id": 5107,
-        "nombre": "Nike V2K D",
+        "id": 10183,
+        "nombre": "Nike V2k",
         "marca": "NIKE",
         "genero": "mujer",
         "imagen": "img/mujeres/Nike/NIKEV2KDMS1.jpeg",
         "referencia": "DMS1",
-        "precio": 210000,
-        "descripcion": "Diseño futurista y comodidad excepcional."
+        "precio": 200000,
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
-
     {
-        "id": 5108,
-        "nombre": "Nike Vomero D",
+        "id": 10184,
+        "nombre": "Nike Vomero",
         "marca": "NIKE",
         "genero": "mujer",
         "imagen": "img/mujeres/Nike/NIKEVOMERODMS1.jpeg",
         "referencia": "DMS1",
         "precio": 200000,
-        "descripcion": "Amortiguación suave para corredoras exigentes."
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
-
     {
-        "id": 5109,
-        "nombre": "Nike Vomero D",
+        "id": 10185,
+        "nombre": "Nike Vomero",
         "marca": "NIKE",
         "genero": "mujer",
         "imagen": "img/mujeres/Nike/NIKEVOMERODMS2.jpeg",
         "referencia": "DMS2",
         "precio": 200000,
-        "descripcion": "Elegancia y rendimiento en un solo par."
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
-
     {
-        "id": 5111,
-        "nombre": "Nike Vomero D",
+        "id": 10186,
+        "nombre": "Nike Vomero",
         "marca": "NIKE",
         "genero": "mujer",
         "imagen": "img/mujeres/Nike/NIKEVOMERODMS3.jpeg",
         "referencia": "DMS3",
         "precio": 200000,
-        "descripcion": "Máximo confort para largas distancias."
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
-
     {
-        "id": 5112,
-        "nombre": "Nike Vomero D",
+        "id": 10187,
+        "nombre": "Nike Vomero",
         "marca": "NIKE",
         "genero": "mujer",
         "imagen": "img/mujeres/Nike/NIKEVOMERODMS4.jpeg",
         "referencia": "DMS4",
         "precio": 200000,
-        "descripcion": "Soporte y amortiguación de alto nivel."
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
-
     {
-        "id": 5110,
-        "nombre": "Nike Wafle D",
+        "id": 10188,
+        "nombre": "Nike Vomero",
+        "marca": "NIKE",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Nike/NIKEVOMERODMS5.jpeg",
+        "referencia": "DMS5",
+        "precio": 200000,
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
+    },
+    {
+        "id": 10189,
+        "nombre": "Nike Wafle",
         "marca": "NIKE",
         "genero": "mujer",
         "imagen": "img/mujeres/Nike/NIKEWAFLEDMS1.jpeg",
         "referencia": "DMS1",
-        "precio": 180000,
-        "descripcion": "El clásico diseño de suela de waffle renovado."
+        "precio": 200000,
+        "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
-
-    // ==========================================
-    // PUMA
-    // ==========================================
     {
-        "id": 5301,
-        "nombre": "Puma Suede XL D",
+        "id": 10190,
+        "nombre": "Puma Suedexl",
         "marca": "PUMA",
         "genero": "mujer",
         "imagen": "img/mujeres/Puma/PUMASUEDEXLMS1.jpeg",
         "referencia": "MS1",
         "precio": 190000,
-        "descripcion": "La clásica gamuza de Puma en una versión renovada."
+        "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
     },
-
-    // ==========================================
-    // SKECHERS
-    // ==========================================
     {
-        "id": 5901,
-        "nombre": "Skechers D",
+        "id": 10191,
+        "nombre": "Reebok Master",
+        "marca": "REEBOK",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Reebok/REEBOK MASTER MS1.jpeg",
+        "referencia": "MS1",
+        "precio": 185000,
+        "descripcion": "Rendimiento clásico para el deportista moderno."
+    },
+    {
+        "id": 10192,
+        "nombre": "Reebok Princesa",
+        "marca": "REEBOK",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Reebok/REEBOK PRINCESA MS1.jpeg",
+        "referencia": "MS1",
+        "precio": 185000,
+        "descripcion": "Rendimiento clásico para el deportista moderno."
+    },
+    {
+        "id": 10193,
+        "nombre": "Reebok Princesa",
+        "marca": "REEBOK",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Reebok/REEBOK PRINCESA MS2.jpeg",
+        "referencia": "MS2",
+        "precio": 185000,
+        "descripcion": "Rendimiento clásico para el deportista moderno."
+    },
+    {
+        "id": 10194,
+        "nombre": "Reebok Princesa",
+        "marca": "REEBOK",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Reebok/REEBOK PRINCESA MS3.jpeg",
+        "referencia": "MS3",
+        "precio": 185000,
+        "descripcion": "Rendimiento clásico para el deportista moderno."
+    },
+    {
+        "id": 10195,
+        "nombre": "Skechers New Balance 1300",
+        "marca": "SKECHERS",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Skechers/NEW BALANCE 1300 MS1.jpeg",
+        "referencia": "MS1",
+        "precio": 175000,
+        "descripcion": "Comodidad excepcional para el bienestar de tus pies."
+    },
+    {
+        "id": 10196,
+        "nombre": "Skechers",
         "marca": "SKECHERS",
         "genero": "mujer",
         "imagen": "img/mujeres/Skechers/SKECHERS MS1.jpeg",
         "referencia": "MS1",
         "precio": 175000,
-        "descripcion": "Amortiguación memory foam para un confort inigualable."
+        "descripcion": "Comodidad excepcional para el bienestar de tus pies."
     },
-
     {
-        "id": 5902,
-        "nombre": "Skechers D",
+        "id": 10197,
+        "nombre": "Skechers",
         "marca": "SKECHERS",
         "genero": "mujer",
         "imagen": "img/mujeres/Skechers/SKECHERS MS31.jpeg",
         "referencia": "MS31",
         "precio": 175000,
-        "descripcion": "Estilo deportivo y ligero para caminar todo el día."
+        "descripcion": "Comodidad excepcional para el bienestar de tus pies."
     },
-
-    // ==========================================
-    // VANS
-    // ==========================================
     {
-        "id": 5501,
-        "nombre": "Vans Old Skool D",
+        "id": 10198,
+        "nombre": "Skechers",
+        "marca": "SKECHERS",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Skechers/SKECHERS MS32.jpeg",
+        "referencia": "MS32",
+        "precio": 175000,
+        "descripcion": "Comodidad excepcional para el bienestar de tus pies."
+    },
+    {
+        "id": 10199,
+        "nombre": "Skechers",
+        "marca": "SKECHERS",
+        "genero": "mujer",
+        "imagen": "img/mujeres/Skechers/SKECHERS MS33.jpeg",
+        "referencia": "MS33",
+        "precio": 175000,
+        "descripcion": "Comodidad excepcional para el bienestar de tus pies."
+    },
+    {
+        "id": 10200,
+        "nombre": "Vans",
         "marca": "VANS",
         "genero": "mujer",
         "imagen": "img/mujeres/Vans/VANS MS1.jpeg",
         "referencia": "MS1",
-        "precio": 180000,
-        "descripcion": "Estilo skate puro para mujer."
+        "precio": 185000,
+        "descripcion": "Cultura urbana y estilo skate en cada paso."
     }
-
 ];
