@@ -429,9 +429,18 @@ header {
 }
 
 .product-image-container.zoomed img {
-    transform: scale(2.5);
-    transition: transform 0.1s ease-out; /* Más rápido al mover el mouse */
+    transform: scale(3) !important;
+    transition: transform 0.05s linear !important;
 }
+
+
+/* Mejorar detalle percibido en zoom y evitar que en móvil se recorte raro */
+@media (max-width: 768px) {
+    .product-image-container.zoomed img {
+        transform: scale(2.6);
+    }
+}
+
 
 /* ============================================
    HOVER DE IMAGEN: limpio, sin overlay oscuro
@@ -440,8 +449,22 @@ header {
 /* El overlay ahora es invisible — solo existe para
    que el JS no rompa al buscar .product-image-overlay */
 .product-image-overlay {
-    display: none;
+    display: flex;
+    position: absolute;
+    inset: 0;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0.75rem;
+    pointer-events: none; /* evita tapar interacción; hint permanece con pointer-events none */
 }
+
+/* Asegurar que el hint sea visible cuando haya zoom */
+.product-card:hover .zoom-hint,
+.product-image-container.zoomed .zoom-hint {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 /* Al pasar el ratón: la imagen hace un zoom suave
    sin oscurecerse ni desenfocarse */
@@ -475,10 +498,12 @@ header {
     backdrop-filter: blur(4px);
 }
 
-.product-card:hover .zoom-hint {
+.product-card:hover .zoom-hint,
+.product-image-container.zoomed .zoom-hint {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 .zoom-hint i {
     font-size: 0.8rem;

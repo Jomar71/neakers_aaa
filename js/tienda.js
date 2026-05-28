@@ -306,12 +306,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     card.innerHTML = `
                         <div class="product-image-container" data-product-id="${item.id}">
+
                             <img src="${imgSrc}" alt="${item.nombre}" id="main-image-${item.id}" loading="lazy" onerror="this.onerror=null; this.src='${normalizarRuta(pathPrefix + 'img/logos/2NIKE.jpeg')}';">
+
                             <div class="product-image-overlay">
                                 <button class="btn-add-overlay" onclick="event.stopPropagation(); addToCart(${item.id})">
-                            <div class="zoom-hint">
-                                <i class="fas fa-search-plus"></i>
-                                Click para zoom
+                                    Añadir
+                                </button>
+                                <div class="zoom-hint">
+                                    <i class="fas fa-search-plus"></i>
+                                    Click para zoom
+                                </div>
                             </div>
                         </div>
                         ${galleryHtml}
@@ -384,20 +389,27 @@ document.addEventListener('DOMContentLoaded', () => {
                 const img = container.querySelector('img');
                 const hint = container.querySelector('.zoom-hint');
                 
-                container.addEventListener('mousemove', (e) => {
-                    if (container.classList.contains('zoomed')) {
-                        const rect = container.getBoundingClientRect();
-                        const x = e.clientX - rect.left;
-                        const y = e.clientY - rect.top;
-                        
-                        // Calcular porcentaje de posición
-                        const xPercent = (x / rect.width) * 100;
-                        const yPercent = (y / rect.height) * 100;
-                        
-                        // Mover el origen de la transformación para el efecto de pan
-                        img.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+container.addEventListener('mousemove', (e) => {
+                    const rect = container.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+
+                    // Forzamos el zoom y el origen
+                    container.classList.add('zoomed');
+
+                    const xPercent = rect.width ? (x / rect.width) * 100 : 50;
+
+                    const yPercent = rect.height ? (y / rect.height) * 100 : 50;
+
+                    // Siempre actualizamos el origen para que al hacer zoom “se vea por donde pasas el mouse”
+                    img.style.transformOrigin = `${xPercent}% ${yPercent}%`;
+
+                    // Si no está zoomed, igual forzamos que se aplique el zoom visual (hover zoom)
+                    if (!container.classList.contains('zoomed')) {
+                        container.classList.add('zoomed');
                     }
                 });
+
 
                 container.addEventListener('click', (e) => {
                     // Si se hizo click en un botón del overlay, ignorar para evitar doble toggle
