@@ -309,12 +309,6 @@ document.addEventListener('DOMContentLoaded', () => {
                             <img src="${imgSrc}" alt="${item.nombre}" id="main-image-${item.id}" loading="lazy" onerror="this.onerror=null; this.src='${normalizarRuta(pathPrefix + 'img/logos/2NIKE.jpeg')}';">
                             <div class="product-image-overlay">
                                 <button class="btn-add-overlay" onclick="event.stopPropagation(); addToCart(${item.id})">
-                                    <i class="fas fa-cart-plus"></i> Añadir
-                                </button>
-                                <button class="btn-zoom-overlay" onclick="event.stopPropagation(); window.triggerZoom(this.closest('.product-image-container'));">
-                                    <i class="fas fa-search-plus"></i> Zoom
-                                </button>
-                            </div>
                             <div class="zoom-hint">
                                 <i class="fas fa-search-plus"></i>
                                 Click para zoom

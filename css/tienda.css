@@ -433,105 +433,46 @@ header {
     transition: transform 0.1s ease-out; /* Más rápido al mover el mouse */
 }
 
-/* Premium Hover Overlay for Image */
+/* ============================================
+   HOVER DE IMAGEN: limpio, sin overlay oscuro
+   ============================================ */
+
+/* El overlay ahora es invisible — solo existe para
+   que el JS no rompa al buscar .product-image-overlay */
 .product-image-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(4px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    opacity: 0;
-    transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-    z-index: 10;
+    display: none;
 }
 
-.product-image-container:hover .product-image-overlay {
-    opacity: 1;
+/* Al pasar el ratón: la imagen hace un zoom suave
+   sin oscurecerse ni desenfocarse */
+.product-image-container:hover img {
+    transform: scale(1.06);
+    filter: none; /* Sin blur en ningún estado */
 }
 
-.product-image-overlay .btn-add-overlay {
-    background: var(--primary);
-    color: #000;
-    border: none;
-    padding: 0.8rem 1.5rem;
-    border-radius: 2rem;
-    font-family: 'Epilogue', sans-serif;
-    font-weight: 900;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    letter-spacing: 0.05em;
-    cursor: pointer;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-    transform: translateY(20px);
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.product-image-container:hover .product-image-overlay .btn-add-overlay {
-    transform: translateY(0);
-}
-
-.product-image-overlay .btn-add-overlay:hover {
-    transform: scale(1.08);
-    box-shadow: 0 15px 25px rgba(255, 215, 0, 0.4);
-}
-
-.product-image-overlay .btn-zoom-overlay {
-    background: rgba(255, 255, 255, 0.1);
-    color: #fff;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    padding: 0.6rem 1.2rem;
-    border-radius: 2rem;
-    font-family: 'Manrope', sans-serif;
-    font-weight: 700;
-    font-size: 0.75rem;
-    cursor: pointer;
-    backdrop-filter: blur(5px);
-    transform: translateY(20px);
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    transition-delay: 0.05s;
-}
-
-.product-image-container:hover .product-image-overlay .btn-zoom-overlay {
-    transform: translateY(0);
-}
-
-.product-image-overlay .btn-zoom-overlay:hover {
-    background: rgba(255, 255, 255, 0.2);
-    color: var(--primary);
-}
-
+/* Indicador de zoom — pequeño, discreto, en la esquina */
 .zoom-hint {
     position: absolute;
-    bottom: 1rem;
-    right: 1rem;
-    background: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(8px);
+    bottom: 0.75rem;
+    right: 0.75rem;
+    background: rgba(0, 0, 0, 0.55);
     color: var(--primary);
-    padding: 0.5rem 1rem;
+    padding: 0.35rem 0.8rem;
     border-radius: 2rem;
-    font-size: 0.75rem;
+    font-size: 0.7rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     opacity: 0;
-    transform: translateY(10px);
-    transition: var(--transition);
+    transform: translateY(6px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
     pointer-events: none;
-    border: 1px solid rgba(255, 215, 0, 0.2);
+    border: 1px solid rgba(255, 215, 0, 0.25);
     z-index: 5;
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.4rem;
+    backdrop-filter: blur(4px);
 }
 
 .product-card:hover .zoom-hint {
@@ -540,7 +481,7 @@ header {
 }
 
 .zoom-hint i {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 /* BRAND CARD */

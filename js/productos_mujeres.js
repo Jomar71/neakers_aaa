@@ -1,12 +1,12 @@
 // ============================================================
 // ARCHIVO AUTO-GENERADO POR generar_productos.js
 // NO EDITAR MANUALMENTE - Ejecuta el script para regenerar
-// Última actualización: 22/5/2026
+// Última actualización: 27/5/2026
 // ============================================================
 
 const productosMujeres = [
     {
-        "id": 10123,
+        "id": 10155,
         "nombre": "Adidas Adistar",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -16,7 +16,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10124,
+        "id": 10156,
         "nombre": "Adidas Adistar",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -26,7 +26,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10125,
+        "id": 10157,
         "nombre": "Adidas Alpha",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -36,7 +36,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10126,
+        "id": 10158,
         "nombre": "Adidas Alpha",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -46,7 +46,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10127,
+        "id": 10159,
         "nombre": "Adidas Alpha",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -56,7 +56,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10128,
+        "id": 10160,
         "nombre": "Adidas Alpha",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -66,7 +66,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10129,
+        "id": 10161,
         "nombre": "Adidas Bounce",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -76,7 +76,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10130,
+        "id": 10162,
         "nombre": "Adidas Campu",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -86,7 +86,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10131,
+        "id": 10163,
         "nombre": "Adidas Duramo",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -96,7 +96,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10132,
+        "id": 10164,
         "nombre": "Adidas",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -106,7 +106,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10133,
+        "id": 10165,
         "nombre": "Adidas",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -116,7 +116,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10134,
+        "id": 10166,
         "nombre": "Adidas",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -126,7 +126,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10135,
+        "id": 10167,
         "nombre": "Adidas",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -136,7 +136,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10136,
+        "id": 10168,
         "nombre": "Adidas",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -146,7 +146,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10137,
+        "id": 10169,
         "nombre": "Adidas Samba",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -156,7 +156,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10138,
+        "id": 10170,
         "nombre": "Adidas Samba",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -166,7 +166,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10139,
+        "id": 10171,
         "nombre": "Adidas Sl72",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -176,7 +176,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10140,
+        "id": 10172,
         "nombre": "Adidas Sl72",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -186,7 +186,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10141,
+        "id": 10173,
         "nombre": "Adidas Supermagma",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -196,7 +196,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10142,
+        "id": 10174,
         "nombre": "Adidas Supermagma",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -206,7 +206,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10143,
+        "id": 10175,
         "nombre": "Adidas Superstar",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -216,7 +216,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10144,
+        "id": 10176,
         "nombre": "Adidas Ultraboost",
         "marca": "ADIDAS",
         "genero": "mujer",
@@ -226,7 +226,7 @@ const productosMujeres = [
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
-        "id": 10145,
+        "id": 10177,
         "nombre": "Asics",
         "marca": "ASICS",
         "genero": "mujer",
@@ -236,7 +236,7 @@ const productosMujeres = [
         "descripcion": "Tecnología japonesa para un rendimiento superior."
     },
     {
-        "id": 10146,
+        "id": 10178,
         "nombre": "Asics",
         "marca": "ASICS",
         "genero": "mujer",
@@ -246,7 +246,7 @@ const productosMujeres = [
         "descripcion": "Tecnología japonesa para un rendimiento superior."
     },
     {
-        "id": 10147,
+        "id": 10179,
         "nombre": "Coach",
         "marca": "COACH",
         "genero": "mujer",
@@ -256,7 +256,7 @@ const productosMujeres = [
         "descripcion": "Lujo accesible con diseño sofisticado."
     },
     {
-        "id": 10148,
+        "id": 10180,
         "nombre": "Coach",
         "marca": "COACH",
         "genero": "mujer",
@@ -266,7 +266,7 @@ const productosMujeres = [
         "descripcion": "Lujo accesible con diseño sofisticado."
     },
     {
-        "id": 10149,
+        "id": 10181,
         "nombre": "Coach",
         "marca": "COACH",
         "genero": "mujer",
@@ -276,7 +276,7 @@ const productosMujeres = [
         "descripcion": "Lujo accesible con diseño sofisticado."
     },
     {
-        "id": 10150,
+        "id": 10182,
         "nombre": "Coach",
         "marca": "COACH",
         "genero": "mujer",
@@ -286,7 +286,7 @@ const productosMujeres = [
         "descripcion": "Lujo accesible con diseño sofisticado."
     },
     {
-        "id": 10151,
+        "id": 10183,
         "nombre": "Coach",
         "marca": "COACH",
         "genero": "mujer",
@@ -296,7 +296,7 @@ const productosMujeres = [
         "descripcion": "Lujo accesible con diseño sofisticado."
     },
     {
-        "id": 10152,
+        "id": 10184,
         "nombre": "Coach",
         "marca": "COACH",
         "genero": "mujer",
@@ -306,7 +306,7 @@ const productosMujeres = [
         "descripcion": "Lujo accesible con diseño sofisticado."
     },
     {
-        "id": 10153,
+        "id": 10185,
         "nombre": "Converse Allstar",
         "marca": "CONVERSE",
         "genero": "mujer",
@@ -316,7 +316,7 @@ const productosMujeres = [
         "descripcion": "El clásico atemporal que nunca pasa de moda."
     },
     {
-        "id": 10154,
+        "id": 10186,
         "nombre": "Dolce & Gabbana &gabbanams1",
         "marca": "DOLCE & GABBANA",
         "genero": "mujer",
@@ -326,7 +326,7 @@ const productosMujeres = [
         "descripcion": "Alta costura italiana en cada detalle."
     },
     {
-        "id": 10155,
+        "id": 10187,
         "nombre": "Dolce & Gabbana &gabbanams2",
         "marca": "DOLCE & GABBANA",
         "genero": "mujer",
@@ -336,7 +336,7 @@ const productosMujeres = [
         "descripcion": "Alta costura italiana en cada detalle."
     },
     {
-        "id": 10156,
+        "id": 10188,
         "nombre": "Gucci Para Dama",
         "marca": "GUCCI",
         "genero": "mujer",
@@ -346,7 +346,7 @@ const productosMujeres = [
         "descripcion": "El máximo exponente del lujo y la moda italiana."
     },
     {
-        "id": 10157,
+        "id": 10189,
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "mujer",
@@ -356,7 +356,7 @@ const productosMujeres = [
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
-        "id": 10158,
+        "id": 10190,
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "mujer",
@@ -366,7 +366,7 @@ const productosMujeres = [
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
-        "id": 10159,
+        "id": 10191,
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "mujer",
@@ -376,7 +376,7 @@ const productosMujeres = [
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
-        "id": 10160,
+        "id": 10192,
         "nombre": "New Balance 530",
         "marca": "NEW BALANCE",
         "genero": "mujer",
@@ -386,7 +386,7 @@ const productosMujeres = [
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
     {
-        "id": 10161,
+        "id": 10193,
         "nombre": "New Balance 574ms1",
         "marca": "NEW BALANCE",
         "genero": "mujer",
@@ -396,7 +396,7 @@ const productosMujeres = [
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
     {
-        "id": 10162,
+        "id": 10194,
         "nombre": "New Balance 740",
         "marca": "NEW BALANCE",
         "genero": "mujer",
@@ -406,7 +406,7 @@ const productosMujeres = [
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
     {
-        "id": 10163,
+        "id": 10195,
         "nombre": "New Balance 740",
         "marca": "NEW BALANCE",
         "genero": "mujer",
@@ -416,7 +416,7 @@ const productosMujeres = [
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
     {
-        "id": 10164,
+        "id": 10196,
         "nombre": "New Balance 740",
         "marca": "NEW BALANCE",
         "genero": "mujer",
@@ -426,7 +426,7 @@ const productosMujeres = [
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
     {
-        "id": 10165,
+        "id": 10197,
         "nombre": "New Balance 740",
         "marca": "NEW BALANCE",
         "genero": "mujer",
@@ -436,7 +436,7 @@ const productosMujeres = [
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
     {
-        "id": 10166,
+        "id": 10198,
         "nombre": "New Balance",
         "marca": "NEW BALANCE",
         "genero": "mujer",
@@ -446,7 +446,7 @@ const productosMujeres = [
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
     {
-        "id": 10167,
+        "id": 10199,
         "nombre": "Nike Jordanretro",
         "marca": "NIKE",
         "genero": "mujer",
@@ -456,7 +456,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10168,
+        "id": 10200,
         "nombre": "Nike",
         "marca": "NIKE",
         "genero": "mujer",
@@ -466,7 +466,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10169,
+        "id": 10201,
         "nombre": "Nike",
         "marca": "NIKE",
         "genero": "mujer",
@@ -476,7 +476,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10170,
+        "id": 10202,
         "nombre": "Nike",
         "marca": "NIKE",
         "genero": "mujer",
@@ -486,7 +486,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10171,
+        "id": 10203,
         "nombre": "Nike",
         "marca": "NIKE",
         "genero": "mujer",
@@ -496,7 +496,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10172,
+        "id": 10204,
         "nombre": "Nike",
         "marca": "NIKE",
         "genero": "mujer",
@@ -506,7 +506,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10173,
+        "id": 10205,
         "nombre": "Nike",
         "marca": "NIKE",
         "genero": "mujer",
@@ -516,7 +516,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10174,
+        "id": 10206,
         "nombre": "Nike",
         "marca": "NIKE",
         "genero": "mujer",
@@ -526,7 +526,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10175,
+        "id": 10207,
         "nombre": "Nike",
         "marca": "NIKE",
         "genero": "mujer",
@@ -536,7 +536,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10176,
+        "id": 10208,
         "nombre": "Nike",
         "marca": "NIKE",
         "genero": "mujer",
@@ -546,7 +546,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10177,
+        "id": 10209,
         "nombre": "Nike Flex",
         "marca": "NIKE",
         "genero": "mujer",
@@ -556,7 +556,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10178,
+        "id": 10210,
         "nombre": "Nike Flex",
         "marca": "NIKE",
         "genero": "mujer",
@@ -566,7 +566,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10179,
+        "id": 10211,
         "nombre": "Nike Free",
         "marca": "NIKE",
         "genero": "mujer",
@@ -576,7 +576,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10180,
+        "id": 10212,
         "nombre": "Nike Free",
         "marca": "NIKE",
         "genero": "mujer",
@@ -586,7 +586,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10181,
+        "id": 10213,
         "nombre": "Nike Free",
         "marca": "NIKE",
         "genero": "mujer",
@@ -596,7 +596,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10182,
+        "id": 10214,
         "nombre": "Nike P 6000",
         "marca": "NIKE",
         "genero": "mujer",
@@ -606,7 +606,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10183,
+        "id": 10215,
         "nombre": "Nike V2k",
         "marca": "NIKE",
         "genero": "mujer",
@@ -616,7 +616,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10184,
+        "id": 10216,
         "nombre": "Nike Vomero",
         "marca": "NIKE",
         "genero": "mujer",
@@ -626,7 +626,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10185,
+        "id": 10217,
         "nombre": "Nike Vomero",
         "marca": "NIKE",
         "genero": "mujer",
@@ -636,7 +636,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10186,
+        "id": 10218,
         "nombre": "Nike Vomero",
         "marca": "NIKE",
         "genero": "mujer",
@@ -646,7 +646,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10187,
+        "id": 10219,
         "nombre": "Nike Vomero",
         "marca": "NIKE",
         "genero": "mujer",
@@ -656,7 +656,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10188,
+        "id": 10220,
         "nombre": "Nike Vomero",
         "marca": "NIKE",
         "genero": "mujer",
@@ -666,7 +666,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10189,
+        "id": 10221,
         "nombre": "Nike Wafle",
         "marca": "NIKE",
         "genero": "mujer",
@@ -676,7 +676,7 @@ const productosMujeres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10190,
+        "id": 10222,
         "nombre": "Puma Suedexl",
         "marca": "PUMA",
         "genero": "mujer",
@@ -686,7 +686,7 @@ const productosMujeres = [
         "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
     },
     {
-        "id": 10191,
+        "id": 10223,
         "nombre": "Reebok Master",
         "marca": "REEBOK",
         "genero": "mujer",
@@ -696,7 +696,7 @@ const productosMujeres = [
         "descripcion": "Rendimiento clásico para el deportista moderno."
     },
     {
-        "id": 10192,
+        "id": 10224,
         "nombre": "Reebok Princesa",
         "marca": "REEBOK",
         "genero": "mujer",
@@ -706,7 +706,7 @@ const productosMujeres = [
         "descripcion": "Rendimiento clásico para el deportista moderno."
     },
     {
-        "id": 10193,
+        "id": 10225,
         "nombre": "Reebok Princesa",
         "marca": "REEBOK",
         "genero": "mujer",
@@ -716,7 +716,7 @@ const productosMujeres = [
         "descripcion": "Rendimiento clásico para el deportista moderno."
     },
     {
-        "id": 10194,
+        "id": 10226,
         "nombre": "Reebok Princesa",
         "marca": "REEBOK",
         "genero": "mujer",
@@ -726,7 +726,7 @@ const productosMujeres = [
         "descripcion": "Rendimiento clásico para el deportista moderno."
     },
     {
-        "id": 10195,
+        "id": 10227,
         "nombre": "Skechers New Balance 1300",
         "marca": "SKECHERS",
         "genero": "mujer",
@@ -736,7 +736,7 @@ const productosMujeres = [
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
     },
     {
-        "id": 10196,
+        "id": 10228,
         "nombre": "Skechers",
         "marca": "SKECHERS",
         "genero": "mujer",
@@ -746,7 +746,7 @@ const productosMujeres = [
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
     },
     {
-        "id": 10197,
+        "id": 10229,
         "nombre": "Skechers",
         "marca": "SKECHERS",
         "genero": "mujer",
@@ -756,7 +756,7 @@ const productosMujeres = [
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
     },
     {
-        "id": 10198,
+        "id": 10230,
         "nombre": "Skechers",
         "marca": "SKECHERS",
         "genero": "mujer",
@@ -766,7 +766,7 @@ const productosMujeres = [
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
     },
     {
-        "id": 10199,
+        "id": 10231,
         "nombre": "Skechers",
         "marca": "SKECHERS",
         "genero": "mujer",
@@ -776,7 +776,7 @@ const productosMujeres = [
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
     },
     {
-        "id": 10200,
+        "id": 10232,
         "nombre": "Vans",
         "marca": "VANS",
         "genero": "mujer",

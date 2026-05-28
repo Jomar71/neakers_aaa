@@ -51,7 +51,6 @@ const CARPETA_A_MARCA = {
     'adidas':          'ADIDAS',
     'armani':          'ARMANI',
     'asics':           'ASICS',
-    'caterpillar':     'CATERPILLAR',
     'coach':           'COACH',
     'converse':        'CONVERSE',
     'diesel':          'DIESEL',
