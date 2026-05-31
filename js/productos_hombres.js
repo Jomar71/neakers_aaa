@@ -1,7 +1,7 @@
 // ============================================================
 // ARCHIVO AUTO-GENERADO POR generar_productos.js
 // NO EDITAR MANUALMENTE - Ejecuta el script para regenerar
-// Última actualización: 27/5/2026
+// Última actualización: 30/5/2026
 // ============================================================
 
 const productosHombres = [
@@ -657,6 +657,116 @@ const productosHombres = [
     },
     {
         "id": 10065,
+        "nombre": "Guayo Adidas",
+        "marca": "GUAYO",
+        "genero": "hombre",
+        "imagen": "img/hombres/Guayo/GUAYOADIDASMS1.jpeg",
+        "referencia": "MS1",
+        "precio": 160000,
+        "descripcion": "Rendimiento en la cancha con estilo propio."
+    },
+    {
+        "id": 10066,
+        "nombre": "Guayo Adidas",
+        "marca": "GUAYO",
+        "genero": "hombre",
+        "imagen": "img/hombres/Guayo/GUAYOADIDASMS2.PNG",
+        "referencia": "MS2",
+        "precio": 160000,
+        "descripcion": "Rendimiento en la cancha con estilo propio."
+    },
+    {
+        "id": 10067,
+        "nombre": "Guayo Adidas",
+        "marca": "GUAYO",
+        "genero": "hombre",
+        "imagen": "img/hombres/Guayo/GUAYOADIDASMS3.PNG",
+        "referencia": "MS3",
+        "precio": 160000,
+        "descripcion": "Rendimiento en la cancha con estilo propio."
+    },
+    {
+        "id": 10068,
+        "nombre": "Guayo Adidas",
+        "marca": "GUAYO",
+        "genero": "hombre",
+        "imagen": "img/hombres/Guayo/GUAYOADIDASMS4.PNG",
+        "referencia": "MS4",
+        "precio": 160000,
+        "descripcion": "Rendimiento en la cancha con estilo propio."
+    },
+    {
+        "id": 10069,
+        "nombre": "Guayo Adidas",
+        "marca": "GUAYO",
+        "genero": "hombre",
+        "imagen": "img/hombres/Guayo/GUAYOADIDASMS5.PNG",
+        "referencia": "MS5",
+        "precio": 160000,
+        "descripcion": "Rendimiento en la cancha con estilo propio."
+    },
+    {
+        "id": 10070,
+        "nombre": "Guayo Nike",
+        "marca": "GUAYO",
+        "genero": "hombre",
+        "imagen": "img/hombres/Guayo/GUAYONIKEMS1.PNG",
+        "referencia": "MS1",
+        "precio": 160000,
+        "descripcion": "Rendimiento en la cancha con estilo propio."
+    },
+    {
+        "id": 10071,
+        "nombre": "Guayo Nike",
+        "marca": "GUAYO",
+        "genero": "hombre",
+        "imagen": "img/hombres/Guayo/GUAYONIKEMS2.PNG",
+        "referencia": "MS2",
+        "precio": 160000,
+        "descripcion": "Rendimiento en la cancha con estilo propio."
+    },
+    {
+        "id": 10072,
+        "nombre": "Guayo Nike",
+        "marca": "GUAYO",
+        "genero": "hombre",
+        "imagen": "img/hombres/Guayo/GUAYONIKEMS3.PNG",
+        "referencia": "MS3",
+        "precio": 160000,
+        "descripcion": "Rendimiento en la cancha con estilo propio."
+    },
+    {
+        "id": 10073,
+        "nombre": "Guayo Nike",
+        "marca": "GUAYO",
+        "genero": "hombre",
+        "imagen": "img/hombres/Guayo/GUAYONIKEMS4.jpeg",
+        "referencia": "MS4",
+        "precio": 160000,
+        "descripcion": "Rendimiento en la cancha con estilo propio."
+    },
+    {
+        "id": 10074,
+        "nombre": "Guayo Nike",
+        "marca": "GUAYO",
+        "genero": "hombre",
+        "imagen": "img/hombres/Guayo/GUAYONIKEMS5.jpeg",
+        "referencia": "MS5",
+        "precio": 160000,
+        "descripcion": "Rendimiento en la cancha con estilo propio."
+    },
+    {
+        "id": 10075,
+        "nombre": "Guayo Puma",
+        "marca": "GUAYO",
+        "genero": "hombre",
+        "imagen": "img/hombres/Guayo/GUAYOPUMAMS1.jpeg",
+        "referencia": "MS1",
+        "precio": 160000,
+        "descripcion": "Rendimiento en la cancha con estilo propio."
+    },
+    {
+        "id": 10076,
         "nombre": "Hoka",
         "marca": "HOKA",
         "genero": "hombre",
@@ -666,7 +776,7 @@ const productosHombres = [
         "descripcion": "Máxima amortiguación con peso pluma."
     },
     {
-        "id": 10066,
+        "id": 10077,
         "nombre": "Hoka",
         "marca": "HOKA",
         "genero": "hombre",
@@ -676,7 +786,7 @@ const productosHombres = [
         "descripcion": "Máxima amortiguación con peso pluma."
     },
     {
-        "id": 10067,
+        "id": 10078,
         "nombre": "Hoka",
         "marca": "HOKA",
         "genero": "hombre",
@@ -686,7 +796,7 @@ const productosHombres = [
         "descripcion": "Máxima amortiguación con peso pluma."
     },
     {
-        "id": 10068,
+        "id": 10079,
         "nombre": "Hoka",
         "marca": "HOKA",
         "genero": "hombre",
@@ -696,7 +806,7 @@ const productosHombres = [
         "descripcion": "Máxima amortiguación con peso pluma."
     },
     {
-        "id": 10069,
+        "id": 10080,
         "nombre": "Hugo Boss Boss",
         "marca": "HUGO BOSS",
         "genero": "hombre",
@@ -706,7 +816,7 @@ const productosHombres = [
         "descripcion": "Sofisticación alemana en cada paso."
     },
     {
-        "id": 10070,
+        "id": 10081,
         "nombre": "Hugo Boss Boss",
         "marca": "HUGO BOSS",
         "genero": "hombre",
@@ -716,7 +826,7 @@ const productosHombres = [
         "descripcion": "Sofisticación alemana en cada paso."
     },
     {
-        "id": 10071,
+        "id": 10082,
         "nombre": "Hugo Boss Boss",
         "marca": "HUGO BOSS",
         "genero": "hombre",
@@ -726,7 +836,7 @@ const productosHombres = [
         "descripcion": "Sofisticación alemana en cada paso."
     },
     {
-        "id": 10072,
+        "id": 10083,
         "nombre": "Hugo Boss Boss",
         "marca": "HUGO BOSS",
         "genero": "hombre",
@@ -736,7 +846,7 @@ const productosHombres = [
         "descripcion": "Sofisticación alemana en cada paso."
     },
     {
-        "id": 10073,
+        "id": 10084,
         "nombre": "Hugo Boss Boss",
         "marca": "HUGO BOSS",
         "genero": "hombre",
@@ -746,7 +856,7 @@ const productosHombres = [
         "descripcion": "Sofisticación alemana en cada paso."
     },
     {
-        "id": 10074,
+        "id": 10085,
         "nombre": "Hugo Boss Boss",
         "marca": "HUGO BOSS",
         "genero": "hombre",
@@ -756,7 +866,7 @@ const productosHombres = [
         "descripcion": "Sofisticación alemana en cada paso."
     },
     {
-        "id": 10075,
+        "id": 10086,
         "nombre": "Hugo Boss Boss",
         "marca": "HUGO BOSS",
         "genero": "hombre",
@@ -766,7 +876,7 @@ const productosHombres = [
         "descripcion": "Sofisticación alemana en cada paso."
     },
     {
-        "id": 10076,
+        "id": 10087,
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
@@ -776,7 +886,7 @@ const productosHombres = [
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
-        "id": 10077,
+        "id": 10088,
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
@@ -786,7 +896,7 @@ const productosHombres = [
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
-        "id": 10078,
+        "id": 10089,
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
@@ -796,7 +906,7 @@ const productosHombres = [
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
-        "id": 10079,
+        "id": 10090,
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
@@ -806,7 +916,7 @@ const productosHombres = [
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
-        "id": 10080,
+        "id": 10091,
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
@@ -816,7 +926,7 @@ const productosHombres = [
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
-        "id": 10081,
+        "id": 10092,
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
@@ -826,7 +936,7 @@ const productosHombres = [
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
-        "id": 10082,
+        "id": 10093,
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
@@ -836,7 +946,7 @@ const productosHombres = [
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
-        "id": 10083,
+        "id": 10094,
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
@@ -846,7 +956,7 @@ const productosHombres = [
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
-        "id": 10084,
+        "id": 10095,
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
@@ -856,7 +966,7 @@ const productosHombres = [
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
-        "id": 10085,
+        "id": 10096,
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
@@ -866,7 +976,7 @@ const productosHombres = [
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
-        "id": 10086,
+        "id": 10097,
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
@@ -876,7 +986,7 @@ const productosHombres = [
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
-        "id": 10087,
+        "id": 10098,
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
@@ -886,7 +996,7 @@ const productosHombres = [
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
-        "id": 10088,
+        "id": 10099,
         "nombre": "Le Coq Sportif Coq",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
@@ -896,7 +1006,7 @@ const productosHombres = [
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
-        "id": 10089,
+        "id": 10100,
         "nombre": "Le Coq Sportif Coq",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
@@ -906,7 +1016,7 @@ const productosHombres = [
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
-        "id": 10090,
+        "id": 10101,
         "nombre": "Le Coq Sportif Coq",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
@@ -916,7 +1026,7 @@ const productosHombres = [
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
-        "id": 10091,
+        "id": 10102,
         "nombre": "Le Coq Sportif Coq",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
@@ -926,7 +1036,7 @@ const productosHombres = [
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
-        "id": 10092,
+        "id": 10103,
         "nombre": "Le Coq Sportif Coq",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
@@ -936,7 +1046,7 @@ const productosHombres = [
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
-        "id": 10093,
+        "id": 10104,
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
@@ -946,7 +1056,7 @@ const productosHombres = [
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
-        "id": 10094,
+        "id": 10105,
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
@@ -956,7 +1066,7 @@ const productosHombres = [
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
-        "id": 10095,
+        "id": 10106,
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
@@ -966,7 +1076,7 @@ const productosHombres = [
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
-        "id": 10096,
+        "id": 10107,
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
@@ -976,7 +1086,7 @@ const productosHombres = [
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
-        "id": 10097,
+        "id": 10108,
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
@@ -986,7 +1096,7 @@ const productosHombres = [
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
-        "id": 10098,
+        "id": 10109,
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
@@ -996,7 +1106,7 @@ const productosHombres = [
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
-        "id": 10099,
+        "id": 10110,
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
@@ -1006,7 +1116,7 @@ const productosHombres = [
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
-        "id": 10100,
+        "id": 10111,
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
@@ -1016,7 +1126,7 @@ const productosHombres = [
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
-        "id": 10101,
+        "id": 10112,
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
@@ -1026,7 +1136,7 @@ const productosHombres = [
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
-        "id": 10102,
+        "id": 10113,
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
@@ -1036,7 +1146,7 @@ const productosHombres = [
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
-        "id": 10103,
+        "id": 10114,
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
@@ -1046,7 +1156,7 @@ const productosHombres = [
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
-        "id": 10104,
+        "id": 10115,
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
@@ -1056,7 +1166,7 @@ const productosHombres = [
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
-        "id": 10105,
+        "id": 10116,
         "nombre": "Louis Vuitton Vuitton",
         "marca": "LOUIS VUITTON",
         "genero": "hombre",
@@ -1066,7 +1176,7 @@ const productosHombres = [
         "descripcion": "La cúspide del lujo y la exclusividad."
     },
     {
-        "id": 10106,
+        "id": 10117,
         "nombre": "Louis Vuitton Vuitton",
         "marca": "LOUIS VUITTON",
         "genero": "hombre",
@@ -1076,7 +1186,147 @@ const productosHombres = [
         "descripcion": "La cúspide del lujo y la exclusividad."
     },
     {
-        "id": 10107,
+        "id": 10118,
+        "nombre": "Louis Vuitton Vuitton",
+        "marca": "LOUIS VUITTON",
+        "genero": "hombre",
+        "imagen": "img/hombres/Louis Vuitton/LOUIS_VUITTONMS3.jpeg",
+        "referencia": "MS3",
+        "precio": 480000,
+        "descripcion": "La cúspide del lujo y la exclusividad."
+    },
+    {
+        "id": 10119,
+        "nombre": "Louis Vuitton Vuitton",
+        "marca": "LOUIS VUITTON",
+        "genero": "hombre",
+        "imagen": "img/hombres/Louis Vuitton/LOUIS_VUITTONMS4.jpeg",
+        "referencia": "MS4",
+        "precio": 480000,
+        "descripcion": "La cúspide del lujo y la exclusividad."
+    },
+    {
+        "id": 10120,
+        "nombre": "Louis Vuitton Vuitton",
+        "marca": "LOUIS VUITTON",
+        "genero": "hombre",
+        "imagen": "img/hombres/Louis Vuitton/LOUIS_VUITTONMS5.jpeg",
+        "referencia": "MS5",
+        "precio": 480000,
+        "descripcion": "La cúspide del lujo y la exclusividad."
+    },
+    {
+        "id": 10121,
+        "nombre": "New Balance 1000",
+        "marca": "NEW BALANCE",
+        "genero": "hombre",
+        "imagen": "img/hombres/New Balance/NEWBALANCE1000MS1.jpeg",
+        "referencia": "MS1",
+        "precio": 215000,
+        "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
+    },
+    {
+        "id": 10122,
+        "nombre": "New Balance 1000",
+        "marca": "NEW BALANCE",
+        "genero": "hombre",
+        "imagen": "img/hombres/New Balance/NEWBALANCE1000MS2.jpeg",
+        "referencia": "MS2",
+        "precio": 215000,
+        "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
+    },
+    {
+        "id": 10123,
+        "nombre": "New Balance 1906r",
+        "marca": "NEW BALANCE",
+        "genero": "hombre",
+        "imagen": "img/hombres/New Balance/NEWBALANCE1906RMS1.jpeg",
+        "referencia": "MS1",
+        "precio": 215000,
+        "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
+    },
+    {
+        "id": 10124,
+        "nombre": "New Balance 2000",
+        "marca": "NEW BALANCE",
+        "genero": "hombre",
+        "imagen": "img/hombres/New Balance/NEWBALANCE2000MS1.jpeg",
+        "referencia": "MS1",
+        "precio": 215000,
+        "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
+    },
+    {
+        "id": 10125,
+        "nombre": "New Balance 9060",
+        "marca": "NEW BALANCE",
+        "genero": "hombre",
+        "imagen": "img/hombres/New Balance/NEWBALANCE9060MS1.jpeg",
+        "referencia": "MS1",
+        "precio": 215000,
+        "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
+    },
+    {
+        "id": 10126,
+        "nombre": "New Balance 9060",
+        "marca": "NEW BALANCE",
+        "genero": "hombre",
+        "imagen": "img/hombres/New Balance/NEWBALANCE9060MS2.jpeg",
+        "referencia": "MS2",
+        "precio": 215000,
+        "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
+    },
+    {
+        "id": 10127,
+        "nombre": "New Balance 990",
+        "marca": "NEW BALANCE",
+        "genero": "hombre",
+        "imagen": "img/hombres/New Balance/NEWBALANCE990MS1.jpeg",
+        "referencia": "MS1",
+        "precio": 215000,
+        "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
+    },
+    {
+        "id": 10128,
+        "nombre": "New Balance 999",
+        "marca": "NEW BALANCE",
+        "genero": "hombre",
+        "imagen": "img/hombres/New Balance/NEWBALANCE999MS1.jpeg",
+        "referencia": "MS1",
+        "precio": 215000,
+        "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
+    },
+    {
+        "id": 10129,
+        "nombre": "New Balance 999",
+        "marca": "NEW BALANCE",
+        "genero": "hombre",
+        "imagen": "img/hombres/New Balance/NEWBALANCE999MS2.jpeg",
+        "referencia": "MS2",
+        "precio": 215000,
+        "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
+    },
+    {
+        "id": 10130,
+        "nombre": "New Balance",
+        "marca": "NEW BALANCE",
+        "genero": "hombre",
+        "imagen": "img/hombres/New Balance/NEWBALANCEMS1.jpeg",
+        "referencia": "MS1",
+        "precio": 215000,
+        "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
+    },
+    {
+        "id": 10131,
+        "nombre": "New Balance",
+        "marca": "NEW BALANCE",
+        "genero": "hombre",
+        "imagen": "img/hombres/New Balance/NEWBALANCEMS2.jpeg",
+        "referencia": "MS2",
+        "precio": 215000,
+        "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
+    },
+    {
+        "id": 10132,
         "nombre": "Nike Jordan Bota",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1086,7 +1336,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10108,
+        "id": 10133,
         "nombre": "Nike Jordan Cadence",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1096,7 +1346,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10109,
+        "id": 10134,
         "nombre": "Nike",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1106,7 +1356,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10110,
+        "id": 10135,
         "nombre": "Nike",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1116,7 +1366,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10111,
+        "id": 10136,
         "nombre": "Nike",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1126,7 +1376,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10112,
+        "id": 10137,
         "nombre": "Nike Correlate",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1136,7 +1386,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10113,
+        "id": 10138,
         "nombre": "Nike Flex",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1146,7 +1396,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10114,
+        "id": 10139,
         "nombre": "Nike Initiator",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1156,7 +1406,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10115,
+        "id": 10140,
         "nombre": "Nike P 6000",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1166,7 +1416,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10116,
+        "id": 10141,
         "nombre": "Nike P 6000",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1176,7 +1426,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10117,
+        "id": 10142,
         "nombre": "Nike Pulse",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1186,7 +1436,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10118,
+        "id": 10143,
         "nombre": "Nike Pulse",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1196,7 +1446,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10119,
+        "id": 10144,
         "nombre": "Nike Pulse",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1206,7 +1456,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10120,
+        "id": 10145,
         "nombre": "Nike Tn",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1216,7 +1466,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10121,
+        "id": 10146,
         "nombre": "Nike Tn",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1226,7 +1476,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10122,
+        "id": 10147,
         "nombre": "Nike Trail",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1236,7 +1486,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10123,
+        "id": 10148,
         "nombre": "Nike Vomero",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1246,7 +1496,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10124,
+        "id": 10149,
         "nombre": "Nike Zoom",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1256,7 +1506,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10125,
+        "id": 10150,
         "nombre": "Nike Zoom",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1266,7 +1516,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10126,
+        "id": 10151,
         "nombre": "Nike Zoom",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1276,7 +1526,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10127,
+        "id": 10152,
         "nombre": "Nike Zoom",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1286,7 +1536,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10128,
+        "id": 10153,
         "nombre": "Nike Zoom",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1296,7 +1546,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10129,
+        "id": 10154,
         "nombre": "Nike Zoom",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1306,7 +1556,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10130,
+        "id": 10155,
         "nombre": "Nike Zoom",
         "marca": "NIKE",
         "genero": "hombre",
@@ -1316,7 +1566,7 @@ const productosHombres = [
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
-        "id": 10131,
+        "id": 10156,
         "nombre": "On Cloud Clou",
         "marca": "ON CLOUD",
         "genero": "hombre",
@@ -1326,7 +1576,7 @@ const productosHombres = [
         "descripcion": "Siente que caminas sobre nubes en cada paso."
     },
     {
-        "id": 10132,
+        "id": 10157,
         "nombre": "On Cloud Clou",
         "marca": "ON CLOUD",
         "genero": "hombre",
@@ -1336,7 +1586,7 @@ const productosHombres = [
         "descripcion": "Siente que caminas sobre nubes en cada paso."
     },
     {
-        "id": 10133,
+        "id": 10158,
         "nombre": "On Cloud Clou",
         "marca": "ON CLOUD",
         "genero": "hombre",
@@ -1346,7 +1596,7 @@ const productosHombres = [
         "descripcion": "Siente que caminas sobre nubes en cada paso."
     },
     {
-        "id": 10134,
+        "id": 10159,
         "nombre": "On Cloud Clou",
         "marca": "ON CLOUD",
         "genero": "hombre",
@@ -1356,7 +1606,7 @@ const productosHombres = [
         "descripcion": "Siente que caminas sobre nubes en cada paso."
     },
     {
-        "id": 10135,
+        "id": 10160,
         "nombre": "On Cloud Clou",
         "marca": "ON CLOUD",
         "genero": "hombre",
@@ -1366,27 +1616,307 @@ const productosHombres = [
         "descripcion": "Siente que caminas sobre nubes en cada paso."
     },
     {
-        "id": 10136,
-        "nombre": "Puma Suede Xl Ms!",
+        "id": 10161,
+        "nombre": "On Cloud Clou",
+        "marca": "ON CLOUD",
+        "genero": "hombre",
+        "imagen": "img/hombres/On Cloud/ON_CLOUDMS34.jpeg",
+        "referencia": "DMS34",
+        "precio": 270000,
+        "descripcion": "Siente que caminas sobre nubes en cada paso."
+    },
+    {
+        "id": 10162,
+        "nombre": "On Cloud Clou",
+        "marca": "ON CLOUD",
+        "genero": "hombre",
+        "imagen": "img/hombres/On Cloud/ON_CLOUDMS35.jpeg",
+        "referencia": "DMS35",
+        "precio": 270000,
+        "descripcion": "Siente que caminas sobre nubes en cada paso."
+    },
+    {
+        "id": 10163,
+        "nombre": "Puma Inverse",
         "marca": "PUMA",
         "genero": "hombre",
-        "imagen": "img/hombres/Puma/PUMA_SUEDE_XL_MS!.jpeg",
+        "imagen": "img/hombres/Puma/PUMAINVERSEMS1.jpeg",
         "referencia": "MS1",
         "precio": 190000,
         "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
     },
     {
-        "id": 10137,
-        "nombre": "Reebok Master",
+        "id": 10164,
+        "nombre": "Puma Morphic",
+        "marca": "PUMA",
+        "genero": "hombre",
+        "imagen": "img/hombres/Puma/PUMAMORPHICMS1.jpeg",
+        "referencia": "MS1",
+        "precio": 190000,
+        "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
+    },
+    {
+        "id": 10165,
+        "nombre": "Puma Morphic",
+        "marca": "PUMA",
+        "genero": "hombre",
+        "imagen": "img/hombres/Puma/PUMAMORPHICMS2.jpeg",
+        "referencia": "MS2",
+        "precio": 190000,
+        "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
+    },
+    {
+        "id": 10166,
+        "nombre": "Puma",
+        "marca": "PUMA",
+        "genero": "hombre",
+        "imagen": "img/hombres/Puma/PUMAMS1.jpeg",
+        "referencia": "MS1",
+        "precio": 190000,
+        "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
+    },
+    {
+        "id": 10167,
+        "nombre": "Puma",
+        "marca": "PUMA",
+        "genero": "hombre",
+        "imagen": "img/hombres/Puma/PUMAMS2.jpeg",
+        "referencia": "MS2",
+        "precio": 190000,
+        "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
+    },
+    {
+        "id": 10168,
+        "nombre": "Puma",
+        "marca": "PUMA",
+        "genero": "hombre",
+        "imagen": "img/hombres/Puma/PUMAMS3.jpeg",
+        "referencia": "MS3",
+        "precio": 190000,
+        "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
+    },
+    {
+        "id": 10169,
+        "nombre": "Puma",
+        "marca": "PUMA",
+        "genero": "hombre",
+        "imagen": "img/hombres/Puma/PUMAMS4.jpeg",
+        "referencia": "MS4",
+        "precio": 190000,
+        "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
+    },
+    {
+        "id": 10170,
+        "nombre": "Puma",
+        "marca": "PUMA",
+        "genero": "hombre",
+        "imagen": "img/hombres/Puma/PUMAMS5.jpeg",
+        "referencia": "MS5",
+        "precio": 190000,
+        "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
+    },
+    {
+        "id": 10171,
+        "nombre": "Puma Park",
+        "marca": "PUMA",
+        "genero": "hombre",
+        "imagen": "img/hombres/Puma/PUMAPARKMS1.jpeg",
+        "referencia": "MS1",
+        "precio": 190000,
+        "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
+    },
+    {
+        "id": 10172,
+        "nombre": "Puma Romaxferrari",
+        "marca": "PUMA",
+        "genero": "hombre",
+        "imagen": "img/hombres/Puma/PUMAROMAXFERRARIMS1.jpeg",
+        "referencia": "MS1",
+        "precio": 190000,
+        "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
+    },
+    {
+        "id": 10173,
+        "nombre": "Puma Suedexbmwms1",
+        "marca": "PUMA",
+        "genero": "hombre",
+        "imagen": "img/hombres/Puma/PUMASUEDEXBMWMS1 .jpeg",
+        "referencia": "MS1",
+        "precio": 190000,
+        "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
+    },
+    {
+        "id": 10174,
+        "nombre": "Puma Suedexbmwms2",
+        "marca": "PUMA",
+        "genero": "hombre",
+        "imagen": "img/hombres/Puma/PUMASUEDEXBMWMS2 .jpeg",
+        "referencia": "MS1",
+        "precio": 190000,
+        "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
+    },
+    {
+        "id": 10175,
+        "nombre": "Puma Suedexbmwms3",
+        "marca": "PUMA",
+        "genero": "hombre",
+        "imagen": "img/hombres/Puma/PUMASUEDEXBMWMS3 .jpeg",
+        "referencia": "MS1",
+        "precio": 190000,
+        "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
+    },
+    {
+        "id": 10176,
+        "nombre": "Puma Suedexl",
+        "marca": "PUMA",
+        "genero": "hombre",
+        "imagen": "img/hombres/Puma/PUMASUEDEXLMS1.jpeg",
+        "referencia": "MS1",
+        "precio": 190000,
+        "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
+    },
+    {
+        "id": 10177,
+        "nombre": "Puma Suedexl",
+        "marca": "PUMA",
+        "genero": "hombre",
+        "imagen": "img/hombres/Puma/PUMASUEDEXLMS2.jpeg",
+        "referencia": "MS2",
+        "precio": 190000,
+        "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
+    },
+    {
+        "id": 10178,
+        "nombre": "Puma Suedexl",
+        "marca": "PUMA",
+        "genero": "hombre",
+        "imagen": "img/hombres/Puma/PUMASUEDEXLMS3.jpeg",
+        "referencia": "MS3",
+        "precio": 190000,
+        "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
+    },
+    {
+        "id": 10179,
+        "nombre": "Puma Suedexlxferrari",
+        "marca": "PUMA",
+        "genero": "hombre",
+        "imagen": "img/hombres/Puma/PUMASUEDEXLXFERRARIMS1.jpeg",
+        "referencia": "MS1",
+        "precio": 190000,
+        "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
+    },
+    {
+        "id": 10180,
+        "nombre": "Reebok Beams",
         "marca": "REEBOK",
         "genero": "hombre",
-        "imagen": "img/hombres/Reebok/REEBOK_MASTERMS1.jpeg",
+        "imagen": "img/hombres/Reebok/REEBOKBEAMSMS1.jpeg",
         "referencia": "MS1",
         "precio": 185000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
     },
     {
-        "id": 10138,
+        "id": 10181,
+        "nombre": "Reebok Ers",
+        "marca": "REEBOK",
+        "genero": "hombre",
+        "imagen": "img/hombres/Reebok/REEBOKERSMS1.jpeg",
+        "referencia": "MS1",
+        "precio": 185000,
+        "descripcion": "Rendimiento clásico para el deportista moderno."
+    },
+    {
+        "id": 10182,
+        "nombre": "Reebok Ers",
+        "marca": "REEBOK",
+        "genero": "hombre",
+        "imagen": "img/hombres/Reebok/REEBOKERSMS2.jpeg",
+        "referencia": "MS2",
+        "precio": 185000,
+        "descripcion": "Rendimiento clásico para el deportista moderno."
+    },
+    {
+        "id": 10183,
+        "nombre": "Reebok",
+        "marca": "REEBOK",
+        "genero": "hombre",
+        "imagen": "img/hombres/Reebok/REEBOKMS1.jpeg",
+        "referencia": "MS1",
+        "precio": 185000,
+        "descripcion": "Rendimiento clásico para el deportista moderno."
+    },
+    {
+        "id": 10184,
+        "nombre": "Reebok",
+        "marca": "REEBOK",
+        "genero": "hombre",
+        "imagen": "img/hombres/Reebok/REEBOKMS2.jpeg",
+        "referencia": "MS2",
+        "precio": 185000,
+        "descripcion": "Rendimiento clásico para el deportista moderno."
+    },
+    {
+        "id": 10185,
+        "nombre": "Reebok",
+        "marca": "REEBOK",
+        "genero": "hombre",
+        "imagen": "img/hombres/Reebok/REEBOKMS3.jpeg",
+        "referencia": "MS3",
+        "precio": 185000,
+        "descripcion": "Rendimiento clásico para el deportista moderno."
+    },
+    {
+        "id": 10186,
+        "nombre": "Reebok",
+        "marca": "REEBOK",
+        "genero": "hombre",
+        "imagen": "img/hombres/Reebok/REEBOKMS4.jpeg",
+        "referencia": "MS4",
+        "precio": 185000,
+        "descripcion": "Rendimiento clásico para el deportista moderno."
+    },
+    {
+        "id": 10187,
+        "nombre": "Reebok",
+        "marca": "REEBOK",
+        "genero": "hombre",
+        "imagen": "img/hombres/Reebok/REEBOKMS5.jpeg",
+        "referencia": "MS5",
+        "precio": 185000,
+        "descripcion": "Rendimiento clásico para el deportista moderno."
+    },
+    {
+        "id": 10188,
+        "nombre": "Reebok",
+        "marca": "REEBOK",
+        "genero": "hombre",
+        "imagen": "img/hombres/Reebok/REEBOKMS6.jpeg",
+        "referencia": "MS6",
+        "precio": 185000,
+        "descripcion": "Rendimiento clásico para el deportista moderno."
+    },
+    {
+        "id": 10189,
+        "nombre": "Reebok",
+        "marca": "REEBOK",
+        "genero": "hombre",
+        "imagen": "img/hombres/Reebok/REEBOKMS7.jpeg",
+        "referencia": "MS7",
+        "precio": 185000,
+        "descripcion": "Rendimiento clásico para el deportista moderno."
+    },
+    {
+        "id": 10190,
+        "nombre": "Reebok Premier",
+        "marca": "REEBOK",
+        "genero": "hombre",
+        "imagen": "img/hombres/Reebok/REEBOKPREMIERMS1.jpeg",
+        "referencia": "MS1",
+        "precio": 185000,
+        "descripcion": "Rendimiento clásico para el deportista moderno."
+    },
+    {
+        "id": 10191,
         "nombre": "Skechers",
         "marca": "SKECHERS",
         "genero": "hombre",
@@ -1396,37 +1926,87 @@ const productosHombres = [
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
     },
     {
-        "id": 10139,
+        "id": 10192,
         "nombre": "Skechers",
         "marca": "SKECHERS",
         "genero": "hombre",
-        "imagen": "img/hombres/Skechers/SKECHERSMS31.jpeg",
-        "referencia": "MS31",
+        "imagen": "img/hombres/Skechers/SKECHERSMS2.jpeg",
+        "referencia": "MS2",
         "precio": 175000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
     },
     {
-        "id": 10140,
+        "id": 10193,
         "nombre": "Skechers",
         "marca": "SKECHERS",
         "genero": "hombre",
-        "imagen": "img/hombres/Skechers/SKECHERSMS32.jpeg",
-        "referencia": "MS32",
+        "imagen": "img/hombres/Skechers/SKECHERSMS3.jpeg",
+        "referencia": "MS3",
         "precio": 175000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
     },
     {
-        "id": 10141,
+        "id": 10194,
         "nombre": "Skechers",
         "marca": "SKECHERS",
         "genero": "hombre",
-        "imagen": "img/hombres/Skechers/SKECHERSMS33.jpeg",
-        "referencia": "MS33",
+        "imagen": "img/hombres/Skechers/SKECHERSMS4.jpeg",
+        "referencia": "MS4",
         "precio": 175000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
     },
     {
-        "id": 10142,
+        "id": 10195,
+        "nombre": "Skechers",
+        "marca": "SKECHERS",
+        "genero": "hombre",
+        "imagen": "img/hombres/Skechers/SKECHERSMS5.jpeg",
+        "referencia": "MS5",
+        "precio": 175000,
+        "descripcion": "Comodidad excepcional para el bienestar de tus pies."
+    },
+    {
+        "id": 10196,
+        "nombre": "Skechers",
+        "marca": "SKECHERS",
+        "genero": "hombre",
+        "imagen": "img/hombres/Skechers/SKECHERSMS6.jpeg",
+        "referencia": "MS6",
+        "precio": 175000,
+        "descripcion": "Comodidad excepcional para el bienestar de tus pies."
+    },
+    {
+        "id": 10197,
+        "nombre": "Skechers",
+        "marca": "SKECHERS",
+        "genero": "hombre",
+        "imagen": "img/hombres/Skechers/SKECHERSMS7.jpeg",
+        "referencia": "MS7",
+        "precio": 175000,
+        "descripcion": "Comodidad excepcional para el bienestar de tus pies."
+    },
+    {
+        "id": 10198,
+        "nombre": "Skechers",
+        "marca": "SKECHERS",
+        "genero": "hombre",
+        "imagen": "img/hombres/Skechers/SKECHERSMS8.jpeg",
+        "referencia": "MS8",
+        "precio": 175000,
+        "descripcion": "Comodidad excepcional para el bienestar de tus pies."
+    },
+    {
+        "id": 10199,
+        "nombre": "Skechers",
+        "marca": "SKECHERS",
+        "genero": "hombre",
+        "imagen": "img/hombres/Skechers/SKECHERSMS9.jpeg",
+        "referencia": "MS9",
+        "precio": 175000,
+        "descripcion": "Comodidad excepcional para el bienestar de tus pies."
+    },
+    {
+        "id": 10200,
         "nombre": "Timberland Timberlan",
         "marca": "TIMBERLAND",
         "genero": "hombre",
@@ -1436,7 +2016,7 @@ const productosHombres = [
         "descripcion": "Resistencia y estilo para el aire libre."
     },
     {
-        "id": 10143,
+        "id": 10201,
         "nombre": "Timberland Timberlan",
         "marca": "TIMBERLAND",
         "genero": "hombre",
@@ -1446,7 +2026,7 @@ const productosHombres = [
         "descripcion": "Resistencia y estilo para el aire libre."
     },
     {
-        "id": 10144,
+        "id": 10202,
         "nombre": "Timberland Timberlan",
         "marca": "TIMBERLAND",
         "genero": "hombre",
@@ -1456,7 +2036,7 @@ const productosHombres = [
         "descripcion": "Resistencia y estilo para el aire libre."
     },
     {
-        "id": 10145,
+        "id": 10203,
         "nombre": "Timberland Timberlan",
         "marca": "TIMBERLAND",
         "genero": "hombre",
@@ -1466,7 +2046,7 @@ const productosHombres = [
         "descripcion": "Resistencia y estilo para el aire libre."
     },
     {
-        "id": 10146,
+        "id": 10204,
         "nombre": "Timberland Timberlan",
         "marca": "TIMBERLAND",
         "genero": "hombre",
@@ -1476,7 +2056,37 @@ const productosHombres = [
         "descripcion": "Resistencia y estilo para el aire libre."
     },
     {
-        "id": 10147,
+        "id": 10205,
+        "nombre": "Timberland Timberlan",
+        "marca": "TIMBERLAND",
+        "genero": "hombre",
+        "imagen": "img/hombres/Timberland/TIMBERLANDMS24.jpeg",
+        "referencia": "DMS24",
+        "precio": 235000,
+        "descripcion": "Resistencia y estilo para el aire libre."
+    },
+    {
+        "id": 10206,
+        "nombre": "Timberland Timberlan",
+        "marca": "TIMBERLAND",
+        "genero": "hombre",
+        "imagen": "img/hombres/Timberland/TIMBERLANDMS25.jpeg",
+        "referencia": "DMS25",
+        "precio": 235000,
+        "descripcion": "Resistencia y estilo para el aire libre."
+    },
+    {
+        "id": 10207,
+        "nombre": "Timberland Timberlan",
+        "marca": "TIMBERLAND",
+        "genero": "hombre",
+        "imagen": "img/hombres/Timberland/TIMBERLANDMS26.jpeg",
+        "referencia": "DMS26",
+        "precio": 235000,
+        "descripcion": "Resistencia y estilo para el aire libre."
+    },
+    {
+        "id": 10208,
         "nombre": "Timberland Timberlan",
         "marca": "TIMBERLAND",
         "genero": "hombre",
@@ -1486,7 +2096,7 @@ const productosHombres = [
         "descripcion": "Resistencia y estilo para el aire libre."
     },
     {
-        "id": 10148,
+        "id": 10209,
         "nombre": "Timberland Timberlan",
         "marca": "TIMBERLAND",
         "genero": "hombre",
@@ -1496,7 +2106,7 @@ const productosHombres = [
         "descripcion": "Resistencia y estilo para el aire libre."
     },
     {
-        "id": 10149,
+        "id": 10210,
         "nombre": "Timberland Bota",
         "marca": "TIMBERLAND",
         "genero": "hombre",
@@ -1506,27 +2116,167 @@ const productosHombres = [
         "descripcion": "Resistencia y estilo para el aire libre."
     },
     {
-        "id": 10150,
-        "nombre": "Under Armour Armour",
+        "id": 10211,
+        "nombre": "Tommy Hilfiger",
+        "marca": "TOMMY HILFIGER",
+        "genero": "hombre",
+        "imagen": "img/hombres/Tommy Hilfiger/TOMMYHILFIGERMS1.jpeg",
+        "referencia": "MS1",
+        "precio": 280000,
+        "descripcion": "Estilo americano clásico con un toque moderno."
+    },
+    {
+        "id": 10212,
+        "nombre": "Tommy Hilfiger",
+        "marca": "TOMMY HILFIGER",
+        "genero": "hombre",
+        "imagen": "img/hombres/Tommy Hilfiger/TOMMYHILFIGERMS2.jpeg",
+        "referencia": "MS2",
+        "precio": 280000,
+        "descripcion": "Estilo americano clásico con un toque moderno."
+    },
+    {
+        "id": 10213,
+        "nombre": "Tommy Hilfiger",
+        "marca": "TOMMY HILFIGER",
+        "genero": "hombre",
+        "imagen": "img/hombres/Tommy Hilfiger/TOMMYHILFIGERMS3.jpeg",
+        "referencia": "MS3",
+        "precio": 280000,
+        "descripcion": "Estilo americano clásico con un toque moderno."
+    },
+    {
+        "id": 10214,
+        "nombre": "Tommy Hilfiger",
+        "marca": "TOMMY HILFIGER",
+        "genero": "hombre",
+        "imagen": "img/hombres/Tommy Hilfiger/TOMMYHILFIGERMS4.jpeg",
+        "referencia": "MS4",
+        "precio": 280000,
+        "descripcion": "Estilo americano clásico con un toque moderno."
+    },
+    {
+        "id": 10215,
+        "nombre": "Tommy Hilfiger",
+        "marca": "TOMMY HILFIGER",
+        "genero": "hombre",
+        "imagen": "img/hombres/Tommy Hilfiger/TOMMYHILFIGERMS5.jpeg",
+        "referencia": "MS5",
+        "precio": 280000,
+        "descripcion": "Estilo americano clásico con un toque moderno."
+    },
+    {
+        "id": 10216,
+        "nombre": "Under Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
-        "imagen": "img/hombres/Under Armour/UNDER_ARMOURMS1.jpeg",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS1.jpeg",
         "referencia": "MS1",
         "precio": 210000,
         "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
     },
     {
-        "id": 10151,
-        "nombre": "Under Armour Armour",
+        "id": 10217,
+        "nombre": "Under Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
-        "imagen": "img/hombres/Under Armour/UNDER_ARMOURMS2.jpeg",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS10.jpeg",
+        "referencia": "MS10",
+        "precio": 210000,
+        "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
+    },
+    {
+        "id": 10218,
+        "nombre": "Under Armour",
+        "marca": "UNDER ARMOUR",
+        "genero": "hombre",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS11.jpeg",
+        "referencia": "MS11",
+        "precio": 210000,
+        "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
+    },
+    {
+        "id": 10219,
+        "nombre": "Under Armour",
+        "marca": "UNDER ARMOUR",
+        "genero": "hombre",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS2.jpeg",
         "referencia": "MS2",
         "precio": 210000,
         "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
     },
     {
-        "id": 10152,
+        "id": 10220,
+        "nombre": "Under Armour",
+        "marca": "UNDER ARMOUR",
+        "genero": "hombre",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS3.jpeg",
+        "referencia": "MS3",
+        "precio": 210000,
+        "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
+    },
+    {
+        "id": 10221,
+        "nombre": "Under Armour",
+        "marca": "UNDER ARMOUR",
+        "genero": "hombre",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS4.jpeg",
+        "referencia": "MS4",
+        "precio": 210000,
+        "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
+    },
+    {
+        "id": 10222,
+        "nombre": "Under Armour",
+        "marca": "UNDER ARMOUR",
+        "genero": "hombre",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS5.jpeg",
+        "referencia": "MS5",
+        "precio": 210000,
+        "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
+    },
+    {
+        "id": 10223,
+        "nombre": "Under Armour",
+        "marca": "UNDER ARMOUR",
+        "genero": "hombre",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS6.jpeg",
+        "referencia": "MS6",
+        "precio": 210000,
+        "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
+    },
+    {
+        "id": 10224,
+        "nombre": "Under Armour",
+        "marca": "UNDER ARMOUR",
+        "genero": "hombre",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS7.jpeg",
+        "referencia": "MS7",
+        "precio": 210000,
+        "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
+    },
+    {
+        "id": 10225,
+        "nombre": "Under Armour",
+        "marca": "UNDER ARMOUR",
+        "genero": "hombre",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS8.jpeg",
+        "referencia": "MS8",
+        "precio": 210000,
+        "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
+    },
+    {
+        "id": 10226,
+        "nombre": "Under Armour",
+        "marca": "UNDER ARMOUR",
+        "genero": "hombre",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS9.jpeg",
+        "referencia": "MS9",
+        "precio": 210000,
+        "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
+    },
+    {
+        "id": 10227,
         "nombre": "Vans",
         "marca": "VANS",
         "genero": "hombre",
@@ -1536,7 +2286,7 @@ const productosHombres = [
         "descripcion": "Cultura urbana y estilo skate en cada paso."
     },
     {
-        "id": 10153,
+        "id": 10228,
         "nombre": "Vans",
         "marca": "VANS",
         "genero": "hombre",
@@ -1546,12 +2296,72 @@ const productosHombres = [
         "descripcion": "Cultura urbana y estilo skate en cada paso."
     },
     {
-        "id": 10154,
-        "nombre": "Vans Rowley",
+        "id": 10229,
+        "nombre": "Vans",
         "marca": "VANS",
         "genero": "hombre",
-        "imagen": "img/hombres/Vans/VANS_ROWLEYMS1.jpeg",
-        "referencia": "MS1",
+        "imagen": "img/hombres/Vans/VANSMS3.jpeg",
+        "referencia": "MS3",
+        "precio": 185000,
+        "descripcion": "Cultura urbana y estilo skate en cada paso."
+    },
+    {
+        "id": 10230,
+        "nombre": "Vans",
+        "marca": "VANS",
+        "genero": "hombre",
+        "imagen": "img/hombres/Vans/VANSMS4.jpeg",
+        "referencia": "MS4",
+        "precio": 185000,
+        "descripcion": "Cultura urbana y estilo skate en cada paso."
+    },
+    {
+        "id": 10231,
+        "nombre": "Vans",
+        "marca": "VANS",
+        "genero": "hombre",
+        "imagen": "img/hombres/Vans/VANSMS5.jpeg",
+        "referencia": "MS5",
+        "precio": 185000,
+        "descripcion": "Cultura urbana y estilo skate en cada paso."
+    },
+    {
+        "id": 10232,
+        "nombre": "Vans",
+        "marca": "VANS",
+        "genero": "hombre",
+        "imagen": "img/hombres/Vans/VANSMS6.jpeg",
+        "referencia": "MS6",
+        "precio": 185000,
+        "descripcion": "Cultura urbana y estilo skate en cada paso."
+    },
+    {
+        "id": 10233,
+        "nombre": "Vans",
+        "marca": "VANS",
+        "genero": "hombre",
+        "imagen": "img/hombres/Vans/VANSMS7.jpeg",
+        "referencia": "MS7",
+        "precio": 185000,
+        "descripcion": "Cultura urbana y estilo skate en cada paso."
+    },
+    {
+        "id": 10234,
+        "nombre": "Vans",
+        "marca": "VANS",
+        "genero": "hombre",
+        "imagen": "img/hombres/Vans/VANSMS8.jpeg",
+        "referencia": "MS8",
+        "precio": 185000,
+        "descripcion": "Cultura urbana y estilo skate en cada paso."
+    },
+    {
+        "id": 10235,
+        "nombre": "Vans",
+        "marca": "VANS",
+        "genero": "hombre",
+        "imagen": "img/hombres/Vans/VANSMS9.jpeg",
+        "referencia": "MS9",
         "precio": 185000,
         "descripcion": "Cultura urbana y estilo skate en cada paso."
     }
