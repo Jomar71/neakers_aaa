@@ -6,83 +6,84 @@ document.addEventListener('DOMContentLoaded', () => {
     const menuToggle = document.getElementById('menu-toggle');
     const navLinks = document.querySelector('.nav-links');
 
-    // Detectar si estamos en un subdirectorio (como /marcas/) de forma robusta e insensible a mayúsculas
-    const isSubDir = /\/marcas\//i.test(window.location.pathname) || window.location.pathname.split('/').includes('marcas');
+    // ─── PATH PREFIX ──────────────────────────────────────────────────────────
+    // Detectar si estamos en un subdirectorio (/marcas/)
+    const isSubDir = /\/marcas\//i.test(window.location.pathname) ||
+                     window.location.pathname.toLowerCase().includes('marcas/');
     const pathPrefix = isSubDir ? '../' : '';
 
-    // Helper para normalizar rutas de imágenes con espacios y caracteres especiales de manera segura
+    // ─── NORMALIZAR RUTAS (espacios y caracteres especiales) ──────────────────
     const normalizarRuta = (ruta) => {
         if (!ruta) return '';
-        // Codificar la ruta excluyendo los separadores de directorio para no romper el protocolo ni las barras
         return encodeURI(ruta).replace(/'/g, "%27");
     };
 
-    // --- LÓGICA DE CARRITO ---
+    // ─── TEMA ─────────────────────────────────────────────────────────────────
+    const savedTheme = localStorage.getItem('theme') || 'dark';
+    document.body.setAttribute('data-theme', savedTheme);
+
+    if (themeBtn) {
+        themeBtn.addEventListener('click', () => {
+            const newTheme = document.body.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            document.body.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+    }
+
+    // ─── MENÚ MÓVIL ──────────────────────────────────────────────────────────
+    if (menuToggle && navLinks) {
+        const closeMobileMenu = () => {
+            navLinks.classList.remove('active');
+            const icon = menuToggle.querySelector('i');
+            if (icon) { icon.className = 'fas fa-bars'; }
+        };
+
+        menuToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            navLinks.classList.toggle('active');
+            const icon = menuToggle.querySelector('i');
+            if (icon) {
+                icon.className = navLinks.classList.contains('active') ? 'fas fa-times' : 'fas fa-bars';
+            }
+        });
+
+        document.addEventListener('click', (e) => {
+            if (navLinks.classList.contains('active') &&
+                !navLinks.contains(e.target) &&
+                e.target !== menuToggle) {
+                closeMobileMenu();
+            }
+        });
+
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', closeMobileMenu);
+        });
+    }
+
+    // ─── CARRITO ──────────────────────────────────────────────────────────────
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
-    const saveCart = () => {
-        localStorage.setItem('cart', JSON.stringify(cart));
-    };
-
-    const toggleCart = () => {
-        window.location.href = pathPrefix + 'carrito.html';
-    };
+    const saveCart = () => localStorage.setItem('cart', JSON.stringify(cart));
 
     const updateCartBadge = () => {
         const badges = [
             document.getElementById('cart-badge'),
             document.getElementById('cart-badge-fab')
         ];
+        const count = cart.length;
         badges.forEach(badge => {
-            if (badge) badge.innerText = cart.length;
+            if (!badge) return;
+            badge.innerText = count;
+            // Bump animation
+            badge.classList.remove('bump');
+            void badge.offsetWidth;
+            if (count > 0) badge.classList.add('bump');
         });
 
         const fab = document.getElementById('cart-fab');
         if (fab) {
-            if (cart.length > 0) {
-                fab.classList.add('visible');
-            } else {
-                fab.classList.remove('visible');
-            }
+            fab.classList.toggle('visible', count > 0);
         }
-    };
-
-    window.changeProductImage = (thumbnail, newSrc) => {
-        const gallery = thumbnail.parentElement;
-        const card = gallery.closest('.product-card');
-        const mainImg = card.querySelector('.product-image-container img');
-
-        if (!mainImg) return;
-
-        // Actualizar imagen principal con animación
-        mainImg.style.opacity = '0';
-        setTimeout(() => {
-            mainImg.src = newSrc;
-            mainImg.style.opacity = '1';
-        }, 200);
-
-        // Actualizar thumbnails activos
-        gallery.querySelectorAll('.thumbnail').forEach(t => t.classList.remove('active'));
-        thumbnail.classList.add('active');
-    };
-
-    window.addToCart = (productId) => {
-        const producto = productos.find(p => p.id === productId);
-        if (!producto) return;
-
-        const sizeSelector = document.querySelector(`.size-selector[data-product-id="${productId}"]`);
-        const selectedSize = sizeSelector ? sizeSelector.value : 'N/A';
-
-        cart.push({
-            ...producto,
-            tallaEscogida: selectedSize
-        });
-
-        saveCart();
-        updateCartBadge();
-
-        // Redirigir a la página de carrito
-        window.location.href = pathPrefix + 'carrito.html';
     };
 
     const injectCartUI = () => {
@@ -94,211 +95,192 @@ document.addEventListener('DOMContentLoaded', () => {
             cartDiv.id = 'cart-toggle-btn';
             cartDiv.className = 'cart-icon-container';
             cartDiv.title = 'Ver carrito';
+            cartDiv.setAttribute('role', 'button');
+            cartDiv.setAttribute('aria-label', 'Ver carrito de compras');
             cartDiv.innerHTML = `
                 <i class="fas fa-shopping-cart"></i>
                 <span id="cart-badge" class="cart-badge">${cart.length}</span>
             `;
-
             if (mobileToggle) {
                 navContent.insertBefore(cartDiv, mobileToggle);
             } else {
                 navContent.appendChild(cartDiv);
             }
-
-            cartDiv.addEventListener('click', () => toggleCart());
+            cartDiv.addEventListener('click', () => {
+                window.location.href = pathPrefix + 'carrito.html';
+            });
         }
 
         if (!document.getElementById('cart-fab')) {
             const fab = document.createElement('button');
             fab.id = 'cart-fab';
             fab.className = 'cart-fab';
+            fab.setAttribute('aria-label', 'Ver carrito');
             fab.innerHTML = `
                 <i class="fas fa-shopping-cart"></i>
                 <span id="cart-badge-fab" class="cart-badge">${cart.length}</span>
             `;
             document.body.appendChild(fab);
-            fab.addEventListener('click', () => toggleCart());
-            updateCartBadge();
+            fab.addEventListener('click', () => {
+                window.location.href = pathPrefix + 'carrito.html';
+            });
         }
+
+        updateCartBadge();
     };
 
     injectCartUI();
 
-    // --- LÓGICA DE TEMA (CLARO/OSCURO) ---
-    const savedTheme = localStorage.getItem('theme') || 'dark';
-    document.body.setAttribute('data-theme', savedTheme);
+    // ─── CAMBIAR IMAGEN PRODUCTO (thumbnails) ──────────────────────────────
+    window.changeProductImage = (thumbnail, newSrc) => {
+        const gallery = thumbnail.parentElement;
+        const card = gallery.closest('.product-card');
+        const mainImg = card ? card.querySelector('.product-image-container img') : null;
+        if (!mainImg) return;
 
-    if (themeBtn) {
-        themeBtn.addEventListener('click', () => {
-            const currentTheme = document.body.getAttribute('data-theme');
-            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-            document.body.setAttribute('data-theme', newTheme);
-            localStorage.setItem('theme', newTheme);
-        });
-    }
+        mainImg.style.opacity = '0';
+        setTimeout(() => {
+            mainImg.src = newSrc;
+            mainImg.style.opacity = '1';
+        }, 180);
 
-    // --- LÓGICA DE MENÚ MÓVIL ---
-    if (menuToggle && navLinks) {
-        menuToggle.addEventListener('click', (e) => {
-            e.stopPropagation();
-            navLinks.classList.toggle('active');
-            const icon = menuToggle.querySelector('i');
-            if (icon) {
-                icon.classList.toggle('fa-bars');
-                icon.classList.toggle('fa-times');
-            }
-        });
+        gallery.querySelectorAll('.thumbnail').forEach(t => t.classList.remove('active'));
+        thumbnail.classList.add('active');
+    };
 
-        document.addEventListener('click', (e) => {
-            if (navLinks.classList.contains('active') && !navLinks.contains(e.target) && e.target !== menuToggle) {
-                navLinks.classList.remove('active');
-                const icon = menuToggle.querySelector('i');
-                if (icon) {
-                    icon.classList.add('fa-bars');
-                    icon.classList.remove('fa-times');
-                }
-            }
-        });
+    // ─── AGREGAR AL CARRITO ────────────────────────────────────────────────
+    window.addToCart = (productId) => {
+        const producto = (typeof productos !== 'undefined' ? productos : []).find(p => p.id === productId);
+        if (!producto) return;
 
-        navLinks.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-                navLinks.classList.remove('active');
-                const icon = menuToggle.querySelector('i');
-                if (icon) {
-                    icon.classList.add('fa-bars');
-                    icon.classList.remove('fa-times');
-                }
-            });
-        });
-    }
+        const sizeSelector = document.querySelector(`.size-selector[data-product-id="${productId}"]`);
+        const selectedSize = sizeSelector ? sizeSelector.value : 'N/A';
 
-    // --- FUNCIONES AUXILIARES ---
+        cart.push({ ...producto, tallaEscogida: selectedSize });
+        saveCart();
+        updateCartBadge();
+
+        window.location.href = pathPrefix + 'carrito.html';
+    };
+
+    // ─── DETECTAR MARCA DE LA PÁGINA ──────────────────────────────────────
     function obtenerMarcaDeLaPagina() {
-        const path = window.location.pathname;
-        const fileName = path.split('/').pop();
-
-        // Si es coleccion.html o similar, leer de la query string para soporte dinámico
         const urlParams = new URLSearchParams(window.location.search);
         const queryBrand = urlParams.get('m');
+
         if (queryBrand) {
-            const marcasDisponibles = [...new Set(productos.map(p => p.marca.toUpperCase()))];
+            const marcasDisponibles = [...new Set((typeof productos !== 'undefined' ? productos : []).map(p => p.marca.toUpperCase()))];
             return marcasDisponibles.find(m => m.toLowerCase() === queryBrand.toLowerCase()) || null;
         }
 
-        if (!fileName || fileName === 'index.html' || fileName === 'hombres.html' || fileName === 'mujeres.html' || fileName.includes('coleccion.html')) {
+        const fileName = window.location.pathname.split('/').pop();
+        if (!fileName || ['index.html','hombres.html','mujeres.html','coleccion.html',''].includes(fileName)) {
             return null;
         }
 
-        const marcaSlug = fileName.split('.')[0].replace(/_/g, ' ');
-        const marcasDisponibles = [...new Set(productos.map(p => p.marca.toUpperCase()))];
+        const marcaSlug = fileName.replace('.html','').replace(/_/g,' ');
+        const marcasDisponibles = [...new Set((typeof productos !== 'undefined' ? productos : []).map(p => p.marca.toUpperCase()))];
         return marcasDisponibles.find(m => m.toLowerCase() === marcaSlug.toLowerCase()) || null;
     }
 
     const marcaActual = obtenerMarcaDeLaPagina();
 
-    // --- RENDERIZADO DE PRODUCTOS ---
+    // ─── RENDERIZADO ──────────────────────────────────────────────────────
     if (grid) {
         let productosFiltrados = [];
-
         const urlParams = new URLSearchParams(window.location.search);
         const urlGender = urlParams.get('g') || gender;
+        const todosProductos = typeof productos !== 'undefined' ? productos : [];
+        const config = typeof marcasConfig !== 'undefined' ? marcasConfig : {};
 
         if (marcaActual) {
-            productosFiltrados = productos.filter(p => p.marca.toUpperCase() === marcaActual.toUpperCase());
-            
-            // Si venimos de la página de hombres o mujeres, filtrar la marca por ese género
+            // Vista de productos de una marca
+            productosFiltrados = todosProductos.filter(p =>
+                p.marca.toUpperCase() === marcaActual.toUpperCase()
+            );
             if (urlGender && urlGender !== 'none' && urlGender !== 'unisex') {
-                const normalizedGender = urlGender.toLowerCase();
+                const ng = urlGender.toLowerCase();
                 productosFiltrados = productosFiltrados.filter(p => {
-                    const pGender = p.genero.toLowerCase();
-                    return (normalizedGender === 'hombre' && (pGender === 'hombre' || pGender === 'caballero' || pGender === 'unisex')) ||
-                           (normalizedGender === 'mujer' && (pGender === 'mujer' || pGender === 'dama' || pGender === 'unisex'));
+                    const pg = p.genero.toLowerCase();
+                    return (ng === 'hombre' && ['hombre','caballero','unisex'].includes(pg)) ||
+                           (ng === 'mujer'  && ['mujer','dama','unisex'].includes(pg));
                 });
             }
+
         } else if (gender && gender !== 'none') {
-            const normalizedGender = gender.toLowerCase();
+            // Vista de marcas de un género
+            const ng = gender.toLowerCase();
+            const marcasMap = new Map();
 
-            const marcasConGenero = productos.filter(p => {
-                const pGender = p.genero.toLowerCase();
-                const isMatch = (normalizedGender === 'hombre' && (pGender === 'hombre' || pGender === 'caballero')) ||
-                    (normalizedGender === 'mujer' && (pGender === 'mujer' || pGender === 'dama')) ||
-                    (pGender === 'unisex');
-                return isMatch;
-            });
-
-            productosFiltrados = marcasConGenero.reduce((marcasUnicas, producto) => {
-                if (!marcasUnicas.some(m => m.marca === producto.marca)) {
-                    const config = (typeof marcasConfig !== 'undefined') ? marcasConfig[producto.marca.toUpperCase()] : null;
-                    marcasUnicas.push({
-                        id: producto.id,
-                        marca: producto.marca,
-                        genero: producto.genero,
-                        imagen: config?.banner || producto.imagen,
-                        descripcion: config?.descripcion || `Colección Premium ${producto.marca}`
+            todosProductos.forEach(p => {
+                const pg = p.genero.toLowerCase();
+                const match =
+                    (ng === 'hombre' && ['hombre','caballero'].includes(pg)) ||
+                    (ng === 'mujer'  && ['mujer','dama'].includes(pg));
+                if (match && !marcasMap.has(p.marca.toUpperCase())) {
+                    const mc = config[p.marca.toUpperCase()];
+                    marcasMap.set(p.marca.toUpperCase(), {
+                        id: p.id,
+                        marca: p.marca,
+                        genero: p.genero,
+                        imagen: mc?.banner || p.imagen,
+                        descripcion: mc?.descripcion || `Colección Premium ${p.marca}`
                     });
                 }
-                return marcasUnicas;
-            }, []);
+            });
 
-            // Incluir marcas del config que NO tienen productos aún
-            if (typeof marcasConfig !== 'undefined') {
-                const existingBrands = new Set(productosFiltrados.map(m => m.marca.toUpperCase()));
-                Object.keys(marcasConfig).forEach(marcaKey => {
-                    if (!existingBrands.has(marcaKey.toUpperCase())) {
-                        const config = marcasConfig[marcaKey];
-                        productosFiltrados.push({
-                            id: 90000 + productosFiltrados.length,
-                            marca: marcaKey,
-                            genero: normalizedGender,
-                            imagen: config.banner || '',
-                            descripcion: config.descripcion || `Colección Premium ${marcaKey}`
-                        });
-                    }
-                });
-            }
+            // Agregar marcas de config que no tienen productos aún
+            Object.keys(config).forEach(marcaKey => {
+                if (!marcasMap.has(marcaKey.toUpperCase())) {
+                    const mc = config[marcaKey];
+                    marcasMap.set(marcaKey.toUpperCase(), {
+                        id: 90000 + marcasMap.size,
+                        marca: marcaKey,
+                        genero: ng,
+                        imagen: mc.banner || '',
+                        descripcion: mc.descripcion || `Colección Premium ${marcaKey}`
+                    });
+                }
+            });
+
+            productosFiltrados = [...marcasMap.values()].sort((a, b) =>
+                a.marca.localeCompare(b.marca)
+            );
         }
 
-        // --- ORDENAR ALFABÉTICAMENTE AUTOMÁTICAMENTE ---
+        // Ordenar
         if (marcaActual) {
-            // Si estamos viendo productos de una marca, ordenar por nombre del producto
             productosFiltrados.sort((a, b) => a.nombre.localeCompare(b.nombre));
-        } else {
-            // Si estamos viendo las tarjetas de marcas, ordenar por nombre de la marca
-            productosFiltrados.sort((a, b) => a.marca.localeCompare(b.marca));
         }
 
         if (productosFiltrados.length > 0) {
+            // Renderizar cards
+            const fallbackImg = normalizarRuta(pathPrefix + 'img/logos/2NIKE.jpeg');
+
             productosFiltrados.forEach(item => {
                 const card = document.createElement('div');
                 card.className = 'product-card reveal';
 
-                // Determinar si renderizar producto o marca
-                const isProductView = marcaActual || (gender && gender !== 'none' && !productosFiltrados.every(p => p.descripcion));
-
-                if (isProductView) {
+                if (marcaActual) {
+                    // ── TARJETA DE PRODUCTO ──
                     const precioFormateado = new Intl.NumberFormat('es-CO', {
                         style: 'currency', currency: 'COP', minimumFractionDigits: 0
                     }).format(item.precio);
 
                     const imgSrc = normalizarRuta(pathPrefix + item.imagen);
-                    const pGender = item.genero.toLowerCase();
-                    let sizes = [];
-                    if (pGender === 'hombre' || pGender === 'caballero') {
-                        sizes = [40, 41, 42, 43, 44];
-                    } else if (pGender === 'mujer' || pGender === 'dama') {
-                        sizes = [36, 37, 38, 39];
-                    } else {
-                        sizes = [36, 37, 38, 39, 40, 41, 42, 43, 44];
-                    }
+
+                    const pg = item.genero.toLowerCase();
+                    let sizes = [36,37,38,39,40,41,42,43,44];
+                    if (['hombre','caballero'].includes(pg)) sizes = [38,39,40,41,42,43,44,45];
+                    else if (['mujer','dama'].includes(pg)) sizes = [35,36,37,38,39,40];
 
                     const allImages = item.imagenes ? [...new Set([item.imagen, ...item.imagenes])] : [item.imagen];
-                    const hasMultipleImages = allImages.length > 1;
-                    const galleryHtml = hasMultipleImages ? `
+                    const galleryHtml = allImages.length > 1 ? `
                         <div class="product-gallery">
-                            ${allImages.map((img, index) => `
-                                <div class="thumbnail ${index === 0 ? 'active' : ''}" 
-                                     onclick="changeProductImage(this, '${normalizarRuta(pathPrefix + img)}')">
-                                    <img src="${normalizarRuta(pathPrefix + img)}" alt="Vista ${index + 1}">
+                            ${allImages.map((img, i) => `
+                                <div class="thumbnail ${i === 0 ? 'active' : ''}"
+                                     onclick="changeProductImage(this,'${normalizarRuta(pathPrefix + img)}')">
+                                    <img src="${normalizarRuta(pathPrefix + img)}" alt="Vista ${i+1}" loading="lazy">
                                 </div>
                             `).join('')}
                         </div>
@@ -306,134 +288,110 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     card.innerHTML = `
                         <div class="product-image-container" data-product-id="${item.id}">
-
-                            <img src="${imgSrc}" alt="${item.nombre}" id="main-image-${item.id}" loading="lazy" onerror="this.onerror=null; this.src='${normalizarRuta(pathPrefix + 'img/logos/2NIKE.jpeg')}';">
-
-                            <div class="product-image-overlay">
-                                <button class="btn-add-overlay" onclick="event.stopPropagation(); addToCart(${item.id})">
-                                    Añadir
-                                </button>
-                                <div class="zoom-hint">
-                                    <i class="fas fa-search-plus"></i>
-                                    Click para zoom
-                                </div>
-                            </div>
+                            <img src="${imgSrc}" alt="${item.nombre}" loading="lazy"
+                                 onerror="this.onerror=null;this.src='${fallbackImg}';">
+                            <div class="product-image-overlay"></div>
                         </div>
                         ${galleryHtml}
                         <div class="product-info">
                             <h3 class="product-name">${item.nombre}</h3>
-                            <p class="product-ref">Ref: ${item.referencia}</p>
-                            
+                            <p class="product-ref"><i class="fas fa-barcode" style="opacity:0.4;margin-right:4px;"></i> ${item.referencia}</p>
+                            <p class="product-price">${precioFormateado}</p>
                             <div class="product-selection">
                                 <label>Talla (EURO):</label>
                                 <select class="size-selector" data-product-id="${item.id}">
                                     ${sizes.map(s => `<option value="${s}">${s}</option>`).join('')}
                                 </select>
                             </div>
-
-                            <p class="product-price">${precioFormateado}</p>
-                            
                             <button class="btn-whatsapp" onclick="addToCart(${item.id})">
-                                <i class="fas fa-cart-plus"></i> Añadir al carrito
+                                <i class="fas fa-cart-plus"></i> Agregar al carrito
                             </button>
                         </div>
                     `;
                 } else {
-                    const brandSlug = item.marca.toLowerCase().replace(/\s+/g, '_');
-                    const config = (typeof marcasConfig !== 'undefined') ? marcasConfig[item.marca.toUpperCase()] : null;
-                    const brandBannerSrc = config?.banner ? normalizarRuta(pathPrefix + config.banner) : null;
-                    const brandFileName = item.marca.toUpperCase().replace(/\s+/g, '');
-                    const brandLogoSrc = normalizarRuta(`${pathPrefix}img/logos/LOGO${brandFileName}.jpeg`);
-                    const fallbackSrc = normalizarRuta(pathPrefix + item.imagen);
+                    // ── TARJETA DE MARCA ──
+                    const brandSlug = item.marca.toLowerCase().replace(/\s+/g,'_').replace(/&/g,'');
+                    const mc = config[item.marca.toUpperCase()];
+                    const bannerSrc  = mc?.banner ? normalizarRuta(pathPrefix + mc.banner) : null;
+                    const fallbackBrand = normalizarRuta(pathPrefix + item.imagen);
+                    const brandImgSrc = bannerSrc || fallbackBrand;
+
+                    const genderParam = gender && gender !== 'none' ? `?g=${gender}` : '';
 
                     card.innerHTML = `
                         <div class="brand-image">
-                            <img src="${brandBannerSrc || brandLogoSrc}" alt="${item.marca}" loading="lazy" 
-                                 onerror="this.onerror=null; this.src='${normalizarRuta(pathPrefix + 'img/logos/LOGO' + brandFileName + '.png')}'; 
-                                 this.onerror=function(){this.src='${fallbackSrc}';}">
+                            <img src="${brandImgSrc}" alt="${item.marca}"
+                                 loading="lazy"
+                                 onerror="this.onerror=null;this.src='${fallbackBrand}';">
                         </div>
                         <div class="brand-info">
                             <h3 class="brand-name">${item.marca}</h3>
                             <p class="brand-description">${item.descripcion}</p>
-                            
-                            <a href="marcas/${brandSlug}.html${gender && gender !== 'none' ? '?g=' + gender : ''}" class="btn-ver-marcas">
-                                Ver Colección
+                            <a href="${isSubDir ? '' : ''}marcas/${brandSlug}.html${genderParam}"
+                               class="btn-ver-marcas">
+                               Ver Colección <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
                     `;
                 }
+
                 grid.appendChild(card);
             });
 
-            // --- GLOBAL ZOOM TRIGGER FUNCTION ---
-            window.triggerZoom = (container) => {
-                if (!container) return;
-                const img = container.querySelector('img');
-                const hint = container.querySelector('.zoom-hint');
-                const zoomBtn = container.querySelector('.btn-zoom-overlay');
-                
-                container.classList.toggle('zoomed');
-                
-                if (container.classList.contains('zoomed')) {
-                    if (hint) hint.innerHTML = '<i class="fas fa-search-minus"></i> Click para salir';
-                    if (zoomBtn) zoomBtn.innerHTML = '<i class="fas fa-search-minus"></i> Cerrar';
-                } else {
-                    if (hint) hint.innerHTML = '<i class="fas fa-search-plus"></i> Click para zoom';
-                    if (zoomBtn) zoomBtn.innerHTML = '<i class="fas fa-search-plus"></i> Zoom';
-                    img.style.transformOrigin = 'center center';
-                }
-            };
-
-            // --- LÓGICA DE ZOOM PROFESIONAL ---
+            // ── ZOOM EN IMÁGENES DE PRODUCTO ──────────────────────────────
             document.querySelectorAll('.product-image-container').forEach(container => {
                 const img = container.querySelector('img');
-                const hint = container.querySelector('.zoom-hint');
-                
-container.addEventListener('mousemove', (e) => {
+                if (!img) return;
+
+                container.addEventListener('mousemove', (e) => {
                     const rect = container.getBoundingClientRect();
-                    const x = e.clientX - rect.left;
-                    const y = e.clientY - rect.top;
-
-                    // Forzamos el zoom y el origen
+                    const xPct = ((e.clientX - rect.left) / rect.width) * 100;
+                    const yPct = ((e.clientY - rect.top)  / rect.height) * 100;
                     container.classList.add('zoomed');
-
-                    const xPercent = rect.width ? (x / rect.width) * 100 : 50;
-
-                    const yPercent = rect.height ? (y / rect.height) * 100 : 50;
-
-                    // Siempre actualizamos el origen para que al hacer zoom “se vea por donde pasas el mouse”
-                    img.style.transformOrigin = `${xPercent}% ${yPercent}%`;
-
-                    // Si no está zoomed, igual forzamos que se aplique el zoom visual (hover zoom)
-                    if (!container.classList.contains('zoomed')) {
-                        container.classList.add('zoomed');
-                    }
-                });
-
-
-                container.addEventListener('click', (e) => {
-                    // Si se hizo click en un botón del overlay, ignorar para evitar doble toggle
-                    if (e.target.closest('.product-image-overlay button')) return;
-                    window.triggerZoom(container);
+                    img.style.transformOrigin = `${xPct}% ${yPct}%`;
                 });
 
                 container.addEventListener('mouseleave', () => {
                     container.classList.remove('zoomed');
-                    if (hint) hint.innerHTML = '<i class="fas fa-search-plus"></i> Click para zoom';
-                    const zoomBtn = container.querySelector('.btn-zoom-overlay');
-                    if (zoomBtn) zoomBtn.innerHTML = '<i class="fas fa-search-plus"></i> Zoom';
                     img.style.transformOrigin = 'center center';
+                });
+
+                container.addEventListener('click', (e) => {
+                    if (e.target.closest('button')) return;
+                    container.classList.toggle('zoomed');
                 });
             });
 
-            setTimeout(() => {
-                document.querySelectorAll('.reveal').forEach((el, index) => {
-                    setTimeout(() => el.classList.add('active'), index * 100);
+            // ── REVEAL con IntersectionObserver ───────────────────────────
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry, i) => {
+                    if (entry.isIntersecting) {
+                        setTimeout(() => entry.target.classList.add('active'), i * 50);
+                        observer.unobserve(entry.target);
+                    }
                 });
-            }, 100);
+            }, { threshold: 0.05, rootMargin: '0px 0px -40px 0px' });
+
+            document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
 
         } else {
-            grid.innerHTML = '<p class="no-products">Próximamente nuevos modelos disponibles.</p>';
+            grid.innerHTML = `
+                <div class="no-products">
+                    <i class="fas fa-shoe-prints"></i>
+                    <p>Próximamente nuevos modelos disponibles.</p>
+                </div>
+            `;
         }
+    } else {
+        // Página sin grid (index.html) — solo activar reveals
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
     }
 });

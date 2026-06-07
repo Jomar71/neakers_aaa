@@ -4,29 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JOMAR AAA. | Sneakers Premium</title>
+    <meta name="description" content="JOMAR AAA — La colección más exclusiva de sneakers premium. Más de 25 marcas icónicas, 400+ modelos. Envío a nivel nacional.">
+    <title>JOMAR AAA. | Sneakers Premium Colombia</title>
     <link rel="stylesheet" href="css/tienda.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        /* Estilos específicos para la landing que no están en tienda.css */
-        .reveal {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: all 0.8s ease-out;
-        }
-
-        .reveal.active {
-            opacity: 1;
-            transform: translateY(0);
-        }
-    </style>
 </head>
 
 <body data-gender="none" data-theme="dark">
+
+    <!-- NAVIGATION -->
     <header>
         <div class="container nav-content">
             <a href="index.html" class="logo">
-                <img src="img/logos/LOGO SNEAKERS AAA.png" alt="JOMAR AAA" class="logo-img">
+                <img src="img/logos/LOGO SNEAKERS AAA.png" alt="JOMAR AAA Sneakers" class="logo-img">
             </a>
             <nav>
                 <ul class="nav-links">
@@ -35,88 +25,200 @@
                     <li><a href="mujeres.html">Mujeres</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                     <li>
-                        <button id="theme-toggle" title="Cambiar tema">
-                            <i class="fas fa-adjust"></i>
+                        <button id="theme-toggle" title="Cambiar tema" aria-label="Cambiar tema claro/oscuro">
+                            <i class="fas fa-circle-half-stroke"></i>
                         </button>
                     </li>
                 </ul>
             </nav>
             <div class="mobile-menu-toggle">
-                <button id="menu-toggle">
+                <button id="menu-toggle" aria-label="Menú">
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
         </div>
     </header>
 
-    <main class="container">
-        <!-- SECCIÓN DE IMPACTO -->
-        <section class="landing-hero">
+    <main>
+        <!-- ═══════════════════════════════════════════════
+             HERO SECTION
+        ════════════════════════════════════════════════ -->
+        <section class="landing-hero container">
             <div class="landing-content reveal">
-                <h1 class="landing-title">En SNEAKERS<br> <span>AAA.</span></h1>
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i> Colección Premium 2025
+                </div>
+                <h1 class="landing-title">
+                    SNEAKERS<br><span>AAA.</span>
+                </h1>
                 <p class="landing-desc">
-                    La cúspide de la réplica de lujo.
-                    Nuestra selección Triple A representa el más alto estándar en réplicas de alta gama. Cada par de
-                    nuestro catálogo es el resultado de un riguroso proceso de ingeniería, donde convergen materiales de
-                    origen premium y una precisión absoluta en cada detalle.
-                    Calidad, excelencia y autenticidad visual se unen para ofrecer una experiencia que solo los
-                    verdaderos conocedores pueden distinguir.
+                    La cúspide de la réplica de lujo. Cada par es el resultado de un riguroso proceso de 
+                    ingeniería con materiales premium y precisión absoluta en cada detalle.
                 </p>
                 <div class="landing-btns">
-                    <a href="hombres.html" class="image-with-caption">
-                        <img src="img/logos/LOGO CABALLEROS2.png" alt="Tenis Hombres" class="medium-image">
-                        <div class="caption-text">Hombres</div>
+                    <a href="hombres.html" class="btn-hero-primary" id="btn-hombres-hero">
+                        Hombres <i class="fas fa-arrow-right"></i>
                     </a>
-                    <a href="mujeres.html" class="image-with-caption">
-                        <img src="img/logos/LOGO DAMAS2.png" alt="Tenis Mujeres" class="medium-image">
-                        <div class="caption-text">Mujeres</div>
+                    <a href="mujeres.html" class="btn-hero-secondary" id="btn-mujeres-hero">
+                        Mujeres <i class="fas fa-arrow-right"></i>
                     </a>
                 </div>
             </div>
-            <div class="landing-image reveal" style="transition-delay: 0.3s;">
-                <img src="img/logos/2NIKE.jpeg" alt="Sneaker Impactante" class="floating-shoe">
+            <div class="landing-image reveal" style="transition-delay:0.2s;">
+                <img src="img/logos/2NIKE.jpeg" alt="Sneaker Premium JOMAR AAA" class="floating-shoe">
                 <div class="glow-effect"></div>
             </div>
         </section>
 
-        <!-- SECCIÓN DE CONTACTO -->
-        <section id="contacto" class="reveal">
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <h2>¿Dudas <br> Técnicas?</h2>
-                    <p>Contáctanos para ver fotos reales, videos de calidad y asesoría sobre el tallaje de tu próximo
-                        par.</p>
+        <!-- ═══════════════════════════════════════════════
+             STATS STRIP
+        ════════════════════════════════════════════════ -->
+        <section class="stats-strip reveal" style="transition-delay:0.3s;">
+            <div class="stat-item">
+                <span class="stat-number" id="stat-marcas">25+</span>
+                <span class="stat-label">Marcas Premium</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number" id="stat-modelos">400+</span>
+                <span class="stat-label">Modelos Disponibles</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">AAA</span>
+                <span class="stat-label">Calidad Triple A</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number"><i class="fas fa-truck" style="font-size:1.5rem;"></i></span>
+                <span class="stat-label">Envío Nacional</span>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════
+             GENDER CTA SECTION
+        ════════════════════════════════════════════════ -->
+        <section class="gender-section container reveal" style="transition-delay:0.1s;">
+            <div class="section-header">
+                <h2>Explorar <span style="color:var(--primary);">Colección</span></h2>
+                <p>Encuentra el par perfecto para cada estilo y ocasión</p>
+            </div>
+            <div class="gender-cta-grid">
+                <a href="hombres.html" class="gender-card" id="gender-card-hombres">
+                    <img src="img/logos/LOGO CABALLEROS2.png" alt="Colección Hombres JOMAR AAA" loading="lazy">
+                    <div class="gender-card-overlay">
+                        <h2>Hombres</h2>
+                        <span>Ver Colección <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+                <a href="mujeres.html" class="gender-card" id="gender-card-mujeres">
+                    <img src="img/logos/LOGO DAMAS2.png" alt="Colección Mujeres JOMAR AAA" loading="lazy">
+                    <div class="gender-card-overlay">
+                        <h2>Mujeres</h2>
+                        <span>Ver Colección <i class="fas fa-arrow-right"></i></span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════
+             FEATURES / TRUST SIGNALS
+        ════════════════════════════════════════════════ -->
+        <section class="features-section">
+            <div class="container">
+                <div class="features-grid">
+                    <div class="feature-card reveal" style="transition-delay:0.05s;">
+                        <i class="fas fa-medal feature-icon"></i>
+                        <h3>Calidad Triple A</h3>
+                        <p>El estándar más alto en réplicas premium, con materiales de origen y precisión milimétrica.</p>
+                    </div>
+                    <div class="feature-card reveal" style="transition-delay:0.1s;">
+                        <i class="fas fa-shield-halved feature-icon"></i>
+                        <h3>Garantía 30 Días</h3>
+                        <p>Todos nuestros productos tienen garantía contra defectos de fábrica por 30 días.</p>
+                    </div>
+                    <div class="feature-card reveal" style="transition-delay:0.15s;">
+                        <i class="fas fa-truck-fast feature-icon"></i>
+                        <h3>Envío Nacional</h3>
+                        <p>Hacemos envíos a todo el país con seguimiento en tiempo real para tu tranquilidad.</p>
+                    </div>
+                    <div class="feature-card reveal" style="transition-delay:0.2s;">
+                        <i class="fab fa-whatsapp feature-icon"></i>
+                        <h3>Asesoría Directa</h3>
+                        <p>Contáctanos por WhatsApp y recibe fotos reales, videos de calidad y asesoría de talla.</p>
+                    </div>
                 </div>
-                <form class="contact-form"
-                    onsubmit="event.preventDefault(); alert('¡Gracias! Te contactaremos por WhatsApp.');">
-                    <input type="text" placeholder="NOMBRE" required>
-                    <input type="email" placeholder="CORREO" required>
-                    <textarea placeholder="MENSAJE" rows="4"></textarea>
-                    <button type="submit" class="btn-whatsapp">Solicitar Información</button>
-                </form>
+            </div>
+        </section>
+
+        <!-- ═══════════════════════════════════════════════
+             CONTACT SECTION
+        ════════════════════════════════════════════════ -->
+        <section id="contacto" class="reveal">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>¿Tienes <span>Dudas?</span></h2>
+                        <p>
+                            Contáctanos para ver fotos reales, videos de calidad y recibir asesoría 
+                            personalizada sobre el tallaje de tu próximo par.
+                        </p>
+                        <div class="contact-badges">
+                            <span class="contact-badge"><i class="fas fa-check"></i> Respuesta rápida</span>
+                            <span class="contact-badge"><i class="fas fa-camera"></i> Fotos reales</span>
+                            <span class="contact-badge"><i class="fas fa-ruler"></i> Asesoría de talla</span>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contact-form-home"
+                        onsubmit="event.preventDefault(); this.querySelector('button').innerHTML='<i class=\'fas fa-check\'></i> ¡Enviado!'; setTimeout(()=>{ this.reset(); this.querySelector('button').innerHTML='Solicitar Información'; }, 2500);">
+                        <input type="text" id="contact-name" placeholder="Tu nombre" required autocomplete="name">
+                        <input type="email" id="contact-email" placeholder="Tu correo" required autocomplete="email">
+                        <textarea id="contact-msg" placeholder="¿Qué modelo te interesa? ¿Tienes alguna duda?" rows="4"></textarea>
+                        <button type="submit" class="btn-whatsapp">
+                            <i class="fab fa-whatsapp"></i> Solicitar Información
+                        </button>
+                    </form>
+                </div>
             </div>
         </section>
     </main>
 
+    <!-- FOOTER -->
     <footer>
-        <p>Jo © 2024. TODOS LOS DERECHOS RESERVADOS.</p>
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <img src="img/logos/LOGO SNEAKERS AAA.png" alt="JOMAR AAA" class="footer-logo">
+                <p>Sneakers Premium</p>
+            </div>
+            <ul class="footer-links">
+                <li><a href="hombres.html">Hombres</a></li>
+                <li><a href="mujeres.html">Mujeres</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <p class="footer-copy">© 2025 JOMAR AAA. Todos los derechos reservados.</p>
+        </div>
     </footer>
 
-    <script src="js/marcas_config_hombres.js?v=2"></script>
-    <script src="js/marcas_config_mujeres.js?v=2"></script>
-    <script src="js/productos_hombres.js?v=2"></script>
-    <script src="js/productos_mujeres.js?v=2"></script>
+    <!-- DATA SCRIPTS -->
+    <script src="js/marcas_config_hombres.js?v=3"></script>
+    <script src="js/marcas_config_mujeres.js?v=3"></script>
+    <script src="js/productos_hombres.js?v=3"></script>
+    <script src="js/productos_mujeres.js?v=3"></script>
     <script>
-        const marcasConfig = {...marcasConfigHombres, ...marcasConfigMujeres};
-        const productos = [...productosHombres, ...productosMujeres];
+        const marcasConfig = { ...marcasConfigHombres, ...marcasConfigMujeres };
+        const productos    = [...productosHombres, ...productosMujeres];
     </script>
-    <script src="js/tienda.js?v=2"></script>
+    <script src="js/tienda.js?v=3"></script>
     <script>
-        // Animación de entrada
+        // Reveal on scroll (IntersectionObserver)
         document.addEventListener('DOMContentLoaded', () => {
-            setTimeout(() => {
-                document.querySelectorAll('.reveal').forEach(el => el.classList.add('active'));
-            }, 100);
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+
+            document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
         });
     </script>
 </body>

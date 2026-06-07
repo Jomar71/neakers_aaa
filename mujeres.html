@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Colección de sneakers para mujeres — JOMAR AAA. Adidas, Nike, Puma, Converse, Gucci y más. Envío nacional.">
     <title>JOMAR AAA. | Mujeres</title>
     <link rel="stylesheet" href="css/tienda.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s ease-out; }
-        .reveal.active { opacity: 1; transform: translateY(0); }
-    </style>
 </head>
+
 <body data-gender="mujer" data-theme="dark">
+
     <header>
         <div class="container nav-content">
             <a href="index.html" class="logo">
-                <img src="img/logos/LOGO SNEAKERS AAA.png" alt="JOMAR AAA" class="logo-img">
+                <img src="img/logos/LOGO SNEAKERS AAA.png" alt="JOMAR AAA Sneakers" class="logo-img">
             </a>
             <nav>
                 <ul class="nav-links">
@@ -24,14 +24,14 @@
                     <li><a href="mujeres.html" class="active">Mujeres</a></li>
                     <li><a href="#contacto">Contacto</a></li>
                     <li>
-                        <button id="theme-toggle" title="Cambiar tema">
-                            <i class="fas fa-adjust"></i>
+                        <button id="theme-toggle" title="Cambiar tema" aria-label="Cambiar tema">
+                            <i class="fas fa-circle-half-stroke"></i>
                         </button>
                     </li>
                 </ul>
             </nav>
             <div class="mobile-menu-toggle">
-                <button id="menu-toggle">
+                <button id="menu-toggle" aria-label="Menú">
                     <i class="fas fa-bars"></i>
                 </button>
             </div>
@@ -40,40 +40,72 @@
 
     <main class="container">
         <section class="hero-section reveal">
-            <h1>Colección <br> <span>Mujer</span></h1>
-            <p>Diseños exclusivos que capturan la esencia del estilo urbano contemporáneo.</p>
+            <h1>Colección <br><span>Mujer</span></h1>
+            <p>Estilo, elegancia y comodidad en cada paso. Descubre nuestra exclusiva selección femenina.</p>
         </section>
 
         <div id="productos-grid" class="products-grid">
-            <!-- Los productos se cargarán dinámicamente aquí -->
+            <!-- Las marcas se cargarán dinámicamente -->
         </div>
 
         <section id="contacto" class="reveal">
             <div class="contact-grid">
                 <div class="contact-info">
-                    <h2>Atención <br> VIP</h2>
-                    <p>¿No encuentras tu modelo? Nuestro personal shopper te ayudará a conseguirlo.</p>
+                    <h2>Tu Estilo, <span>Nuestra Pasión</span></h2>
+                    <p>¿No encuentras el modelo que buscas? Contáctanos y te ayudamos a encontrar tu par ideal.</p>
+                    <div class="contact-badges">
+                        <span class="contact-badge"><i class="fas fa-ruler-horizontal"></i> Guía de tallas</span>
+                        <span class="contact-badge"><i class="fas fa-camera"></i> Fotos reales</span>
+                    </div>
                 </div>
-                <form class="contact-form" onsubmit="event.preventDefault(); alert('¡Gracias! Te contactaremos por WhatsApp.');">
-                    <input type="text" placeholder="NOMBRE" required>
-                    <input type="email" placeholder="CORREO" required>
-                    <textarea placeholder="MENSAJE" rows="4"></textarea>
-                    <button type="submit" class="btn-whatsapp">Solicitar Personal Shopper</button>
+                <form class="contact-form" id="contact-form-mujeres"
+                    onsubmit="event.preventDefault(); this.querySelector('button').innerHTML='<i class=\'fas fa-check\'></i> ¡Enviado!'; setTimeout(()=>{ this.reset(); this.querySelector('button').innerHTML='<i class=\'fab fa-whatsapp\'></i> Solicitar Asesoría'; }, 2500);">
+                    <input type="text" placeholder="Tu nombre" required>
+                    <input type="email" placeholder="Tu correo" required>
+                    <textarea placeholder="¿Qué modelo te interesa?" rows="4"></textarea>
+                    <button type="submit" class="btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i> Solicitar Asesoría
+                    </button>
                 </form>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>JOMAR AAA © 2024. TODOS LOS DERECHOS RESERVADOS.</p>
+        <div class="container footer-inner">
+            <div class="footer-brand">
+                <img src="img/logos/LOGO SNEAKERS AAA.png" alt="JOMAR AAA" class="footer-logo">
+                <p>Sneakers Premium</p>
+            </div>
+            <ul class="footer-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="hombres.html">Hombres</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <p class="footer-copy">© 2025 JOMAR AAA. Todos los derechos reservados.</p>
+        </div>
     </footer>
 
-    <script src="js/marcas_config_mujeres.js?v=2"></script>
-    <script src="js/productos_mujeres.js?v=2"></script>
+    <script src="js/marcas_config_mujeres.js?v=3"></script>
+    <script src="js/productos_mujeres.js?v=3"></script>
     <script>
         const marcasConfig = marcasConfigMujeres;
-        const productos = productosMujeres;
+        const productos    = productosMujeres;
     </script>
-    <script src="js/tienda.js?v=2"></script>
+    <script src="js/tienda.js?v=3"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('active');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, { threshold: 0.1, rootMargin: '0px 0px -60px 0px' });
+            document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+        });
+    </script>
 </body>
+
 </html>

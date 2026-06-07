@@ -1,7 +1,7 @@
 // ============================================================
 // ARCHIVO AUTO-GENERADO POR generar_productos.js
 // NO EDITAR MANUALMENTE - Ejecuta el script para regenerar
-// Última actualización: 30/5/2026
+// Última actualización: 6/6/2026 7:38:11 p. m.
 // ============================================================
 
 const productosHombres = [
@@ -12,7 +12,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Adidas/ADIDASALPHADMS1.jpeg",
         "referencia": "DMS1",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
@@ -22,7 +22,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Adidas/ADIDASEQUIPMENTMS3.jpeg",
         "referencia": "MS3",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
@@ -32,7 +32,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Adidas/ADIDASMS1.jpeg",
         "referencia": "MS1",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
@@ -42,7 +42,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Adidas/ADIDASMS2.jpeg",
         "referencia": "MS2",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
@@ -52,7 +52,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Adidas/ADIDASMS3.jpeg",
         "referencia": "MS3",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
@@ -62,7 +62,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Adidas/ADIDASSAMBAMS2.jpeg",
         "referencia": "MS2",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
@@ -72,7 +72,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Adidas/ADIDAS_ADISTAR_MS1.jpeg",
         "referencia": "MS1",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
@@ -82,7 +82,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Adidas/ADIDAS_ADISTAR_MS2.jpeg",
         "referencia": "MS2",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
@@ -92,7 +92,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Adidas/ADIDAS_BLAZE_MS1.jpeg",
         "referencia": "MS1",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
@@ -102,7 +102,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Adidas/ADIDAS_BLAZE_MS2.jpeg",
         "referencia": "MS2",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
@@ -112,7 +112,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Adidas/ADIDAS_BOUNCE_MS1.jpeg",
         "referencia": "MS1",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
@@ -122,7 +122,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Adidas/ADIDAS_EQUIPM_NT_MS1.jpeg",
         "referencia": "MS1",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
@@ -132,7 +132,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Adidas/ADIDAS_EQUIPM_NT_MS2.jpeg",
         "referencia": "MS2",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
@@ -142,7 +142,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Adidas/ADIDAS_NITEBALL_MS1.jpeg",
         "referencia": "MS1",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
@@ -152,7 +152,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Adidas/ADIDAS_NITEBALL_MS2.jpeg",
         "referencia": "MS2",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
@@ -162,7 +162,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Adidas/ADIDAS_NITEBALL_MS3.jpeg",
         "referencia": "MS3",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
@@ -172,7 +172,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Adidas/ADIDAS_SAMBA_MS1.jpeg",
         "referencia": "MS1",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
@@ -182,7 +182,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Adidas/ADIDAS_ULTRABOOST_MS1.jpeg",
         "referencia": "MS1",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
@@ -192,7 +192,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Adidas/ADIDAS_ULTRABOOST_MS2.jpeg",
         "referencia": "MS2",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
@@ -202,7 +202,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Adidas/ADIDAS_YEEZY_MS1.jpeg",
         "referencia": "MS1",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
     },
     {
@@ -212,7 +212,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Armani/ARMANI_EXCHANGEMS8.jpeg",
         "referencia": "MS8",
-        "precio": 320000,
+        "precio": 185000,
         "descripcion": "Elegancia italiana con un toque moderno y exclusivo."
     },
     {
@@ -222,7 +222,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS1.jpeg",
         "referencia": "MS1",
-        "precio": 320000,
+        "precio": 185000,
         "descripcion": "Elegancia italiana con un toque moderno y exclusivo."
     },
     {
@@ -232,7 +232,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS2.jpeg",
         "referencia": "MS2",
-        "precio": 320000,
+        "precio": 185000,
         "descripcion": "Elegancia italiana con un toque moderno y exclusivo."
     },
     {
@@ -242,7 +242,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS3.jpeg",
         "referencia": "MS3",
-        "precio": 320000,
+        "precio": 185000,
         "descripcion": "Elegancia italiana con un toque moderno y exclusivo."
     },
     {
@@ -252,7 +252,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS4.jpeg",
         "referencia": "MS4",
-        "precio": 320000,
+        "precio": 185000,
         "descripcion": "Elegancia italiana con un toque moderno y exclusivo."
     },
     {
@@ -262,7 +262,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS5.jpeg",
         "referencia": "MS5",
-        "precio": 320000,
+        "precio": 185000,
         "descripcion": "Elegancia italiana con un toque moderno y exclusivo."
     },
     {
@@ -272,7 +272,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS6.jpeg",
         "referencia": "MS6",
-        "precio": 320000,
+        "precio": 185000,
         "descripcion": "Elegancia italiana con un toque moderno y exclusivo."
     },
     {
@@ -282,7 +282,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS7.jpeg",
         "referencia": "MS7",
-        "precio": 320000,
+        "precio": 185000,
         "descripcion": "Elegancia italiana con un toque moderno y exclusivo."
     },
     {
@@ -292,7 +292,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Asics/ASICSMS1.PNG",
         "referencia": "MS1",
-        "precio": 245000,
+        "precio": 185000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
     },
     {
@@ -302,7 +302,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Asics/ASICSMS10.jpeg",
         "referencia": "MS10",
-        "precio": 245000,
+        "precio": 195000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
     },
     {
@@ -312,7 +312,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Asics/ASICSMS11.jpeg",
         "referencia": "MS11",
-        "precio": 245000,
+        "precio": 195000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
     },
     {
@@ -322,7 +322,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Asics/ASICSMS2.jpeg",
         "referencia": "MS2",
-        "precio": 245000,
+        "precio": 190000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
     },
     {
@@ -332,7 +332,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Asics/ASICSMS3.jpeg",
         "referencia": "MS3",
-        "precio": 245000,
+        "precio": 185000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
     },
     {
@@ -342,7 +342,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Asics/ASICSMS4.jpeg",
         "referencia": "MS4",
-        "precio": 245000,
+        "precio": 170000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
     },
     {
@@ -352,7 +352,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Asics/ASICSMS5.jpeg",
         "referencia": "MS5",
-        "precio": 245000,
+        "precio": 220000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
     },
     {
@@ -362,7 +362,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Asics/ASICSMS6.jpeg",
         "referencia": "MS6",
-        "precio": 245000,
+        "precio": 200000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
     },
     {
@@ -372,7 +372,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Asics/ASICSMS7.jpeg",
         "referencia": "MS7",
-        "precio": 245000,
+        "precio": 200000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
     },
     {
@@ -382,7 +382,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Asics/ASICSMS8.jpeg",
         "referencia": "MS8",
-        "precio": 245000,
+        "precio": 200000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
     },
     {
@@ -392,7 +392,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Asics/ASICSMS9.jpeg",
         "referencia": "MS9",
-        "precio": 245000,
+        "precio": 185000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
     },
     {
@@ -402,7 +402,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Coach/COACHMS1.jpeg",
         "referencia": "MS1",
-        "precio": 280000,
+        "precio": 180000,
         "descripcion": "Lujo accesible con diseño sofisticado."
     },
     {
@@ -412,7 +412,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Coach/COACHMS2.jpeg",
         "referencia": "MS2",
-        "precio": 280000,
+        "precio": 180000,
         "descripcion": "Lujo accesible con diseño sofisticado."
     },
     {
@@ -422,7 +422,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Coach/COACHMS3.jpeg",
         "referencia": "MS3",
-        "precio": 280000,
+        "precio": 180000,
         "descripcion": "Lujo accesible con diseño sofisticado."
     },
     {
@@ -432,7 +432,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Converse/CONVERSEALLSTARMS1.PNG",
         "referencia": "MS1",
-        "precio": 170000,
+        "precio": 180000,
         "descripcion": "El clásico atemporal que nunca pasa de moda."
     },
     {
@@ -442,7 +442,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Diesel/DIESELMS1.jpeg",
         "referencia": "MS1",
-        "precio": 210000,
+        "precio": 180000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
     },
     {
@@ -452,7 +452,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Diesel/DIESELMS2.jpeg",
         "referencia": "MS2",
-        "precio": 210000,
+        "precio": 180000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
     },
     {
@@ -462,7 +462,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Diesel/DIESELMS31.jpeg",
         "referencia": "MS31",
-        "precio": 210000,
+        "precio": 190000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
     },
     {
@@ -472,7 +472,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Diesel/DIESELMS32.jpeg",
         "referencia": "MS32",
-        "precio": 210000,
+        "precio": 190000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
     },
     {
@@ -482,7 +482,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Diesel/DIESELMS33.jpeg",
         "referencia": "MS33",
-        "precio": 210000,
+        "precio": 190000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
     },
     {
@@ -492,7 +492,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Diesel/DIESELMS34.jpeg",
         "referencia": "MS34",
-        "precio": 210000,
+        "precio": 190000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
     },
     {
@@ -502,7 +502,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Diesel/DIESELMS35.jpeg",
         "referencia": "MS35",
-        "precio": 210000,
+        "precio": 180000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
     },
     {
@@ -512,7 +512,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Diesel/DIESELMS41.jpeg",
         "referencia": "MS41",
-        "precio": 210000,
+        "precio": 200000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
     },
     {
@@ -522,7 +522,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Diesel/DIESELMS42.jpeg",
         "referencia": "MS42",
-        "precio": 210000,
+        "precio": 200000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
     },
     {
@@ -532,7 +532,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Diesel/DIESELMS43.jpeg",
         "referencia": "MS43",
-        "precio": 210000,
+        "precio": 200000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
     },
     {
@@ -542,7 +542,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Diesel/DIESELMS51.jpeg",
         "referencia": "MS51",
-        "precio": 210000,
+        "precio": 195000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
     },
     {
@@ -552,7 +552,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Diesel/DIESELMS52.jpeg",
         "referencia": "MS52",
-        "precio": 210000,
+        "precio": 195000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
     },
     {
@@ -562,7 +562,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Diesel/DIESELMS53.jpeg",
         "referencia": "MS53",
-        "precio": 210000,
+        "precio": 195000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
     },
     {
@@ -572,7 +572,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Diesel/DIESELMS61.jpeg",
         "referencia": "MS61",
-        "precio": 210000,
+        "precio": 190000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
     },
     {
@@ -582,7 +582,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Diesel/DIESELMS62.jpeg",
         "referencia": "MS62",
-        "precio": 210000,
+        "precio": 190000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
     },
     {
@@ -592,7 +592,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Diesel/DIESELMS63.jpeg",
         "referencia": "MS63",
-        "precio": 210000,
+        "precio": 190000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
     },
     {
@@ -602,7 +602,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Diesel/DIESELMS64.jpeg",
         "referencia": "MS64",
-        "precio": 210000,
+        "precio": 190000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
     },
     {
@@ -612,37 +612,37 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Diesel/DIESELMS65.jpeg",
         "referencia": "MS65",
-        "precio": 210000,
+        "precio": 190000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
     },
     {
         "id": 10061,
-        "nombre": "Dolce & Gabbana",
+        "nombre": "Dolce & Gabbana Gabbana",
         "marca": "DOLCE & GABBANA",
         "genero": "hombre",
         "imagen": "img/hombres/Dolce & Gabbana/DOLCEGABBANAMS1.jpeg",
         "referencia": "MS1",
-        "precio": 380000,
+        "precio": 195000,
         "descripcion": "Alta costura italiana en cada detalle."
     },
     {
         "id": 10062,
-        "nombre": "Dolce & Gabbana",
+        "nombre": "Dolce & Gabbana Gabbana",
         "marca": "DOLCE & GABBANA",
         "genero": "hombre",
         "imagen": "img/hombres/Dolce & Gabbana/DOLCEGABBANAMS2.jpeg",
         "referencia": "MS2",
-        "precio": 380000,
+        "precio": 185000,
         "descripcion": "Alta costura italiana en cada detalle."
     },
     {
         "id": 10063,
-        "nombre": "Dolce & Gabbana",
+        "nombre": "Dolce & Gabbana Gabbana",
         "marca": "DOLCE & GABBANA",
         "genero": "hombre",
         "imagen": "img/hombres/Dolce & Gabbana/DOLCEGABBANAMS3.jpeg",
         "referencia": "MS3",
-        "precio": 380000,
+        "precio": 185000,
         "descripcion": "Alta costura italiana en cada detalle."
     },
     {
@@ -652,7 +652,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Fila/FILAZAGATOMS1.jpeg",
         "referencia": "MS1",
-        "precio": 175000,
+        "precio": 190000,
         "descripcion": "Estilo retro deportivo con máximo confort."
     },
     {
@@ -662,7 +662,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Guayo/GUAYOADIDASMS1.jpeg",
         "referencia": "MS1",
-        "precio": 160000,
+        "precio": 215000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
     },
     {
@@ -672,7 +672,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Guayo/GUAYOADIDASMS2.PNG",
         "referencia": "MS2",
-        "precio": 160000,
+        "precio": 230000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
     },
     {
@@ -682,7 +682,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Guayo/GUAYOADIDASMS3.PNG",
         "referencia": "MS3",
-        "precio": 160000,
+        "precio": 215000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
     },
     {
@@ -692,7 +692,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Guayo/GUAYOADIDASMS4.PNG",
         "referencia": "MS4",
-        "precio": 160000,
+        "precio": 210000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
     },
     {
@@ -702,7 +702,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Guayo/GUAYOADIDASMS5.PNG",
         "referencia": "MS5",
-        "precio": 160000,
+        "precio": 220000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
     },
     {
@@ -712,7 +712,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Guayo/GUAYONIKEMS1.PNG",
         "referencia": "MS1",
-        "precio": 160000,
+        "precio": 215000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
     },
     {
@@ -722,7 +722,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Guayo/GUAYONIKEMS2.PNG",
         "referencia": "MS2",
-        "precio": 160000,
+        "precio": 230000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
     },
     {
@@ -732,7 +732,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Guayo/GUAYONIKEMS3.PNG",
         "referencia": "MS3",
-        "precio": 160000,
+        "precio": 215000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
     },
     {
@@ -742,7 +742,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Guayo/GUAYONIKEMS4.jpeg",
         "referencia": "MS4",
-        "precio": 160000,
+        "precio": 210000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
     },
     {
@@ -752,7 +752,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Guayo/GUAYONIKEMS5.jpeg",
         "referencia": "MS5",
-        "precio": 160000,
+        "precio": 220000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
     },
     {
@@ -762,7 +762,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Guayo/GUAYOPUMAMS1.jpeg",
         "referencia": "MS1",
-        "precio": 160000,
+        "precio": 215000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
     },
     {
@@ -772,7 +772,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Hoka/HOKAMS1.jpeg",
         "referencia": "MS1",
-        "precio": 260000,
+        "precio": 200000,
         "descripcion": "Máxima amortiguación con peso pluma."
     },
     {
@@ -782,7 +782,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Hoka/HOKAMS2.jpeg",
         "referencia": "MS2",
-        "precio": 260000,
+        "precio": 200000,
         "descripcion": "Máxima amortiguación con peso pluma."
     },
     {
@@ -792,7 +792,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Hoka/HOKAMS3.jpeg",
         "referencia": "MS3",
-        "precio": 260000,
+        "precio": 200000,
         "descripcion": "Máxima amortiguación con peso pluma."
     },
     {
@@ -802,7 +802,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Hoka/HOKAMS4.jpeg",
         "referencia": "MS4",
-        "precio": 260000,
+        "precio": 200000,
         "descripcion": "Máxima amortiguación con peso pluma."
     },
     {
@@ -812,7 +812,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS1.jpeg",
         "referencia": "MS1",
-        "precio": 310000,
+        "precio": 138000,
         "descripcion": "Sofisticación alemana en cada paso."
     },
     {
@@ -822,7 +822,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS10.jpeg",
         "referencia": "MS10",
-        "precio": 310000,
+        "precio": 180000,
         "descripcion": "Sofisticación alemana en cada paso."
     },
     {
@@ -832,7 +832,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS11.jpeg",
         "referencia": "MS11",
-        "precio": 310000,
+        "precio": 180000,
         "descripcion": "Sofisticación alemana en cada paso."
     },
     {
@@ -842,7 +842,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS2.jpeg",
         "referencia": "MS2",
-        "precio": 310000,
+        "precio": 138000,
         "descripcion": "Sofisticación alemana en cada paso."
     },
     {
@@ -852,7 +852,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS3.jpeg",
         "referencia": "MS3",
-        "precio": 310000,
+        "precio": 138000,
         "descripcion": "Sofisticación alemana en cada paso."
     },
     {
@@ -862,7 +862,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS31.jpeg",
         "referencia": "MS31",
-        "precio": 310000,
+        "precio": 190000,
         "descripcion": "Sofisticación alemana en cada paso."
     },
     {
@@ -872,7 +872,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS32.jpeg",
         "referencia": "MS32",
-        "precio": 310000,
+        "precio": 190000,
         "descripcion": "Sofisticación alemana en cada paso."
     },
     {
@@ -882,7 +882,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Lacoste/LACOSTEMS1.jpeg",
         "referencia": "MS1",
-        "precio": 210000,
+        "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
@@ -892,7 +892,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Lacoste/LACOSTEMS2.jpeg",
         "referencia": "MS2",
-        "precio": 210000,
+        "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
@@ -902,7 +902,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Lacoste/LACOSTEMS31.jpeg",
         "referencia": "MS31",
-        "precio": 210000,
+        "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
@@ -912,7 +912,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Lacoste/LACOSTEMS32.jpeg",
         "referencia": "MS32",
-        "precio": 210000,
+        "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
@@ -922,7 +922,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Lacoste/LACOSTEMS41.jpeg",
         "referencia": "MS41",
-        "precio": 210000,
+        "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
@@ -932,7 +932,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Lacoste/LACOSTEMS42.jpeg",
         "referencia": "MS42",
-        "precio": 210000,
+        "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
@@ -942,7 +942,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Lacoste/LACOSTEMS43.jpeg",
         "referencia": "MS43",
-        "precio": 210000,
+        "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
@@ -952,7 +952,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Lacoste/LACOSTEMS44.jpeg",
         "referencia": "MS44",
-        "precio": 210000,
+        "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
@@ -962,7 +962,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Lacoste/LACOSTEMS45.jpeg",
         "referencia": "MS45",
-        "precio": 210000,
+        "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
@@ -972,7 +972,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Lacoste/LACOSTEMS51.jpeg",
         "referencia": "MS51",
-        "precio": 210000,
+        "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
@@ -982,7 +982,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Lacoste/LACOSTEMS52.jpeg",
         "referencia": "MS52",
-        "precio": 210000,
+        "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
@@ -992,7 +992,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Lacoste/LACOSTEMS53.jpeg",
         "referencia": "MS53",
-        "precio": 210000,
+        "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
     },
     {
@@ -1002,7 +1002,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/le coq sportif/LE_COQMS1.jpeg",
         "referencia": "MS1",
-        "precio": 180000,
+        "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
@@ -1012,7 +1012,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/le coq sportif/LE_COQMS2.jpeg",
         "referencia": "MS2",
-        "precio": 180000,
+        "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
@@ -1022,7 +1022,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/le coq sportif/LE_COQMS3.jpeg",
         "referencia": "MS3",
-        "precio": 180000,
+        "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
@@ -1032,7 +1032,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/le coq sportif/LE_COQMS4.jpeg",
         "referencia": "MS4",
-        "precio": 180000,
+        "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
@@ -1042,7 +1042,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/le coq sportif/LE_COQMS5.jpeg",
         "referencia": "MS5",
-        "precio": 180000,
+        "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
@@ -1052,7 +1052,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS1.jpeg",
         "referencia": "MS1",
-        "precio": 180000,
+        "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
@@ -1062,7 +1062,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS2.jpeg",
         "referencia": "MS2",
-        "precio": 180000,
+        "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
@@ -1072,7 +1072,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS31.jpeg",
         "referencia": "MS31",
-        "precio": 180000,
+        "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
@@ -1082,7 +1082,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS32.jpeg",
         "referencia": "MS32",
-        "precio": 180000,
+        "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
@@ -1092,7 +1092,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS41.jpeg",
         "referencia": "MS41",
-        "precio": 180000,
+        "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
@@ -1102,7 +1102,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS42.jpeg",
         "referencia": "MS42",
-        "precio": 180000,
+        "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
@@ -1112,7 +1112,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS43.jpeg",
         "referencia": "MS43",
-        "precio": 180000,
+        "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
@@ -1122,7 +1122,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS61.jpeg",
         "referencia": "MS61",
-        "precio": 180000,
+        "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
@@ -1132,7 +1132,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS62.jpeg",
         "referencia": "MS62",
-        "precio": 180000,
+        "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
@@ -1142,7 +1142,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS63.jpeg",
         "referencia": "MS63",
-        "precio": 180000,
+        "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
@@ -1152,7 +1152,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS71.jpeg",
         "referencia": "MS71",
-        "precio": 180000,
+        "precio": 195000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
@@ -1162,7 +1162,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS72.jpeg",
         "referencia": "MS72",
-        "precio": 180000,
+        "precio": 195000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
     },
     {
@@ -1172,7 +1172,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Louis Vuitton/LOUIS_VUITTONMS1.jpeg",
         "referencia": "MS1",
-        "precio": 480000,
+        "precio": 180000,
         "descripcion": "La cúspide del lujo y la exclusividad."
     },
     {
@@ -1182,7 +1182,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Louis Vuitton/LOUIS_VUITTONMS2.jpeg",
         "referencia": "MS2",
-        "precio": 480000,
+        "precio": 180000,
         "descripcion": "La cúspide del lujo y la exclusividad."
     },
     {
@@ -1192,7 +1192,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Louis Vuitton/LOUIS_VUITTONMS3.jpeg",
         "referencia": "MS3",
-        "precio": 480000,
+        "precio": 180000,
         "descripcion": "La cúspide del lujo y la exclusividad."
     },
     {
@@ -1202,7 +1202,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Louis Vuitton/LOUIS_VUITTONMS4.jpeg",
         "referencia": "MS4",
-        "precio": 480000,
+        "precio": 185000,
         "descripcion": "La cúspide del lujo y la exclusividad."
     },
     {
@@ -1212,117 +1212,117 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Louis Vuitton/LOUIS_VUITTONMS5.jpeg",
         "referencia": "MS5",
-        "precio": 480000,
+        "precio": 180000,
         "descripcion": "La cúspide del lujo y la exclusividad."
     },
     {
         "id": 10121,
-        "nombre": "New Balance 1000",
+        "nombre": "New Balance Balance1000",
         "marca": "NEW BALANCE",
         "genero": "hombre",
         "imagen": "img/hombres/New Balance/NEWBALANCE1000MS1.jpeg",
         "referencia": "MS1",
-        "precio": 215000,
+        "precio": 205000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
     {
         "id": 10122,
-        "nombre": "New Balance 1000",
+        "nombre": "New Balance Balance1000",
         "marca": "NEW BALANCE",
         "genero": "hombre",
         "imagen": "img/hombres/New Balance/NEWBALANCE1000MS2.jpeg",
         "referencia": "MS2",
-        "precio": 215000,
+        "precio": 190000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
     {
         "id": 10123,
-        "nombre": "New Balance 1906r",
+        "nombre": "New Balance Balance1906r",
         "marca": "NEW BALANCE",
         "genero": "hombre",
         "imagen": "img/hombres/New Balance/NEWBALANCE1906RMS1.jpeg",
         "referencia": "MS1",
-        "precio": 215000,
+        "precio": 205000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
     {
         "id": 10124,
-        "nombre": "New Balance 2000",
+        "nombre": "New Balance Balance2000",
         "marca": "NEW BALANCE",
         "genero": "hombre",
         "imagen": "img/hombres/New Balance/NEWBALANCE2000MS1.jpeg",
         "referencia": "MS1",
-        "precio": 215000,
+        "precio": 205000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
     {
         "id": 10125,
-        "nombre": "New Balance 9060",
+        "nombre": "New Balance Balance9060",
         "marca": "NEW BALANCE",
         "genero": "hombre",
         "imagen": "img/hombres/New Balance/NEWBALANCE9060MS1.jpeg",
         "referencia": "MS1",
-        "precio": 215000,
+        "precio": 205000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
     {
         "id": 10126,
-        "nombre": "New Balance 9060",
+        "nombre": "New Balance Balance9060",
         "marca": "NEW BALANCE",
         "genero": "hombre",
         "imagen": "img/hombres/New Balance/NEWBALANCE9060MS2.jpeg",
         "referencia": "MS2",
-        "precio": 215000,
+        "precio": 190000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
     {
         "id": 10127,
-        "nombre": "New Balance 990",
+        "nombre": "New Balance Balance990",
         "marca": "NEW BALANCE",
         "genero": "hombre",
         "imagen": "img/hombres/New Balance/NEWBALANCE990MS1.jpeg",
         "referencia": "MS1",
-        "precio": 215000,
+        "precio": 205000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
     {
         "id": 10128,
-        "nombre": "New Balance 999",
+        "nombre": "New Balance Balance999",
         "marca": "NEW BALANCE",
         "genero": "hombre",
         "imagen": "img/hombres/New Balance/NEWBALANCE999MS1.jpeg",
         "referencia": "MS1",
-        "precio": 215000,
+        "precio": 205000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
     {
         "id": 10129,
-        "nombre": "New Balance 999",
+        "nombre": "New Balance Balance999",
         "marca": "NEW BALANCE",
         "genero": "hombre",
         "imagen": "img/hombres/New Balance/NEWBALANCE999MS2.jpeg",
         "referencia": "MS2",
-        "precio": 215000,
+        "precio": 190000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
     {
         "id": 10130,
-        "nombre": "New Balance",
+        "nombre": "New Balance Balance",
         "marca": "NEW BALANCE",
         "genero": "hombre",
         "imagen": "img/hombres/New Balance/NEWBALANCEMS1.jpeg",
         "referencia": "MS1",
-        "precio": 215000,
+        "precio": 205000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
     {
         "id": 10131,
-        "nombre": "New Balance",
+        "nombre": "New Balance Balance",
         "marca": "NEW BALANCE",
         "genero": "hombre",
         "imagen": "img/hombres/New Balance/NEWBALANCEMS2.jpeg",
         "referencia": "MS2",
-        "precio": 215000,
+        "precio": 190000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
     },
     {
@@ -1332,7 +1332,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/JORDAN_BOTAMS1.jpeg",
         "referencia": "MS1",
-        "precio": 200000,
+        "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1342,7 +1342,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/JORDAN_CADENCEMS1.jpeg",
         "referencia": "MS1",
-        "precio": 200000,
+        "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1352,7 +1352,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKEMS1.jpeg",
         "referencia": "MS1",
-        "precio": 200000,
+        "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1362,7 +1362,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKEMS31.jpeg",
         "referencia": "MS31",
-        "precio": 200000,
+        "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1372,7 +1372,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKEMS32.jpeg",
         "referencia": "MS32",
-        "precio": 200000,
+        "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1382,7 +1382,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKE_CORRELATEMS1.jpeg",
         "referencia": "MS1",
-        "precio": 200000,
+        "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1392,7 +1392,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKE_FLEXMS1.jpeg",
         "referencia": "MS1",
-        "precio": 200000,
+        "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1402,7 +1402,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKE_INITIATORMS1.jpeg",
         "referencia": "MS1",
-        "precio": 200000,
+        "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1412,7 +1412,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKE_P-6000MS2.jpeg",
         "referencia": "MS2",
-        "precio": 200000,
+        "precio": 190000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1422,7 +1422,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKE_P-6000MS3.jpeg",
         "referencia": "MS3",
-        "precio": 200000,
+        "precio": 190000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1432,7 +1432,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKE_PULSEMS1.jpeg",
         "referencia": "MS1",
-        "precio": 200000,
+        "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1442,7 +1442,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKE_PULSEMS2.jpeg",
         "referencia": "MS2",
-        "precio": 200000,
+        "precio": 190000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1452,7 +1452,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKE_PULSEMS3.jpeg",
         "referencia": "MS3",
-        "precio": 200000,
+        "precio": 190000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1462,7 +1462,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKE_TNMS1.jpeg",
         "referencia": "MS1",
-        "precio": 200000,
+        "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1472,7 +1472,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKE_TNMS2.jpeg",
         "referencia": "MS2",
-        "precio": 200000,
+        "precio": 190000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1482,7 +1482,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKE_TRAILMS1.jpeg",
         "referencia": "MS1",
-        "precio": 200000,
+        "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1492,7 +1492,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKE_VOMEROMS1.jpeg",
         "referencia": "MS1",
-        "precio": 200000,
+        "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1502,7 +1502,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKE_ZOOMMS1.jpeg",
         "referencia": "MS1",
-        "precio": 200000,
+        "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1512,7 +1512,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKE_ZOOMMS2.jpeg",
         "referencia": "MS2",
-        "precio": 200000,
+        "precio": 190000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1522,7 +1522,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKE_ZOOMMS3.jpeg",
         "referencia": "MS3",
-        "precio": 200000,
+        "precio": 190000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1532,7 +1532,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKE_ZOOMMS31.jpeg",
         "referencia": "MS31",
-        "precio": 200000,
+        "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1542,7 +1542,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKE_ZOOMMS32.jpeg",
         "referencia": "MS32",
-        "precio": 200000,
+        "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1552,7 +1552,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKE_ZOOMMS33.jpeg",
         "referencia": "MS33",
-        "precio": 200000,
+        "precio": 190000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1562,7 +1562,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Nike/NIKE_ZOOMMS34.jpeg",
         "referencia": "MS34",
-        "precio": 200000,
+        "precio": 190000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
     },
     {
@@ -1572,7 +1572,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/On Cloud/ON_CLOUDMS1.jpeg",
         "referencia": "DMS1",
-        "precio": 270000,
+        "precio": 190000,
         "descripcion": "Siente que caminas sobre nubes en cada paso."
     },
     {
@@ -1582,7 +1582,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/On Cloud/ON_CLOUDMS2.jpeg",
         "referencia": "DMS2",
-        "precio": 270000,
+        "precio": 185000,
         "descripcion": "Siente que caminas sobre nubes en cada paso."
     },
     {
@@ -1592,7 +1592,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/On Cloud/ON_CLOUDMS31.jpeg",
         "referencia": "DMS31",
-        "precio": 270000,
+        "precio": 195000,
         "descripcion": "Siente que caminas sobre nubes en cada paso."
     },
     {
@@ -1602,7 +1602,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/On Cloud/ON_CLOUDMS32.jpeg",
         "referencia": "DMS32",
-        "precio": 270000,
+        "precio": 195000,
         "descripcion": "Siente que caminas sobre nubes en cada paso."
     },
     {
@@ -1612,7 +1612,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/On Cloud/ON_CLOUDMS33.jpeg",
         "referencia": "DMS33",
-        "precio": 270000,
+        "precio": 185000,
         "descripcion": "Siente que caminas sobre nubes en cada paso."
     },
     {
@@ -1622,7 +1622,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/On Cloud/ON_CLOUDMS34.jpeg",
         "referencia": "DMS34",
-        "precio": 270000,
+        "precio": 190000,
         "descripcion": "Siente que caminas sobre nubes en cada paso."
     },
     {
@@ -1632,7 +1632,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/On Cloud/ON_CLOUDMS35.jpeg",
         "referencia": "DMS35",
-        "precio": 270000,
+        "precio": 190000,
         "descripcion": "Siente que caminas sobre nubes en cada paso."
     },
     {
@@ -1812,7 +1812,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Reebok/REEBOKBEAMSMS1.jpeg",
         "referencia": "MS1",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
     },
     {
@@ -1822,7 +1822,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Reebok/REEBOKERSMS1.jpeg",
         "referencia": "MS1",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
     },
     {
@@ -1832,7 +1832,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Reebok/REEBOKERSMS2.jpeg",
         "referencia": "MS2",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
     },
     {
@@ -1842,7 +1842,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Reebok/REEBOKMS1.jpeg",
         "referencia": "MS1",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
     },
     {
@@ -1852,7 +1852,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Reebok/REEBOKMS2.jpeg",
         "referencia": "MS2",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
     },
     {
@@ -1862,7 +1862,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Reebok/REEBOKMS3.jpeg",
         "referencia": "MS3",
-        "precio": 185000,
+        "precio": 190000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
     },
     {
@@ -1872,7 +1872,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Reebok/REEBOKMS4.jpeg",
         "referencia": "MS4",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
     },
     {
@@ -1882,7 +1882,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Reebok/REEBOKMS5.jpeg",
         "referencia": "MS5",
-        "precio": 185000,
+        "precio": 175000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
     },
     {
@@ -1892,7 +1892,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Reebok/REEBOKMS6.jpeg",
         "referencia": "MS6",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
     },
     {
@@ -1902,7 +1902,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Reebok/REEBOKMS7.jpeg",
         "referencia": "MS7",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
     },
     {
@@ -1912,7 +1912,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Reebok/REEBOKPREMIERMS1.jpeg",
         "referencia": "MS1",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
     },
     {
@@ -1922,7 +1922,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Skechers/SKECHERSMS1.jpeg",
         "referencia": "MS1",
-        "precio": 175000,
+        "precio": 190000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
     },
     {
@@ -1932,7 +1932,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Skechers/SKECHERSMS2.jpeg",
         "referencia": "MS2",
-        "precio": 175000,
+        "precio": 190000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
     },
     {
@@ -1942,7 +1942,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Skechers/SKECHERSMS3.jpeg",
         "referencia": "MS3",
-        "precio": 175000,
+        "precio": 180000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
     },
     {
@@ -1952,7 +1952,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Skechers/SKECHERSMS4.jpeg",
         "referencia": "MS4",
-        "precio": 175000,
+        "precio": 190000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
     },
     {
@@ -1962,7 +1962,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Skechers/SKECHERSMS5.jpeg",
         "referencia": "MS5",
-        "precio": 175000,
+        "precio": 160000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
     },
     {
@@ -1972,7 +1972,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Skechers/SKECHERSMS6.jpeg",
         "referencia": "MS6",
-        "precio": 175000,
+        "precio": 185000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
     },
     {
@@ -1982,7 +1982,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Skechers/SKECHERSMS7.jpeg",
         "referencia": "MS7",
-        "precio": 175000,
+        "precio": 185000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
     },
     {
@@ -1992,7 +1992,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Skechers/SKECHERSMS8.jpeg",
         "referencia": "MS8",
-        "precio": 175000,
+        "precio": 185000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
     },
     {
@@ -2002,7 +2002,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Skechers/SKECHERSMS9.jpeg",
         "referencia": "MS9",
-        "precio": 175000,
+        "precio": 180000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
     },
     {
@@ -2012,7 +2012,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Timberland/TIMBERLANDMS1.jpeg",
         "referencia": "DMS1",
-        "precio": 235000,
+        "precio": 160000,
         "descripcion": "Resistencia y estilo para el aire libre."
     },
     {
@@ -2022,7 +2022,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Timberland/TIMBERLANDMS2.jpeg",
         "referencia": "DMS2",
-        "precio": 235000,
+        "precio": 180000,
         "descripcion": "Resistencia y estilo para el aire libre."
     },
     {
@@ -2032,7 +2032,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Timberland/TIMBERLANDMS21.jpeg",
         "referencia": "DMS21",
-        "precio": 235000,
+        "precio": 185000,
         "descripcion": "Resistencia y estilo para el aire libre."
     },
     {
@@ -2042,7 +2042,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Timberland/TIMBERLANDMS22.jpeg",
         "referencia": "DMS22",
-        "precio": 235000,
+        "precio": 185000,
         "descripcion": "Resistencia y estilo para el aire libre."
     },
     {
@@ -2052,7 +2052,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Timberland/TIMBERLANDMS23.jpeg",
         "referencia": "DMS23",
-        "precio": 235000,
+        "precio": 195000,
         "descripcion": "Resistencia y estilo para el aire libre."
     },
     {
@@ -2062,7 +2062,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Timberland/TIMBERLANDMS24.jpeg",
         "referencia": "DMS24",
-        "precio": 235000,
+        "precio": 185000,
         "descripcion": "Resistencia y estilo para el aire libre."
     },
     {
@@ -2072,7 +2072,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Timberland/TIMBERLANDMS25.jpeg",
         "referencia": "DMS25",
-        "precio": 235000,
+        "precio": 195000,
         "descripcion": "Resistencia y estilo para el aire libre."
     },
     {
@@ -2082,7 +2082,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Timberland/TIMBERLANDMS26.jpeg",
         "referencia": "DMS26",
-        "precio": 235000,
+        "precio": 200000,
         "descripcion": "Resistencia y estilo para el aire libre."
     },
     {
@@ -2092,7 +2092,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Timberland/TIMBERLANDMS3.jpeg",
         "referencia": "DMS3",
-        "precio": 235000,
+        "precio": 200000,
         "descripcion": "Resistencia y estilo para el aire libre."
     },
     {
@@ -2102,7 +2102,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Timberland/TIMBERLANDMS4.jpeg",
         "referencia": "DMS4",
-        "precio": 235000,
+        "precio": 190000,
         "descripcion": "Resistencia y estilo para el aire libre."
     },
     {
@@ -2112,62 +2112,62 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Timberland/TIMBERLAND_BOTAMS1.jpeg",
         "referencia": "MS1",
-        "precio": 235000,
+        "precio": 160000,
         "descripcion": "Resistencia y estilo para el aire libre."
     },
     {
         "id": 10211,
-        "nombre": "Tommy Hilfiger",
+        "nombre": "Tommy Hilfiger Hilfiger",
         "marca": "TOMMY HILFIGER",
         "genero": "hombre",
         "imagen": "img/hombres/Tommy Hilfiger/TOMMYHILFIGERMS1.jpeg",
         "referencia": "MS1",
-        "precio": 280000,
+        "precio": 195000,
         "descripcion": "Estilo americano clásico con un toque moderno."
     },
     {
         "id": 10212,
-        "nombre": "Tommy Hilfiger",
+        "nombre": "Tommy Hilfiger Hilfiger",
         "marca": "TOMMY HILFIGER",
         "genero": "hombre",
         "imagen": "img/hombres/Tommy Hilfiger/TOMMYHILFIGERMS2.jpeg",
         "referencia": "MS2",
-        "precio": 280000,
+        "precio": 180000,
         "descripcion": "Estilo americano clásico con un toque moderno."
     },
     {
         "id": 10213,
-        "nombre": "Tommy Hilfiger",
+        "nombre": "Tommy Hilfiger Hilfiger",
         "marca": "TOMMY HILFIGER",
         "genero": "hombre",
         "imagen": "img/hombres/Tommy Hilfiger/TOMMYHILFIGERMS3.jpeg",
         "referencia": "MS3",
-        "precio": 280000,
+        "precio": 180000,
         "descripcion": "Estilo americano clásico con un toque moderno."
     },
     {
         "id": 10214,
-        "nombre": "Tommy Hilfiger",
+        "nombre": "Tommy Hilfiger Hilfiger",
         "marca": "TOMMY HILFIGER",
         "genero": "hombre",
         "imagen": "img/hombres/Tommy Hilfiger/TOMMYHILFIGERMS4.jpeg",
         "referencia": "MS4",
-        "precio": 280000,
+        "precio": 180000,
         "descripcion": "Estilo americano clásico con un toque moderno."
     },
     {
         "id": 10215,
-        "nombre": "Tommy Hilfiger",
+        "nombre": "Tommy Hilfiger Hilfiger",
         "marca": "TOMMY HILFIGER",
         "genero": "hombre",
         "imagen": "img/hombres/Tommy Hilfiger/TOMMYHILFIGERMS5.jpeg",
         "referencia": "MS5",
-        "precio": 280000,
+        "precio": 185000,
         "descripcion": "Estilo americano clásico con un toque moderno."
     },
     {
         "id": 10216,
-        "nombre": "Under Armour",
+        "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
         "imagen": "img/hombres/Under Armour/UNDERARMOURMS1.jpeg",
@@ -2177,17 +2177,17 @@ const productosHombres = [
     },
     {
         "id": 10217,
-        "nombre": "Under Armour",
+        "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
         "imagen": "img/hombres/Under Armour/UNDERARMOURMS10.jpeg",
         "referencia": "MS10",
-        "precio": 210000,
+        "precio": 195000,
         "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
     },
     {
         "id": 10218,
-        "nombre": "Under Armour",
+        "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
         "imagen": "img/hombres/Under Armour/UNDERARMOURMS11.jpeg",
@@ -2197,7 +2197,7 @@ const productosHombres = [
     },
     {
         "id": 10219,
-        "nombre": "Under Armour",
+        "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
         "imagen": "img/hombres/Under Armour/UNDERARMOURMS2.jpeg",
@@ -2207,7 +2207,7 @@ const productosHombres = [
     },
     {
         "id": 10220,
-        "nombre": "Under Armour",
+        "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
         "imagen": "img/hombres/Under Armour/UNDERARMOURMS3.jpeg",
@@ -2217,62 +2217,62 @@ const productosHombres = [
     },
     {
         "id": 10221,
-        "nombre": "Under Armour",
+        "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
         "imagen": "img/hombres/Under Armour/UNDERARMOURMS4.jpeg",
         "referencia": "MS4",
-        "precio": 210000,
+        "precio": 205000,
         "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
     },
     {
         "id": 10222,
-        "nombre": "Under Armour",
+        "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
         "imagen": "img/hombres/Under Armour/UNDERARMOURMS5.jpeg",
         "referencia": "MS5",
-        "precio": 210000,
+        "precio": 205000,
         "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
     },
     {
         "id": 10223,
-        "nombre": "Under Armour",
+        "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
         "imagen": "img/hombres/Under Armour/UNDERARMOURMS6.jpeg",
         "referencia": "MS6",
-        "precio": 210000,
+        "precio": 195000,
         "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
     },
     {
         "id": 10224,
-        "nombre": "Under Armour",
+        "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
         "imagen": "img/hombres/Under Armour/UNDERARMOURMS7.jpeg",
         "referencia": "MS7",
-        "precio": 210000,
+        "precio": 205000,
         "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
     },
     {
         "id": 10225,
-        "nombre": "Under Armour",
+        "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
         "imagen": "img/hombres/Under Armour/UNDERARMOURMS8.jpeg",
         "referencia": "MS8",
-        "precio": 210000,
+        "precio": 205000,
         "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
     },
     {
         "id": 10226,
-        "nombre": "Under Armour",
+        "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
         "imagen": "img/hombres/Under Armour/UNDERARMOURMS9.jpeg",
         "referencia": "MS9",
-        "precio": 210000,
+        "precio": 205000,
         "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
     },
     {
@@ -2282,7 +2282,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Vans/VANSMS1.jpeg",
         "referencia": "MS1",
-        "precio": 185000,
+        "precio": 175000,
         "descripcion": "Cultura urbana y estilo skate en cada paso."
     },
     {
@@ -2292,7 +2292,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Vans/VANSMS2.jpeg",
         "referencia": "MS2",
-        "precio": 185000,
+        "precio": 195000,
         "descripcion": "Cultura urbana y estilo skate en cada paso."
     },
     {
@@ -2312,7 +2312,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Vans/VANSMS4.jpeg",
         "referencia": "MS4",
-        "precio": 185000,
+        "precio": 195000,
         "descripcion": "Cultura urbana y estilo skate en cada paso."
     },
     {
@@ -2322,7 +2322,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Vans/VANSMS5.jpeg",
         "referencia": "MS5",
-        "precio": 185000,
+        "precio": 190000,
         "descripcion": "Cultura urbana y estilo skate en cada paso."
     },
     {
@@ -2332,7 +2332,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Vans/VANSMS6.jpeg",
         "referencia": "MS6",
-        "precio": 185000,
+        "precio": 190000,
         "descripcion": "Cultura urbana y estilo skate en cada paso."
     },
     {
@@ -2342,7 +2342,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Vans/VANSMS7.jpeg",
         "referencia": "MS7",
-        "precio": 185000,
+        "precio": 175000,
         "descripcion": "Cultura urbana y estilo skate en cada paso."
     },
     {
@@ -2352,7 +2352,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Vans/VANSMS8.jpeg",
         "referencia": "MS8",
-        "precio": 185000,
+        "precio": 175000,
         "descripcion": "Cultura urbana y estilo skate en cada paso."
     },
     {
@@ -2362,7 +2362,7 @@ const productosHombres = [
         "genero": "hombre",
         "imagen": "img/hombres/Vans/VANSMS9.jpeg",
         "referencia": "MS9",
-        "precio": 185000,
+        "precio": 180000,
         "descripcion": "Cultura urbana y estilo skate en cada paso."
     }
 ];
