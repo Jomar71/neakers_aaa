@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "main": "generar_marcas.js",
   "scripts": {
+    "sync": "node sync-precios.js",
+    "update": "node convertir.js && node generar_productos.js",
+    "precios": "node convertir.js",
+    "generar": "node generar_productos.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
 }
