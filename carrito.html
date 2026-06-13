@@ -369,7 +369,7 @@
     <header>
         <div class="container nav-content">
             <a href="index.html" class="logo">
-                <img src="img/logos/LOGO SNEAKERS AAA.png" alt="JOMAR AAA" class="logo-img">
+                <img src="img/logos/LOGO SNEAKERS AAA.webp" alt="JOMAR AAA" class="logo-img">
             </a>
             <nav>
                 <ul class="nav-links">
@@ -403,7 +403,7 @@
     <footer>
         <div class="container footer-inner">
             <div class="footer-brand">
-                <img src="img/logos/LOGO SNEAKERS AAA.png" alt="JOMAR AAA" class="footer-logo">
+                <img src="img/logos/LOGO SNEAKERS AAA.webp" alt="JOMAR AAA" class="footer-logo">
                 <p>Sneakers Premium</p>
             </div>
             <p class="footer-copy">© 2025 JOMAR AAA. Todos los derechos reservados.</p>
@@ -510,7 +510,7 @@
             itemsSection.className = 'cart-items-list';
 
             cart.forEach((item, i) => {
-                const imgSrc = item.imagen ? item.imagen : 'img/logos/2NIKE.jpeg';
+                const imgSrc = item.imagen ? item.imagen : 'img/logos/2NIKE.webp';
                 const priceStr = formatPrice(item.precio || 0);
                 const card = document.createElement('div');
                 card.className = 'cart-item-card';
@@ -518,7 +518,7 @@
                 card.innerHTML = `
                     <div class="cart-item-img-box">
                         <img src="${imgSrc}" alt="${item.nombre}"
-                             onerror="this.onerror=null;this.src='img/logos/2NIKE.jpeg';">
+                             onerror="this.onerror=null;this.src='img/logos/2NIKE.webp';">
                     </div>
                     <div class="cart-item-details">
                         <p class="cart-item-brand">${item.marca || ''}</p>

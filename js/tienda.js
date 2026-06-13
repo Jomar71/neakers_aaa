@@ -255,7 +255,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (productosFiltrados.length > 0) {
             // Renderizar cards
-            const fallbackImg = normalizarRuta(pathPrefix + 'img/logos/2NIKE.jpeg');
+            const fallbackImg = normalizarRuta(pathPrefix + 'img/logos/2NIKE.webp');
 
             productosFiltrados.forEach(item => {
                 const card = document.createElement('div');

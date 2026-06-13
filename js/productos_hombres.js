@@ -10,7 +10,7 @@ const productosHombres = [
         "nombre": "Adidas Alpha",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDASALPHADMS1.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDASALPHADMS1.webp",
         "referencia": "DMS1",
         "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
@@ -20,7 +20,7 @@ const productosHombres = [
         "nombre": "Adidas Equipment",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDASEQUIPMENTMS3.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDASEQUIPMENTMS3.webp",
         "referencia": "MS3",
         "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
@@ -30,7 +30,7 @@ const productosHombres = [
         "nombre": "Adidas",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDASMS1.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDASMS1.webp",
         "referencia": "MS1",
         "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
@@ -40,7 +40,7 @@ const productosHombres = [
         "nombre": "Adidas",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDASMS2.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDASMS2.webp",
         "referencia": "MS2",
         "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
@@ -50,7 +50,7 @@ const productosHombres = [
         "nombre": "Adidas",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDASMS3.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDASMS3.webp",
         "referencia": "MS3",
         "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
@@ -60,7 +60,7 @@ const productosHombres = [
         "nombre": "Adidas Samba",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDASSAMBAMS2.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDASSAMBAMS2.webp",
         "referencia": "MS2",
         "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
@@ -70,7 +70,7 @@ const productosHombres = [
         "nombre": "Adidas Adistar",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_ADISTAR_MS1.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDAS_ADISTAR_MS1.webp",
         "referencia": "MS1",
         "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
@@ -80,7 +80,7 @@ const productosHombres = [
         "nombre": "Adidas Adistar",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_ADISTAR_MS2.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDAS_ADISTAR_MS2.webp",
         "referencia": "MS2",
         "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
@@ -90,7 +90,7 @@ const productosHombres = [
         "nombre": "Adidas Blaze",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_BLAZE_MS1.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDAS_BLAZE_MS1.webp",
         "referencia": "MS1",
         "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
@@ -100,7 +100,7 @@ const productosHombres = [
         "nombre": "Adidas Blaze",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_BLAZE_MS2.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDAS_BLAZE_MS2.webp",
         "referencia": "MS2",
         "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
@@ -110,7 +110,7 @@ const productosHombres = [
         "nombre": "Adidas Bounce",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_BOUNCE_MS1.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDAS_BOUNCE_MS1.webp",
         "referencia": "MS1",
         "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
@@ -120,7 +120,7 @@ const productosHombres = [
         "nombre": "Adidas Equipm Nt",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_EQUIPM_NT_MS1.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDAS_EQUIPM_NT_MS1.webp",
         "referencia": "MS1",
         "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
@@ -130,7 +130,7 @@ const productosHombres = [
         "nombre": "Adidas Equipm Nt",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_EQUIPM_NT_MS2.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDAS_EQUIPM_NT_MS2.webp",
         "referencia": "MS2",
         "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
@@ -140,7 +140,7 @@ const productosHombres = [
         "nombre": "Adidas Niteball",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_NITEBALL_MS1.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDAS_NITEBALL_MS1.webp",
         "referencia": "MS1",
         "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
@@ -150,7 +150,7 @@ const productosHombres = [
         "nombre": "Adidas Niteball",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_NITEBALL_MS2.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDAS_NITEBALL_MS2.webp",
         "referencia": "MS2",
         "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
@@ -160,7 +160,7 @@ const productosHombres = [
         "nombre": "Adidas Niteball",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_NITEBALL_MS3.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDAS_NITEBALL_MS3.webp",
         "referencia": "MS3",
         "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
@@ -170,7 +170,7 @@ const productosHombres = [
         "nombre": "Adidas Samba",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_SAMBA_MS1.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDAS_SAMBA_MS1.webp",
         "referencia": "MS1",
         "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
@@ -180,7 +180,7 @@ const productosHombres = [
         "nombre": "Adidas Ultraboost",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_ULTRABOOST_MS1.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDAS_ULTRABOOST_MS1.webp",
         "referencia": "MS1",
         "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
@@ -190,7 +190,7 @@ const productosHombres = [
         "nombre": "Adidas Ultraboost",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_ULTRABOOST_MS2.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDAS_ULTRABOOST_MS2.webp",
         "referencia": "MS2",
         "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
@@ -200,7 +200,7 @@ const productosHombres = [
         "nombre": "Adidas Yeezy",
         "marca": "ADIDAS",
         "genero": "hombre",
-        "imagen": "img/hombres/Adidas/ADIDAS_YEEZY_MS1.jpeg",
+        "imagen": "img/hombres/Adidas/ADIDAS_YEEZY_MS1.webp",
         "referencia": "MS1",
         "precio": 180000,
         "descripcion": "Estilo deportivo icónico y comodidad sin límites."
@@ -210,7 +210,7 @@ const productosHombres = [
         "nombre": "Armani Exchange",
         "marca": "ARMANI",
         "genero": "hombre",
-        "imagen": "img/hombres/Armani/ARMANI_EXCHANGEMS8.jpeg",
+        "imagen": "img/hombres/Armani/ARMANI_EXCHANGEMS8.webp",
         "referencia": "MS8",
         "precio": 185000,
         "descripcion": "Elegancia italiana con un toque moderno y exclusivo."
@@ -220,7 +220,7 @@ const productosHombres = [
         "nombre": "Armani Exchange",
         "marca": "ARMANI",
         "genero": "hombre",
-        "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS1.jpeg",
+        "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS1.webp",
         "referencia": "MS1",
         "precio": 185000,
         "descripcion": "Elegancia italiana con un toque moderno y exclusivo."
@@ -230,7 +230,7 @@ const productosHombres = [
         "nombre": "Armani Exchange",
         "marca": "ARMANI",
         "genero": "hombre",
-        "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS2.jpeg",
+        "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS2.webp",
         "referencia": "MS2",
         "precio": 185000,
         "descripcion": "Elegancia italiana con un toque moderno y exclusivo."
@@ -240,7 +240,7 @@ const productosHombres = [
         "nombre": "Armani Exchange",
         "marca": "ARMANI",
         "genero": "hombre",
-        "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS3.jpeg",
+        "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS3.webp",
         "referencia": "MS3",
         "precio": 185000,
         "descripcion": "Elegancia italiana con un toque moderno y exclusivo."
@@ -250,7 +250,7 @@ const productosHombres = [
         "nombre": "Armani Exchange",
         "marca": "ARMANI",
         "genero": "hombre",
-        "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS4.jpeg",
+        "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS4.webp",
         "referencia": "MS4",
         "precio": 185000,
         "descripcion": "Elegancia italiana con un toque moderno y exclusivo."
@@ -260,7 +260,7 @@ const productosHombres = [
         "nombre": "Armani Exchange",
         "marca": "ARMANI",
         "genero": "hombre",
-        "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS5.jpeg",
+        "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS5.webp",
         "referencia": "MS5",
         "precio": 185000,
         "descripcion": "Elegancia italiana con un toque moderno y exclusivo."
@@ -270,7 +270,7 @@ const productosHombres = [
         "nombre": "Armani Exchange",
         "marca": "ARMANI",
         "genero": "hombre",
-        "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS6.jpeg",
+        "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS6.webp",
         "referencia": "MS6",
         "precio": 185000,
         "descripcion": "Elegancia italiana con un toque moderno y exclusivo."
@@ -280,7 +280,7 @@ const productosHombres = [
         "nombre": "Armani Exchange",
         "marca": "ARMANI",
         "genero": "hombre",
-        "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS7.jpeg",
+        "imagen": "img/hombres/Armani/ARMANI_EXCHANGE_MS7.webp",
         "referencia": "MS7",
         "precio": 185000,
         "descripcion": "Elegancia italiana con un toque moderno y exclusivo."
@@ -290,7 +290,7 @@ const productosHombres = [
         "nombre": "Asics",
         "marca": "ASICS",
         "genero": "hombre",
-        "imagen": "img/hombres/Asics/ASICSMS1.PNG",
+        "imagen": "img/hombres/Asics/ASICSMS1.webp",
         "referencia": "MS1",
         "precio": 185000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
@@ -300,7 +300,7 @@ const productosHombres = [
         "nombre": "Asics",
         "marca": "ASICS",
         "genero": "hombre",
-        "imagen": "img/hombres/Asics/ASICSMS10.jpeg",
+        "imagen": "img/hombres/Asics/ASICSMS10.webp",
         "referencia": "MS10",
         "precio": 195000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
@@ -310,7 +310,7 @@ const productosHombres = [
         "nombre": "Asics",
         "marca": "ASICS",
         "genero": "hombre",
-        "imagen": "img/hombres/Asics/ASICSMS11.jpeg",
+        "imagen": "img/hombres/Asics/ASICSMS11.webp",
         "referencia": "MS11",
         "precio": 195000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
@@ -320,7 +320,7 @@ const productosHombres = [
         "nombre": "Asics",
         "marca": "ASICS",
         "genero": "hombre",
-        "imagen": "img/hombres/Asics/ASICSMS2.jpeg",
+        "imagen": "img/hombres/Asics/ASICSMS2.webp",
         "referencia": "MS2",
         "precio": 190000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
@@ -330,7 +330,7 @@ const productosHombres = [
         "nombre": "Asics",
         "marca": "ASICS",
         "genero": "hombre",
-        "imagen": "img/hombres/Asics/ASICSMS3.jpeg",
+        "imagen": "img/hombres/Asics/ASICSMS3.webp",
         "referencia": "MS3",
         "precio": 185000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
@@ -340,7 +340,7 @@ const productosHombres = [
         "nombre": "Asics",
         "marca": "ASICS",
         "genero": "hombre",
-        "imagen": "img/hombres/Asics/ASICSMS4.jpeg",
+        "imagen": "img/hombres/Asics/ASICSMS4.webp",
         "referencia": "MS4",
         "precio": 170000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
@@ -350,7 +350,7 @@ const productosHombres = [
         "nombre": "Asics",
         "marca": "ASICS",
         "genero": "hombre",
-        "imagen": "img/hombres/Asics/ASICSMS5.jpeg",
+        "imagen": "img/hombres/Asics/ASICSMS5.webp",
         "referencia": "MS5",
         "precio": 220000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
@@ -360,7 +360,7 @@ const productosHombres = [
         "nombre": "Asics",
         "marca": "ASICS",
         "genero": "hombre",
-        "imagen": "img/hombres/Asics/ASICSMS6.jpeg",
+        "imagen": "img/hombres/Asics/ASICSMS6.webp",
         "referencia": "MS6",
         "precio": 200000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
@@ -370,7 +370,7 @@ const productosHombres = [
         "nombre": "Asics",
         "marca": "ASICS",
         "genero": "hombre",
-        "imagen": "img/hombres/Asics/ASICSMS7.jpeg",
+        "imagen": "img/hombres/Asics/ASICSMS7.webp",
         "referencia": "MS7",
         "precio": 200000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
@@ -380,7 +380,7 @@ const productosHombres = [
         "nombre": "Asics",
         "marca": "ASICS",
         "genero": "hombre",
-        "imagen": "img/hombres/Asics/ASICSMS8.jpeg",
+        "imagen": "img/hombres/Asics/ASICSMS8.webp",
         "referencia": "MS8",
         "precio": 200000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
@@ -390,7 +390,7 @@ const productosHombres = [
         "nombre": "Asics",
         "marca": "ASICS",
         "genero": "hombre",
-        "imagen": "img/hombres/Asics/ASICSMS9.jpeg",
+        "imagen": "img/hombres/Asics/ASICSMS9.webp",
         "referencia": "MS9",
         "precio": 185000,
         "descripcion": "Tecnología japonesa para un rendimiento superior."
@@ -400,7 +400,7 @@ const productosHombres = [
         "nombre": "Coach",
         "marca": "COACH",
         "genero": "hombre",
-        "imagen": "img/hombres/Coach/COACHMS1.jpeg",
+        "imagen": "img/hombres/Coach/COACHMS1.webp",
         "referencia": "MS1",
         "precio": 180000,
         "descripcion": "Lujo accesible con diseño sofisticado."
@@ -410,7 +410,7 @@ const productosHombres = [
         "nombre": "Coach",
         "marca": "COACH",
         "genero": "hombre",
-        "imagen": "img/hombres/Coach/COACHMS2.jpeg",
+        "imagen": "img/hombres/Coach/COACHMS2.webp",
         "referencia": "MS2",
         "precio": 180000,
         "descripcion": "Lujo accesible con diseño sofisticado."
@@ -420,7 +420,7 @@ const productosHombres = [
         "nombre": "Coach",
         "marca": "COACH",
         "genero": "hombre",
-        "imagen": "img/hombres/Coach/COACHMS3.jpeg",
+        "imagen": "img/hombres/Coach/COACHMS3.webp",
         "referencia": "MS3",
         "precio": 180000,
         "descripcion": "Lujo accesible con diseño sofisticado."
@@ -430,7 +430,7 @@ const productosHombres = [
         "nombre": "Converse Allstar",
         "marca": "CONVERSE",
         "genero": "hombre",
-        "imagen": "img/hombres/Converse/CONVERSEALLSTARMS1.PNG",
+        "imagen": "img/hombres/Converse/CONVERSEALLSTARMS1.webp",
         "referencia": "MS1",
         "precio": 180000,
         "descripcion": "El clásico atemporal que nunca pasa de moda."
@@ -440,7 +440,7 @@ const productosHombres = [
         "nombre": "Diesel",
         "marca": "DIESEL",
         "genero": "hombre",
-        "imagen": "img/hombres/Diesel/DIESELMS1.jpeg",
+        "imagen": "img/hombres/Diesel/DIESELMS1.webp",
         "referencia": "MS1",
         "precio": 180000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
@@ -450,7 +450,7 @@ const productosHombres = [
         "nombre": "Diesel",
         "marca": "DIESEL",
         "genero": "hombre",
-        "imagen": "img/hombres/Diesel/DIESELMS2.jpeg",
+        "imagen": "img/hombres/Diesel/DIESELMS2.webp",
         "referencia": "MS2",
         "precio": 180000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
@@ -460,7 +460,7 @@ const productosHombres = [
         "nombre": "Diesel",
         "marca": "DIESEL",
         "genero": "hombre",
-        "imagen": "img/hombres/Diesel/DIESELMS31.jpeg",
+        "imagen": "img/hombres/Diesel/DIESELMS31.webp",
         "referencia": "MS31",
         "precio": 190000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
@@ -470,7 +470,7 @@ const productosHombres = [
         "nombre": "Diesel",
         "marca": "DIESEL",
         "genero": "hombre",
-        "imagen": "img/hombres/Diesel/DIESELMS32.jpeg",
+        "imagen": "img/hombres/Diesel/DIESELMS32.webp",
         "referencia": "MS32",
         "precio": 190000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
@@ -480,7 +480,7 @@ const productosHombres = [
         "nombre": "Diesel",
         "marca": "DIESEL",
         "genero": "hombre",
-        "imagen": "img/hombres/Diesel/DIESELMS33.jpeg",
+        "imagen": "img/hombres/Diesel/DIESELMS33.webp",
         "referencia": "MS33",
         "precio": 190000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
@@ -490,7 +490,7 @@ const productosHombres = [
         "nombre": "Diesel",
         "marca": "DIESEL",
         "genero": "hombre",
-        "imagen": "img/hombres/Diesel/DIESELMS34.jpeg",
+        "imagen": "img/hombres/Diesel/DIESELMS34.webp",
         "referencia": "MS34",
         "precio": 190000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
@@ -500,7 +500,7 @@ const productosHombres = [
         "nombre": "Diesel",
         "marca": "DIESEL",
         "genero": "hombre",
-        "imagen": "img/hombres/Diesel/DIESELMS35.jpeg",
+        "imagen": "img/hombres/Diesel/DIESELMS35.webp",
         "referencia": "MS35",
         "precio": 180000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
@@ -510,7 +510,7 @@ const productosHombres = [
         "nombre": "Diesel",
         "marca": "DIESEL",
         "genero": "hombre",
-        "imagen": "img/hombres/Diesel/DIESELMS41.jpeg",
+        "imagen": "img/hombres/Diesel/DIESELMS41.webp",
         "referencia": "MS41",
         "precio": 200000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
@@ -520,7 +520,7 @@ const productosHombres = [
         "nombre": "Diesel",
         "marca": "DIESEL",
         "genero": "hombre",
-        "imagen": "img/hombres/Diesel/DIESELMS42.jpeg",
+        "imagen": "img/hombres/Diesel/DIESELMS42.webp",
         "referencia": "MS42",
         "precio": 200000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
@@ -530,7 +530,7 @@ const productosHombres = [
         "nombre": "Diesel",
         "marca": "DIESEL",
         "genero": "hombre",
-        "imagen": "img/hombres/Diesel/DIESELMS43.jpeg",
+        "imagen": "img/hombres/Diesel/DIESELMS43.webp",
         "referencia": "MS43",
         "precio": 200000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
@@ -540,7 +540,7 @@ const productosHombres = [
         "nombre": "Diesel",
         "marca": "DIESEL",
         "genero": "hombre",
-        "imagen": "img/hombres/Diesel/DIESELMS51.jpeg",
+        "imagen": "img/hombres/Diesel/DIESELMS51.webp",
         "referencia": "MS51",
         "precio": 195000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
@@ -550,7 +550,7 @@ const productosHombres = [
         "nombre": "Diesel",
         "marca": "DIESEL",
         "genero": "hombre",
-        "imagen": "img/hombres/Diesel/DIESELMS52.jpeg",
+        "imagen": "img/hombres/Diesel/DIESELMS52.webp",
         "referencia": "MS52",
         "precio": 195000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
@@ -560,7 +560,7 @@ const productosHombres = [
         "nombre": "Diesel",
         "marca": "DIESEL",
         "genero": "hombre",
-        "imagen": "img/hombres/Diesel/DIESELMS53.jpeg",
+        "imagen": "img/hombres/Diesel/DIESELMS53.webp",
         "referencia": "MS53",
         "precio": 195000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
@@ -570,7 +570,7 @@ const productosHombres = [
         "nombre": "Diesel",
         "marca": "DIESEL",
         "genero": "hombre",
-        "imagen": "img/hombres/Diesel/DIESELMS61.jpeg",
+        "imagen": "img/hombres/Diesel/DIESELMS61.webp",
         "referencia": "MS61",
         "precio": 190000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
@@ -580,7 +580,7 @@ const productosHombres = [
         "nombre": "Diesel",
         "marca": "DIESEL",
         "genero": "hombre",
-        "imagen": "img/hombres/Diesel/DIESELMS62.jpeg",
+        "imagen": "img/hombres/Diesel/DIESELMS62.webp",
         "referencia": "MS62",
         "precio": 190000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
@@ -590,7 +590,7 @@ const productosHombres = [
         "nombre": "Diesel",
         "marca": "DIESEL",
         "genero": "hombre",
-        "imagen": "img/hombres/Diesel/DIESELMS63.jpeg",
+        "imagen": "img/hombres/Diesel/DIESELMS63.webp",
         "referencia": "MS63",
         "precio": 190000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
@@ -600,7 +600,7 @@ const productosHombres = [
         "nombre": "Diesel",
         "marca": "DIESEL",
         "genero": "hombre",
-        "imagen": "img/hombres/Diesel/DIESELMS64.jpeg",
+        "imagen": "img/hombres/Diesel/DIESELMS64.webp",
         "referencia": "MS64",
         "precio": 190000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
@@ -610,7 +610,7 @@ const productosHombres = [
         "nombre": "Diesel",
         "marca": "DIESEL",
         "genero": "hombre",
-        "imagen": "img/hombres/Diesel/DIESELMS65.jpeg",
+        "imagen": "img/hombres/Diesel/DIESELMS65.webp",
         "referencia": "MS65",
         "precio": 190000,
         "descripcion": "Estilo audaz e industrial para los más atrevidos."
@@ -620,7 +620,7 @@ const productosHombres = [
         "nombre": "Dolce & Gabbana Gabbana",
         "marca": "DOLCE & GABBANA",
         "genero": "hombre",
-        "imagen": "img/hombres/Dolce & Gabbana/DOLCEGABBANAMS1.jpeg",
+        "imagen": "img/hombres/Dolce & Gabbana/DOLCEGABBANAMS1.webp",
         "referencia": "MS1",
         "precio": 195000,
         "descripcion": "Alta costura italiana en cada detalle."
@@ -630,7 +630,7 @@ const productosHombres = [
         "nombre": "Dolce & Gabbana Gabbana",
         "marca": "DOLCE & GABBANA",
         "genero": "hombre",
-        "imagen": "img/hombres/Dolce & Gabbana/DOLCEGABBANAMS2.jpeg",
+        "imagen": "img/hombres/Dolce & Gabbana/DOLCEGABBANAMS2.webp",
         "referencia": "MS2",
         "precio": 185000,
         "descripcion": "Alta costura italiana en cada detalle."
@@ -640,7 +640,7 @@ const productosHombres = [
         "nombre": "Dolce & Gabbana Gabbana",
         "marca": "DOLCE & GABBANA",
         "genero": "hombre",
-        "imagen": "img/hombres/Dolce & Gabbana/DOLCEGABBANAMS3.jpeg",
+        "imagen": "img/hombres/Dolce & Gabbana/DOLCEGABBANAMS3.webp",
         "referencia": "MS3",
         "precio": 185000,
         "descripcion": "Alta costura italiana en cada detalle."
@@ -650,7 +650,7 @@ const productosHombres = [
         "nombre": "Fila Zagato",
         "marca": "FILA",
         "genero": "hombre",
-        "imagen": "img/hombres/Fila/FILAZAGATOMS1.jpeg",
+        "imagen": "img/hombres/Fila/FILAZAGATOMS1.webp",
         "referencia": "MS1",
         "precio": 190000,
         "descripcion": "Estilo retro deportivo con máximo confort."
@@ -660,7 +660,7 @@ const productosHombres = [
         "nombre": "Guayo Adidas",
         "marca": "GUAYO",
         "genero": "hombre",
-        "imagen": "img/hombres/Guayo/GUAYOADIDASMS1.jpeg",
+        "imagen": "img/hombres/Guayo/GUAYOADIDASMS1.webp",
         "referencia": "MS1",
         "precio": 215000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
@@ -670,7 +670,7 @@ const productosHombres = [
         "nombre": "Guayo Adidas",
         "marca": "GUAYO",
         "genero": "hombre",
-        "imagen": "img/hombres/Guayo/GUAYOADIDASMS2.PNG",
+        "imagen": "img/hombres/Guayo/GUAYOADIDASMS2.webp",
         "referencia": "MS2",
         "precio": 230000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
@@ -680,7 +680,7 @@ const productosHombres = [
         "nombre": "Guayo Adidas",
         "marca": "GUAYO",
         "genero": "hombre",
-        "imagen": "img/hombres/Guayo/GUAYOADIDASMS3.PNG",
+        "imagen": "img/hombres/Guayo/GUAYOADIDASMS3.webp",
         "referencia": "MS3",
         "precio": 215000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
@@ -690,7 +690,7 @@ const productosHombres = [
         "nombre": "Guayo Adidas",
         "marca": "GUAYO",
         "genero": "hombre",
-        "imagen": "img/hombres/Guayo/GUAYOADIDASMS4.PNG",
+        "imagen": "img/hombres/Guayo/GUAYOADIDASMS4.webp",
         "referencia": "MS4",
         "precio": 210000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
@@ -700,7 +700,7 @@ const productosHombres = [
         "nombre": "Guayo Adidas",
         "marca": "GUAYO",
         "genero": "hombre",
-        "imagen": "img/hombres/Guayo/GUAYOADIDASMS5.PNG",
+        "imagen": "img/hombres/Guayo/GUAYOADIDASMS5.webp",
         "referencia": "MS5",
         "precio": 220000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
@@ -710,7 +710,7 @@ const productosHombres = [
         "nombre": "Guayo Nike",
         "marca": "GUAYO",
         "genero": "hombre",
-        "imagen": "img/hombres/Guayo/GUAYONIKEMS1.PNG",
+        "imagen": "img/hombres/Guayo/GUAYONIKEMS1.webp",
         "referencia": "MS1",
         "precio": 215000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
@@ -720,7 +720,7 @@ const productosHombres = [
         "nombre": "Guayo Nike",
         "marca": "GUAYO",
         "genero": "hombre",
-        "imagen": "img/hombres/Guayo/GUAYONIKEMS2.PNG",
+        "imagen": "img/hombres/Guayo/GUAYONIKEMS2.webp",
         "referencia": "MS2",
         "precio": 230000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
@@ -730,7 +730,7 @@ const productosHombres = [
         "nombre": "Guayo Nike",
         "marca": "GUAYO",
         "genero": "hombre",
-        "imagen": "img/hombres/Guayo/GUAYONIKEMS3.PNG",
+        "imagen": "img/hombres/Guayo/GUAYONIKEMS3.webp",
         "referencia": "MS3",
         "precio": 215000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
@@ -740,7 +740,7 @@ const productosHombres = [
         "nombre": "Guayo Nike",
         "marca": "GUAYO",
         "genero": "hombre",
-        "imagen": "img/hombres/Guayo/GUAYONIKEMS4.jpeg",
+        "imagen": "img/hombres/Guayo/GUAYONIKEMS4.webp",
         "referencia": "MS4",
         "precio": 210000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
@@ -750,7 +750,7 @@ const productosHombres = [
         "nombre": "Guayo Nike",
         "marca": "GUAYO",
         "genero": "hombre",
-        "imagen": "img/hombres/Guayo/GUAYONIKEMS5.jpeg",
+        "imagen": "img/hombres/Guayo/GUAYONIKEMS5.webp",
         "referencia": "MS5",
         "precio": 220000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
@@ -760,7 +760,7 @@ const productosHombres = [
         "nombre": "Guayo Puma",
         "marca": "GUAYO",
         "genero": "hombre",
-        "imagen": "img/hombres/Guayo/GUAYOPUMAMS1.jpeg",
+        "imagen": "img/hombres/Guayo/GUAYOPUMAMS1.webp",
         "referencia": "MS1",
         "precio": 215000,
         "descripcion": "Rendimiento en la cancha con estilo propio."
@@ -770,7 +770,7 @@ const productosHombres = [
         "nombre": "Hoka",
         "marca": "HOKA",
         "genero": "hombre",
-        "imagen": "img/hombres/Hoka/HOKAMS1.jpeg",
+        "imagen": "img/hombres/Hoka/HOKAMS1.webp",
         "referencia": "MS1",
         "precio": 200000,
         "descripcion": "Máxima amortiguación con peso pluma."
@@ -780,7 +780,7 @@ const productosHombres = [
         "nombre": "Hoka",
         "marca": "HOKA",
         "genero": "hombre",
-        "imagen": "img/hombres/Hoka/HOKAMS2.jpeg",
+        "imagen": "img/hombres/Hoka/HOKAMS2.webp",
         "referencia": "MS2",
         "precio": 200000,
         "descripcion": "Máxima amortiguación con peso pluma."
@@ -790,7 +790,7 @@ const productosHombres = [
         "nombre": "Hoka",
         "marca": "HOKA",
         "genero": "hombre",
-        "imagen": "img/hombres/Hoka/HOKAMS3.jpeg",
+        "imagen": "img/hombres/Hoka/HOKAMS3.webp",
         "referencia": "MS3",
         "precio": 200000,
         "descripcion": "Máxima amortiguación con peso pluma."
@@ -800,7 +800,7 @@ const productosHombres = [
         "nombre": "Hoka",
         "marca": "HOKA",
         "genero": "hombre",
-        "imagen": "img/hombres/Hoka/HOKAMS4.jpeg",
+        "imagen": "img/hombres/Hoka/HOKAMS4.webp",
         "referencia": "MS4",
         "precio": 200000,
         "descripcion": "Máxima amortiguación con peso pluma."
@@ -810,7 +810,7 @@ const productosHombres = [
         "nombre": "Hugo Boss Boss",
         "marca": "HUGO BOSS",
         "genero": "hombre",
-        "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS1.jpeg",
+        "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS1.webp",
         "referencia": "MS1",
         "precio": 138000,
         "descripcion": "Sofisticación alemana en cada paso."
@@ -820,7 +820,7 @@ const productosHombres = [
         "nombre": "Hugo Boss Boss",
         "marca": "HUGO BOSS",
         "genero": "hombre",
-        "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS10.jpeg",
+        "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS10.webp",
         "referencia": "MS10",
         "precio": 180000,
         "descripcion": "Sofisticación alemana en cada paso."
@@ -830,7 +830,7 @@ const productosHombres = [
         "nombre": "Hugo Boss Boss",
         "marca": "HUGO BOSS",
         "genero": "hombre",
-        "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS11.jpeg",
+        "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS11.webp",
         "referencia": "MS11",
         "precio": 180000,
         "descripcion": "Sofisticación alemana en cada paso."
@@ -840,7 +840,7 @@ const productosHombres = [
         "nombre": "Hugo Boss Boss",
         "marca": "HUGO BOSS",
         "genero": "hombre",
-        "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS2.jpeg",
+        "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS2.webp",
         "referencia": "MS2",
         "precio": 138000,
         "descripcion": "Sofisticación alemana en cada paso."
@@ -850,7 +850,7 @@ const productosHombres = [
         "nombre": "Hugo Boss Boss",
         "marca": "HUGO BOSS",
         "genero": "hombre",
-        "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS3.jpeg",
+        "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS3.webp",
         "referencia": "MS3",
         "precio": 138000,
         "descripcion": "Sofisticación alemana en cada paso."
@@ -860,7 +860,7 @@ const productosHombres = [
         "nombre": "Hugo Boss Boss",
         "marca": "HUGO BOSS",
         "genero": "hombre",
-        "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS31.jpeg",
+        "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS31.webp",
         "referencia": "MS31",
         "precio": 190000,
         "descripcion": "Sofisticación alemana en cada paso."
@@ -870,7 +870,7 @@ const productosHombres = [
         "nombre": "Hugo Boss Boss",
         "marca": "HUGO BOSS",
         "genero": "hombre",
-        "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS32.jpeg",
+        "imagen": "img/hombres/Hugo Boss/HUGO_BOSSMS32.webp",
         "referencia": "MS32",
         "precio": 190000,
         "descripcion": "Sofisticación alemana en cada paso."
@@ -880,7 +880,7 @@ const productosHombres = [
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
-        "imagen": "img/hombres/Lacoste/LACOSTEMS1.jpeg",
+        "imagen": "img/hombres/Lacoste/LACOSTEMS1.webp",
         "referencia": "MS1",
         "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
@@ -890,7 +890,7 @@ const productosHombres = [
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
-        "imagen": "img/hombres/Lacoste/LACOSTEMS2.jpeg",
+        "imagen": "img/hombres/Lacoste/LACOSTEMS2.webp",
         "referencia": "MS2",
         "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
@@ -900,7 +900,7 @@ const productosHombres = [
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
-        "imagen": "img/hombres/Lacoste/LACOSTEMS31.jpeg",
+        "imagen": "img/hombres/Lacoste/LACOSTEMS31.webp",
         "referencia": "MS31",
         "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
@@ -910,7 +910,7 @@ const productosHombres = [
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
-        "imagen": "img/hombres/Lacoste/LACOSTEMS32.jpeg",
+        "imagen": "img/hombres/Lacoste/LACOSTEMS32.webp",
         "referencia": "MS32",
         "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
@@ -920,7 +920,7 @@ const productosHombres = [
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
-        "imagen": "img/hombres/Lacoste/LACOSTEMS41.jpeg",
+        "imagen": "img/hombres/Lacoste/LACOSTEMS41.webp",
         "referencia": "MS41",
         "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
@@ -930,7 +930,7 @@ const productosHombres = [
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
-        "imagen": "img/hombres/Lacoste/LACOSTEMS42.jpeg",
+        "imagen": "img/hombres/Lacoste/LACOSTEMS42.webp",
         "referencia": "MS42",
         "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
@@ -940,7 +940,7 @@ const productosHombres = [
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
-        "imagen": "img/hombres/Lacoste/LACOSTEMS43.jpeg",
+        "imagen": "img/hombres/Lacoste/LACOSTEMS43.webp",
         "referencia": "MS43",
         "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
@@ -950,7 +950,7 @@ const productosHombres = [
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
-        "imagen": "img/hombres/Lacoste/LACOSTEMS44.jpeg",
+        "imagen": "img/hombres/Lacoste/LACOSTEMS44.webp",
         "referencia": "MS44",
         "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
@@ -960,7 +960,7 @@ const productosHombres = [
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
-        "imagen": "img/hombres/Lacoste/LACOSTEMS45.jpeg",
+        "imagen": "img/hombres/Lacoste/LACOSTEMS45.webp",
         "referencia": "MS45",
         "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
@@ -970,7 +970,7 @@ const productosHombres = [
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
-        "imagen": "img/hombres/Lacoste/LACOSTEMS51.jpeg",
+        "imagen": "img/hombres/Lacoste/LACOSTEMS51.webp",
         "referencia": "MS51",
         "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
@@ -980,7 +980,7 @@ const productosHombres = [
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
-        "imagen": "img/hombres/Lacoste/LACOSTEMS52.jpeg",
+        "imagen": "img/hombres/Lacoste/LACOSTEMS52.webp",
         "referencia": "MS52",
         "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
@@ -990,7 +990,7 @@ const productosHombres = [
         "nombre": "Lacoste",
         "marca": "LACOSTE",
         "genero": "hombre",
-        "imagen": "img/hombres/Lacoste/LACOSTEMS53.jpeg",
+        "imagen": "img/hombres/Lacoste/LACOSTEMS53.webp",
         "referencia": "MS53",
         "precio": 180000,
         "descripcion": "Sofisticación deportiva con el icónico cocodrilo."
@@ -1000,7 +1000,7 @@ const productosHombres = [
         "nombre": "Le Coq Sportif Coq",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
-        "imagen": "img/hombres/le coq sportif/LE_COQMS1.jpeg",
+        "imagen": "img/hombres/le coq sportif/LE_COQMS1.webp",
         "referencia": "MS1",
         "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
@@ -1010,7 +1010,7 @@ const productosHombres = [
         "nombre": "Le Coq Sportif Coq",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
-        "imagen": "img/hombres/le coq sportif/LE_COQMS2.jpeg",
+        "imagen": "img/hombres/le coq sportif/LE_COQMS2.webp",
         "referencia": "MS2",
         "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
@@ -1020,7 +1020,7 @@ const productosHombres = [
         "nombre": "Le Coq Sportif Coq",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
-        "imagen": "img/hombres/le coq sportif/LE_COQMS3.jpeg",
+        "imagen": "img/hombres/le coq sportif/LE_COQMS3.webp",
         "referencia": "MS3",
         "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
@@ -1030,7 +1030,7 @@ const productosHombres = [
         "nombre": "Le Coq Sportif Coq",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
-        "imagen": "img/hombres/le coq sportif/LE_COQMS4.jpeg",
+        "imagen": "img/hombres/le coq sportif/LE_COQMS4.webp",
         "referencia": "MS4",
         "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
@@ -1040,7 +1040,7 @@ const productosHombres = [
         "nombre": "Le Coq Sportif Coq",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
-        "imagen": "img/hombres/le coq sportif/LE_COQMS5.jpeg",
+        "imagen": "img/hombres/le coq sportif/LE_COQMS5.webp",
         "referencia": "MS5",
         "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
@@ -1050,7 +1050,7 @@ const productosHombres = [
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
-        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS1.jpeg",
+        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS1.webp",
         "referencia": "MS1",
         "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
@@ -1060,7 +1060,7 @@ const productosHombres = [
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
-        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS2.jpeg",
+        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS2.webp",
         "referencia": "MS2",
         "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
@@ -1070,7 +1070,7 @@ const productosHombres = [
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
-        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS31.jpeg",
+        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS31.webp",
         "referencia": "MS31",
         "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
@@ -1080,7 +1080,7 @@ const productosHombres = [
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
-        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS32.jpeg",
+        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS32.webp",
         "referencia": "MS32",
         "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
@@ -1090,7 +1090,7 @@ const productosHombres = [
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
-        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS41.jpeg",
+        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS41.webp",
         "referencia": "MS41",
         "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
@@ -1100,7 +1100,7 @@ const productosHombres = [
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
-        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS42.jpeg",
+        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS42.webp",
         "referencia": "MS42",
         "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
@@ -1110,7 +1110,7 @@ const productosHombres = [
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
-        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS43.jpeg",
+        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS43.webp",
         "referencia": "MS43",
         "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
@@ -1120,7 +1120,7 @@ const productosHombres = [
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
-        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS61.jpeg",
+        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS61.webp",
         "referencia": "MS61",
         "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
@@ -1130,7 +1130,7 @@ const productosHombres = [
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
-        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS62.jpeg",
+        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS62.webp",
         "referencia": "MS62",
         "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
@@ -1140,7 +1140,7 @@ const productosHombres = [
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
-        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS63.jpeg",
+        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS63.webp",
         "referencia": "MS63",
         "precio": 185000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
@@ -1150,7 +1150,7 @@ const productosHombres = [
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
-        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS71.jpeg",
+        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS71.webp",
         "referencia": "MS71",
         "precio": 195000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
@@ -1160,7 +1160,7 @@ const productosHombres = [
         "nombre": "Le Coq Sportif Coq Sportif",
         "marca": "LE COQ SPORTIF",
         "genero": "hombre",
-        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS72.jpeg",
+        "imagen": "img/hombres/le coq sportif/LE_COQ_SPORTIFMS72.webp",
         "referencia": "MS72",
         "precio": 195000,
         "descripcion": "Elegancia y rendimiento con el toque clásico francés."
@@ -1170,7 +1170,7 @@ const productosHombres = [
         "nombre": "Louis Vuitton Vuitton",
         "marca": "LOUIS VUITTON",
         "genero": "hombre",
-        "imagen": "img/hombres/Louis Vuitton/LOUIS_VUITTONMS1.jpeg",
+        "imagen": "img/hombres/Louis Vuitton/LOUIS_VUITTONMS1.webp",
         "referencia": "MS1",
         "precio": 180000,
         "descripcion": "La cúspide del lujo y la exclusividad."
@@ -1180,7 +1180,7 @@ const productosHombres = [
         "nombre": "Louis Vuitton Vuitton",
         "marca": "LOUIS VUITTON",
         "genero": "hombre",
-        "imagen": "img/hombres/Louis Vuitton/LOUIS_VUITTONMS2.jpeg",
+        "imagen": "img/hombres/Louis Vuitton/LOUIS_VUITTONMS2.webp",
         "referencia": "MS2",
         "precio": 180000,
         "descripcion": "La cúspide del lujo y la exclusividad."
@@ -1190,7 +1190,7 @@ const productosHombres = [
         "nombre": "Louis Vuitton Vuitton",
         "marca": "LOUIS VUITTON",
         "genero": "hombre",
-        "imagen": "img/hombres/Louis Vuitton/LOUIS_VUITTONMS3.jpeg",
+        "imagen": "img/hombres/Louis Vuitton/LOUIS_VUITTONMS3.webp",
         "referencia": "MS3",
         "precio": 180000,
         "descripcion": "La cúspide del lujo y la exclusividad."
@@ -1200,7 +1200,7 @@ const productosHombres = [
         "nombre": "Louis Vuitton Vuitton",
         "marca": "LOUIS VUITTON",
         "genero": "hombre",
-        "imagen": "img/hombres/Louis Vuitton/LOUIS_VUITTONMS4.jpeg",
+        "imagen": "img/hombres/Louis Vuitton/LOUIS_VUITTONMS4.webp",
         "referencia": "MS4",
         "precio": 185000,
         "descripcion": "La cúspide del lujo y la exclusividad."
@@ -1210,7 +1210,7 @@ const productosHombres = [
         "nombre": "Louis Vuitton Vuitton",
         "marca": "LOUIS VUITTON",
         "genero": "hombre",
-        "imagen": "img/hombres/Louis Vuitton/LOUIS_VUITTONMS5.jpeg",
+        "imagen": "img/hombres/Louis Vuitton/LOUIS_VUITTONMS5.webp",
         "referencia": "MS5",
         "precio": 180000,
         "descripcion": "La cúspide del lujo y la exclusividad."
@@ -1220,7 +1220,7 @@ const productosHombres = [
         "nombre": "New Balance Balance1000",
         "marca": "NEW BALANCE",
         "genero": "hombre",
-        "imagen": "img/hombres/New Balance/NEWBALANCE1000MS1.jpeg",
+        "imagen": "img/hombres/New Balance/NEWBALANCE1000MS1.webp",
         "referencia": "MS1",
         "precio": 205000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
@@ -1230,7 +1230,7 @@ const productosHombres = [
         "nombre": "New Balance Balance1000",
         "marca": "NEW BALANCE",
         "genero": "hombre",
-        "imagen": "img/hombres/New Balance/NEWBALANCE1000MS2.jpeg",
+        "imagen": "img/hombres/New Balance/NEWBALANCE1000MS2.webp",
         "referencia": "MS2",
         "precio": 190000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
@@ -1240,7 +1240,7 @@ const productosHombres = [
         "nombre": "New Balance Balance1906r",
         "marca": "NEW BALANCE",
         "genero": "hombre",
-        "imagen": "img/hombres/New Balance/NEWBALANCE1906RMS1.jpeg",
+        "imagen": "img/hombres/New Balance/NEWBALANCE1906RMS1.webp",
         "referencia": "MS1",
         "precio": 205000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
@@ -1250,7 +1250,7 @@ const productosHombres = [
         "nombre": "New Balance Balance2000",
         "marca": "NEW BALANCE",
         "genero": "hombre",
-        "imagen": "img/hombres/New Balance/NEWBALANCE2000MS1.jpeg",
+        "imagen": "img/hombres/New Balance/NEWBALANCE2000MS1.webp",
         "referencia": "MS1",
         "precio": 205000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
@@ -1260,7 +1260,7 @@ const productosHombres = [
         "nombre": "New Balance Balance9060",
         "marca": "NEW BALANCE",
         "genero": "hombre",
-        "imagen": "img/hombres/New Balance/NEWBALANCE9060MS1.jpeg",
+        "imagen": "img/hombres/New Balance/NEWBALANCE9060MS1.webp",
         "referencia": "MS1",
         "precio": 205000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
@@ -1270,7 +1270,7 @@ const productosHombres = [
         "nombre": "New Balance Balance9060",
         "marca": "NEW BALANCE",
         "genero": "hombre",
-        "imagen": "img/hombres/New Balance/NEWBALANCE9060MS2.jpeg",
+        "imagen": "img/hombres/New Balance/NEWBALANCE9060MS2.webp",
         "referencia": "MS2",
         "precio": 190000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
@@ -1280,7 +1280,7 @@ const productosHombres = [
         "nombre": "New Balance Balance990",
         "marca": "NEW BALANCE",
         "genero": "hombre",
-        "imagen": "img/hombres/New Balance/NEWBALANCE990MS1.jpeg",
+        "imagen": "img/hombres/New Balance/NEWBALANCE990MS1.webp",
         "referencia": "MS1",
         "precio": 205000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
@@ -1290,7 +1290,7 @@ const productosHombres = [
         "nombre": "New Balance Balance999",
         "marca": "NEW BALANCE",
         "genero": "hombre",
-        "imagen": "img/hombres/New Balance/NEWBALANCE999MS1.jpeg",
+        "imagen": "img/hombres/New Balance/NEWBALANCE999MS1.webp",
         "referencia": "MS1",
         "precio": 205000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
@@ -1300,7 +1300,7 @@ const productosHombres = [
         "nombre": "New Balance Balance999",
         "marca": "NEW BALANCE",
         "genero": "hombre",
-        "imagen": "img/hombres/New Balance/NEWBALANCE999MS2.jpeg",
+        "imagen": "img/hombres/New Balance/NEWBALANCE999MS2.webp",
         "referencia": "MS2",
         "precio": 190000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
@@ -1310,7 +1310,7 @@ const productosHombres = [
         "nombre": "New Balance Balance",
         "marca": "NEW BALANCE",
         "genero": "hombre",
-        "imagen": "img/hombres/New Balance/NEWBALANCEMS1.jpeg",
+        "imagen": "img/hombres/New Balance/NEWBALANCEMS1.webp",
         "referencia": "MS1",
         "precio": 205000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
@@ -1320,7 +1320,7 @@ const productosHombres = [
         "nombre": "New Balance Balance",
         "marca": "NEW BALANCE",
         "genero": "hombre",
-        "imagen": "img/hombres/New Balance/NEWBALANCEMS2.jpeg",
+        "imagen": "img/hombres/New Balance/NEWBALANCEMS2.webp",
         "referencia": "MS2",
         "precio": 190000,
         "descripcion": "La mezcla perfecta entre funcionalidad y moda retro."
@@ -1330,7 +1330,7 @@ const productosHombres = [
         "nombre": "Nike Jordan Bota",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/JORDAN_BOTAMS1.jpeg",
+        "imagen": "img/hombres/Nike/JORDAN_BOTAMS1.webp",
         "referencia": "MS1",
         "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1340,7 +1340,7 @@ const productosHombres = [
         "nombre": "Nike Jordan Cadence",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/JORDAN_CADENCEMS1.jpeg",
+        "imagen": "img/hombres/Nike/JORDAN_CADENCEMS1.webp",
         "referencia": "MS1",
         "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1350,7 +1350,7 @@ const productosHombres = [
         "nombre": "Nike",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKEMS1.jpeg",
+        "imagen": "img/hombres/Nike/NIKEMS1.webp",
         "referencia": "MS1",
         "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1360,7 +1360,7 @@ const productosHombres = [
         "nombre": "Nike",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKEMS31.jpeg",
+        "imagen": "img/hombres/Nike/NIKEMS31.webp",
         "referencia": "MS31",
         "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1370,7 +1370,7 @@ const productosHombres = [
         "nombre": "Nike",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKEMS32.jpeg",
+        "imagen": "img/hombres/Nike/NIKEMS32.webp",
         "referencia": "MS32",
         "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1380,7 +1380,7 @@ const productosHombres = [
         "nombre": "Nike Correlate",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKE_CORRELATEMS1.jpeg",
+        "imagen": "img/hombres/Nike/NIKE_CORRELATEMS1.webp",
         "referencia": "MS1",
         "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1390,7 +1390,7 @@ const productosHombres = [
         "nombre": "Nike Flex",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKE_FLEXMS1.jpeg",
+        "imagen": "img/hombres/Nike/NIKE_FLEXMS1.webp",
         "referencia": "MS1",
         "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1400,7 +1400,7 @@ const productosHombres = [
         "nombre": "Nike Initiator",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKE_INITIATORMS1.jpeg",
+        "imagen": "img/hombres/Nike/NIKE_INITIATORMS1.webp",
         "referencia": "MS1",
         "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1410,7 +1410,7 @@ const productosHombres = [
         "nombre": "Nike P 6000",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKE_P-6000MS2.jpeg",
+        "imagen": "img/hombres/Nike/NIKE_P-6000MS2.webp",
         "referencia": "MS2",
         "precio": 190000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1420,7 +1420,7 @@ const productosHombres = [
         "nombre": "Nike P 6000",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKE_P-6000MS3.jpeg",
+        "imagen": "img/hombres/Nike/NIKE_P-6000MS3.webp",
         "referencia": "MS3",
         "precio": 190000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1430,7 +1430,7 @@ const productosHombres = [
         "nombre": "Nike Pulse",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKE_PULSEMS1.jpeg",
+        "imagen": "img/hombres/Nike/NIKE_PULSEMS1.webp",
         "referencia": "MS1",
         "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1440,7 +1440,7 @@ const productosHombres = [
         "nombre": "Nike Pulse",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKE_PULSEMS2.jpeg",
+        "imagen": "img/hombres/Nike/NIKE_PULSEMS2.webp",
         "referencia": "MS2",
         "precio": 190000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1450,7 +1450,7 @@ const productosHombres = [
         "nombre": "Nike Pulse",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKE_PULSEMS3.jpeg",
+        "imagen": "img/hombres/Nike/NIKE_PULSEMS3.webp",
         "referencia": "MS3",
         "precio": 190000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1460,7 +1460,7 @@ const productosHombres = [
         "nombre": "Nike Tn",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKE_TNMS1.jpeg",
+        "imagen": "img/hombres/Nike/NIKE_TNMS1.webp",
         "referencia": "MS1",
         "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1470,7 +1470,7 @@ const productosHombres = [
         "nombre": "Nike Tn",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKE_TNMS2.jpeg",
+        "imagen": "img/hombres/Nike/NIKE_TNMS2.webp",
         "referencia": "MS2",
         "precio": 190000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1480,7 +1480,7 @@ const productosHombres = [
         "nombre": "Nike Trail",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKE_TRAILMS1.jpeg",
+        "imagen": "img/hombres/Nike/NIKE_TRAILMS1.webp",
         "referencia": "MS1",
         "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1490,7 +1490,7 @@ const productosHombres = [
         "nombre": "Nike Vomero",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKE_VOMEROMS1.jpeg",
+        "imagen": "img/hombres/Nike/NIKE_VOMEROMS1.webp",
         "referencia": "MS1",
         "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1500,7 +1500,7 @@ const productosHombres = [
         "nombre": "Nike Zoom",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKE_ZOOMMS1.jpeg",
+        "imagen": "img/hombres/Nike/NIKE_ZOOMMS1.webp",
         "referencia": "MS1",
         "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1510,7 +1510,7 @@ const productosHombres = [
         "nombre": "Nike Zoom",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKE_ZOOMMS2.jpeg",
+        "imagen": "img/hombres/Nike/NIKE_ZOOMMS2.webp",
         "referencia": "MS2",
         "precio": 190000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1520,7 +1520,7 @@ const productosHombres = [
         "nombre": "Nike Zoom",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKE_ZOOMMS3.jpeg",
+        "imagen": "img/hombres/Nike/NIKE_ZOOMMS3.webp",
         "referencia": "MS3",
         "precio": 190000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1530,7 +1530,7 @@ const productosHombres = [
         "nombre": "Nike Zoom",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKE_ZOOMMS31.jpeg",
+        "imagen": "img/hombres/Nike/NIKE_ZOOMMS31.webp",
         "referencia": "MS31",
         "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1540,7 +1540,7 @@ const productosHombres = [
         "nombre": "Nike Zoom",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKE_ZOOMMS32.jpeg",
+        "imagen": "img/hombres/Nike/NIKE_ZOOMMS32.webp",
         "referencia": "MS32",
         "precio": 185000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1550,7 +1550,7 @@ const productosHombres = [
         "nombre": "Nike Zoom",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKE_ZOOMMS33.jpeg",
+        "imagen": "img/hombres/Nike/NIKE_ZOOMMS33.webp",
         "referencia": "MS33",
         "precio": 190000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1560,7 +1560,7 @@ const productosHombres = [
         "nombre": "Nike Zoom",
         "marca": "NIKE",
         "genero": "hombre",
-        "imagen": "img/hombres/Nike/NIKE_ZOOMMS34.jpeg",
+        "imagen": "img/hombres/Nike/NIKE_ZOOMMS34.webp",
         "referencia": "MS34",
         "precio": 190000,
         "descripcion": "Just Do It. Innovación y rendimiento en cada par."
@@ -1570,7 +1570,7 @@ const productosHombres = [
         "nombre": "On Cloud Clou",
         "marca": "ON CLOUD",
         "genero": "hombre",
-        "imagen": "img/hombres/On Cloud/ON_CLOUDMS1.jpeg",
+        "imagen": "img/hombres/On Cloud/ON_CLOUDMS1.webp",
         "referencia": "DMS1",
         "precio": 190000,
         "descripcion": "Siente que caminas sobre nubes en cada paso."
@@ -1580,7 +1580,7 @@ const productosHombres = [
         "nombre": "On Cloud Clou",
         "marca": "ON CLOUD",
         "genero": "hombre",
-        "imagen": "img/hombres/On Cloud/ON_CLOUDMS2.jpeg",
+        "imagen": "img/hombres/On Cloud/ON_CLOUDMS2.webp",
         "referencia": "DMS2",
         "precio": 185000,
         "descripcion": "Siente que caminas sobre nubes en cada paso."
@@ -1590,7 +1590,7 @@ const productosHombres = [
         "nombre": "On Cloud Clou",
         "marca": "ON CLOUD",
         "genero": "hombre",
-        "imagen": "img/hombres/On Cloud/ON_CLOUDMS31.jpeg",
+        "imagen": "img/hombres/On Cloud/ON_CLOUDMS31.webp",
         "referencia": "DMS31",
         "precio": 195000,
         "descripcion": "Siente que caminas sobre nubes en cada paso."
@@ -1600,7 +1600,7 @@ const productosHombres = [
         "nombre": "On Cloud Clou",
         "marca": "ON CLOUD",
         "genero": "hombre",
-        "imagen": "img/hombres/On Cloud/ON_CLOUDMS32.jpeg",
+        "imagen": "img/hombres/On Cloud/ON_CLOUDMS32.webp",
         "referencia": "DMS32",
         "precio": 195000,
         "descripcion": "Siente que caminas sobre nubes en cada paso."
@@ -1610,7 +1610,7 @@ const productosHombres = [
         "nombre": "On Cloud Clou",
         "marca": "ON CLOUD",
         "genero": "hombre",
-        "imagen": "img/hombres/On Cloud/ON_CLOUDMS33.jpeg",
+        "imagen": "img/hombres/On Cloud/ON_CLOUDMS33.webp",
         "referencia": "DMS33",
         "precio": 185000,
         "descripcion": "Siente que caminas sobre nubes en cada paso."
@@ -1620,7 +1620,7 @@ const productosHombres = [
         "nombre": "On Cloud Clou",
         "marca": "ON CLOUD",
         "genero": "hombre",
-        "imagen": "img/hombres/On Cloud/ON_CLOUDMS34.jpeg",
+        "imagen": "img/hombres/On Cloud/ON_CLOUDMS34.webp",
         "referencia": "DMS34",
         "precio": 190000,
         "descripcion": "Siente que caminas sobre nubes en cada paso."
@@ -1630,7 +1630,7 @@ const productosHombres = [
         "nombre": "On Cloud Clou",
         "marca": "ON CLOUD",
         "genero": "hombre",
-        "imagen": "img/hombres/On Cloud/ON_CLOUDMS35.jpeg",
+        "imagen": "img/hombres/On Cloud/ON_CLOUDMS35.webp",
         "referencia": "DMS35",
         "precio": 190000,
         "descripcion": "Siente que caminas sobre nubes en cada paso."
@@ -1640,7 +1640,7 @@ const productosHombres = [
         "nombre": "Puma Inverse",
         "marca": "PUMA",
         "genero": "hombre",
-        "imagen": "img/hombres/Puma/PUMAINVERSEMS1.jpeg",
+        "imagen": "img/hombres/Puma/PUMAINVERSEMS1.webp",
         "referencia": "MS1",
         "precio": 190000,
         "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
@@ -1650,7 +1650,7 @@ const productosHombres = [
         "nombre": "Puma Morphic",
         "marca": "PUMA",
         "genero": "hombre",
-        "imagen": "img/hombres/Puma/PUMAMORPHICMS1.jpeg",
+        "imagen": "img/hombres/Puma/PUMAMORPHICMS1.webp",
         "referencia": "MS1",
         "precio": 190000,
         "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
@@ -1660,7 +1660,7 @@ const productosHombres = [
         "nombre": "Puma Morphic",
         "marca": "PUMA",
         "genero": "hombre",
-        "imagen": "img/hombres/Puma/PUMAMORPHICMS2.jpeg",
+        "imagen": "img/hombres/Puma/PUMAMORPHICMS2.webp",
         "referencia": "MS2",
         "precio": 190000,
         "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
@@ -1670,7 +1670,7 @@ const productosHombres = [
         "nombre": "Puma",
         "marca": "PUMA",
         "genero": "hombre",
-        "imagen": "img/hombres/Puma/PUMAMS1.jpeg",
+        "imagen": "img/hombres/Puma/PUMAMS1.webp",
         "referencia": "MS1",
         "precio": 190000,
         "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
@@ -1680,7 +1680,7 @@ const productosHombres = [
         "nombre": "Puma",
         "marca": "PUMA",
         "genero": "hombre",
-        "imagen": "img/hombres/Puma/PUMAMS2.jpeg",
+        "imagen": "img/hombres/Puma/PUMAMS2.webp",
         "referencia": "MS2",
         "precio": 190000,
         "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
@@ -1690,7 +1690,7 @@ const productosHombres = [
         "nombre": "Puma",
         "marca": "PUMA",
         "genero": "hombre",
-        "imagen": "img/hombres/Puma/PUMAMS3.jpeg",
+        "imagen": "img/hombres/Puma/PUMAMS3.webp",
         "referencia": "MS3",
         "precio": 190000,
         "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
@@ -1700,7 +1700,7 @@ const productosHombres = [
         "nombre": "Puma",
         "marca": "PUMA",
         "genero": "hombre",
-        "imagen": "img/hombres/Puma/PUMAMS4.jpeg",
+        "imagen": "img/hombres/Puma/PUMAMS4.webp",
         "referencia": "MS4",
         "precio": 190000,
         "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
@@ -1710,7 +1710,7 @@ const productosHombres = [
         "nombre": "Puma",
         "marca": "PUMA",
         "genero": "hombre",
-        "imagen": "img/hombres/Puma/PUMAMS5.jpeg",
+        "imagen": "img/hombres/Puma/PUMAMS5.webp",
         "referencia": "MS5",
         "precio": 190000,
         "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
@@ -1720,7 +1720,7 @@ const productosHombres = [
         "nombre": "Puma Park",
         "marca": "PUMA",
         "genero": "hombre",
-        "imagen": "img/hombres/Puma/PUMAPARKMS1.jpeg",
+        "imagen": "img/hombres/Puma/PUMAPARKMS1.webp",
         "referencia": "MS1",
         "precio": 190000,
         "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
@@ -1730,7 +1730,7 @@ const productosHombres = [
         "nombre": "Puma Romaxferrari",
         "marca": "PUMA",
         "genero": "hombre",
-        "imagen": "img/hombres/Puma/PUMAROMAXFERRARIMS1.jpeg",
+        "imagen": "img/hombres/Puma/PUMAROMAXFERRARIMS1.webp",
         "referencia": "MS1",
         "precio": 190000,
         "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
@@ -1740,7 +1740,7 @@ const productosHombres = [
         "nombre": "Puma Suedexbmwms1",
         "marca": "PUMA",
         "genero": "hombre",
-        "imagen": "img/hombres/Puma/PUMASUEDEXBMWMS1 .jpeg",
+        "imagen": "img/hombres/Puma/PUMASUEDEXBMWMS1 .webp",
         "referencia": "MS1",
         "precio": 190000,
         "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
@@ -1750,7 +1750,7 @@ const productosHombres = [
         "nombre": "Puma Suedexbmwms2",
         "marca": "PUMA",
         "genero": "hombre",
-        "imagen": "img/hombres/Puma/PUMASUEDEXBMWMS2 .jpeg",
+        "imagen": "img/hombres/Puma/PUMASUEDEXBMWMS2 .webp",
         "referencia": "MS1",
         "precio": 190000,
         "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
@@ -1760,7 +1760,7 @@ const productosHombres = [
         "nombre": "Puma Suedexbmwms3",
         "marca": "PUMA",
         "genero": "hombre",
-        "imagen": "img/hombres/Puma/PUMASUEDEXBMWMS3 .jpeg",
+        "imagen": "img/hombres/Puma/PUMASUEDEXBMWMS3 .webp",
         "referencia": "MS1",
         "precio": 190000,
         "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
@@ -1770,7 +1770,7 @@ const productosHombres = [
         "nombre": "Puma Suedexl",
         "marca": "PUMA",
         "genero": "hombre",
-        "imagen": "img/hombres/Puma/PUMASUEDEXLMS1.jpeg",
+        "imagen": "img/hombres/Puma/PUMASUEDEXLMS1.webp",
         "referencia": "MS1",
         "precio": 190000,
         "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
@@ -1780,7 +1780,7 @@ const productosHombres = [
         "nombre": "Puma Suedexl",
         "marca": "PUMA",
         "genero": "hombre",
-        "imagen": "img/hombres/Puma/PUMASUEDEXLMS2.jpeg",
+        "imagen": "img/hombres/Puma/PUMASUEDEXLMS2.webp",
         "referencia": "MS2",
         "precio": 190000,
         "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
@@ -1790,7 +1790,7 @@ const productosHombres = [
         "nombre": "Puma Suedexl",
         "marca": "PUMA",
         "genero": "hombre",
-        "imagen": "img/hombres/Puma/PUMASUEDEXLMS3.jpeg",
+        "imagen": "img/hombres/Puma/PUMASUEDEXLMS3.webp",
         "referencia": "MS3",
         "precio": 190000,
         "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
@@ -1800,7 +1800,7 @@ const productosHombres = [
         "nombre": "Puma Suedexlxferrari",
         "marca": "PUMA",
         "genero": "hombre",
-        "imagen": "img/hombres/Puma/PUMASUEDEXLXFERRARIMS1.jpeg",
+        "imagen": "img/hombres/Puma/PUMASUEDEXLXFERRARIMS1.webp",
         "referencia": "MS1",
         "precio": 190000,
         "descripcion": "Forever Faster. Diseño vanguardista para el día a día."
@@ -1810,7 +1810,7 @@ const productosHombres = [
         "nombre": "Reebok Beams",
         "marca": "REEBOK",
         "genero": "hombre",
-        "imagen": "img/hombres/Reebok/REEBOKBEAMSMS1.jpeg",
+        "imagen": "img/hombres/Reebok/REEBOKBEAMSMS1.webp",
         "referencia": "MS1",
         "precio": 180000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
@@ -1820,7 +1820,7 @@ const productosHombres = [
         "nombre": "Reebok Ers",
         "marca": "REEBOK",
         "genero": "hombre",
-        "imagen": "img/hombres/Reebok/REEBOKERSMS1.jpeg",
+        "imagen": "img/hombres/Reebok/REEBOKERSMS1.webp",
         "referencia": "MS1",
         "precio": 180000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
@@ -1830,7 +1830,7 @@ const productosHombres = [
         "nombre": "Reebok Ers",
         "marca": "REEBOK",
         "genero": "hombre",
-        "imagen": "img/hombres/Reebok/REEBOKERSMS2.jpeg",
+        "imagen": "img/hombres/Reebok/REEBOKERSMS2.webp",
         "referencia": "MS2",
         "precio": 180000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
@@ -1840,7 +1840,7 @@ const productosHombres = [
         "nombre": "Reebok",
         "marca": "REEBOK",
         "genero": "hombre",
-        "imagen": "img/hombres/Reebok/REEBOKMS1.jpeg",
+        "imagen": "img/hombres/Reebok/REEBOKMS1.webp",
         "referencia": "MS1",
         "precio": 180000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
@@ -1850,7 +1850,7 @@ const productosHombres = [
         "nombre": "Reebok",
         "marca": "REEBOK",
         "genero": "hombre",
-        "imagen": "img/hombres/Reebok/REEBOKMS2.jpeg",
+        "imagen": "img/hombres/Reebok/REEBOKMS2.webp",
         "referencia": "MS2",
         "precio": 180000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
@@ -1860,7 +1860,7 @@ const productosHombres = [
         "nombre": "Reebok",
         "marca": "REEBOK",
         "genero": "hombre",
-        "imagen": "img/hombres/Reebok/REEBOKMS3.jpeg",
+        "imagen": "img/hombres/Reebok/REEBOKMS3.webp",
         "referencia": "MS3",
         "precio": 190000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
@@ -1870,7 +1870,7 @@ const productosHombres = [
         "nombre": "Reebok",
         "marca": "REEBOK",
         "genero": "hombre",
-        "imagen": "img/hombres/Reebok/REEBOKMS4.jpeg",
+        "imagen": "img/hombres/Reebok/REEBOKMS4.webp",
         "referencia": "MS4",
         "precio": 180000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
@@ -1880,7 +1880,7 @@ const productosHombres = [
         "nombre": "Reebok",
         "marca": "REEBOK",
         "genero": "hombre",
-        "imagen": "img/hombres/Reebok/REEBOKMS5.jpeg",
+        "imagen": "img/hombres/Reebok/REEBOKMS5.webp",
         "referencia": "MS5",
         "precio": 175000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
@@ -1890,7 +1890,7 @@ const productosHombres = [
         "nombre": "Reebok",
         "marca": "REEBOK",
         "genero": "hombre",
-        "imagen": "img/hombres/Reebok/REEBOKMS6.jpeg",
+        "imagen": "img/hombres/Reebok/REEBOKMS6.webp",
         "referencia": "MS6",
         "precio": 180000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
@@ -1900,7 +1900,7 @@ const productosHombres = [
         "nombre": "Reebok",
         "marca": "REEBOK",
         "genero": "hombre",
-        "imagen": "img/hombres/Reebok/REEBOKMS7.jpeg",
+        "imagen": "img/hombres/Reebok/REEBOKMS7.webp",
         "referencia": "MS7",
         "precio": 180000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
@@ -1910,7 +1910,7 @@ const productosHombres = [
         "nombre": "Reebok Premier",
         "marca": "REEBOK",
         "genero": "hombre",
-        "imagen": "img/hombres/Reebok/REEBOKPREMIERMS1.jpeg",
+        "imagen": "img/hombres/Reebok/REEBOKPREMIERMS1.webp",
         "referencia": "MS1",
         "precio": 180000,
         "descripcion": "Rendimiento clásico para el deportista moderno."
@@ -1920,7 +1920,7 @@ const productosHombres = [
         "nombre": "Skechers",
         "marca": "SKECHERS",
         "genero": "hombre",
-        "imagen": "img/hombres/Skechers/SKECHERSMS1.jpeg",
+        "imagen": "img/hombres/Skechers/SKECHERSMS1.webp",
         "referencia": "MS1",
         "precio": 190000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
@@ -1930,7 +1930,7 @@ const productosHombres = [
         "nombre": "Skechers",
         "marca": "SKECHERS",
         "genero": "hombre",
-        "imagen": "img/hombres/Skechers/SKECHERSMS2.jpeg",
+        "imagen": "img/hombres/Skechers/SKECHERSMS2.webp",
         "referencia": "MS2",
         "precio": 190000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
@@ -1940,7 +1940,7 @@ const productosHombres = [
         "nombre": "Skechers",
         "marca": "SKECHERS",
         "genero": "hombre",
-        "imagen": "img/hombres/Skechers/SKECHERSMS3.jpeg",
+        "imagen": "img/hombres/Skechers/SKECHERSMS3.webp",
         "referencia": "MS3",
         "precio": 180000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
@@ -1950,7 +1950,7 @@ const productosHombres = [
         "nombre": "Skechers",
         "marca": "SKECHERS",
         "genero": "hombre",
-        "imagen": "img/hombres/Skechers/SKECHERSMS4.jpeg",
+        "imagen": "img/hombres/Skechers/SKECHERSMS4.webp",
         "referencia": "MS4",
         "precio": 190000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
@@ -1960,7 +1960,7 @@ const productosHombres = [
         "nombre": "Skechers",
         "marca": "SKECHERS",
         "genero": "hombre",
-        "imagen": "img/hombres/Skechers/SKECHERSMS5.jpeg",
+        "imagen": "img/hombres/Skechers/SKECHERSMS5.webp",
         "referencia": "MS5",
         "precio": 160000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
@@ -1970,7 +1970,7 @@ const productosHombres = [
         "nombre": "Skechers",
         "marca": "SKECHERS",
         "genero": "hombre",
-        "imagen": "img/hombres/Skechers/SKECHERSMS6.jpeg",
+        "imagen": "img/hombres/Skechers/SKECHERSMS6.webp",
         "referencia": "MS6",
         "precio": 185000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
@@ -1980,7 +1980,7 @@ const productosHombres = [
         "nombre": "Skechers",
         "marca": "SKECHERS",
         "genero": "hombre",
-        "imagen": "img/hombres/Skechers/SKECHERSMS7.jpeg",
+        "imagen": "img/hombres/Skechers/SKECHERSMS7.webp",
         "referencia": "MS7",
         "precio": 185000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
@@ -1990,7 +1990,7 @@ const productosHombres = [
         "nombre": "Skechers",
         "marca": "SKECHERS",
         "genero": "hombre",
-        "imagen": "img/hombres/Skechers/SKECHERSMS8.jpeg",
+        "imagen": "img/hombres/Skechers/SKECHERSMS8.webp",
         "referencia": "MS8",
         "precio": 185000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
@@ -2000,7 +2000,7 @@ const productosHombres = [
         "nombre": "Skechers",
         "marca": "SKECHERS",
         "genero": "hombre",
-        "imagen": "img/hombres/Skechers/SKECHERSMS9.jpeg",
+        "imagen": "img/hombres/Skechers/SKECHERSMS9.webp",
         "referencia": "MS9",
         "precio": 180000,
         "descripcion": "Comodidad excepcional para el bienestar de tus pies."
@@ -2010,7 +2010,7 @@ const productosHombres = [
         "nombre": "Timberland Timberlan",
         "marca": "TIMBERLAND",
         "genero": "hombre",
-        "imagen": "img/hombres/Timberland/TIMBERLANDMS1.jpeg",
+        "imagen": "img/hombres/Timberland/TIMBERLANDMS1.webp",
         "referencia": "DMS1",
         "precio": 160000,
         "descripcion": "Resistencia y estilo para el aire libre."
@@ -2020,7 +2020,7 @@ const productosHombres = [
         "nombre": "Timberland Timberlan",
         "marca": "TIMBERLAND",
         "genero": "hombre",
-        "imagen": "img/hombres/Timberland/TIMBERLANDMS2.jpeg",
+        "imagen": "img/hombres/Timberland/TIMBERLANDMS2.webp",
         "referencia": "DMS2",
         "precio": 180000,
         "descripcion": "Resistencia y estilo para el aire libre."
@@ -2030,7 +2030,7 @@ const productosHombres = [
         "nombre": "Timberland Timberlan",
         "marca": "TIMBERLAND",
         "genero": "hombre",
-        "imagen": "img/hombres/Timberland/TIMBERLANDMS21.jpeg",
+        "imagen": "img/hombres/Timberland/TIMBERLANDMS21.webp",
         "referencia": "DMS21",
         "precio": 185000,
         "descripcion": "Resistencia y estilo para el aire libre."
@@ -2040,7 +2040,7 @@ const productosHombres = [
         "nombre": "Timberland Timberlan",
         "marca": "TIMBERLAND",
         "genero": "hombre",
-        "imagen": "img/hombres/Timberland/TIMBERLANDMS22.jpeg",
+        "imagen": "img/hombres/Timberland/TIMBERLANDMS22.webp",
         "referencia": "DMS22",
         "precio": 185000,
         "descripcion": "Resistencia y estilo para el aire libre."
@@ -2050,7 +2050,7 @@ const productosHombres = [
         "nombre": "Timberland Timberlan",
         "marca": "TIMBERLAND",
         "genero": "hombre",
-        "imagen": "img/hombres/Timberland/TIMBERLANDMS23.jpeg",
+        "imagen": "img/hombres/Timberland/TIMBERLANDMS23.webp",
         "referencia": "DMS23",
         "precio": 195000,
         "descripcion": "Resistencia y estilo para el aire libre."
@@ -2060,7 +2060,7 @@ const productosHombres = [
         "nombre": "Timberland Timberlan",
         "marca": "TIMBERLAND",
         "genero": "hombre",
-        "imagen": "img/hombres/Timberland/TIMBERLANDMS24.jpeg",
+        "imagen": "img/hombres/Timberland/TIMBERLANDMS24.webp",
         "referencia": "DMS24",
         "precio": 185000,
         "descripcion": "Resistencia y estilo para el aire libre."
@@ -2070,7 +2070,7 @@ const productosHombres = [
         "nombre": "Timberland Timberlan",
         "marca": "TIMBERLAND",
         "genero": "hombre",
-        "imagen": "img/hombres/Timberland/TIMBERLANDMS25.jpeg",
+        "imagen": "img/hombres/Timberland/TIMBERLANDMS25.webp",
         "referencia": "DMS25",
         "precio": 195000,
         "descripcion": "Resistencia y estilo para el aire libre."
@@ -2080,7 +2080,7 @@ const productosHombres = [
         "nombre": "Timberland Timberlan",
         "marca": "TIMBERLAND",
         "genero": "hombre",
-        "imagen": "img/hombres/Timberland/TIMBERLANDMS26.jpeg",
+        "imagen": "img/hombres/Timberland/TIMBERLANDMS26.webp",
         "referencia": "DMS26",
         "precio": 200000,
         "descripcion": "Resistencia y estilo para el aire libre."
@@ -2090,7 +2090,7 @@ const productosHombres = [
         "nombre": "Timberland Timberlan",
         "marca": "TIMBERLAND",
         "genero": "hombre",
-        "imagen": "img/hombres/Timberland/TIMBERLANDMS3.jpeg",
+        "imagen": "img/hombres/Timberland/TIMBERLANDMS3.webp",
         "referencia": "DMS3",
         "precio": 200000,
         "descripcion": "Resistencia y estilo para el aire libre."
@@ -2100,7 +2100,7 @@ const productosHombres = [
         "nombre": "Timberland Timberlan",
         "marca": "TIMBERLAND",
         "genero": "hombre",
-        "imagen": "img/hombres/Timberland/TIMBERLANDMS4.jpeg",
+        "imagen": "img/hombres/Timberland/TIMBERLANDMS4.webp",
         "referencia": "DMS4",
         "precio": 190000,
         "descripcion": "Resistencia y estilo para el aire libre."
@@ -2110,7 +2110,7 @@ const productosHombres = [
         "nombre": "Timberland Bota",
         "marca": "TIMBERLAND",
         "genero": "hombre",
-        "imagen": "img/hombres/Timberland/TIMBERLAND_BOTAMS1.jpeg",
+        "imagen": "img/hombres/Timberland/TIMBERLAND_BOTAMS1.webp",
         "referencia": "MS1",
         "precio": 160000,
         "descripcion": "Resistencia y estilo para el aire libre."
@@ -2120,7 +2120,7 @@ const productosHombres = [
         "nombre": "Tommy Hilfiger Hilfiger",
         "marca": "TOMMY HILFIGER",
         "genero": "hombre",
-        "imagen": "img/hombres/Tommy Hilfiger/TOMMYHILFIGERMS1.jpeg",
+        "imagen": "img/hombres/Tommy Hilfiger/TOMMYHILFIGERMS1.webp",
         "referencia": "MS1",
         "precio": 195000,
         "descripcion": "Estilo americano clásico con un toque moderno."
@@ -2130,7 +2130,7 @@ const productosHombres = [
         "nombre": "Tommy Hilfiger Hilfiger",
         "marca": "TOMMY HILFIGER",
         "genero": "hombre",
-        "imagen": "img/hombres/Tommy Hilfiger/TOMMYHILFIGERMS2.jpeg",
+        "imagen": "img/hombres/Tommy Hilfiger/TOMMYHILFIGERMS2.webp",
         "referencia": "MS2",
         "precio": 180000,
         "descripcion": "Estilo americano clásico con un toque moderno."
@@ -2140,7 +2140,7 @@ const productosHombres = [
         "nombre": "Tommy Hilfiger Hilfiger",
         "marca": "TOMMY HILFIGER",
         "genero": "hombre",
-        "imagen": "img/hombres/Tommy Hilfiger/TOMMYHILFIGERMS3.jpeg",
+        "imagen": "img/hombres/Tommy Hilfiger/TOMMYHILFIGERMS3.webp",
         "referencia": "MS3",
         "precio": 180000,
         "descripcion": "Estilo americano clásico con un toque moderno."
@@ -2150,7 +2150,7 @@ const productosHombres = [
         "nombre": "Tommy Hilfiger Hilfiger",
         "marca": "TOMMY HILFIGER",
         "genero": "hombre",
-        "imagen": "img/hombres/Tommy Hilfiger/TOMMYHILFIGERMS4.jpeg",
+        "imagen": "img/hombres/Tommy Hilfiger/TOMMYHILFIGERMS4.webp",
         "referencia": "MS4",
         "precio": 180000,
         "descripcion": "Estilo americano clásico con un toque moderno."
@@ -2160,7 +2160,7 @@ const productosHombres = [
         "nombre": "Tommy Hilfiger Hilfiger",
         "marca": "TOMMY HILFIGER",
         "genero": "hombre",
-        "imagen": "img/hombres/Tommy Hilfiger/TOMMYHILFIGERMS5.jpeg",
+        "imagen": "img/hombres/Tommy Hilfiger/TOMMYHILFIGERMS5.webp",
         "referencia": "MS5",
         "precio": 185000,
         "descripcion": "Estilo americano clásico con un toque moderno."
@@ -2170,7 +2170,7 @@ const productosHombres = [
         "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
-        "imagen": "img/hombres/Under Armour/UNDERARMOURMS1.jpeg",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS1.webp",
         "referencia": "MS1",
         "precio": 210000,
         "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
@@ -2180,7 +2180,7 @@ const productosHombres = [
         "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
-        "imagen": "img/hombres/Under Armour/UNDERARMOURMS10.jpeg",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS10.webp",
         "referencia": "MS10",
         "precio": 195000,
         "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
@@ -2190,7 +2190,7 @@ const productosHombres = [
         "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
-        "imagen": "img/hombres/Under Armour/UNDERARMOURMS11.jpeg",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS11.webp",
         "referencia": "MS11",
         "precio": 210000,
         "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
@@ -2200,7 +2200,7 @@ const productosHombres = [
         "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
-        "imagen": "img/hombres/Under Armour/UNDERARMOURMS2.jpeg",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS2.webp",
         "referencia": "MS2",
         "precio": 210000,
         "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
@@ -2210,7 +2210,7 @@ const productosHombres = [
         "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
-        "imagen": "img/hombres/Under Armour/UNDERARMOURMS3.jpeg",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS3.webp",
         "referencia": "MS3",
         "precio": 210000,
         "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
@@ -2220,7 +2220,7 @@ const productosHombres = [
         "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
-        "imagen": "img/hombres/Under Armour/UNDERARMOURMS4.jpeg",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS4.webp",
         "referencia": "MS4",
         "precio": 205000,
         "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
@@ -2230,7 +2230,7 @@ const productosHombres = [
         "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
-        "imagen": "img/hombres/Under Armour/UNDERARMOURMS5.jpeg",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS5.webp",
         "referencia": "MS5",
         "precio": 205000,
         "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
@@ -2240,7 +2240,7 @@ const productosHombres = [
         "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
-        "imagen": "img/hombres/Under Armour/UNDERARMOURMS6.jpeg",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS6.webp",
         "referencia": "MS6",
         "precio": 195000,
         "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
@@ -2250,7 +2250,7 @@ const productosHombres = [
         "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
-        "imagen": "img/hombres/Under Armour/UNDERARMOURMS7.jpeg",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS7.webp",
         "referencia": "MS7",
         "precio": 205000,
         "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
@@ -2260,7 +2260,7 @@ const productosHombres = [
         "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
-        "imagen": "img/hombres/Under Armour/UNDERARMOURMS8.jpeg",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS8.webp",
         "referencia": "MS8",
         "precio": 205000,
         "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
@@ -2270,7 +2270,7 @@ const productosHombres = [
         "nombre": "Under Armour Armour",
         "marca": "UNDER ARMOUR",
         "genero": "hombre",
-        "imagen": "img/hombres/Under Armour/UNDERARMOURMS9.jpeg",
+        "imagen": "img/hombres/Under Armour/UNDERARMOURMS9.webp",
         "referencia": "MS9",
         "precio": 205000,
         "descripcion": "Rendimiento técnico y durabilidad en cada entrenamiento."
@@ -2280,7 +2280,7 @@ const productosHombres = [
         "nombre": "Vans",
         "marca": "VANS",
         "genero": "hombre",
-        "imagen": "img/hombres/Vans/VANSMS1.jpeg",
+        "imagen": "img/hombres/Vans/VANSMS1.webp",
         "referencia": "MS1",
         "precio": 175000,
         "descripcion": "Cultura urbana y estilo skate en cada paso."
@@ -2290,7 +2290,7 @@ const productosHombres = [
         "nombre": "Vans",
         "marca": "VANS",
         "genero": "hombre",
-        "imagen": "img/hombres/Vans/VANSMS2.jpeg",
+        "imagen": "img/hombres/Vans/VANSMS2.webp",
         "referencia": "MS2",
         "precio": 195000,
         "descripcion": "Cultura urbana y estilo skate en cada paso."
@@ -2300,7 +2300,7 @@ const productosHombres = [
         "nombre": "Vans",
         "marca": "VANS",
         "genero": "hombre",
-        "imagen": "img/hombres/Vans/VANSMS3.jpeg",
+        "imagen": "img/hombres/Vans/VANSMS3.webp",
         "referencia": "MS3",
         "precio": 185000,
         "descripcion": "Cultura urbana y estilo skate en cada paso."
@@ -2310,7 +2310,7 @@ const productosHombres = [
         "nombre": "Vans",
         "marca": "VANS",
         "genero": "hombre",
-        "imagen": "img/hombres/Vans/VANSMS4.jpeg",
+        "imagen": "img/hombres/Vans/VANSMS4.webp",
         "referencia": "MS4",
         "precio": 195000,
         "descripcion": "Cultura urbana y estilo skate en cada paso."
@@ -2320,7 +2320,7 @@ const productosHombres = [
         "nombre": "Vans",
         "marca": "VANS",
         "genero": "hombre",
-        "imagen": "img/hombres/Vans/VANSMS5.jpeg",
+        "imagen": "img/hombres/Vans/VANSMS5.webp",
         "referencia": "MS5",
         "precio": 190000,
         "descripcion": "Cultura urbana y estilo skate en cada paso."
@@ -2330,7 +2330,7 @@ const productosHombres = [
         "nombre": "Vans",
         "marca": "VANS",
         "genero": "hombre",
-        "imagen": "img/hombres/Vans/VANSMS6.jpeg",
+        "imagen": "img/hombres/Vans/VANSMS6.webp",
         "referencia": "MS6",
         "precio": 190000,
         "descripcion": "Cultura urbana y estilo skate en cada paso."
@@ -2340,7 +2340,7 @@ const productosHombres = [
         "nombre": "Vans",
         "marca": "VANS",
         "genero": "hombre",
-        "imagen": "img/hombres/Vans/VANSMS7.jpeg",
+        "imagen": "img/hombres/Vans/VANSMS7.webp",
         "referencia": "MS7",
         "precio": 175000,
         "descripcion": "Cultura urbana y estilo skate en cada paso."
@@ -2350,7 +2350,7 @@ const productosHombres = [
         "nombre": "Vans",
         "marca": "VANS",
         "genero": "hombre",
-        "imagen": "img/hombres/Vans/VANSMS8.jpeg",
+        "imagen": "img/hombres/Vans/VANSMS8.webp",
         "referencia": "MS8",
         "precio": 175000,
         "descripcion": "Cultura urbana y estilo skate en cada paso."
@@ -2360,7 +2360,7 @@ const productosHombres = [
         "nombre": "Vans",
         "marca": "VANS",
         "genero": "hombre",
-        "imagen": "img/hombres/Vans/VANSMS9.jpeg",
+        "imagen": "img/hombres/Vans/VANSMS9.webp",
         "referencia": "MS9",
         "precio": 180000,
         "descripcion": "Cultura urbana y estilo skate en cada paso."
