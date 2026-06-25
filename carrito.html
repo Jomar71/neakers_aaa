@@ -332,6 +332,33 @@
             color: #ff4444;
         }
 
+        .btn-policies {
+            background: transparent;
+            color: var(--primary);
+            border: 1px solid var(--primary);
+            padding: 0.7rem 1rem;
+            border-radius: var(--radius);
+            font-family: 'Manrope', sans-serif;
+            font-size: 0.78rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition-fast);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.5rem;
+            width: 100%;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.06em;
+        }
+
+        .btn-policies:hover {
+            background: var(--primary);
+            color: #000;
+            border-color: var(--primary);
+        }
+
         .summary-note {
             font-size: 0.7rem;
             color: var(--text-subtle);
@@ -565,6 +592,9 @@
                 <button class="btn-clear-all" onclick="clearAllCart()">
                     <i class="fas fa-trash"></i> Vaciar carrito
                 </button>
+                <a href="coleccion.html#politicas" class="btn-policies">
+                    <i class="fas fa-file-lines"></i> Políticas y Sugerencias
+                </a>
                 <p class="summary-note">
                     <i class="fas fa-info-circle"></i>
                     El pago y el envío se coordinan directamente por WhatsApp con el vendedor.

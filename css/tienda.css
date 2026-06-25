@@ -1068,21 +1068,33 @@ header {
     letter-spacing: 0.05em;
 }
 
-.contact-form ul {
-    list-style: none;
+.contact-form h3 + ul,
+.contact-form h3 + ol {
+    margin-bottom: 1.5rem;
+}
+
+.contact-form ul,
+.contact-form ol {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
     margin-bottom: 1rem;
+    padding-left: 1.5rem;
 }
 
-.contact-form ul li {
-    display: flex;
-    align-items: flex-start;
-    gap: 0.75rem;
+.contact-form ul li,
+.contact-form ol li {
     font-size: 0.9rem;
     color: var(--text-muted);
     line-height: 1.5;
+}
+
+.contact-form ul li {
+    list-style: none;
+}
+
+.contact-form ol li {
+    list-style: lower-alpha;
 }
 
 .contact-form ul li::before {
@@ -1122,6 +1134,31 @@ header {
 }
 
 .contact-form textarea { resize: vertical; min-height: 100px; }
+
+.contact-whatsapp-btn {
+    padding: 1.2rem 2rem;
+    font-size: 0.95rem;
+    border-radius: var(--radius);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+    background: var(--whatsapp-green);
+    color: #fff;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    transition: var(--transition);
+    width: 100%;
+}
+
+.contact-whatsapp-btn:hover {
+    background: var(--whatsapp-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(37, 211, 102, 0.3);
+    color: #fff;
+}
 
 /* ============================================================
    FOOTER
@@ -1174,9 +1211,8 @@ footer {
 
 .footer-copy {
     font-size: 0.75rem;
-    color: var(--text-subtle);
+    color: var(--text-muted);
     letter-spacing: 0.06em;
-    text-transform: uppercase;
 }
 
 /* ============================================================
@@ -1383,4 +1419,72 @@ footer {
 @media (max-width: 480px) {
     .size-selector { padding: 0.6rem 2rem 0.6rem 0.75rem; font-size: 0.85rem; }
     .cart-fab { width: 50px; height: 50px; font-size: 1.2rem; }
+}
+
+/* ============================================================
+   POLICIES 3-COLUMN GRID
+   ============================================================ */
+.policies-title {
+    text-align: center;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    margin-bottom: 3rem;
+    line-height: 1.05;
+}
+
+.policies-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.policy-column h3 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.05em;
+    color: var(--primary);
+}
+
+.policy-column ol {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding-left: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.policy-column ol li {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.policy-column ol li::before {
+    content: '✓';
+    color: var(--primary);
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.policies-footer {
+    text-align: center;
+}
+
+.policies-footer .btn-whatsapp {
+    display: inline-flex;
+    width: auto;
+    padding: 0.9rem 2.5rem;
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .policies-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+    }
 }
